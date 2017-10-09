@@ -1,0 +1,100 @@
+///
+/// Vortex by Pixelarity
+/// pixelarity.com | hello@pixelarity.com
+/// License: pixelarity.com/license
+///
+
+/* Posts */
+
+	.posts {
+		width: 100%;
+		margin: 0 0 _size(element-margin) 0;
+
+		article {
+			.image {
+				display: block;
+				width: 100%;
+				margin: 0 0 _size(element-margin) 0;
+
+				img {
+					width: 100%;
+				}
+			}
+
+			> :last-child {
+				margin-bottom: 0;
+			}
+		}
+
+		@include flexgrid((
+			columns:			3,
+			gutters:			3rem,
+			horizontal-align:	center,
+			flush:				true
+		));
+
+		@include breakpoint(medium) {
+			@include vendor('justify-content', 'center');
+
+			@include flexgrid-resize((
+				columns:		2,
+				gutters:		3rem,
+				flush:			true,
+				prev-columns:	3
+			));
+
+			article:nth-child(3n):last-child {
+				padding-right: 0;
+			}
+		}
+
+		@include breakpoint(small) {
+			@include flexgrid-resize((
+				columns:		2,
+				gutters:		2rem,
+				flush:			true,
+				prev-columns:	(3, 2)
+			));
+		}
+
+		@include breakpoint(xsmall) {
+			@include flexgrid-resize((
+				columns:		1,
+				gutters:		3rem,
+				flush:			true,
+				prev-columns:	(3, 2)
+			));
+		}
+
+		@include breakpoint(xsmall) {
+			article {
+				.image {
+					max-width: 100%;
+				}
+			}
+		}
+	}
+
+	@mixin color-post($p: null) {
+		$highlight: _palette($p, highlight);
+
+ 		.post {
+			> .content {
+				header {
+					.category {
+						color: _palette($highlight, bg);
+					}
+				}
+			}
+
+			&.style2 {
+				background-color: _palette($p, bg);
+			}
+
+			@include breakpoint(xsmall) {
+				border-top-color: _palette($p, border);
+			}
+ 		}
+	}
+
+	@include color-post;

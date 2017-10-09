@@ -1,0 +1,182 @@
+///
+/// Relativity + Altitude mashup by Melanie E Magdalena
+/// Original by Pixelarity
+/// License: pixelarity.com/license
+///
+
+/* Banner */
+
+#header + #banner {
+	margin-top: -3.25rem;
+}
+
+	#banner {
+		@include vendor('display', 'flex');
+		@include vendor('flex-direction', 'row');
+		@include vendor('align-itrems', 'center');
+		@include vendor('justify-content', 'center');
+		background-color: #000000;
+		/*background-image: url('../../images/banner.jpg');*/
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		min-height: 100vh;
+		padding: 6rem 0 0 0;
+		overflow: hidden;
+		position: relative;
+
+		> .items {
+			@include vendor('display', 'flex');
+			@include vendor('flex-direction', 'column');
+			@include vendor('flex-grow', '0');
+			@include vendor('flex-shrink', '0');
+			width: 50%;
+
+			section {
+				@include vendor('transition', (
+					'opacity 0.5s ease-in-out',
+					'transform 0.5s ease-in-out'
+				));
+				text-align: left;
+				padding: 2rem 3rem;
+
+				h1 {
+					font-size: 1.75rem;
+				}
+
+				ul {
+					margin: 0;
+				}
+
+				&.accent1 {
+					@include color-typography(accent1);
+					@include color-button(accent1);
+				}
+
+				&.accent2 {
+					@include color-typography(accent2);
+					@include color-button(accent2);
+				}
+
+			}
+		}
+
+		> .slider {
+			@include vendor('flex-grow', '0');
+			@include vendor('flex-shrink', '0');
+			@include vendor('transition', 'opacity #{_duration(slider)} ease-in-out');
+			width: 60%;
+			opacity: 1;
+			position: relative;
+
+			> article {
+				@include vendor('transition', (
+					'opacity #{_duration(slider)}',
+					'visibility #{_duration(slider)}'
+				));
+				background-size: cover;
+				height: 100%;
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				opacity: 0;
+				visibility: hidden;
+				z-index: 0;
+
+				&.visible {
+					opacity: 1;
+					visibility: visible;
+				}
+
+				&.top {
+					z-index: 1;
+				}
+
+				&:before {
+					content: '';
+					height: 100%;
+					left: 0;
+					opacity: 0;
+					position: absolute;
+					top: 0;
+					width: 100%;
+				}
+
+				img {
+					height: 100%;
+					width: 100%;
+				}
+			}
+		}
+
+		body.is-loading & {
+			> .slider {
+				opacity: 0;
+			}
+		}
+
+		@include breakpoint(xlarge) {
+			> .itrems {
+				section {
+					@include padding(4.5rem, 5rem);
+				}
+			}
+		}
+
+		@include breakpoint(large) {
+			> .itrems {
+				section {
+					@include padding(3.5rem, 3rem);
+				}
+			}
+		}
+
+		@include breakpoint(medium) {
+			@include vendor('flex-direction', 'column-reverse');
+
+			> .itrems {
+				@include vendor('flex-direction', 'row');
+				width: 100%;
+			}
+
+			> .slider {
+				height: 40rem;
+				max-height: 55vh;
+				width: 100%;
+			}
+		}
+
+		@include breakpoint(small) {
+			> .itrems {
+				section {
+					@include padding(3rem, 3rem);
+
+					h1 {
+						font-size: 1.25rem;
+					}
+				}
+			}
+
+			> .slider {
+				height: 30rem;
+				max-height: none;
+			}
+		}
+
+		@include breakpoint(xsmall) {
+			> .itrems {
+				@include vendor('flex-direction', 'column');
+
+				section {
+					@include padding(3rem, 3rem);
+				}
+			}
+
+			> .slider {
+				height: 20rem;
+				max-height: 40vh;
+			}
+		}
+	}
