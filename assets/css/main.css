@@ -2230,7 +2230,7 @@ ol {
     padding-left: 0.25rem; }
 
 ul {
-  list-style: disc;
+  list-style-type: square;
   margin: 0 0 2rem 0;
   padding-left: 1rem; }
   ul li {
@@ -2795,6 +2795,17 @@ table.alt tbody tr td {
         border-radius: 0 0; }
         #wrapper > .main > .inner.style2 > .image.main:first-child img {
           border-radius: 0 0; }
+    #wrapper > .main > .inner.columns {
+      display: flex; }
+      #wrapper > .main > .inner.columns .column-wide {
+        width: 55%;
+        margin: 0 5rem 0 0; }
+      #wrapper > .main > .inner.columns .column-narrow {
+        width: 40%; }
+        #wrapper > .main > .inner.columns .column-narrow h4 {
+          font-size: 0.8rem; }
+        #wrapper > .main > .inner.columns .column-narrow li {
+          font-size: 0.8rem; }
   #wrapper > .main.special {
     text-align: center; }
   #wrapper > .main.accent1 {

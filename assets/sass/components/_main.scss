@@ -58,6 +58,28 @@
 					}
 				}
 			}
+
+			&.columns {
+				display: flex;
+
+				.column-wide {
+					width: 55%;
+					margin: 0 5rem 0 0;
+				}
+
+				.column-narrow {
+					width: 40%;
+
+					h4 {
+						font-size: 0.8rem;
+					}
+
+					li {
+						font-size: 0.8rem;
+					}
+				}
+			}
+
 		}
 
 		&.special {
