@@ -1574,21 +1574,21 @@ input[type="reset"],
 input[type="button"],
 button,
 .button {
-  background-color: #4a98e2;
+  background-color: #3f3f3f;
   color: #ffffff !important; }
   input[type="submit"]:hover,
   input[type="reset"]:hover,
   input[type="button"]:hover,
   button:hover,
   .button:hover {
-    background-color: #60a5e6;
+    background-color: #4c4c4c;
     color: #ffffff !important; }
   input[type="submit"]:active,
   input[type="reset"]:active,
   input[type="button"]:active,
   button:active,
   .button:active {
-    background-color: #348bde; }
+    background-color: #323232; }
   input[type="submit"].alt,
   input[type="reset"].alt,
   input[type="button"].alt,
@@ -2040,8 +2040,8 @@ textarea {
   input[type="email"]:focus,
   select:focus,
   textarea:focus {
-    border-color: #4a98e2;
-    box-shadow: 0 0 0 1px #4a98e2; }
+    border-color: #3f3f3f;
+    box-shadow: 0 0 0 1px #3f3f3f; }
 
 .select-wrapper:before {
   color: rgba(143, 143, 143, 0.25); }
@@ -2054,14 +2054,14 @@ input[type="radio"] + label {
     border-color: rgba(143, 143, 143, 0.25); }
 input[type="checkbox"]:checked + label:before,
 input[type="radio"]:checked + label:before {
-  background-color: #4a98e2;
-  border-color: #4a98e2;
-  box-shadow: 0 0 0 1px #4a98e2;
+  background-color: #3f3f3f;
+  border-color: #3f3f3f;
+  box-shadow: 0 0 0 1px #3f3f3f;
   color: #ffffff; }
 input[type="checkbox"]:focus + label:before,
 input[type="radio"]:focus + label:before {
-  border-color: #4a98e2;
-  box-shadow: 0 0 0 1px #4a98e2; }
+  border-color: #3f3f3f;
+  box-shadow: 0 0 0 1px #3f3f3f; }
 
 ::-webkit-input-placeholder {
   color: #bfbfbf !important; }
@@ -2625,7 +2625,7 @@ table.alt tbody tr td {
       max-width: 100%; } }
 
 .post > .content header .category {
-  color: #4a98e2; }
+  color: #3f3f3f; }
 .post.style2 {
   background-color: #ffffff; }
 @media screen and (max-width: 480px) {
@@ -2695,7 +2695,7 @@ table.alt tbody tr td {
   .spotlight.even .image {
     left: 0; }
   .spotlight.accent1 {
-    background-color: #4a98e2; }
+    background-color: #3f3f3f; }
     .spotlight.accent1 h2 {
       color: #ffffff; }
   .spotlight.accent2 {
@@ -2787,7 +2787,7 @@ table.alt tbody tr td {
       height: 0.25rem;
       margin: 0 0 1.5rem 0;
       border-radius: 4px;
-      background-color: #4a98e2; }
+      background-color: #3f3f3f; }
   #wrapper > .main > .inner {
     margin-left: auto;
     margin-right: auto;
@@ -2812,7 +2812,7 @@ table.alt tbody tr td {
   #wrapper > .main.special {
     text-align: center; }
   #wrapper > .main.accent1 {
-    background-color: #4a98e2;
+    background-color: #3f3f3f;
     color: #ffffff; }
     #wrapper > .main.accent1 input, #wrapper > .main.accent1 select, #wrapper > .main.accent1 textarea {
       color: #ffffff; }
@@ -2836,21 +2836,21 @@ table.alt tbody tr td {
     #wrapper > .main.accent1 input[type="button"],
     #wrapper > .main.accent1 button,
     #wrapper > .main.accent1 .button {
-      background-color: #4a98e2;
+      background-color: #292f33;
       color: #ffffff !important; }
       #wrapper > .main.accent1 input[type="submit"]:hover,
       #wrapper > .main.accent1 input[type="reset"]:hover,
       #wrapper > .main.accent1 input[type="button"]:hover,
       #wrapper > .main.accent1 button:hover,
       #wrapper > .main.accent1 .button:hover {
-        background-color: #60a5e6;
+        background-color: #343c41;
         color: #ffffff !important; }
       #wrapper > .main.accent1 input[type="submit"]:active,
       #wrapper > .main.accent1 input[type="reset"]:active,
       #wrapper > .main.accent1 input[type="button"]:active,
       #wrapper > .main.accent1 button:active,
       #wrapper > .main.accent1 .button:active {
-        background-color: #348bde; }
+        background-color: #1e2225; }
       #wrapper > .main.accent1 input[type="submit"].alt,
       #wrapper > .main.accent1 input[type="reset"].alt,
       #wrapper > .main.accent1 input[type="button"].alt,
@@ -2884,8 +2884,8 @@ table.alt tbody tr td {
       #wrapper > .main.accent1 input[type="email"]:focus,
       #wrapper > .main.accent1 select:focus,
       #wrapper > .main.accent1 textarea:focus {
-        border-color: #ffffff;
-        box-shadow: 0 0 0 1px #ffffff; }
+        border-color: #3f3f3f;
+        box-shadow: 0 0 0 1px #3f3f3f; }
     #wrapper > .main.accent1 .select-wrapper:before {
       color: rgba(255, 255, 255, 0.25); }
     #wrapper > .main.accent1 input[type="checkbox"] + label,
@@ -2896,14 +2896,14 @@ table.alt tbody tr td {
         border-color: rgba(255, 255, 255, 0.25); }
     #wrapper > .main.accent1 input[type="checkbox"]:checked + label:before,
     #wrapper > .main.accent1 input[type="radio"]:checked + label:before {
-      background-color: #ffffff;
-      border-color: #ffffff;
-      box-shadow: 0 0 0 1px #ffffff;
-      color: #4a98e2; }
+      background-color: #3f3f3f;
+      border-color: #3f3f3f;
+      box-shadow: 0 0 0 1px #3f3f3f;
+      color: #ffffff; }
     #wrapper > .main.accent1 input[type="checkbox"]:focus + label:before,
     #wrapper > .main.accent1 input[type="radio"]:focus + label:before {
-      border-color: #ffffff;
-      box-shadow: 0 0 0 1px #ffffff; }
+      border-color: #3f3f3f;
+      box-shadow: 0 0 0 1px #3f3f3f; }
     #wrapper > .main.accent1 ::-webkit-input-placeholder {
       color: #ffffff !important; }
     #wrapper > .main.accent1 :-moz-placeholder {
@@ -2929,9 +2929,9 @@ table.alt tbody tr td {
     #wrapper > .main.accent1 table.alt tbody tr td {
       border-color: rgba(255, 255, 255, 0.25); }
     #wrapper > .main.accent1 .post > .content header .category {
-      color: #4a98e2; }
+      color: #292f33; }
     #wrapper > .main.accent1 .post.style2 {
-      background-color: #4a98e2; }
+      background-color: #3f3f3f; }
     @media screen and (max-width: 480px) {
       #wrapper > .main.accent1 .post {
         border-top-color: rgba(255, 255, 255, 0.25); } }
@@ -2960,21 +2960,21 @@ table.alt tbody tr td {
     #wrapper > .main.accent2 input[type="button"],
     #wrapper > .main.accent2 button,
     #wrapper > .main.accent2 .button {
-      background-color: #4a98e2;
+      background-color: #3f3f3f;
       color: #ffffff !important; }
       #wrapper > .main.accent2 input[type="submit"]:hover,
       #wrapper > .main.accent2 input[type="reset"]:hover,
       #wrapper > .main.accent2 input[type="button"]:hover,
       #wrapper > .main.accent2 button:hover,
       #wrapper > .main.accent2 .button:hover {
-        background-color: #60a5e6;
+        background-color: #4c4c4c;
         color: #ffffff !important; }
       #wrapper > .main.accent2 input[type="submit"]:active,
       #wrapper > .main.accent2 input[type="reset"]:active,
       #wrapper > .main.accent2 input[type="button"]:active,
       #wrapper > .main.accent2 button:active,
       #wrapper > .main.accent2 .button:active {
-        background-color: #348bde; }
+        background-color: #323232; }
       #wrapper > .main.accent2 input[type="submit"].alt,
       #wrapper > .main.accent2 input[type="reset"].alt,
       #wrapper > .main.accent2 input[type="button"].alt,
@@ -3008,8 +3008,8 @@ table.alt tbody tr td {
       #wrapper > .main.accent2 input[type="email"]:focus,
       #wrapper > .main.accent2 select:focus,
       #wrapper > .main.accent2 textarea:focus {
-        border-color: #4a98e2;
-        box-shadow: 0 0 0 1px #4a98e2; }
+        border-color: #3f3f3f;
+        box-shadow: 0 0 0 1px #3f3f3f; }
     #wrapper > .main.accent2 .select-wrapper:before {
       color: rgba(255, 255, 255, 0.125); }
     #wrapper > .main.accent2 input[type="checkbox"] + label,
@@ -3020,14 +3020,14 @@ table.alt tbody tr td {
         border-color: rgba(255, 255, 255, 0.125); }
     #wrapper > .main.accent2 input[type="checkbox"]:checked + label:before,
     #wrapper > .main.accent2 input[type="radio"]:checked + label:before {
-      background-color: #4a98e2;
-      border-color: #4a98e2;
-      box-shadow: 0 0 0 1px #4a98e2;
+      background-color: #3f3f3f;
+      border-color: #3f3f3f;
+      box-shadow: 0 0 0 1px #3f3f3f;
       color: #ffffff; }
     #wrapper > .main.accent2 input[type="checkbox"]:focus + label:before,
     #wrapper > .main.accent2 input[type="radio"]:focus + label:before {
-      border-color: #4a98e2;
-      box-shadow: 0 0 0 1px #4a98e2; }
+      border-color: #3f3f3f;
+      box-shadow: 0 0 0 1px #3f3f3f; }
     #wrapper > .main.accent2 ::-webkit-input-placeholder {
       color: #ffffff !important; }
     #wrapper > .main.accent2 :-moz-placeholder {
@@ -3053,7 +3053,7 @@ table.alt tbody tr td {
     #wrapper > .main.accent2 table.alt tbody tr td {
       border-color: rgba(255, 255, 255, 0.125); }
     #wrapper > .main.accent2 .post > .content header .category {
-      color: #4a98e2; }
+      color: #3f3f3f; }
     #wrapper > .main.accent2 .post.style2 {
       background-color: #292f33; }
     @media screen and (max-width: 480px) {
@@ -3190,10 +3190,10 @@ body {
           left: -0.25rem;
           width: calc(100% + 0.5rem);
           height: 0.25rem;
-          background-color: #4a98e2;
+          background-color: #3f3f3f;
           border-radius: 4px; }
         #header > nav > ul > li.active > a {
-          color: #4a98e2; }
+          color: #3f3f3f; }
     .dropotron {
       background-color: #ffffff;
       border-radius: 4px;
@@ -3225,14 +3225,14 @@ body {
         .dropotron li:first-child {
           border-top: none; }
         .dropotron li.active > a {
-          color: #4a98e2; }
+          color: #3f3f3f; }
       .dropotron a {
         color: #3f3f3f;
         padding: 0.5rem 1rem;
         text-decoration: none !important;
         border: 0; }
         .dropotron a:active, .dropotron a:hover, .dropotron a:focus {
-          color: #4a98e2; }
+          color: #3f3f3f; }
   #header.reveal {
     -moz-animation: reveal-header 0.5s ease;
     -webkit-animation: reveal-header 0.5s ease;
@@ -3382,7 +3382,7 @@ body {
       #banner > .items section ul {
         margin: 0; }
       #banner > .items section.accent1 {
-        background-color: #4a98e2;
+        background-color: #3f3f3f;
         color: #ffffff; }
         #banner > .items section.accent1 input, #banner > .items section.accent1 select, #banner > .items section.accent1 textarea {
           color: #ffffff; }
@@ -3404,21 +3404,21 @@ body {
         #banner > .items section.accent1 input[type="button"],
         #banner > .items section.accent1 button,
         #banner > .items section.accent1 .button {
-          background-color: #4a98e2;
+          background-color: #292f33;
           color: #ffffff !important; }
           #banner > .items section.accent1 input[type="submit"]:hover,
           #banner > .items section.accent1 input[type="reset"]:hover,
           #banner > .items section.accent1 input[type="button"]:hover,
           #banner > .items section.accent1 button:hover,
           #banner > .items section.accent1 .button:hover {
-            background-color: #60a5e6;
+            background-color: #343c41;
             color: #ffffff !important; }
           #banner > .items section.accent1 input[type="submit"]:active,
           #banner > .items section.accent1 input[type="reset"]:active,
           #banner > .items section.accent1 input[type="button"]:active,
           #banner > .items section.accent1 button:active,
           #banner > .items section.accent1 .button:active {
-            background-color: #348bde; }
+            background-color: #1e2225; }
           #banner > .items section.accent1 input[type="submit"].alt,
           #banner > .items section.accent1 input[type="reset"].alt,
           #banner > .items section.accent1 input[type="button"].alt,
@@ -3462,21 +3462,21 @@ body {
         #banner > .items section.accent2 input[type="button"],
         #banner > .items section.accent2 button,
         #banner > .items section.accent2 .button {
-          background-color: #4a98e2;
+          background-color: #3f3f3f;
           color: #ffffff !important; }
           #banner > .items section.accent2 input[type="submit"]:hover,
           #banner > .items section.accent2 input[type="reset"]:hover,
           #banner > .items section.accent2 input[type="button"]:hover,
           #banner > .items section.accent2 button:hover,
           #banner > .items section.accent2 .button:hover {
-            background-color: #60a5e6;
+            background-color: #4c4c4c;
             color: #ffffff !important; }
           #banner > .items section.accent2 input[type="submit"]:active,
           #banner > .items section.accent2 input[type="reset"]:active,
           #banner > .items section.accent2 input[type="button"]:active,
           #banner > .items section.accent2 button:active,
           #banner > .items section.accent2 .button:active {
-            background-color: #348bde; }
+            background-color: #323232; }
           #banner > .items section.accent2 input[type="submit"].alt,
           #banner > .items section.accent2 input[type="reset"].alt,
           #banner > .items section.accent2 input[type="button"].alt,
@@ -3589,7 +3589,7 @@ body {
 
 /* Footer */
 #footer {
-  background-color: #4a98e2;
+  background-color: #3f3f3f;
   color: #ffffff;
   background-color: #000000;
   text-align: center;
@@ -3721,7 +3721,7 @@ body {
   -ms-transition: -ms-transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
   transition: transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
   -webkit-overflow-scrolling: touch;
-  background: #4a98e2;
+  background: #3f3f3f;
   box-shadow: none;
   color: #ffffff;
   height: 100%;
