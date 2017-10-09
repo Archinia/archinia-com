@@ -1392,7 +1392,6 @@ blockquote {
   padding: 0.5rem 0 0.5rem 2rem; }
 
 code {
-  border-radius: 4px;
   border: solid 1px;
   font-family: "Courier New", monospace;
   font-size: 0.9rem;
@@ -1450,7 +1449,6 @@ hr {
 
 /* Box */
 .box {
-  border-radius: 4px;
   border: solid 1px;
   margin-bottom: 2rem;
   padding: 1.5rem; }
@@ -1480,7 +1478,6 @@ button,
   -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-  border-radius: 4px;
   border: 0;
   cursor: pointer;
   display: inline-block;
@@ -1627,7 +1624,6 @@ button,
     visibility: hidden;
     margin: 0 auto;
     background-color: #ffffff;
-    border-radius: 4px;
     box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.1);
     overflow: hidden; }
     .carousel article.visible {
@@ -1908,7 +1904,6 @@ textarea {
   -webkit-appearance: none;
   -ms-appearance: none;
   appearance: none;
-  border-radius: 4px;
   border: none;
   border: solid 1px;
   color: inherit;
@@ -1990,7 +1985,6 @@ input[type="radio"] {
       text-transform: none !important; }
     input[type="checkbox"] + label:before,
     input[type="radio"] + label:before {
-      border-radius: 4px;
       border: solid 1px;
       content: '';
       display: inline-block;
@@ -2004,9 +1998,6 @@ input[type="radio"] {
   input[type="checkbox"]:checked + label:before,
   input[type="radio"]:checked + label:before {
     content: '\f00c'; }
-
-input[type="checkbox"] + label:before {
-  border-radius: 4px; }
 
 input[type="radio"] + label:before {
   border-radius: 100%; }
@@ -2097,7 +2088,6 @@ input[type="radio"]:focus + label:before {
 .image {
   display: inline-block;
   position: relative;
-  border-radius: 4px;
   border: 0; }
   .image[data-position] img {
     -moz-object-fit: cover;
@@ -2176,8 +2166,7 @@ input[type="radio"]:focus + label:before {
     -ms-object-position: 25% 75%;
     object-position: 25% 75%; }
   .image img {
-    display: block;
-    border-radius: 4px; }
+    display: block; }
   .image.left, .image.right {
     max-width: 40%; }
     .image.left img, .image.right img {
@@ -2681,7 +2670,6 @@ table.alt tbody tr td {
     -ms-transition: opacity 0.5s ease-out, -ms-transform 0.5s ease-out;
     transition: opacity 0.5s ease-out, transform 0.5s ease-out;
     background-color: #ffffff;
-    border-radius: 4px;
     position: relative;
     z-index: 1;
     width: 55%; }
@@ -2786,7 +2774,6 @@ table.alt tbody tr td {
       width: 6.5rem;
       height: 0.25rem;
       margin: 0 0 1.5rem 0;
-      border-radius: 4px;
       background-color: #3f3f3f; }
   #wrapper > .main > .inner {
     margin-left: auto;
@@ -2797,8 +2784,7 @@ table.alt tbody tr td {
       max-width: 48rem; }
     #wrapper > .main > .inner.style2 {
       padding: 5rem 4rem 3rem 4rem ;
-      background-color: #ffffff;
-      border-radius: 4px; }
+      background-color: #ffffff; }
       #wrapper > .main > .inner.style2 > .image.main:first-child {
         position: relative;
         top: -5rem;
@@ -2806,9 +2792,9 @@ table.alt tbody tr td {
         width: calc(100% + 8rem);
         height: 25rem;
         margin-bottom: 0;
-        border-radius: 4px 4px 0 0; }
+        border-radius: 0 0; }
         #wrapper > .main > .inner.style2 > .image.main:first-child img {
-          border-radius: 4px 4px 0 0; }
+          border-radius: 0 0; }
   #wrapper > .main.special {
     text-align: center; }
   #wrapper > .main.accent1 {
@@ -3190,13 +3176,11 @@ body {
           left: -0.25rem;
           width: calc(100% + 0.5rem);
           height: 0.25rem;
-          background-color: #3f3f3f;
-          border-radius: 4px; }
+          background-color: #3f3f3f; }
         #header > nav > ul > li.active > a {
           color: #3f3f3f; }
     .dropotron {
       background-color: #ffffff;
-      border-radius: 4px;
       box-shadow: 0 0.075rem 0.75rem 0 rgba(0, 0, 0, 0.125);
       list-style-type: none;
       margin: -0.5rem 0 0 1px;
