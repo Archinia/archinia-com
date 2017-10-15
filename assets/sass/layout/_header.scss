@@ -41,12 +41,17 @@
 		> .logo {
 			position: absolute;
 			left: 1rem;
+			top: 0.5rem;
 
 			strong {
 				font-family: _font(family-heading);
 				font-weight: _font(weight-heading);
 				text-transform: uppercase;
 				letter-spacing: 0.025rem;
+			}
+
+			img {
+				width: 200px;
 			}
 		}
 
@@ -177,7 +182,7 @@
 			position: absolute;
 
 			> .logo {
-				top: 1rem;
+				top: 1.5rem;
 				left: 2rem;
 			}
 

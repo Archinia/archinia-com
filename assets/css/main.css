@@ -3150,12 +3150,15 @@ body {
     border-bottom: 0; }
   #header > .logo {
     position: absolute;
-    left: 1rem; }
+    left: 1rem;
+    top: 0.5rem; }
     #header > .logo strong {
       font-family: "Raleway", Helvetica, sans-serif;
       font-weight: 800;
       text-transform: uppercase;
       letter-spacing: 0.025rem; }
+    #header > .logo img {
+      width: 200px; }
   #header > nav {
     position: absolute;
     right: 0; }
@@ -3259,7 +3262,7 @@ body {
     #header.alt hr {
       border-bottom-color: rgba(255, 255, 255, 0.125); }
     #header.alt > .logo {
-      top: 1rem;
+      top: 1.5rem;
       left: 2rem; }
     #header.alt > nav {
       top: 1rem;
@@ -3321,7 +3324,7 @@ body {
 
 /* Banner */
 #header + #banner {
-  margin-top: -3.25rem; }
+  margin-top: -4.25rem; }
 
 #banner {
   display: -moz-flex;
