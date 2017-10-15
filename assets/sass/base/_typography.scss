@@ -116,16 +116,6 @@
 		font-size: 0.7rem;
 	}
 
-	@font-face {
-    font-family: ErikGCapsSketches;
-    src: url('../fonts/ErikGCapsSketches.ttf')
-				 format('truetype');
-	}
-
-	#logo-font {
-		font-family: 'ErikGCapsSketches', serif;
-	}
-
 	@include breakpoint(small) {
 		h1 {
 			font-size: 2.25rem;
