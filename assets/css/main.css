@@ -3324,7 +3324,8 @@ body {
 
 /* Banner */
 #header + #banner {
-  margin-top: -4.25rem; }
+  margin-top: -4.25rem;
+  margin-bottom: 30px; }
 
 #banner {
   display: -moz-flex;
