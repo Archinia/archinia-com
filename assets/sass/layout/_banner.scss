@@ -31,7 +31,8 @@
 			@include vendor('flex-direction', 'column');
 			@include vendor('flex-grow', '0');
 			@include vendor('flex-shrink', '0');
-			width: 50%;
+			width: 100%;
+			background-color: #ffffff;
 
 			section {
 				@include vendor('transition', (
@@ -40,6 +41,7 @@
 				));
 				text-align: left;
 				padding: 2rem 3rem;
+				margin: 30px 15px 0 15px;
 
 				h1 {
 					font-size: 1.75rem;
@@ -59,6 +61,27 @@
 					@include color-button(accent2);
 				}
 
+			}
+
+			.grid-flex {
+				display: flex;
+			}
+
+			.full {
+				height: 50vh;
+
+				img {
+					background-size: contain;
+					height: 50vh;
+				}
+			}
+
+			.image-home {
+				margin: 30px 15px 0 15px;
+
+				img {
+					width: 100%;
+				}
 			}
 		}
 
