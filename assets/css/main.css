@@ -3503,7 +3503,7 @@ body {
     #banner > .items .full {
       height: 50vh; }
       #banner > .items .full img {
-        background-size: contain;
+        background-size: cover;
         height: 50vh; }
     #banner > .items .image-home {
       margin: 30px 15px 0 15px; }
