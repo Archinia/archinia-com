@@ -1571,21 +1571,21 @@ input[type="reset"],
 input[type="button"],
 button,
 .button {
-  background-color: #3f3f3f;
+  background-color: #33ffff;
   color: #ffffff !important; }
   input[type="submit"]:hover,
   input[type="reset"]:hover,
   input[type="button"]:hover,
   button:hover,
   .button:hover {
-    background-color: #4c4c4c;
+    background-color: #4dffff;
     color: #ffffff !important; }
   input[type="submit"]:active,
   input[type="reset"]:active,
   input[type="button"]:active,
   button:active,
   .button:active {
-    background-color: #323232; }
+    background-color: #1affff; }
   input[type="submit"].alt,
   input[type="reset"].alt,
   input[type="button"].alt,
@@ -2614,7 +2614,7 @@ table.alt tbody tr td {
       max-width: 100%; } }
 
 .post > .content header .category {
-  color: #3f3f3f; }
+  color: #33ffff; }
 .post.style2 {
   background-color: #ffffff; }
 @media screen and (max-width: 480px) {
@@ -2687,7 +2687,7 @@ table.alt tbody tr td {
     .spotlight.accent1 h2 {
       color: #ffffff; }
   .spotlight.accent2 {
-    background-color: #292f33; }
+    background-color: #33ffff; }
     .spotlight.accent2 h2 {
       color: #ffffff; }
   .spotlight.is-inactive h2 {
@@ -2833,21 +2833,21 @@ table.alt tbody tr td {
     #wrapper > .main.accent1 input[type="button"],
     #wrapper > .main.accent1 button,
     #wrapper > .main.accent1 .button {
-      background-color: #292f33;
+      background-color: #33ffff;
       color: #ffffff !important; }
       #wrapper > .main.accent1 input[type="submit"]:hover,
       #wrapper > .main.accent1 input[type="reset"]:hover,
       #wrapper > .main.accent1 input[type="button"]:hover,
       #wrapper > .main.accent1 button:hover,
       #wrapper > .main.accent1 .button:hover {
-        background-color: #343c41;
+        background-color: #4dffff;
         color: #ffffff !important; }
       #wrapper > .main.accent1 input[type="submit"]:active,
       #wrapper > .main.accent1 input[type="reset"]:active,
       #wrapper > .main.accent1 input[type="button"]:active,
       #wrapper > .main.accent1 button:active,
       #wrapper > .main.accent1 .button:active {
-        background-color: #1e2225; }
+        background-color: #1affff; }
       #wrapper > .main.accent1 input[type="submit"].alt,
       #wrapper > .main.accent1 input[type="reset"].alt,
       #wrapper > .main.accent1 input[type="button"].alt,
@@ -2926,14 +2926,14 @@ table.alt tbody tr td {
     #wrapper > .main.accent1 table.alt tbody tr td {
       border-color: rgba(255, 255, 255, 0.25); }
     #wrapper > .main.accent1 .post > .content header .category {
-      color: #292f33; }
+      color: #33ffff; }
     #wrapper > .main.accent1 .post.style2 {
       background-color: #3f3f3f; }
     @media screen and (max-width: 480px) {
       #wrapper > .main.accent1 .post {
         border-top-color: rgba(255, 255, 255, 0.25); } }
   #wrapper > .main.accent2 {
-    background-color: #292f33;
+    background-color: #33ffff;
     color: #ffffff; }
     #wrapper > .main.accent2 input, #wrapper > .main.accent2 select, #wrapper > .main.accent2 textarea {
       color: #ffffff; }
@@ -3052,7 +3052,7 @@ table.alt tbody tr td {
     #wrapper > .main.accent2 .post > .content header .category {
       color: #3f3f3f; }
     #wrapper > .main.accent2 .post.style2 {
-      background-color: #292f33; }
+      background-color: #33ffff; }
     @media screen and (max-width: 480px) {
       #wrapper > .main.accent2 .post {
         border-top-color: rgba(255, 255, 255, 0.125); } }
@@ -3237,7 +3237,7 @@ body {
     -ms-animation: reveal-header 0.5s ease;
     animation: reveal-header 0.5s ease; }
   #header.alt {
-    background-color: #292f33;
+    background-color: #33ffff;
     color: #ffffff;
     -moz-animation: none;
     -webkit-animation: none;
@@ -3405,21 +3405,21 @@ body {
         #banner > .items section.accent1 input[type="button"],
         #banner > .items section.accent1 button,
         #banner > .items section.accent1 .button {
-          background-color: #292f33;
+          background-color: #33ffff;
           color: #ffffff !important; }
           #banner > .items section.accent1 input[type="submit"]:hover,
           #banner > .items section.accent1 input[type="reset"]:hover,
           #banner > .items section.accent1 input[type="button"]:hover,
           #banner > .items section.accent1 button:hover,
           #banner > .items section.accent1 .button:hover {
-            background-color: #343c41;
+            background-color: #4dffff;
             color: #ffffff !important; }
           #banner > .items section.accent1 input[type="submit"]:active,
           #banner > .items section.accent1 input[type="reset"]:active,
           #banner > .items section.accent1 input[type="button"]:active,
           #banner > .items section.accent1 button:active,
           #banner > .items section.accent1 .button:active {
-            background-color: #1e2225; }
+            background-color: #1affff; }
           #banner > .items section.accent1 input[type="submit"].alt,
           #banner > .items section.accent1 input[type="reset"].alt,
           #banner > .items section.accent1 input[type="button"].alt,
@@ -3441,7 +3441,7 @@ body {
             #banner > .items section.accent1 .button.alt.icon:before {
               color: #ffffff; }
       #banner > .items section.accent2 {
-        background-color: #292f33;
+        background-color: #33ffff;
         color: #ffffff; }
         #banner > .items section.accent2 input, #banner > .items section.accent2 select, #banner > .items section.accent2 textarea {
           color: #ffffff; }
