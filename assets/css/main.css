@@ -2884,13 +2884,13 @@ table.alt tbody tr td {
           border-radius: 0 0; }
     #wrapper > .main > .inner.columns {
       display: flex; }
+      #wrapper > .main > .inner.columns li {
+        font-size: 100% !important; }
       #wrapper > .main > .inner.columns .column-wide {
         width: 55%;
-        margin: 0 5rem 0 0;
-        font-size: 1rem !important; }
+        margin: 0 5rem 0 0; }
       #wrapper > .main > .inner.columns .column-narrow {
-        width: 40%;
-        font-size: 1rem !important; }
+        width: 40%; }
   #wrapper > .main.special {
     text-align: center; }
   #wrapper > .main.accent1 {
