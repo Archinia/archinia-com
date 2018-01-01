@@ -39,6 +39,7 @@
 		@include color-form($p);
 		@include color-list($p);
 		@include color-table($p);
+		@include color-tabs($p);
 		@include color-post($p);
 	}
 
@@ -53,6 +54,7 @@
 	@import 'components/button';
 	@import 'components/carousel';
 	@import 'components/features';
+	@import 'components/tabs';
 	@import 'components/form';
 	@import 'components/icon';
 	@import 'components/image';
