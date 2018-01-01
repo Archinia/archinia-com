@@ -2269,7 +2269,6 @@ input[type="radio"]:focus + label:before {
     top: 0.25rem; }
   .image.fit {
     display: block;
-    margin: 0 0 2rem 0;
     width: 100%; }
     .image.fit img {
       width: 100%; }
@@ -2280,11 +2279,11 @@ input[type="radio"]:focus + label:before {
     .image.logo img {
       max-width: 100%;
       width: auto;
-      max-height: 120px;
       padding-right: 10px;
       padding-left: 10px; }
     .image.logo a {
-      border-bottom: none; }
+      border-bottom: none;
+      cursor: default; }
   .image.main {
     display: block;
     margin: 0 0 3rem 0;
@@ -2307,7 +2306,7 @@ a.image {
 
 .caption {
   text-align: center;
-  font-weight: 900; }
+  font-size: 0.7rem; }
 
 /* List */
 ol {
