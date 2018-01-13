@@ -50,7 +50,6 @@
 
 					<footer id="footer">
 		      </footer>
-		      <!-- // end Altitude Footer -->
 
 			</div>
 
@@ -62,9 +61,23 @@
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script>
-				$("nav").load("assets/menu.html");
-				$("footer").load("assets/footer.html");
-			</script>
+			<!--<script>
+			$(function(){
+				$.get('assets/menu.html', function(headerNav){
+					$headerNav = $(headerNav);
+					$headerNav.find('#loadNav').appendTo('#nav');
+					$headerNav.find('script').appendTo('#nav');
+				}, 'html');
+				$.get('assets/footer.html', function(footerNav){
+					$footerNav = $(footerNav);
+					$footerNav.find('#loadFooter').appendTo('#footer');
+					$footerNav.find('script').appendTo('#footer');
+				}, 'html');
+			})
+		</script>-->
+		<script>
+			$("nav").load("/assets/menu.html #loadNav, script");
+			$("footer").load("/assets/footer.html #loadFooter, script");
+		</script>
 	</body>
 </html>
