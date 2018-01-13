@@ -1773,7 +1773,8 @@ button,
     border-left-width: 1px;
     border-top-width: 1px;
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    padding: 1.5rem !important; }
     .features > section > :last-child {
       margin-bottom: 0; }
     .features > section:nth-child(3n - 2) {
@@ -1781,8 +1782,9 @@ button,
     .features > section:nth-child(-n + 3) {
       border-top-width: 0; }
     .features > section h3 {
-      font-size: 1.25rem;
-      margin: 0 0 0.65rem 0; }
+      font-size: 1rem;
+      margin: 0 0 0.65rem 0;
+      margin-top: 1rem; }
     .features > section span {
       padding: 6px;
       border-radius: 4px; }

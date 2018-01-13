@@ -23,6 +23,7 @@
 			border-top-width: 1px;
 			display: flex;
 			flex-direction: column;
+			padding: 1.5rem !important;
 
 			> :last-child {
 				margin-bottom: 0;
@@ -37,8 +38,9 @@
 			}
 
 			h3 {
-				font-size: 1.25rem;
+				font-size: 1rem;
 				margin: 0 0 (_size(element-margin) * 0.325) 0;
+				margin-top: 1rem;
 			}
 
 			span {
