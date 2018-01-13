@@ -1773,8 +1773,7 @@ button,
     border-left-width: 1px;
     border-top-width: 1px;
     display: flex;
-    flex-direction: column;
-    justify-content: center; }
+    flex-direction: column; }
     .features > section > :last-child {
       margin-bottom: 0; }
     .features > section:nth-child(3n - 2) {
@@ -2385,10 +2384,6 @@ ul {
     display: -webkit-flex;
     display: -ms-flex;
     display: flex;
-    -moz-align-items: center;
-    -webkit-align-items: center;
-    -ms-align-items: center;
-    align-items: center;
     -moz-justify-content: center;
     -webkit-justify-content: center;
     -ms-justify-content: center;
