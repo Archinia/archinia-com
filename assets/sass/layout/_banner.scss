@@ -16,7 +16,7 @@
 		@include vendor('flex-direction', 'row');
 		@include vendor('align-items', 'center');
 		@include vendor('justify-content', 'center');
-		background-color: #000000;
+		background-color: transparent;
 		/*background-image: url('../../images/banner.jpg');*/
 		background-size: cover;
 		background-attachment: fixed;

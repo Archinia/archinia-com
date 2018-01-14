@@ -2817,8 +2817,6 @@ table.alt tbody tr td {
       .spotlight h2 {
         padding: 2.5rem 2.5rem;
         width: 100%; }
-        .spotlight h2 br {
-          display: none; }
       .spotlight .image {
         display: block;
         height: 40vh;
@@ -2830,8 +2828,6 @@ table.alt tbody tr td {
         border-radius: 0;
         width: 100%;
         left: 0; }
-        .spotlight .content h3 br {
-          display: none; }
       .spotlight.is-inactive h2 {
         -moz-transform: none;
         -webkit-transform: none;
@@ -3362,7 +3358,7 @@ body {
     -ms-animation: none;
     animation: none;
     box-shadow: none;
-    background-color: transparent;
+    background-color: #000;
     position: absolute; }
     #header.alt input, #header.alt select, #header.alt textarea {
       color: #ffffff; }
@@ -3379,21 +3375,6 @@ body {
       border-color: rgba(255, 255, 255, 0.25); }
     #header.alt hr {
       border-bottom-color: rgba(255, 255, 255, 0.25); }
-    #header.alt > .logo {
-      top: 1.5rem;
-      left: 2rem; }
-    #header.alt > nav {
-      top: 1rem;
-      right: 1rem; }
-      #header.alt > nav > ul {
-        padding: 0 0.5rem 0 0; }
-        #header.alt > nav > ul > li {
-          margin: 0 1.25rem; }
-          #header.alt > nav > ul > li.current:after {
-            bottom: 0.25rem; }
-    #header.alt > .navPanelToggle {
-      top: 1rem;
-      right: 1rem; }
   #header > .navPanelToggle {
     -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, top 0.2s ease-in-out, right 0.2s ease-in-out;
     -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, top 0.2s ease-in-out, right 0.2s ease-in-out;
@@ -3466,7 +3447,7 @@ body {
   -webkit-justify-content: center;
   -ms-justify-content: center;
   justify-content: center;
-  background-color: #000000;
+  background-color: transparent;
   /*background-image: url('../../images/banner.jpg');*/
   background-size: cover;
   background-attachment: fixed;

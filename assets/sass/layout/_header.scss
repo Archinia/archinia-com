@@ -178,38 +178,8 @@
 			@include color-typography(accent1);
 			@include vendor('animation', 'none');
 			box-shadow: none;
-			background-color: transparent;
+			background-color: #000;
 			position: absolute;
-
-			> .logo {
-				top: 1.5rem;
-				left: 2rem;
-			}
-
-			> nav {
-				top: 1rem;
-				right: 1rem;
-
-				> ul {
-					padding: 0 0.5rem 0 0;
-
-					> li {
-						margin: 0 1.25rem;
-
-						&.current {
-							&:after {
-								bottom: 0.25rem;
-							}
-
-						}
-					}
-				}
-			}
-
-			> .navPanelToggle {
-				top: 1rem;
-				right: 1rem;
-			}
 		}
 
 		> .navPanelToggle {

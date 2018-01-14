@@ -131,10 +131,6 @@
 			h2 {
 				padding: 2.5rem 2.5rem;
 				width: 100%;
-
-				br {
-					display: none;
-				}
 			}
 
 			.image {
@@ -150,12 +146,6 @@
 				border-radius: 0;
 				width: 100%;
 				left: 0;
-
-				h3 {
-					br {
-						display: none;
-					}
-				}
 			}
 
 			&.is-inactive {
