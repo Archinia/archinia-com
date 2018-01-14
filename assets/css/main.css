@@ -1772,7 +1772,7 @@ button,
     /*border-style: solid;
     border-left-width: 1px;
     border-top-width: 1px;*/
-    display: flex;
+    display: flex !important;
     flex-direction: column;
     padding: 1.5rem !important; }
     .features > section > :last-child {
@@ -1787,7 +1787,10 @@ button,
       margin-top: 1rem; }
     .features > section span {
       padding: 6px;
-      border-radius: 4px; }
+      border-radius: 4px;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
     .features > section .cat-label {
       background-color: #25dbdb;
       color: #ffffff;
