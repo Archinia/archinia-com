@@ -25,6 +25,8 @@
 				'transform 0.5s ease-out'
 			));
 			margin-bottom: 0;
+			z-index: 100;
+			color: #fff;
 		}
 
 		.image {
@@ -32,7 +34,7 @@
 			height: 100%;
 			position: absolute;
 			top: 0;
-			width: 45%;
+			width: 100%;
 
 			img {
 				@include vendor('object-fit', 'cover');
@@ -56,6 +58,7 @@
 			position: relative;
 			z-index: 1;
 			width: 55%;
+	    left: 45%;
 		}
 
 		&.odd {
