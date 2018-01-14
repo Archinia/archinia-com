@@ -9,3 +9,33 @@
 	#wrapper {
 		background-color: _palette(bg);
 	}
+
+	#subMenu {
+		ul {
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+			align-items: center;
+			padding-left: 0 !important;
+		}
+
+		li {
+			list-style: none;
+			padding: 0.5rem;
+			font-weight: 900;
+			text-transform: uppercase;
+			font-size: 1rem;
+
+			> a {
+				border-bottom: none;
+			}
+
+			&.current {
+				background-color: #25dbdb;
+
+				a {
+					color: #ffffff;
+				}
+			}
+		}
+	}
