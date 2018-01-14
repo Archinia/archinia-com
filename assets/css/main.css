@@ -3257,7 +3257,10 @@ body {
   background-color: #ffffff;
   box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.125);
   cursor: default;
-  z-index: 10000; }
+  z-index: 10000;
+  		/*@include breakpoint(medium) {
+  
+  		}*/ }
   #header a {
     display: block;
     height: inherit;
@@ -3416,19 +3419,20 @@ body {
       content: '\f0c9';
       margin: 0 0 0 0.625rem;
       float: right; }
-  @media screen and (max-width: 980px) {
-    #header > nav {
-      display: none; }
-    #header > .navPanelToggle {
-      display: block; } }
   @media screen and (max-width: 736px) {
     #header {
       height: 44px;
       line-height: 44px; }
       #header > .logo {
         left: 1rem; }
+        #header > .logo img {
+          width: 120px; }
         #header > .logo .extra {
-          display: none; } }
+          display: none; }
+      #header > nav {
+        display: none; }
+      #header > .navPanelToggle {
+        display: block; } }
   @media screen and (max-width: 480px) {
     #header.alt > .logo {
       top: 0;

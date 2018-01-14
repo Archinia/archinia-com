@@ -235,15 +235,9 @@
 			}
 		}
 
-		@include breakpoint(medium) {
-			> nav {
-				display: none;
-			}
+		/*@include breakpoint(medium) {
 
-			> .navPanelToggle {
-				display: block;
-			}
-		}
+		}*/
 
 		@include breakpoint(small) {
 			height: _size(header, small);
@@ -252,9 +246,21 @@
 			> .logo {
 				left: 1rem;
 
+				img {
+					width: 120px;
+				}
+
 				.extra {
 					display: none;
 				}
+			}
+
+			> nav {
+				display: none;
+			}
+
+			> .navPanelToggle {
+				display: block;
 			}
 		}
 
