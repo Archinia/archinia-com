@@ -2825,7 +2825,8 @@ table.alt tbody tr td {
       .spotlight .content {
         padding: 3rem 2.5rem 1rem 2.5rem ;
         border-radius: 0;
-        width: 100%; }
+        width: 100%;
+        left: 0; }
         .spotlight .content h3 br {
           display: none; }
       .spotlight.is-inactive h2 {
