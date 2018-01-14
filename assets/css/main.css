@@ -2868,7 +2868,7 @@ table.alt tbody tr td {
 
 /* Main */
 #wrapper > .main {
-  padding: 4rem 0 2rem 0 ; }
+  padding: 2rem 0; }
   #wrapper > .main > header {
     width: 100%;
     max-width: 58rem;
@@ -3182,7 +3182,8 @@ table.alt tbody tr td {
     background-image: url("../../images/bg.jpg");
     background-size: cover;
     background-repeat: repeat;
-    background-attachment: fixed; }
+    background-attachment: fixed;
+    padding: 4rem 0 0 0; }
   @media screen and (max-width: 1280px) {
     #wrapper > .main {
       padding: 6rem 3rem 4rem 3rem ; }

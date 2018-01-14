@@ -7,7 +7,7 @@
 /* Main */
 
 	#wrapper > .main {
-		@include padding(4rem, 0);
+		padding: 2rem 0;
 
 		> header {
 			width: 100%;
@@ -95,6 +95,7 @@
 			background-size: cover;
 			background-repeat: repeat;
 			background-attachment: fixed;
+			padding: 4rem 0 0 0;
 		}
 
 		@include breakpoint(large) {
