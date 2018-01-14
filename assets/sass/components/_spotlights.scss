@@ -162,6 +162,8 @@
 		}
 
 		@include breakpoint(small) {
+			padding: 0 0 1rem 0;
+			
 			h2 {
 				padding: 1.5rem;
 			}

@@ -2859,10 +2859,12 @@ table.alt tbody tr td {
         transform: none;
         opacity: 0; } }
   @media screen and (max-width: 736px) {
-    .spotlight h2 {
-      padding: 1.5rem; }
-    .spotlight .content {
-      padding: 2rem 1.5rem 0.1rem 1.5rem ; } }
+    .spotlight {
+      padding: 0 0 1rem 0; }
+      .spotlight h2 {
+        padding: 1.5rem; }
+      .spotlight .content {
+        padding: 2rem 1.5rem 0.1rem 1.5rem ; } }
 
 /* Main */
 #wrapper > .main {
