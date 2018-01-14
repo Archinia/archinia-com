@@ -3310,7 +3310,7 @@ body {
           height: 0.25rem;
           background-color: #3f3f3f; }
         #header > nav > ul > li.active > a {
-          color: #3f3f3f; }
+          color: #25dbdb; }
     .dropotron {
       background-color: #ffffff;
       box-shadow: 0 0.075rem 0.75rem 0 rgba(0, 0, 0, 0.125);
@@ -3348,14 +3348,14 @@ body {
         text-decoration: none !important;
         border: 0; }
         .dropotron a:active, .dropotron a:hover, .dropotron a:focus {
-          color: #3f3f3f; }
+          color: #25dbdb; }
   #header.reveal {
     -moz-animation: reveal-header 0.5s ease;
     -webkit-animation: reveal-header 0.5s ease;
     -ms-animation: reveal-header 0.5s ease;
     animation: reveal-header 0.5s ease; }
   #header.alt {
-    background-color: #25dbdb;
+    background-color: #3f3f3f;
     color: #ffffff;
     -moz-animation: none;
     -webkit-animation: none;
@@ -3373,12 +3373,12 @@ body {
     #header.alt h1, #header.alt h2, #header.alt h3, #header.alt h4, #header.alt h5, #header.alt h6 {
       color: #ffffff; }
     #header.alt blockquote {
-      border-left-color: rgba(255, 255, 255, 0.125); }
+      border-left-color: rgba(255, 255, 255, 0.25); }
     #header.alt code {
       background: rgba(255, 255, 255, 0.075);
-      border-color: rgba(255, 255, 255, 0.125); }
+      border-color: rgba(255, 255, 255, 0.25); }
     #header.alt hr {
-      border-bottom-color: rgba(255, 255, 255, 0.125); }
+      border-bottom-color: rgba(255, 255, 255, 0.25); }
     #header.alt > .logo {
       top: 1.5rem;
       left: 2rem; }
@@ -3432,11 +3432,14 @@ body {
       #header > nav {
         display: none; }
       #header > .navPanelToggle {
-        display: block; } }
+        display: block; }
+      #header.alt > .logo {
+        top: 0.5rem; } }
   @media screen and (max-width: 480px) {
     #header.alt > .logo {
-      top: 0;
       left: 1rem; }
+      #header.alt > .logo img {
+        width: 120px; }
     #header.alt > .navPanelToggle {
       top: 0;
       right: 0; } }
@@ -3455,7 +3458,10 @@ body {
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  align-itrems: center;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
   -moz-justify-content: center;
   -webkit-justify-content: center;
   -ms-justify-content: center;
@@ -3677,10 +3683,10 @@ body {
   body.is-loading #banner > .slider {
     opacity: 0; }
   @media screen and (max-width: 1680px) {
-    #banner > .itrems section {
+    #banner > .items section {
       padding: 4.5rem 5rem 2.5rem 5rem ; } }
   @media screen and (max-width: 1280px) {
-    #banner > .itrems section {
+    #banner > .items section {
       padding: 3.5rem 3rem 1.5rem 3rem ; } }
   @media screen and (max-width: 980px) {
     #banner {
@@ -3688,7 +3694,7 @@ body {
       -webkit-flex-direction: column-reverse;
       -ms-flex-direction: column-reverse;
       flex-direction: column-reverse; }
-      #banner > .itrems {
+      #banner > .items {
         -moz-flex-direction: row;
         -webkit-flex-direction: row;
         -ms-flex-direction: row;
@@ -3699,25 +3705,28 @@ body {
         max-height: 55vh;
         width: 100%; } }
   @media screen and (max-width: 736px) {
-    #banner > .itrems section {
+    #banner > .items section {
       padding: 3rem 3rem 1rem 3rem ; }
-      #banner > .itrems section h1 {
+      #banner > .items section h1 {
         font-size: 1.25rem; }
     #banner > .slider {
       height: 30rem;
       max-height: none; } }
   @media screen and (max-width: 480px) {
-    #banner > .itrems {
+    #banner > .items {
       -moz-flex-direction: column;
       -webkit-flex-direction: column;
       -ms-flex-direction: column;
       flex-direction: column; }
-      #banner > .itrems section {
+      #banner > .items section {
         padding: 3rem 3rem 1rem 3rem ; }
     #banner > .slider {
       height: 20rem;
       max-height: 40vh; } }
 
+@media screen and (max-width: 736px) {
+  #header + #banner {
+    margin-top: -5.5rem; } }
 /* Footer */
 #footer {
   background-color: #3f3f3f;
@@ -3858,7 +3867,7 @@ body {
   -ms-transition: -ms-transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
   transition: transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
   -webkit-overflow-scrolling: touch;
-  background: #3f3f3f;
+  background: #000;
   box-shadow: none;
   color: #ffffff;
   height: 100%;
@@ -3889,7 +3898,7 @@ body {
       color: #ffffff !important;
       font-weight: 600; }
     #navPanel .link:active, #navPanel .link:focus, #navPanel .link:hover {
-      color: #ffffff !important; }
+      color: #25dbdb !important; }
     #navPanel .link .indent-1 {
       display: inline-block;
       width: 1.25em; }

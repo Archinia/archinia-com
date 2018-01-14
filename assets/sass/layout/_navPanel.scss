@@ -14,7 +14,7 @@
 		@include vendor('transform', 'translateX(100%)');
 		@include vendor('transition', ('transform #{_duration(menu)} ease', 'box-shadow #{_duration(menu)} ease', 'visibility #{_duration(menu)}'));
 		-webkit-overflow-scrolling: touch;
-		background: _palette(accent1, bg);
+		background: #000;
 		box-shadow: none;
 		color: _palette(accent1, fg);
 		height: 100%;
@@ -50,7 +50,7 @@
 			}
 
 			&:active, &:focus, &:hover {
-				color: _palette(accent1, fg-bold) !important;
+				color: _palette(accent2, bg) !important;
 			}
 
 			.indent-1 {

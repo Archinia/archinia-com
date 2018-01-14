@@ -109,7 +109,7 @@
 
 					&.active {
 						> a {
-							color: _palette(accent1, bg);
+							color: _palette(accent2, bg);
 						}
 					}
 				}
@@ -157,13 +157,13 @@
 					}
 
 					a {
-						color: _palette(fg);
+						color: _palette(accent1, bg);
 						padding: 0.5rem 1rem;
 						text-decoration: none !important;
 						border: 0;
 
 						&:active, &:hover, &:focus {
-							color: _palette(accent1, bg);
+							color: _palette(accent2, bg);
 						}
 					}
 				}
@@ -175,7 +175,7 @@
 		}
 
 		&.alt {
-			@include color-typography(accent2);
+			@include color-typography(accent1);
 			@include vendor('animation', 'none');
 			box-shadow: none;
 			background-color: transparent;
@@ -200,6 +200,7 @@
 							&:after {
 								bottom: 0.25rem;
 							}
+
 						}
 					}
 				}
@@ -262,13 +263,22 @@
 			> .navPanelToggle {
 				display: block;
 			}
+
+			&.alt {
+				> .logo {
+					top: 0.5rem;
+				}
+			}
 		}
 
 		@include breakpoint(xsmall) {
 			&.alt {
 				> .logo {
-					top: 0;
 					left: 1rem;
+
+					img {
+						width: 120px;
+					}
 				}
 
 				> .navPanelToggle {
