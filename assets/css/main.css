@@ -3440,7 +3440,7 @@ body {
       content: '\f0c9';
       margin: 0 0 0 0.625rem;
       float: right; }
-  @media screen and (max-width: 736px) {
+  @media screen and (max-width: 980px) {
     #header {
       height: 44px;
       line-height: 44px; }

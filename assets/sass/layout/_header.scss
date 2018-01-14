@@ -210,7 +210,7 @@
 
 		}*/
 
-		@include breakpoint(small) {
+		@include breakpoint(medium) {
 			height: _size(header, small);
 			line-height: _size(header, small);
 
