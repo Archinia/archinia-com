@@ -3880,12 +3880,8 @@ body {
       font-weight: 600; }
     #navPanel .link:active, #navPanel .link:focus, #navPanel .link:hover {
       color: #25dbdb !important; }
-    #navPanel .link .indent-1 {
-      display: inline-block;
-      width: 1.25em; }
-    #navPanel .link .indent-2 {
-      display: inline-block;
-      width: 2.5em; }
+    #navPanel .link.depth-1 {
+      margin-left: 1.25rem; }
   #navPanel .close {
     text-decoration: none;
     -moz-transition: color 0.2s ease-in-out;

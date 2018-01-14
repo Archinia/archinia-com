@@ -263,7 +263,7 @@ var settings = {
 						$('#nav') .navList() +
 					'</nav>' +
 					'<a href="#navPanel" class="close"></a>' +
-				'</div>')
+					'</div>')
 					.appendTo($body)
 					.panel({
 						delay: 500,
