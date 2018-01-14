@@ -3813,9 +3813,11 @@ body {
         margin: 1rem 0 0 0; }
         #footer .contact-icons li:first-child {
           margin-top: 0; } }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 736px) {
     #footer {
-      padding: 0 1.5rem; }
+      padding: 1.5rem; }
+      #footer .copyright {
+        flex-direction: column; }
       #footer .links {
         margin: 0 0 2rem 0; }
         #footer .links > div {

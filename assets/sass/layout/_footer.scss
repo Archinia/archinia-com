@@ -133,8 +133,12 @@
 			}
 		}
 
-		@include breakpoint(xsmall) {
-			padding: 0 1.5rem;
+		@include breakpoint(small) {
+			padding: 1.5rem;
+
+			.copyright {
+				flex-direction: column;
+			}
 
 			.links {
 				margin: 0 0 _size(element-margin) 0;
