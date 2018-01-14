@@ -11,7 +11,7 @@ document.getElementById('nav').innerHTML =
     '</li>\n'+
     '<li style="white-space: nowrap;"><a href="https://medium.com/archinia">Blog</a></li>\n'+
     '<li class="opener" style="user-select: none; cursor: pointer; white-space: nowrap; opacity: 1;">\n'+
-      '<a href="about.html" class="icon fa-angle-down">About</a>\n'+
+      '<a href="archinia.html" class="icon fa-angle-down">About</a>\n'+
       '<ul class="" style="user-select: none; display: none; position: absolute;">\n'+
         '<li style="white-space: nowrap;"><a href="about/our-work.html">Archinia</a></li>\n'+
         '<li style="white-space: nowrap;"><a href="about/a4e.html">Architecture for EveryBody</a></li>\n'+
