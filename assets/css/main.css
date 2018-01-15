@@ -748,7 +748,7 @@ body {
 
   .\-1u\28medium\29 {
     margin-left: 8.3333333333%; } }
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 768px) {
   .row > * {
     padding: 0 0 0 1.5rem; }
 
@@ -1263,7 +1263,7 @@ body {
     min-width: 320px;
     overflow-x: hidden; } }
 body {
-  background-color: #3f3f3f !important; }
+  background-color: #000; }
   body.is-loading *, body.is-loading *:before, body.is-loading *:after {
     -moz-animation: none !important;
     -webkit-animation: none !important;
@@ -1283,7 +1283,7 @@ html {
   @media screen and (max-width: 1280px) {
     html {
       font-size: 12pt; } }
-  @media screen and (max-width: 736px) {
+  @media screen and (max-width: 768px) {
     html {
       font-size: 11pt; } }
   @media screen and (max-width: 360px) {
@@ -1357,7 +1357,7 @@ h5 {
 h6 {
   font-size: 0.7rem; }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 768px) {
   h1 {
     font-size: 2.25rem; }
 
@@ -1717,7 +1717,7 @@ button,
         left: -3rem; }
       .carousel nav a.next {
         right: -3rem; } }
-  @media screen and (max-width: 736px) {
+  @media screen and (max-width: 768px) {
     .carousel article {
       -moz-transform: translateY(0);
       -webkit-transform: translateY(0);
@@ -1826,7 +1826,7 @@ button,
       border-left-width: 0; }
     .features > section:nth-child(-n + 2) {
       border-top-width: 0; } }
-  @media screen and (max-width: 736px) {
+  @media screen and (max-width: 768px) {
     .features > * {
       width: 100%; }
     .features > * {
@@ -1841,7 +1841,7 @@ button,
     .features > section:nth-child(-n + 1) {
       border-top-width: 0; } }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 768px) {
   .features.partners > section {
     width: 33%; } }
 .features > section {
@@ -2450,7 +2450,7 @@ ul {
     @media screen and (max-width: 980px) {
       ul.faces li {
         margin: 0 0 0 2rem; } }
-    @media screen and (max-width: 736px) {
+    @media screen and (max-width: 768px) {
       ul.faces li .image img {
         width: 6rem; } }
     @media screen and (max-width: 480px) {
@@ -2619,7 +2619,7 @@ table.alt tbody tr td {
         width: calc(50% + 0rem); }
       .posts article:nth-child(3n):last-child {
         padding-right: 0; } }
-  @media screen and (max-width: 736px) {
+  @media screen and (max-width: 768px) {
     .posts > * {
       width: 50%; }
     .posts > * {
@@ -2858,13 +2858,149 @@ table.alt tbody tr td {
         -ms-transform: none;
         transform: none;
         opacity: 0; } }
-  @media screen and (max-width: 736px) {
+  @media screen and (max-width: 768px) {
     .spotlight {
       padding: 0 0 1rem 0; }
       .spotlight h2 {
         padding: 1.5rem; }
       .spotlight .content {
         padding: 2rem 1.5rem 0.1rem 1.5rem ; } }
+
+/* Quotes */
+.quotes {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  background-color: #3f3f3f;
+  color: #ffffff;
+  text-align: center; }
+  .quotes input, .quotes select, .quotes textarea {
+    color: #ffffff; }
+  .quotes a {
+    color: #ffffff; }
+  .quotes strong, .quotes b {
+    color: #ffffff; }
+  .quotes h1, .quotes h2, .quotes h3, .quotes h4, .quotes h5, .quotes h6 {
+    color: #ffffff; }
+  .quotes blockquote {
+    border-left-color: rgba(255, 255, 255, 0.25); }
+  .quotes code {
+    background: rgba(255, 255, 255, 0.075);
+    border-color: rgba(255, 255, 255, 0.25); }
+  .quotes hr {
+    border-bottom-color: rgba(255, 255, 255, 0.25); }
+  .quotes > article {
+    padding: 8rem 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .quotes > article .square {
+      width: 50%;
+      position: relative; }
+    .quotes > article .square:after {
+      content: "";
+      display: block;
+      padding-bottom: 100%; }
+    .quotes > article .author {
+      margin: 0 0 2rem 0; }
+      .quotes > article .author .name {
+        color: #3f3f3f;
+        display: block;
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin: 0 0 0.5rem 0; }
+      .quotes > article .author .title {
+        display: block; }
+    .quotes > article:before {
+      background-color: #3f3f3f;
+      border-radius: 100%;
+      display: inline-block;
+      font-size: 2rem;
+      height: 2.4rem;
+      line-height: 2.4rem;
+      margin-bottom: 0.7rem;
+      position: relative;
+      text-align: center;
+      width: 2.4rem;
+      z-index: 1; }
+    .quotes > article:after {
+      -moz-transition: opacity 1s ease-in-out;
+      -webkit-transition: opacity 1s ease-in-out;
+      -ms-transition: opacity 1s ease-in-out;
+      transition: opacity 1s ease-in-out;
+      -moz-transition-delay: 0.75s;
+      -webkit-transition-delay: 0.75s;
+      -ms-transition-delay: 0.75s;
+      transition-delay: 0.75s;
+      background-color: #202020;
+      content: '';
+      display: block;
+      height: 100%;
+      left: 0;
+      opacity: 0.25;
+      position: absolute;
+      top: 0;
+      width: 100%; }
+    .quotes > article > * {
+      position: relative;
+      z-index: 1; }
+    .quotes > article > div {
+      padding: 0 2rem; }
+  @media screen and (max-width: 768px) {
+    .quotes > article {
+      width: 100%;
+      min-height: 400px; }
+      .quotes > article div {
+        top: 0;
+        width: 80%;
+        margin: auto; } }
+
+.quotes.alt > article {
+  width: 33.3%;
+  padding: 4rem 0; }
+  .quotes.alt > article .square {
+    width: 50%;
+    position: relative; }
+  .quotes.alt > article .square:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%; }
+@media screen and (max-width: 768px) {
+  .quotes.alt > article {
+    width: 100%;
+    min-height: 400px; } }
+
+input, select, textarea {
+  color: #3f3f3f; }
+
+a {
+  color: #3f3f3f; }
+
+strong, b {
+  color: #3f3f3f; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #3f3f3f; }
+
+blockquote {
+  border-left-color: rgba(143, 143, 143, 0.25); }
+
+code {
+  background: rgba(143, 143, 143, 0.075);
+  border-color: rgba(143, 143, 143, 0.25); }
+
+hr {
+  border-bottom-color: rgba(143, 143, 143, 0.25); }
 
 /* Main */
 #wrapper > .main {
@@ -3208,7 +3344,7 @@ table.alt tbody tr td {
       #wrapper > .main > .columns > .column-narrow {
         width: 100% !important;
         margin: 0 !important; } }
-  @media screen and (max-width: 736px) {
+  @media screen and (max-width: 768px) {
     #wrapper > .main {
       padding: 4rem 2rem 2rem 2rem ; }
       #wrapper > .main > .inner.style2 {
@@ -3279,7 +3415,7 @@ table.alt tbody tr td {
     opacity: 1; } }
 body {
   padding-top: 3.25rem; }
-  @media screen and (max-width: 736px) {
+  @media screen and (max-width: 768px) {
     body {
       padding-top: 44px; } }
 
@@ -3293,10 +3429,7 @@ body {
   background-color: #ffffff;
   box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.125);
   cursor: default;
-  z-index: 10000;
-  		/*@include breakpoint(medium) {
-  
-  		}*/ }
+  z-index: 10000; }
   #header a {
     display: block;
     height: inherit;
@@ -3440,7 +3573,7 @@ body {
       content: '\f0c9';
       margin: 0 0 0 0.625rem;
       float: right; }
-  @media screen and (max-width: 980px) {
+  @media screen and (max-width: 768px) {
     #header {
       height: 44px;
       line-height: 44px; }
@@ -3725,7 +3858,7 @@ body {
         height: 40rem;
         max-height: 55vh;
         width: 100%; } }
-  @media screen and (max-width: 736px) {
+  @media screen and (max-width: 768px) {
     #banner > .items section {
       padding: 3rem 3rem 1rem 3rem ; }
       #banner > .items section h1 {
@@ -3745,7 +3878,7 @@ body {
       height: 20rem;
       max-height: 40vh; } }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 768px) {
   #header + #banner {
     margin-top: -5.5rem; } }
 /* Footer */
@@ -3853,7 +3986,7 @@ body {
         margin: 1rem 0 0 0; }
         #footer .contact-icons li:first-child {
           margin-top: 0; } }
-  @media screen and (max-width: 736px) {
+  @media screen and (max-width: 768px) {
     #footer {
       padding: 1.5rem; }
       #footer .copyright {
@@ -3956,11 +4089,11 @@ body {
       font-size: 1.25em; }
     #navPanel .close:hover {
       color: #ffffff !important; }
-    @media screen and (max-width: 736px) {
+    @media screen and (max-width: 768px) {
       #navPanel .close {
         height: 4em;
         line-height: 4em; } }
-  @media screen and (max-width: 736px) {
+  @media screen and (max-width: 768px) {
     #navPanel nav {
       padding: 2.5em 1.75em; } }
 

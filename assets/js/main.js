@@ -303,6 +303,27 @@ var settings = {
 					delay: 250
 				});
 
+			// Quotes.
+				$('.quotes > article')
+					.each(function() {
+
+						var	$this = $(this),
+							$image = $this.find('.image'),
+							$img = $image.find('img'),
+							x;
+
+						// Assign image.
+							$this.css('background-image', 'url(' + $img.attr('src') + ')');
+
+						// Set background position.
+							if (x = $img.data('position'))
+								$this.css('background-position', x);
+
+						// Hide image.
+							$image.hide();
+
+					});
+
 	});
 
 })(jQuery);

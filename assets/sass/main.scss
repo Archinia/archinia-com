@@ -15,7 +15,7 @@
 		xlarge: '(max-width: 1680px)',
 		large: '(max-width: 1280px)',
 		medium: '(max-width: 980px)',
-		small: '(max-width: 736px)',
+		small: '(max-width: 768px)',
 		xsmall: '(max-width: 480px)',
 		xxsmall: '(max-width: 360px)'
 	));
@@ -62,6 +62,7 @@
 	@import 'components/table';
 	@import 'components/posts';
 	@import 'components/spotlights';
+	@import 'components/quotes';
 	@import 'components/main';
 
 // Layout.
