@@ -318,7 +318,7 @@ var settings = {
 
 					});
 			// Kudos
-			$('.kudos').slick({
+			$('.kudos')({
 		    dots: true,
 		    infinite: true,
 		    autoplay: true,
