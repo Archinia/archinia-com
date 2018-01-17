@@ -3053,7 +3053,7 @@ hr {
 .bubble cite {
   padding-left: 20px;
   font-size: 1.25rem;
-  color: #f7f7f7; }
+  color: #333; }
 
 /* Main */
 #wrapper > .main {
