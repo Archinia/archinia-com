@@ -317,16 +317,16 @@ var settings = {
 							$image.hide();
 
 					});
-			// Kudos
-			$('.kudos')({
-		    dots: true,
-		    infinite: true,
-		    autoplay: true,
-		    autoplaySpeed: 6000,
-		    speed: 800,
-		    slidesToShow: 1,
-		    adaptiveHeight: true
-		  });
+				// Kudos
+					$('#kudos')({
+				    dots: true,
+				    infinite: true,
+				    autoplay: true,
+				    autoplaySpeed: 6000,
+				    speed: 800,
+				    slidesToShow: 1,
+				    adaptiveHeight: true
+				  });
 	});
 
 })(jQuery);
