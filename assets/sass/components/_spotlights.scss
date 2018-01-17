@@ -57,23 +57,26 @@
 			border-radius: _size(border-radius);
 			position: relative;
 			z-index: 1;
-			width: 55%;
-	    left: 45%;
+			width: 60%;
 		}
 
 		&.odd {
+			left: 35%;
 			.image {
 				right: 0;
+				left: -35%;
 			}
 		}
 
 		&.even {
+			left: -35%;
+
 			> .inner {
 				@include vendor('flex-direction', 'row-reverse');
 			}
 
 			.image {
-				left: 0;
+				left: 35%;
 			}
 		}
 
@@ -163,7 +166,7 @@
 
 		@include breakpoint(small) {
 			padding: 0 0 1rem 0;
-			
+
 			h2 {
 				padding: 1.5rem;
 			}
