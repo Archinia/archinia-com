@@ -3006,51 +3006,6 @@ code {
 hr {
   border-bottom-color: rgba(143, 143, 143, 0.25); }
 
-#kudos {
-  min-height: 50vh; }
-
-/* Bubble Slider */
-.bubble blockquote {
-  margin: 10px 10px 0;
-  background: #fff;
-  padding: 60px;
-  position: relative;
-  border: none;
-  border-radius: 8px;
-  font-size: 1.25em;
-  color: #1e528e; }
-
-.bubble blockquote:after,
-.bubble blockquote:before {
-  content: "\201C";
-  position: absolute;
-  font-size: 80px;
-  padding: 10px;
-  line-height: 1;
-  color: #1e528e; }
-
-.bubble blockquote:before {
-  top: 0;
-  left: 10px; }
-
-.bubble blockquote:after {
-  content: "\201D";
-  right: 10px;
-  bottom: -.5rem; }
-
-.bubble div {
-  width: 0;
-  height: 0;
-  border-left: 0 solid transparent;
-  border-right: 20px solid transparent;
-  border-top: 20px solid #fff;
-  margin: 0 0 10px 60px; }
-
-.bubble cite {
-  padding-left: 20px;
-  font-size: 1.25rem;
-  color: #333; }
-
 /* Main */
 #wrapper > .main {
   padding: 2rem 0; }
