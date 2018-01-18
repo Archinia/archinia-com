@@ -297,6 +297,12 @@ var settings = {
 					}
 				});
 
+			// Tabs.
+				$('.tabs').selectorr({
+					titleSelector: 'h4',
+					delay: 250
+				});
+
 			// Quotes.
 				$('.quotes > article')
 					.each(function() {
