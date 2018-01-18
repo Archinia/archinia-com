@@ -2849,7 +2849,7 @@ table.alt tbody tr td {
         padding: 3rem 2.5rem 1rem 2.5rem ;
         border-radius: 0;
         width: 100%;
-        left: 0; }
+        left: -35%; }
       .spotlight.is-inactive h2 {
         -moz-transform: none;
         -webkit-transform: none;
@@ -2868,7 +2868,8 @@ table.alt tbody tr td {
       .spotlight h2 {
         padding: 1.5rem; }
       .spotlight .content {
-        padding: 2rem 1.5rem 0.1rem 1.5rem ; } }
+        padding: 2rem 1.5rem 0.1rem 1.5rem ;
+        left: -35%; } }
 
 /* Quotes */
 .quotes {

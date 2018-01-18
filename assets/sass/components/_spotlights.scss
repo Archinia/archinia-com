@@ -148,7 +148,7 @@
 				@include padding(3rem, 2.5rem);
 				border-radius: 0;
 				width: 100%;
-				left: 0;
+				left: -35%;
 			}
 
 			&.is-inactive {
@@ -173,6 +173,7 @@
 
 			.content {
 				@include padding(2rem, 1.5rem);
+		    left: -35%;
 			}
 		}
 	}
