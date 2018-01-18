@@ -333,6 +333,9 @@ var settings = {
 		    slidesToShow: 1,
 		    adaptiveHeight: true
 		  });
+		  $( document ).ready(function() {
+		    $('.no-fouc').removeClass('no-fouc');
+		  });
 	});
 
 })(jQuery);
