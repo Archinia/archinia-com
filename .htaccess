@@ -1,10 +1,25 @@
+#-------------------------------------------
+# PRETTIFY
+# remove .html visibility
+#-------------------------------------------
+
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
 
-<IfModule mod_headers.c>
-# WEEK
-<FilesMatch "\.(css|js|jpg|jpeg|png|gif|swf)$">
-    Header set Cache-Control "max-age=604800, public"
-</FilesMatch>
-</IfModule>
+#-------------------------------------------
+# CACHE CONTROL
+# set expirations
+#-------------------------------------------
+
+# One month for css and js
+
+<filesMatch ".(css|js)$">
+Header set Cache-Control "max-age=2628000, public"
+</filesMatch>
+
+# One week for image files
+
+<filesMatch ".(jpg|jpeg|png|gif|ico)$">
+Header set Cache-Control "max-age=604800, public"
+</filesMatch>
