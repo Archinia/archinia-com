@@ -27,8 +27,9 @@ For v2 and beyond:
 Crafted by: Melanie E Magdalena | Twitter: @eli_archgirl
 - All code by Melanie E Magdalena is licensed under MIT, unless otherwise stated.
 
-Base built with Pixelarity: Relativity, Altitude, Vortex & Cascade
+Base built with Pixelarity: Relativity + Cascade / Telemetry / Vortex
 - License: pixelarity.com/license
+- Not available on HTML5UP - you must purchase your license to use these :) AJ is awesome, show him some love
 
 All content is copyright Archinia/Rachel Preston Prinz, unless otherwise stated.
 
