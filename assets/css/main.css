@@ -2743,7 +2743,7 @@ table.alt tbody tr td {
     -ms-justify-content: space-between;
     justify-content: space-between;
     margin: 0 auto;
-    width: calc(100% - 4rem); }
+    /*width: calc(100% - 4rem);*/ }
   .spotlight h2 {
     -moz-transition: opacity 0.5s ease-out, -moz-transform 0.5s ease-out;
     -webkit-transition: opacity 0.5s ease-out, -webkit-transform 0.5s ease-out;
@@ -2778,21 +2778,17 @@ table.alt tbody tr td {
     background-color: #ffffff;
     position: relative;
     z-index: 1;
-    width: 60%; }
+    width: 60%;
+    margin: 0 10%; }
   .spotlight.odd {
-    left: 35%; }
-    .spotlight.odd .image {
-      right: 0;
-      left: -35%; }
+    /*left: 35%;*/ }
   .spotlight.even {
-    left: -35%; }
+    /*left: -35%;*/ }
     .spotlight.even > .inner {
       -moz-flex-direction: row-reverse;
       -webkit-flex-direction: row-reverse;
       -ms-flex-direction: row-reverse;
       flex-direction: row-reverse; }
-    .spotlight.even .image {
-      left: 35%; }
   .spotlight.accent1 {
     background-color: #3f3f3f; }
     .spotlight.accent1 h2 {
