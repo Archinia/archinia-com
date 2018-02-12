@@ -2751,7 +2751,7 @@ table.alt tbody tr td {
     transition: opacity 0.5s ease-out, transform 0.5s ease-out;
     margin-bottom: 0;
     z-index: 100;
-    color: #fff; }
+    color: #000; }
   .spotlight .image {
     border-radius: 0;
     height: 100%;
