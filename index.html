@@ -17,6 +17,10 @@
 		<!-- Style -->
     <link rel="stylesheet" href="assets/css/main.min.css" />
 
+		<!-- Owl -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+		<link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
+
 		<!-- Favicons -->
 		<link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
@@ -177,6 +181,50 @@
 				</div>
 			</section>
 			<!-- // end Vortex Blog Grid -->
+			<!-- Kudos -->
+			<section class="testimonials main style1" style="padding-left: 0; padding-right: 0;">
+				<header class="small">
+					<h2>Kudos Work Lately</h2>
+				</header>
+	      <div id="customers-testimonials" class="owl-carousel">
+	        <div class="item">
+	          <div class="shadow-effect">
+							<h4>New Mexico Historic Preservation Division</h4>
+	            <p>“The consultant for this project provided the final Report as well as a set of drawings and specs, neatly bound in a second document to accompany the Report.  Both documents are exceptional in depth and quality and fully recorded the work completed as part of this grant… as well as the documentation done… to guide future projects and long term maintenance on all these units.”</p>
+	          </div>
+	          <div class="testimonial-name">Pilar Cannizzarro</div>
+	        </div>
+	        <div class="item">
+	          <div class="shadow-effect">
+							<h4>Pueblo of Acoma Tribal Historic Preservation Office</h4>
+	            <p>“We have reviewed the report and I’d like to congratulate you and your staff for compiling a very nice and thorough report.  Very well put together! Thank you so much for your help on this project.  I’m very pleased with the report and the end product and community members have not stopped commenting on how nice the houses look so congratulations on a job very well done!!!”</p>
+	          </div>
+	          <div class="testimonial-name">Damian Garcia</div>
+	        </div>
+	        <div class="item">
+	          <div class="shadow-effect">
+							<h4>TEDxABQWomen Curator</h4>
+	            <p>“When I listen to Rachel speak, the history of our region comes to life in a way I've never experienced. More than once, I've been left with chills at the way she layers big-picture issues with her common-sense approach to design. To know Rachel means you will never see design (or even life, for that matter) the same way again.”</p>
+	          </div>
+	          <div class="testimonial-name">Carrie Williar Lin</div>
+	        </div>
+	        <div class="item">
+	          <div class="shadow-effect">
+							<h4>Chupadero Archeological Resources</h4>
+	            <p>“Rachel Preston Prinz is a forthright, honest, hardworking and insightful team worker. I have worked with Rachel as project co-manager on a National Register nomination project. Rachel is miraculously effective in putting together team meeting and project management schedules as well as a "working manager" (producing technical contributions) for her specialty in preservation architecture and environmental design. Rachel has built ownership in the project goals on the part of all contacts, and because of her proficiency in the cyber world is able to keep open lines of communication and sharing results. If you like working with somebody honestly upbeat and forward working you will be lucky to get Rachel to work on your project as a preservation architect and or as a project manager to meet time frames and budgets.”</p>
+	          </div>
+	          <div class="testimonial-name">Mark Henderson</div>
+	        </div>
+	        <div class="item">
+	          <div class="shadow-effect">
+							<h4>Former Professor of Architectural History, Texas A&M</h4>
+	            <p>“Rachel has… a strong motivation for scholarship and research. (She) has, by all standards, a thorough architectural education, a two semester study in Italy and a summer working as an assistant in France with one of the leading Medievalists in the profession. Her personality reflects… intellectual growth and a synthesis of ideas. She also has an innate ability to understand architecture as design and as theory. I feel strongly about (her) potential as a scholar, designer and as a future university instructor.”</p>
+	          </div>
+	          <div class="testimonial-name">Joseph M. Hutchinson</div>
+	        </div>
+	      </div>
+	    </section>
+	    <!-- /end Kudos -->
 
       <footer id="footer"></footer>
 
@@ -190,9 +238,33 @@
 		<script src="assets/js/skel.min.js"></script>
 		<script src="assets/js/util.min.js"></script>
 		<script src="assets/js/main.min.js"></script>
+		<script src="assets/js/owl.carousel.min.js"></script>
 
-		<!-- Load Footer -->
+		<!-- Load Carousel + Footer -->
 		<script>
+			$(window).on( "load", function() {
+    		"use strict";
+    		//  TESTIMONIALS CAROUSEL HOOK
+        $('#customers-testimonials').owlCarousel({
+            loop: true,
+            center: true,
+            items: 3,
+            margin: 0,
+            autoplay: true,
+            dots: true,
+            autoplayTimeout: 8500,
+            smartSpeed: 450,
+            responsive: {
+              0: {
+                items: 1
+              },
+              768: {
+                items: 2
+              }
+            }
+        });
+    	});
+
 			$("footer").load("assets/footer.html #loadFooter, script");
 		</script>
   </body>
