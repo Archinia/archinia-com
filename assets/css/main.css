@@ -2778,7 +2778,7 @@ table.alt tbody tr td {
     background-color: #ffffff;
     position: relative;
     z-index: 1;
-    width: 60%;
+    width: 50%;
     margin: 0 10%; }
   .spotlight.odd {
     /*left: 35%;*/ }
