@@ -29,6 +29,12 @@
 				position: relative;
 			}
 
+			&.square {
+				background-position: center center;
+		    background-blend-mode: multiply;
+		    background-color: rgba(0,0,0,0.3);
+			}
+
 			.square:after {
 			  content: "";
 			  display: block;

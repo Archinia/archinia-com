@@ -2912,6 +2912,10 @@ table.alt tbody tr td {
     .quotes > article .square {
       width: 50%;
       position: relative; }
+    .quotes > article.square {
+      background-position: center center;
+      background-blend-mode: multiply;
+      background-color: rgba(0, 0, 0, 0.3); }
     .quotes > article .square:after {
       content: "";
       display: block;
