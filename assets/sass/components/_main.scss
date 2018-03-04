@@ -36,9 +36,6 @@
 				max-width: 48rem;
 			}
 
-			&.style1 {
-			}
-
 			&.style2 {
 				@include padding(5rem, 4rem);
 				background-color: _palette(bg);
