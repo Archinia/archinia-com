@@ -1069,7 +1069,7 @@ button,
       font-family: FontAwesome;
       font-style: normal;
       font-weight: normal;
-      text-transform: none !important; }
+      text-transform: none; }
     input[type="submit"].next:before,
     input[type="reset"].next:before,
     input[type="button"].next:before,
@@ -1243,7 +1243,7 @@ button,
       font-family: FontAwesome;
       font-style: normal;
       font-weight: normal;
-      text-transform: none !important; }
+      text-transform: none; }
     .carousel nav a .label {
       display: none; }
     .carousel nav a:before {
@@ -1312,7 +1312,9 @@ button,
   .features > section {
     display: flex;
     flex-direction: column;
-    padding: 1.5rem; }
+    padding: 1.5rem;
+    width: 33.33%;
+    text-align: center; }
     .features > section > :last-child {
       margin-bottom: 0; }
     .features > section:nth-child(3n - 2) {
@@ -1578,7 +1580,7 @@ textarea {
     font-family: FontAwesome;
     font-style: normal;
     font-weight: normal;
-    text-transform: none !important; }
+    text-transform: none; }
   .select-wrapper:before {
     content: '\f078';
     display: block;
@@ -1632,7 +1634,7 @@ input[type="radio"] {
       font-family: FontAwesome;
       font-style: normal;
       font-weight: normal;
-      text-transform: none !important; }
+      text-transform: none; }
     input[type="checkbox"] + label:before,
     input[type="radio"] + label:before {
       border: solid 1px;
@@ -1730,7 +1732,7 @@ input[type="radio"]:focus + label:before {
     font-family: FontAwesome;
     font-style: normal;
     font-weight: normal;
-    text-transform: none !important; }
+    text-transform: none; }
   .icon > .label {
     display: none; }
 
@@ -2489,8 +2491,6 @@ table.alt tbody tr td {
           border-radius: 0 0; }
     #wrapper > .main > .inner.columns {
       display: flex; }
-      #wrapper > .main > .inner.columns li {
-        font-size: 100% !important; }
       #wrapper > .main > .inner.columns .column-wide {
         width: 55%;
         margin: 0 5rem 0 0; }
@@ -3063,7 +3063,7 @@ body {
       font-family: FontAwesome;
       font-style: normal;
       font-weight: normal;
-      text-transform: none !important; }
+      text-transform: none; }
     #header > .navPanelToggle:focus {
       border: 1px solid #333;
       outline: 0; }
@@ -3542,7 +3542,7 @@ body {
       font-family: FontAwesome;
       font-style: normal;
       font-weight: normal;
-      text-transform: none !important; }
+      text-transform: none; }
     #navPanel .close:before {
       content: '\f00d';
       font-size: 1.25em; }
