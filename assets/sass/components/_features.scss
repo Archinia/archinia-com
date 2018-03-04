@@ -76,14 +76,9 @@
 
 
 		@include breakpoint(medium) {
-			@include flexgrid-resize((
-				columns:		2,
-				gutters:		6rem,
-				flush:			false,
-				prev-columns:	3
-			));
 
 			> section {
+				width: 50%;
 				&:nth-child(3n - 2) {
 					border-left-width: 1px;
 				}
@@ -103,14 +98,10 @@
 		}
 
 		@include breakpoint(small) {
-			@include flexgrid-resize((
-				columns:		1,
-				gutters:		6rem,
-				flush:			false,
-				prev-columns:	(3, 2)
-			));
 
 			> section {
+				width: 100%;
+
 				&:nth-child(2n - 1) {
 					border-left-width: 1px;
 				}

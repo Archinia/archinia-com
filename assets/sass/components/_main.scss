@@ -119,21 +119,15 @@
 						height: 25rem;
 					}
 				}
-			}
+				&.columns {
+					display: flex;
+					flex-direction: column;
 
-			> .columns {
-				display: flex;
-				flex-direction: column;
-
-				> .column-wide {
-					width: 100% !important;
-					margin: 0 !important;
-				}
-
-				> .column-narrow {
-					width: 100% !important;
-					margin: 0 !important;
-
+					>.column-wide,
+					>.column-narrow {
+						width: 100%;
+						margin: 0;
+					}
 				}
 			}
 		}
