@@ -49,11 +49,11 @@
 
 			.content {
 				@include padding(5rem, 5rem);
-				color: _palette(fg) !important;
+				color: _palette(fg);
 				text-align: center;
 
 				h3 {
-					color: _palette(fg-bold) !important;
+					color: _palette(fg-bold);
 				}
 			}
 		}
@@ -67,7 +67,7 @@
 				position: absolute;
 				top: 0;
 				width: 8rem;
-				color: _palette(bg) !important;
+				color: _palette(bg);
 
 				.label {
 					display: none;
@@ -147,7 +147,7 @@
 		@include breakpoint(small) {
 			article {
 				@include vendor('transform', 'translateY(0)');
-				display: block !important;
+				display: block;
 				opacity: 1;
 				visibility: visible;
 				width: 100%;

@@ -35,7 +35,7 @@
 			@include vendor('transition', 'color #{_duration(transition)}');
 			border-top: solid 1px _palette(accent1, border);
 			border-bottom: 0;
-			color: inherit !important;
+			color: inherit;
 			display: block;
 			padding: 0.75em 0;
 			text-decoration: none;
@@ -45,12 +45,12 @@
 			}
 
 			&.depth-0 {
-				color: _palette(accent1, fg-bold) !important;
+				color: _palette(accent1, fg-bold);
 				font-weight: _font(weight-bold);
 			}
 
 			&:active, &:focus, &:hover {
-				color: _palette(accent2, bg) !important;
+				color: _palette(accent2, bg);
 			}
 
 			&.depth-1 {
@@ -82,7 +82,7 @@
 			}
 
 			&:hover {
-				color: _palette(accent1, fg-bold) !important;
+				color: _palette(accent1, fg-bold);
 			}
 
 			@include breakpoint(small) {
