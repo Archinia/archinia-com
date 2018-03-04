@@ -61,23 +61,11 @@ table {
   clear: both;
   height: 0; }
 
-.row.uniform > * > :first-child {
-  margin-top: 0; }
-
-.row.uniform > * > :last-child {
-  margin-bottom: 0; }
-
 .row.\30 \25  > * {
   padding: 0 0 0 0rem; }
 
 .row.\30 \25 {
   margin: 0 0 -1px 0rem; }
-
-.row.uniform.\30 \25  > * {
-  padding: 0rem 0 0 0rem; }
-
-.row.uniform.\30 \25 {
-  margin: 0rem 0 -1px 0rem; }
 
 .row > * {
   padding: 0 0 0 1.5rem; }
@@ -85,23 +73,11 @@ table {
 .row {
   margin: 0 0 -1px -1.5rem; }
 
-.row.uniform > * {
-  padding: 1.5rem 0 0 1.5rem; }
-
-.row.uniform {
-  margin: -1.5rem 0 -1px -1.5rem; }
-
 .row.\32 00\25  > * {
   padding: 0 0 0 3rem; }
 
 .row.\32 00\25 {
   margin: 0 0 -1px -3rem; }
-
-.row.uniform.\32 00\25  > * {
-  padding: 3rem 0 0 3rem; }
-
-.row.uniform.\32 00\25 {
-  margin: -3rem 0 -1px -3rem; }
 
 .row.\31 50\25  > * {
   padding: 0 0 0 2.25rem; }
@@ -109,35 +85,17 @@ table {
 .row.\31 50\25 {
   margin: 0 0 -1px -2.25rem; }
 
-.row.uniform.\31 50\25  > * {
-  padding: 2.25rem 0 0 2.25rem; }
-
-.row.uniform.\31 50\25 {
-  margin: -2.25rem 0 -1px -2.25rem; }
-
 .row.\35 0\25  > * {
   padding: 0 0 0 0.75rem; }
 
 .row.\35 0\25 {
   margin: 0 0 -1px -0.75rem; }
 
-.row.uniform.\35 0\25  > * {
-  padding: 0.75rem 0 0 0.75rem; }
-
-.row.uniform.\35 0\25 {
-  margin: -0.75rem 0 -1px -0.75rem; }
-
 .row.\32 5\25  > * {
   padding: 0 0 0 0.375rem; }
 
 .row.\32 5\25 {
   margin: 0 0 -1px -0.375rem; }
-
-.row.uniform.\32 5\25  > * {
-  padding: 0.375rem 0 0 0.375rem; }
-
-.row.uniform.\32 5\25 {
-  margin: -0.375rem 0 -1px -0.375rem; }
 
 .\31 2u, .\31 2u\24 {
   width: 100%;
@@ -253,23 +211,11 @@ table {
   .row {
     margin: 0 0 -1px -1.5rem; }
 
-  .row.uniform > * {
-    padding: 1.5rem 0 0 1.5rem; }
-
-  .row.uniform {
-    margin: -1.5rem 0 -1px -1.5rem; }
-
   .row.\32 00\25  > * {
     padding: 0 0 0 3rem; }
 
   .row.\32 00\25 {
     margin: 0 0 -1px -3rem; }
-
-  .row.uniform.\32 00\25  > * {
-    padding: 3rem 0 0 3rem; }
-
-  .row.uniform.\32 00\25 {
-    margin: -3rem 0 -1px -3rem; }
 
   .row.\31 50\25  > * {
     padding: 0 0 0 2.25rem; }
@@ -277,35 +223,17 @@ table {
   .row.\31 50\25 {
     margin: 0 0 -1px -2.25rem; }
 
-  .row.uniform.\31 50\25  > * {
-    padding: 2.25rem 0 0 2.25rem; }
-
-  .row.uniform.\31 50\25 {
-    margin: -2.25rem 0 -1px -2.25rem; }
-
   .row.\35 0\25  > * {
     padding: 0 0 0 0.75rem; }
 
   .row.\35 0\25 {
     margin: 0 0 -1px -0.75rem; }
 
-  .row.uniform.\35 0\25  > * {
-    padding: 0.75rem 0 0 0.75rem; }
-
-  .row.uniform.\35 0\25 {
-    margin: -0.75rem 0 -1px -0.75rem; }
-
   .row.\32 5\25  > * {
     padding: 0 0 0 0.375rem; }
 
   .row.\32 5\25 {
     margin: 0 0 -1px -0.375rem; }
-
-  .row.uniform.\32 5\25  > * {
-    padding: 0.375rem 0 0 0.375rem; }
-
-  .row.uniform.\32 5\25 {
-    margin: -0.375rem 0 -1px -0.375rem; }
 
   .\31 2u\28xlarge\29, .\31 2u\24\28xlarge\29 {
     width: 100%;
@@ -420,23 +348,11 @@ table {
   .row {
     margin: 0 0 -1px -1.5rem; }
 
-  .row.uniform > * {
-    padding: 1.5rem 0 0 1.5rem; }
-
-  .row.uniform {
-    margin: -1.5rem 0 -1px -1.5rem; }
-
   .row.\32 00\25  > * {
     padding: 0 0 0 3rem; }
 
   .row.\32 00\25 {
     margin: 0 0 -1px -3rem; }
-
-  .row.uniform.\32 00\25  > * {
-    padding: 3rem 0 0 3rem; }
-
-  .row.uniform.\32 00\25 {
-    margin: -3rem 0 -1px -3rem; }
 
   .row.\31 50\25  > * {
     padding: 0 0 0 2.25rem; }
@@ -444,35 +360,17 @@ table {
   .row.\31 50\25 {
     margin: 0 0 -1px -2.25rem; }
 
-  .row.uniform.\31 50\25  > * {
-    padding: 2.25rem 0 0 2.25rem; }
-
-  .row.uniform.\31 50\25 {
-    margin: -2.25rem 0 -1px -2.25rem; }
-
   .row.\35 0\25  > * {
     padding: 0 0 0 0.75rem; }
 
   .row.\35 0\25 {
     margin: 0 0 -1px -0.75rem; }
 
-  .row.uniform.\35 0\25  > * {
-    padding: 0.75rem 0 0 0.75rem; }
-
-  .row.uniform.\35 0\25 {
-    margin: -0.75rem 0 -1px -0.75rem; }
-
   .row.\32 5\25  > * {
     padding: 0 0 0 0.375rem; }
 
   .row.\32 5\25 {
     margin: 0 0 -1px -0.375rem; }
-
-  .row.uniform.\32 5\25  > * {
-    padding: 0.375rem 0 0 0.375rem; }
-
-  .row.uniform.\32 5\25 {
-    margin: -0.375rem 0 -1px -0.375rem; }
 
   .\31 2u\28large\29, .\31 2u\24\28large\29 {
     width: 100%;
@@ -587,23 +485,11 @@ table {
   .row {
     margin: 0 0 -1px -1.5rem; }
 
-  .row.uniform > * {
-    padding: 1.5rem 0 0 1.5rem; }
-
-  .row.uniform {
-    margin: -1.5rem 0 -1px -1.5rem; }
-
   .row.\32 00\25  > * {
     padding: 0 0 0 3rem; }
 
   .row.\32 00\25 {
     margin: 0 0 -1px -3rem; }
-
-  .row.uniform.\32 00\25  > * {
-    padding: 3rem 0 0 3rem; }
-
-  .row.uniform.\32 00\25 {
-    margin: -3rem 0 -1px -3rem; }
 
   .row.\31 50\25  > * {
     padding: 0 0 0 2.25rem; }
@@ -611,35 +497,17 @@ table {
   .row.\31 50\25 {
     margin: 0 0 -1px -2.25rem; }
 
-  .row.uniform.\31 50\25  > * {
-    padding: 2.25rem 0 0 2.25rem; }
-
-  .row.uniform.\31 50\25 {
-    margin: -2.25rem 0 -1px -2.25rem; }
-
   .row.\35 0\25  > * {
     padding: 0 0 0 0.75rem; }
 
   .row.\35 0\25 {
     margin: 0 0 -1px -0.75rem; }
 
-  .row.uniform.\35 0\25  > * {
-    padding: 0.75rem 0 0 0.75rem; }
-
-  .row.uniform.\35 0\25 {
-    margin: -0.75rem 0 -1px -0.75rem; }
-
   .row.\32 5\25  > * {
     padding: 0 0 0 0.375rem; }
 
   .row.\32 5\25 {
     margin: 0 0 -1px -0.375rem; }
-
-  .row.uniform.\32 5\25  > * {
-    padding: 0.375rem 0 0 0.375rem; }
-
-  .row.uniform.\32 5\25 {
-    margin: -0.375rem 0 -1px -0.375rem; }
 
   .\31 2u\28medium\29, .\31 2u\24\28medium\29 {
     width: 100%;
@@ -754,23 +622,11 @@ table {
   .row {
     margin: 0 0 -1px -1.5rem; }
 
-  .row.uniform > * {
-    padding: 1.5rem 0 0 1.5rem; }
-
-  .row.uniform {
-    margin: -1.5rem 0 -1px -1.5rem; }
-
   .row.\32 00\25  > * {
     padding: 0 0 0 3rem; }
 
   .row.\32 00\25 {
     margin: 0 0 -1px -3rem; }
-
-  .row.uniform.\32 00\25  > * {
-    padding: 3rem 0 0 3rem; }
-
-  .row.uniform.\32 00\25 {
-    margin: -3rem 0 -1px -3rem; }
 
   .row.\31 50\25  > * {
     padding: 0 0 0 2.25rem; }
@@ -778,35 +634,17 @@ table {
   .row.\31 50\25 {
     margin: 0 0 -1px -2.25rem; }
 
-  .row.uniform.\31 50\25  > * {
-    padding: 2.25rem 0 0 2.25rem; }
-
-  .row.uniform.\31 50\25 {
-    margin: -2.25rem 0 -1px -2.25rem; }
-
   .row.\35 0\25  > * {
     padding: 0 0 0 0.75rem; }
 
   .row.\35 0\25 {
     margin: 0 0 -1px -0.75rem; }
 
-  .row.uniform.\35 0\25  > * {
-    padding: 0.75rem 0 0 0.75rem; }
-
-  .row.uniform.\35 0\25 {
-    margin: -0.75rem 0 -1px -0.75rem; }
-
   .row.\32 5\25  > * {
     padding: 0 0 0 0.375rem; }
 
   .row.\32 5\25 {
     margin: 0 0 -1px -0.375rem; }
-
-  .row.uniform.\32 5\25  > * {
-    padding: 0.375rem 0 0 0.375rem; }
-
-  .row.uniform.\32 5\25 {
-    margin: -0.375rem 0 -1px -0.375rem; }
 
   .\31 2u\28small\29, .\31 2u\24\28small\29 {
     width: 100%;
@@ -921,23 +759,11 @@ table {
   .row {
     margin: 0 0 -1px -1.5rem; }
 
-  .row.uniform > * {
-    padding: 1.5rem 0 0 1.5rem; }
-
-  .row.uniform {
-    margin: -1.5rem 0 -1px -1.5rem; }
-
   .row.\32 00\25  > * {
     padding: 0 0 0 3rem; }
 
   .row.\32 00\25 {
     margin: 0 0 -1px -3rem; }
-
-  .row.uniform.\32 00\25  > * {
-    padding: 3rem 0 0 3rem; }
-
-  .row.uniform.\32 00\25 {
-    margin: -3rem 0 -1px -3rem; }
 
   .row.\31 50\25  > * {
     padding: 0 0 0 2.25rem; }
@@ -945,35 +771,17 @@ table {
   .row.\31 50\25 {
     margin: 0 0 -1px -2.25rem; }
 
-  .row.uniform.\31 50\25  > * {
-    padding: 2.25rem 0 0 2.25rem; }
-
-  .row.uniform.\31 50\25 {
-    margin: -2.25rem 0 -1px -2.25rem; }
-
   .row.\35 0\25  > * {
     padding: 0 0 0 0.75rem; }
 
   .row.\35 0\25 {
     margin: 0 0 -1px -0.75rem; }
 
-  .row.uniform.\35 0\25  > * {
-    padding: 0.75rem 0 0 0.75rem; }
-
-  .row.uniform.\35 0\25 {
-    margin: -0.75rem 0 -1px -0.75rem; }
-
   .row.\32 5\25  > * {
     padding: 0 0 0 0.375rem; }
 
   .row.\32 5\25 {
     margin: 0 0 -1px -0.375rem; }
-
-  .row.uniform.\32 5\25  > * {
-    padding: 0.375rem 0 0 0.375rem; }
-
-  .row.uniform.\32 5\25 {
-    margin: -0.375rem 0 -1px -0.375rem; }
 
   .\31 2u\28xsmall\29, .\31 2u\24\28xsmall\29 {
     width: 100%;
@@ -1088,23 +896,11 @@ table {
   .row {
     margin: 0 0 -1px -1.5rem; }
 
-  .row.uniform > * {
-    padding: 1.5rem 0 0 1.5rem; }
-
-  .row.uniform {
-    margin: -1.5rem 0 -1px -1.5rem; }
-
   .row.\32 00\25  > * {
     padding: 0 0 0 3rem; }
 
   .row.\32 00\25 {
     margin: 0 0 -1px -3rem; }
-
-  .row.uniform.\32 00\25  > * {
-    padding: 3rem 0 0 3rem; }
-
-  .row.uniform.\32 00\25 {
-    margin: -3rem 0 -1px -3rem; }
 
   .row.\31 50\25  > * {
     padding: 0 0 0 2.25rem; }
@@ -1112,35 +908,17 @@ table {
   .row.\31 50\25 {
     margin: 0 0 -1px -2.25rem; }
 
-  .row.uniform.\31 50\25  > * {
-    padding: 2.25rem 0 0 2.25rem; }
-
-  .row.uniform.\31 50\25 {
-    margin: -2.25rem 0 -1px -2.25rem; }
-
   .row.\35 0\25  > * {
     padding: 0 0 0 0.75rem; }
 
   .row.\35 0\25 {
     margin: 0 0 -1px -0.75rem; }
 
-  .row.uniform.\35 0\25  > * {
-    padding: 0.75rem 0 0 0.75rem; }
-
-  .row.uniform.\35 0\25 {
-    margin: -0.75rem 0 -1px -0.75rem; }
-
   .row.\32 5\25  > * {
     padding: 0 0 0 0.375rem; }
 
   .row.\32 5\25 {
     margin: 0 0 -1px -0.375rem; }
-
-  .row.uniform.\32 5\25  > * {
-    padding: 0.375rem 0 0 0.375rem; }
-
-  .row.uniform.\32 5\25 {
-    margin: -0.375rem 0 -1px -0.375rem; }
 
   .\31 2u\28xxsmall\29, .\31 2u\24\28xxsmall\29 {
     width: 100%;
@@ -2433,7 +2211,7 @@ ul {
       padding: 1rem 0 0 0; }
       ul.actions.vertical li:first-child {
         padding-top: 0; }
-      ul.actions.vertical li > * {
+      ul.actions.vertical li > a {
         margin-bottom: 0; }
     ul.actions.vertical.small li {
       padding: 0.5rem 0 0 0; }
@@ -2448,7 +2226,7 @@ ul {
       ul.actions.fit li {
         display: table-cell;
         padding: 0 0 0 1rem; }
-        ul.actions.fit li > * {
+        ul.actions.fit li > a {
           margin-bottom: 0; }
       ul.actions.fit.small {
         margin-left: -0.5rem;
@@ -2996,9 +2774,6 @@ table.alt tbody tr td {
       position: absolute;
       top: 0;
       width: 100%; }
-    .quotes > article > * {
-      position: relative;
-      z-index: 1; }
     .quotes > article > div {
       padding: 0 2rem; }
   @media screen and (max-width: 768px) {
