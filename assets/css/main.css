@@ -3124,14 +3124,14 @@ hr {
 #customers-testimonials.owl-carousel.owl-theme .owl-dots .owl-dot.active span,
 #customers-testimonials.owl-carousel.owl-theme .owl-dots .owl-dot:hover span {
   background: #25dbdb;
-  transform: translate3d(0px, -50%, 0px) scale(0.7); }
+  transform: translate3d(0, -50%, 0) scale(0.7); }
 
 #customers-testimonials.owl-carousel.owl-theme .owl-dots .owl-dot span {
   background: #C4C4CC;
   display: block;
   height: 20px;
   margin: 0 2px 5px;
-  transform: translate3d(0px, -50%, 0px) scale(0.3);
+  transform: translate3d(0, -50%, 0) scale(0.3);
   transform-origin: 50% 50% 0;
   transition: all 250ms ease-out 0s;
   width: 20px; }
