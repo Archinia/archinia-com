@@ -2037,6 +2037,14 @@ label {
   font-weight: 600;
   margin: 0 0 1rem 0; }
 
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+select:focus,
+textarea:focus {
+  border: 1px solid #333;
+  outline: 0; }
+
 input[type="text"],
 input[type="password"],
 input[type="email"],
@@ -3699,6 +3707,9 @@ body {
       font-style: normal;
       font-weight: normal;
       text-transform: none !important; }
+    #header > .navPanelToggle :focus {
+      border: 1px solid #333;
+      outline: 0; }
     #header > .navPanelToggle:before {
       content: '\f0c9';
       margin: 0 0 0 0.625rem;
