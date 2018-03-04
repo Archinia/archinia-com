@@ -2780,15 +2780,11 @@ table.alt tbody tr td {
     z-index: 1;
     width: 50%;
     margin: 0 10%; }
-  .spotlight.odd {
-    /*left: 35%;*/ }
-  .spotlight.even {
-    /*left: -35%;*/ }
-    .spotlight.even > .inner {
-      -moz-flex-direction: row-reverse;
-      -webkit-flex-direction: row-reverse;
-      -ms-flex-direction: row-reverse;
-      flex-direction: row-reverse; }
+  .spotlight.even > .inner {
+    -moz-flex-direction: row-reverse;
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse; }
   .spotlight.accent1 {
     background-color: #3f3f3f; }
     .spotlight.accent1 h2 {
