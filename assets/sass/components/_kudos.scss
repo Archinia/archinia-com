@@ -47,6 +47,9 @@
 #customers-testimonials .owl-item.active.center .item {
   opacity: 1;
   -webkit-transform: scale3d(1.0, 1.0, 1);
+  -moz-transform: scale3d(1.0, 1.0, 1);
+  -ms-transform: scale3d(1.0, 1.0, 1);
+  -o-transform: scale3d(1.0, 1.0, 1);
   transform: scale3d(1.0, 1.0, 1);
 }
 
