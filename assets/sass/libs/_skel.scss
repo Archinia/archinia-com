@@ -326,10 +326,6 @@
 			.row#{$x} > * { padding: ($r * $multiplier) 0 0 ($c * $multiplier); }
 			.row#{$x} { margin: ($r * $multiplier * -1) 0 -1px ($c * $multiplier * -1); }
 
-		// Uniform.
-			.row.uniform#{$x} > * { padding: ($c * $multiplier) 0 0 ($c * $multiplier); }
-			.row.uniform#{$x} { margin: ($c * $multiplier * -1) 0 -1px ($c * $multiplier * -1); }
-
 	}
 
 	/// Wraps @content in vendorized keyframe blocks.
@@ -474,14 +470,6 @@
 						display: block;
 						clear: both;
 						height: 0;
-					}
-
-					.row.uniform > * > :first-child {
-						margin-top: 0;
-					}
-
-					.row.uniform > * > :last-child {
-						margin-bottom: 0;
 					}
 
 				// Gutters (0%).
