@@ -823,7 +823,7 @@ table {
     min-width: 320px;
     overflow-x: hidden; } }
 body {
-  background-color: #000;
+  /*background-color: #000;*/
   -ms-overflow-style: scrollbar; }
   body.is-loading *, body.is-loading *:before, body.is-loading *:after {
     -moz-animation: none;
@@ -852,10 +852,6 @@ html {
   @media screen and (max-width: 360px) {
     html {
       font-size: 10.5pt; } }
-
-body {
-  background-color: #ffffff;
-  color: #3f3f3f; }
 
 body, input, select, textarea {
   font-family: "Source Sans Pro", Helvetica, sans-serif;
@@ -2452,28 +2448,6 @@ table.alt tbody tr td {
   .quotes.alt > article {
     width: 100%;
     min-height: 400px; } }
-
-input, select, textarea {
-  color: #3f3f3f; }
-
-a {
-  color: #3f3f3f; }
-
-strong, b {
-  color: #3f3f3f; }
-
-h1, h2, h3, h4, h5, h6 {
-  color: #3f3f3f; }
-
-blockquote {
-  border-left-color: rgba(143, 143, 143, 0.25); }
-
-code {
-  background: rgba(143, 143, 143, 0.075);
-  border-color: rgba(143, 143, 143, 0.25); }
-
-hr {
-  border-bottom-color: rgba(143, 143, 143, 0.25); }
 
 .shadow-effect {
   background: #fff;
