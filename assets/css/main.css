@@ -35,7 +35,8 @@ table {
   border-spacing: 0; }
 
 body {
-  -webkit-text-size-adjust: none; }
+  -webkit-text-size-adjust: none;
+  -ms-text-size-adjust: none; }
 
 /* Box Model */
 *, *:before, *:after {
@@ -3106,9 +3107,14 @@ hr {
   margin-bottom: 80px;
   opacity: 0.2;
   -webkit-transform: scale3d(0.8, 0.8, 1);
+  -moz-transform: scale3d(0.8, 0.8, 1);
+  -ms-transform: scale3d(0.8, 0.8, 1);
+  -o-transform: scale3d(0.8, 0.8, 1);
   transform: scale3d(0.8, 0.8, 1);
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out; }
 
 #customers-testimonials .owl-item.active.center .item {
