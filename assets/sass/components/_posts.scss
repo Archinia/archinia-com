@@ -9,8 +9,15 @@
 	.posts {
 		width: 100%;
 		margin: 0 0 _size(element-margin) 0;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
 
 		article {
+			text-align: center;
+			padding: 0 1rem;
+			width: 33.33%;
+
 			.image {
 				display: block;
 				width: 100%;
@@ -26,43 +33,14 @@
 			}
 		}
 
-		@include flexgrid((
-			columns:			3,
-			gutters:			3rem,
-			horizontal-align:	center,
-			flush:				true
-		));
-
-		@include breakpoint(medium) {
-			@include vendor('justify-content', 'center');
-
-			@include flexgrid-resize((
-				columns:		2,
-				gutters:		3rem,
-				flush:			true,
-				prev-columns:	3
-			));
-
-			article:nth-child(3n):last-child {
-				padding-right: 0;
-			}
-		}
-
 		@include breakpoint(small) {
-			@include flexgrid-resize((
-				columns:		2,
-				gutters:		2rem,
-				flush:			true,
-				prev-columns:	(3, 2)
-			));
-		}
+			display: flex;
+			flex-direction: column;
 
-		@include breakpoint(xsmall) {
-			@include flexgrid-resize((
-				columns:		1,
-				gutters:		3rem
-			));
 			article {
+				width: 100%;
+				margin-bottom: 2rem;
+
 				.image {
 					max-width: 100%;
 				}
