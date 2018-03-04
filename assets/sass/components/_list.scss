@@ -134,14 +134,11 @@
 		}
 
 		&.faces {
-			@include vendor('display', 'flex');
 			@include vendor('justify-content', 'center');
 			list-style: none;
 			padding-left: 0;
 
 			li {
-				@include vendor('display', 'flex');
-				@include vendor('flex-direction', 'column');
 				@include vendor('align-items', 'center');
 				padding-left: 0;
 				text-align: center;

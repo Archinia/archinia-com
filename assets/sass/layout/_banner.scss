@@ -12,8 +12,6 @@
 }
 
 	#banner {
-		@include vendor('display', 'flex');
-		@include vendor('flex-direction', 'row');
 		@include vendor('align-items', 'center');
 		@include vendor('justify-content', 'center');
 		background-color: transparent;
@@ -28,8 +26,6 @@
 		position: relative;
 
 		> .items {
-			@include vendor('display', 'flex');
-			@include vendor('flex-direction', 'column');
 			@include vendor('flex-grow', '0');
 			@include vendor('flex-shrink', '0');
 			width: 100%;
