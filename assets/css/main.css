@@ -1353,33 +1353,27 @@ button,
         justify-content: center;
         align-items: center; }
   @media screen and (max-width: 980px) {
-    .features > * {
+    .features > section {
       width: 50%; }
-    .features > * {
-      padding: 3rem;
-      width: 50%; }
-    .features > section:nth-child(3n - 2) {
-      border-left-width: 1px; }
-    .features > section:nth-child(-n + 3) {
-      border-top-width: 1px; }
-    .features > section:nth-child(2n - 1) {
-      border-left-width: 0; }
-    .features > section:nth-child(-n + 2) {
-      border-top-width: 0; } }
+      .features > section:nth-child(3n - 2) {
+        border-left-width: 1px; }
+      .features > section:nth-child(-n + 3) {
+        border-top-width: 1px; }
+      .features > section:nth-child(2n - 1) {
+        border-left-width: 0; }
+      .features > section:nth-child(-n + 2) {
+        border-top-width: 0; } }
   @media screen and (max-width: 768px) {
-    .features > * {
+    .features > section {
       width: 100%; }
-    .features > * {
-      padding: 3rem;
-      width: 100%; }
-    .features > section:nth-child(2n - 1) {
-      border-left-width: 1px; }
-    .features > section:nth-child(-n + 2) {
-      border-top-width: 1px; }
-    .features > section:nth-child(n) {
-      border-left-width: 0; }
-    .features > section:nth-child(-n + 1) {
-      border-top-width: 0; } }
+      .features > section:nth-child(2n - 1) {
+        border-left-width: 1px; }
+      .features > section:nth-child(-n + 2) {
+        border-top-width: 1px; }
+      .features > section:nth-child(n) {
+        border-left-width: 0; }
+      .features > section:nth-child(-n + 1) {
+        border-top-width: 0; } }
 
 @media screen and (max-width: 768px) {
   .features.partners > section {
@@ -2785,15 +2779,13 @@ table.alt tbody tr td {
         left: -3rem;
         width: calc(100% + 6rem);
         height: 25rem; }
-    #wrapper > .main > .columns {
+    #wrapper > .main > .inner.columns {
       display: flex;
       flex-direction: column; }
-      #wrapper > .main > .columns > .column-wide {
-        width: 100% !important;
-        margin: 0 !important; }
-      #wrapper > .main > .columns > .column-narrow {
-        width: 100% !important;
-        margin: 0 !important; } }
+      #wrapper > .main > .inner.columns > .column-wide,
+      #wrapper > .main > .inner.columns > .column-narrow {
+        width: 100%;
+        margin: 0; } }
   @media screen and (max-width: 768px) {
     #wrapper > .main {
       padding: 4rem 2rem 2rem 2rem ; }
