@@ -102,12 +102,6 @@
 				@include vendor('justify-content', 'flex-start');
 			}
 
-			h2 {
-				padding: 0 3rem;
-				width: 40%;
-				text-align: center;
-			}
-
 			.content {
 				@include padding(4rem, 4rem);
 				width: 45%;

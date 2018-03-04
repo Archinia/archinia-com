@@ -2817,10 +2817,6 @@ table.alt tbody tr td {
         -webkit-justify-content: -webkit-flex-start;
         -ms-justify-content: -ms-flex-start;
         justify-content: flex-start; }
-      .spotlight h2 {
-        padding: 0 3rem;
-        width: 40%;
-        text-align: center; }
       .spotlight .content {
         padding: 4rem 4rem 2rem 4rem ;
         width: 45%; } }
