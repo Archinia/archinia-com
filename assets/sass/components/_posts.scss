@@ -34,35 +34,22 @@
 		));
 
 		@include breakpoint(medium) {
-			@include vendor('justify-content', 'center');
-
-			@include flexgrid-resize((
-				columns:		2,
-				gutters:		3rem,
-				flush:			true,
-				prev-columns:	3
+			@include flexgrid((
+				columns:			2,
+				gutters:			2rem,
 			));
-
-			article:nth-child(3n):last-child {
-				padding-right: 0;
-			}
 		}
 
 		@include breakpoint(small) {
-			@include flexgrid-resize((
-				columns:		2,
-				gutters:		2rem,
-				flush:			true,
-				prev-columns:	(3, 2)
-			));
-		}
 
-		@include breakpoint(xsmall) {
-			@include flexgrid-resize((
-				columns:		1,
-				gutters:		3rem
+			@include flexgrid((
+				columns:			1,
+				gutters:			2rem,
 			));
+
 			article {
+				margin-bottom: 2rem;
+
 				.image {
 					max-width: 100%;
 				}
