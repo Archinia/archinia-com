@@ -10,18 +10,10 @@
 		width: 100%;
 		margin: (_size(element-margin) * 1.25) 0;
 
-		@include flexgrid((
-			columns:			3,
-			gutters:			8rem,
-			horizontal-align:	center,
-			flush:				false
-		));
-
 		> section {
 			display: flex;
 			flex-direction: column;
 			padding: 1.5rem;
-			/*padding: 1.5rem !important;*/
 
 			> :last-child {
 				margin-bottom: 0;
@@ -66,10 +58,8 @@
 
 			> section {
 				display: flex;
-				/*display: flex !important;*/
 				flex-direction: row;
 				padding: 0.5rem;
-				/*padding: 0.5rem !important;*/
 				width: 15%;
 				flex-wrap: wrap;
 				justify-content: space-evenly;

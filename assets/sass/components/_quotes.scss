@@ -7,8 +7,6 @@
 /* Quotes */
 
 	.quotes {
-		@include vendor('display', 'flex');
-		@include vendor('flex-wrap', 'wrap');
 		@include color-typography(accent1);
 		text-align: center;
 
