@@ -176,18 +176,23 @@
 
 /* Consolidate Flex */
 
-.features, .quotes, form, #banner, ul.faces, ul.faces li {
+.features, .quotes, form, #banner, ul.faces, ul.faces li, #footer .links {
 	@include vendor('display', 'flex');
 }
 
-#banner, #banner.items {
+#banner, #banner.items, #footer .links {
 	@include vendor('flex-direction', 'row');
 }
 
-.features, .quotes, form {
+.features, .quotes, form, #footer .links {
 	@include vendor('flex-wrap', 'wrap');
 }
 
 ul.faces li, #banner > .items {
 	@include vendor('flex-direction', 'column');
+}
+
+form > .field, #banner > .items, #banner > .slider, #footer .links > div {
+	@include vendor('flex-grow', '0');
+	@include vendor('flex-shrink', '0');
 }

@@ -13,8 +13,6 @@
 		margin: ($gutter * -1) 0 _size(element-margin) ($gutter * -1);
 
 		> .field {
-			@include vendor('flex-grow', '0');
-			@include vendor('flex-shrink', '0');
 			padding: $gutter 0 0 $gutter;
 			width: calc(100% - #{$gutter * 1});
 
