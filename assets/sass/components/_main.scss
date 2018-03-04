@@ -176,7 +176,18 @@
 
 /* Consolidate Flex */
 
-.features, .quotes, form {
+.features, .quotes, form, #banner, ul.faces, ul.faces li {
 	@include vendor('display', 'flex');
+}
+
+#banner, #banner.items {
+	@include vendor('flex-direction', 'row');
+}
+
+.features, .quotes, form {
 	@include vendor('flex-wrap', 'wrap');
+}
+
+ul.faces li, #banner > .items {
+	@include vendor('flex-direction', 'column');
 }
