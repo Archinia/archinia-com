@@ -111,7 +111,7 @@
 			}
 
 			h2 {
-				padding: 2.5rem 2.5rem;
+				padding: 2.5rem;
 				width: 100%;
 			}
 
@@ -144,7 +144,7 @@
 		}
 
 		@include breakpoint(small) {
-			padding: 0 0 1rem 0;
+			padding: 0 0 1rem;
 
 			h2 {
 				padding: 1.5rem;

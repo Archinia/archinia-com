@@ -37,7 +37,7 @@
 			@include vendor('display', 'flex');
 			@include vendor('flex-direction', 'row');
 			@include vendor('flex-wrap', 'wrap');
-			margin: 0 0 4rem 0;
+			margin: 0 0 4rem;
 
 			> div {
 				@include padding(2rem, 0);
@@ -124,7 +124,7 @@
 
 				li {
 					display: block;
-					margin: 1rem 0 0 0;
+					margin: 1rem 0 0;
 
 					&:first-child {
 						margin-top: 0;

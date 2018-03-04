@@ -20,7 +20,7 @@
 				display: inline-block;
 				width: 6.5rem;
 				height: 0.25rem;
-				margin: 0 0 1.5rem 0;
+				margin: 0 0 1.5rem;
 				border-radius: _size(border-radius);
 				background-color: _palette(accent1, bg);
 			}
@@ -92,7 +92,7 @@
 			background-size: cover;
 			background-repeat: repeat;
 			background-attachment: fixed;
-			padding: 4rem 0 0 0;
+			padding: 4rem 0 0;
 		}
 
 		@include breakpoint(large) {

@@ -1727,7 +1727,7 @@ button,
       opacity: 1;
       visibility: visible;
       width: 100%;
-      margin: 2em auto 0 auto; }
+      margin: 2em auto 0; }
       .carousel article:first-child {
         margin-top: 0; }
       .carousel article .image {
@@ -2492,11 +2492,11 @@ table {
     border-left: 0;
     border-right: 0; }
   table td {
-    padding: 0.75rem 0.75rem; }
+    padding: 0.75rem; }
   table th {
     font-size: 0.9rem;
     font-weight: 600;
-    padding: 0 0.75rem 0.75rem 0.75rem;
+    padding: 0 0.75rem 0.75rem;
     text-align: left; }
   table thead {
     border-bottom: solid 2px; }
@@ -2825,7 +2825,7 @@ table.alt tbody tr td {
         max-width: none;
         width: 100%; }
       .spotlight h2 {
-        padding: 2.5rem 2.5rem;
+        padding: 2.5rem;
         width: 100%; }
       .spotlight .image {
         display: block;
@@ -2852,7 +2852,7 @@ table.alt tbody tr td {
         opacity: 0; } }
   @media screen and (max-width: 768px) {
     .spotlight {
-      padding: 0 0 1rem 0; }
+      padding: 0 0 1rem; }
       .spotlight h2 {
         padding: 1.5rem; }
       .spotlight .content {
@@ -3087,7 +3087,7 @@ hr {
       display: inline-block;
       width: 6.5rem;
       height: 0.25rem;
-      margin: 0 0 1.5rem 0;
+      margin: 0 0 1.5rem;
       background-color: #3f3f3f; }
   #wrapper > .main > .inner {
     margin-left: auto;
@@ -3391,7 +3391,7 @@ hr {
     background-size: cover;
     background-repeat: repeat;
     background-attachment: fixed;
-    padding: 4rem 0 0 0; }
+    padding: 4rem 0 0; }
   @media screen and (max-width: 1280px) {
     #wrapper > .main {
       padding: 6rem 3rem 4rem 3rem ; }
@@ -3699,7 +3699,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   min-height: 100vh;
-  padding: 6rem 0 0 0;
+  padding: 6rem 0 0;
   overflow: hidden;
   position: relative; }
   #banner > .items {
@@ -3728,7 +3728,7 @@ body {
       transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
       text-align: left;
       padding: 2rem 3rem;
-      margin: 30px 15px 0 15px; }
+      margin: 30px 15px 0; }
       #banner > .items section h1 {
         font-size: 1.75rem; }
       #banner > .items section ul {
@@ -3857,7 +3857,7 @@ body {
         background-size: cover;
         height: 50vh; }
     #banner > .items .image-home {
-      margin: 30px 15px 0 15px; }
+      margin: 30px 15px 0; }
       #banner > .items .image-home img {
         width: 100%; }
   #banner > .slider {
@@ -3998,7 +3998,7 @@ body {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin: 0 0 4rem 0; }
+    margin: 0 0 4rem; }
     #footer .links > div {
       padding: 2rem 0 0.1rem 0 ;
       -moz-flex-grow: 0;
@@ -4055,7 +4055,7 @@ body {
       display: block; }
       #footer .contact-icons li {
         display: block;
-        margin: 1rem 0 0 0; }
+        margin: 1rem 0 0; }
         #footer .contact-icons li:first-child {
           margin-top: 0; } }
   @media screen and (max-width: 768px) {
