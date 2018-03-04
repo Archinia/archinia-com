@@ -23,7 +23,7 @@
 		background-position: center;
 		background-repeat: no-repeat;
 		min-height: 100vh;
-		padding: 6rem 0 0 0;
+		padding: 6rem 0 0;
 		overflow: hidden;
 		position: relative;
 
@@ -42,7 +42,7 @@
 				));
 				text-align: left;
 				padding: 2rem 3rem;
-				margin: 30px 15px 0 15px;
+				margin: 30px 15px 0;
 
 				h1 {
 					font-size: 1.75rem;
@@ -78,7 +78,7 @@
 			}
 
 			.image-home {
-				margin: 30px 15px 0 15px;
+				margin: 30px 15px 0;
 
 				img {
 					width: 100%;
@@ -114,7 +114,7 @@
 					visibility: visible;
 				}
 
-				&.top {
+				.top {
 					z-index: 1;
 				}
 
