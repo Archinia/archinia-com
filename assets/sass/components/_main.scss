@@ -173,3 +173,10 @@
 			@include padding(3rem, 1rem);
 		}
 	}
+
+/* Consolidate Flex */
+
+.features, .quotes, form {
+	@include vendor('display', 'flex');
+	@include vendor('flex-wrap', 'wrap');
+}
