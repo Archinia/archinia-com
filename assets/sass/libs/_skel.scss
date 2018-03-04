@@ -322,10 +322,6 @@
 				$x: '.' + $class;
 			}
 
-		// Default.
-			.row#{$x} > * { padding: ($r * $multiplier) 0 0 ($c * $multiplier); }
-			.row#{$x} { margin: ($r * $multiplier * -1) 0 -1px ($c * $multiplier * -1); }
-
 	}
 
 	/// Wraps @content in vendorized keyframe blocks.
@@ -456,6 +452,7 @@
 						-moz-box-sizing: border-box;
 						-webkit-box-sizing: border-box;
 						box-sizing: border-box;
+						margin: 0 0 -1px -1.5rem;
 					}
 
 					.row > * {
@@ -463,6 +460,7 @@
 						-moz-box-sizing: border-box;
 						-webkit-box-sizing: border-box;
 						box-sizing: border-box;
+						padding: 0 0 0 1.5rem;
 					}
 
 					.row:after, .row:before {

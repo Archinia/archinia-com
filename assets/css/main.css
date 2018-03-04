@@ -47,55 +47,21 @@ table {
   border-bottom: solid 1px transparent;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  margin: 0 0 -1px -1.5rem; }
 
 .row > * {
   float: left;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  padding: 0 0 0 1.5rem; }
 
 .row:after, .row:before {
   content: '';
   display: block;
   clear: both;
   height: 0; }
-
-.row.\30 \25  > * {
-  padding: 0 0 0 0rem; }
-
-.row.\30 \25 {
-  margin: 0 0 -1px 0rem; }
-
-.row > * {
-  padding: 0 0 0 1.5rem; }
-
-.row {
-  margin: 0 0 -1px -1.5rem; }
-
-.row.\32 00\25  > * {
-  padding: 0 0 0 3rem; }
-
-.row.\32 00\25 {
-  margin: 0 0 -1px -3rem; }
-
-.row.\31 50\25  > * {
-  padding: 0 0 0 2.25rem; }
-
-.row.\31 50\25 {
-  margin: 0 0 -1px -2.25rem; }
-
-.row.\35 0\25  > * {
-  padding: 0 0 0 0.75rem; }
-
-.row.\35 0\25 {
-  margin: 0 0 -1px -0.75rem; }
-
-.row.\32 5\25  > * {
-  padding: 0 0 0 0.375rem; }
-
-.row.\32 5\25 {
-  margin: 0 0 -1px -0.375rem; }
 
 .\31 2u, .\31 2u\24 {
   width: 100%;
@@ -205,36 +171,6 @@ table {
   margin-left: 8.3333333333%; }
 
 @media screen and (max-width: 1680px) {
-  .row > * {
-    padding: 0 0 0 1.5rem; }
-
-  .row {
-    margin: 0 0 -1px -1.5rem; }
-
-  .row.\32 00\25  > * {
-    padding: 0 0 0 3rem; }
-
-  .row.\32 00\25 {
-    margin: 0 0 -1px -3rem; }
-
-  .row.\31 50\25  > * {
-    padding: 0 0 0 2.25rem; }
-
-  .row.\31 50\25 {
-    margin: 0 0 -1px -2.25rem; }
-
-  .row.\35 0\25  > * {
-    padding: 0 0 0 0.75rem; }
-
-  .row.\35 0\25 {
-    margin: 0 0 -1px -0.75rem; }
-
-  .row.\32 5\25  > * {
-    padding: 0 0 0 0.375rem; }
-
-  .row.\32 5\25 {
-    margin: 0 0 -1px -0.375rem; }
-
   .\31 2u\28xlarge\29, .\31 2u\24\28xlarge\29 {
     width: 100%;
     clear: none;
@@ -342,36 +278,6 @@ table {
   .\-1u\28xlarge\29 {
     margin-left: 8.3333333333%; } }
 @media screen and (max-width: 1280px) {
-  .row > * {
-    padding: 0 0 0 1.5rem; }
-
-  .row {
-    margin: 0 0 -1px -1.5rem; }
-
-  .row.\32 00\25  > * {
-    padding: 0 0 0 3rem; }
-
-  .row.\32 00\25 {
-    margin: 0 0 -1px -3rem; }
-
-  .row.\31 50\25  > * {
-    padding: 0 0 0 2.25rem; }
-
-  .row.\31 50\25 {
-    margin: 0 0 -1px -2.25rem; }
-
-  .row.\35 0\25  > * {
-    padding: 0 0 0 0.75rem; }
-
-  .row.\35 0\25 {
-    margin: 0 0 -1px -0.75rem; }
-
-  .row.\32 5\25  > * {
-    padding: 0 0 0 0.375rem; }
-
-  .row.\32 5\25 {
-    margin: 0 0 -1px -0.375rem; }
-
   .\31 2u\28large\29, .\31 2u\24\28large\29 {
     width: 100%;
     clear: none;
@@ -479,36 +385,6 @@ table {
   .\-1u\28large\29 {
     margin-left: 8.3333333333%; } }
 @media screen and (max-width: 980px) {
-  .row > * {
-    padding: 0 0 0 1.5rem; }
-
-  .row {
-    margin: 0 0 -1px -1.5rem; }
-
-  .row.\32 00\25  > * {
-    padding: 0 0 0 3rem; }
-
-  .row.\32 00\25 {
-    margin: 0 0 -1px -3rem; }
-
-  .row.\31 50\25  > * {
-    padding: 0 0 0 2.25rem; }
-
-  .row.\31 50\25 {
-    margin: 0 0 -1px -2.25rem; }
-
-  .row.\35 0\25  > * {
-    padding: 0 0 0 0.75rem; }
-
-  .row.\35 0\25 {
-    margin: 0 0 -1px -0.75rem; }
-
-  .row.\32 5\25  > * {
-    padding: 0 0 0 0.375rem; }
-
-  .row.\32 5\25 {
-    margin: 0 0 -1px -0.375rem; }
-
   .\31 2u\28medium\29, .\31 2u\24\28medium\29 {
     width: 100%;
     clear: none;
@@ -616,36 +492,6 @@ table {
   .\-1u\28medium\29 {
     margin-left: 8.3333333333%; } }
 @media screen and (max-width: 768px) {
-  .row > * {
-    padding: 0 0 0 1.5rem; }
-
-  .row {
-    margin: 0 0 -1px -1.5rem; }
-
-  .row.\32 00\25  > * {
-    padding: 0 0 0 3rem; }
-
-  .row.\32 00\25 {
-    margin: 0 0 -1px -3rem; }
-
-  .row.\31 50\25  > * {
-    padding: 0 0 0 2.25rem; }
-
-  .row.\31 50\25 {
-    margin: 0 0 -1px -2.25rem; }
-
-  .row.\35 0\25  > * {
-    padding: 0 0 0 0.75rem; }
-
-  .row.\35 0\25 {
-    margin: 0 0 -1px -0.75rem; }
-
-  .row.\32 5\25  > * {
-    padding: 0 0 0 0.375rem; }
-
-  .row.\32 5\25 {
-    margin: 0 0 -1px -0.375rem; }
-
   .\31 2u\28small\29, .\31 2u\24\28small\29 {
     width: 100%;
     clear: none;
@@ -753,36 +599,6 @@ table {
   .\-1u\28small\29 {
     margin-left: 8.3333333333%; } }
 @media screen and (max-width: 480px) {
-  .row > * {
-    padding: 0 0 0 1.5rem; }
-
-  .row {
-    margin: 0 0 -1px -1.5rem; }
-
-  .row.\32 00\25  > * {
-    padding: 0 0 0 3rem; }
-
-  .row.\32 00\25 {
-    margin: 0 0 -1px -3rem; }
-
-  .row.\31 50\25  > * {
-    padding: 0 0 0 2.25rem; }
-
-  .row.\31 50\25 {
-    margin: 0 0 -1px -2.25rem; }
-
-  .row.\35 0\25  > * {
-    padding: 0 0 0 0.75rem; }
-
-  .row.\35 0\25 {
-    margin: 0 0 -1px -0.75rem; }
-
-  .row.\32 5\25  > * {
-    padding: 0 0 0 0.375rem; }
-
-  .row.\32 5\25 {
-    margin: 0 0 -1px -0.375rem; }
-
   .\31 2u\28xsmall\29, .\31 2u\24\28xsmall\29 {
     width: 100%;
     clear: none;
@@ -890,36 +706,6 @@ table {
   .\-1u\28xsmall\29 {
     margin-left: 8.3333333333%; } }
 @media screen and (max-width: 360px) {
-  .row > * {
-    padding: 0 0 0 1.5rem; }
-
-  .row {
-    margin: 0 0 -1px -1.5rem; }
-
-  .row.\32 00\25  > * {
-    padding: 0 0 0 3rem; }
-
-  .row.\32 00\25 {
-    margin: 0 0 -1px -3rem; }
-
-  .row.\31 50\25  > * {
-    padding: 0 0 0 2.25rem; }
-
-  .row.\31 50\25 {
-    margin: 0 0 -1px -2.25rem; }
-
-  .row.\35 0\25  > * {
-    padding: 0 0 0 0.75rem; }
-
-  .row.\35 0\25 {
-    margin: 0 0 -1px -0.75rem; }
-
-  .row.\32 5\25  > * {
-    padding: 0 0 0 0.375rem; }
-
-  .row.\32 5\25 {
-    margin: 0 0 -1px -0.375rem; }
-
   .\31 2u\28xxsmall\29, .\31 2u\24\28xxsmall\29 {
     width: 100%;
     clear: none;
