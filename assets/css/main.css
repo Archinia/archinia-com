@@ -2449,22 +2449,6 @@ table.alt tbody tr td {
     width: 100%;
     min-height: 400px; } }
 
-strong, b {
-  color: #3f3f3f; }
-
-h1, h2, h3, h4, h5, h6 {
-  color: #3f3f3f; }
-
-blockquote {
-  border-left-color: rgba(143, 143, 143, 0.25); }
-
-code {
-  background: rgba(143, 143, 143, 0.075);
-  border-color: rgba(143, 143, 143, 0.25); }
-
-hr {
-  border-bottom-color: rgba(143, 143, 143, 0.25); }
-
 .shadow-effect {
   background: #fff;
   padding: 20px;
