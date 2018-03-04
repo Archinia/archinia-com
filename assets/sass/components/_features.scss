@@ -18,12 +18,10 @@
 		));
 
 		> section {
-			/*border-style: solid;
-			border-left-width: 1px;
-			border-top-width: 1px;*/
-			display: flex !important;
+			display: flex;
 			flex-direction: column;
-			padding: 1.5rem !important;
+			padding: 1.5rem;
+			/*padding: 1.5rem !important;*/
 
 			> :last-child {
 				margin-bottom: 0;
@@ -67,9 +65,11 @@
 			justify-content: center;
 
 			> section {
-				display: flex !important;
+				display: flex;
+				/*display: flex !important;*/
 				flex-direction: row;
-				padding: 0.5rem !important;
+				padding: 0.5rem;
+				/*padding: 0.5rem !important;*/
 				width: 15%;
 				flex-wrap: wrap;
 				justify-content: space-evenly;

@@ -26,7 +26,7 @@
 		width: 100%;
 		height: _size(header, default);
 		line-height: _size(header, default);
-		/*background-color: _palette(bg);*/
+		background-color: _palette(bg);
 		box-shadow: 0 0 0.5rem 0 _palette(bg-shadow);
 		cursor: default;
 		z-index: _misc(z-index-base);
@@ -159,7 +159,7 @@
 					a {
 						color: _palette(accent1, bg);
 						padding: 0.5rem 1rem;
-						text-decoration: none !important;
+						text-decoration: none;
 						border: 0;
 
 						&:active, &:hover, &:focus {
