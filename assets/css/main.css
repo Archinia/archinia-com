@@ -2059,7 +2059,6 @@ textarea {
   border: solid 1px;
   color: inherit;
   display: block;
-  outline: 0;
   padding: 0 1rem;
   text-decoration: none;
   width: 100%; }
@@ -3698,8 +3697,7 @@ body {
     right: 0;
     height: inherit;
     line-height: inherit;
-    padding: 0 1rem;
-    outline: 0; }
+    padding: 0 1rem; }
     #header > .navPanelToggle:before {
       -moz-osx-font-smoothing: grayscale;
       -webkit-font-smoothing: antialiased;
