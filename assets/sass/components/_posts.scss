@@ -60,13 +60,8 @@
 		@include breakpoint(xsmall) {
 			@include flexgrid-resize((
 				columns:		1,
-				gutters:		3rem,
-				flush:			true,
-				prev-columns:	(3, 2)
+				gutters:		3rem
 			));
-		}
-
-		@include breakpoint(xsmall) {
 			article {
 				.image {
 					max-width: 100%;
