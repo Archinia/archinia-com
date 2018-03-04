@@ -26,8 +26,6 @@
 		position: relative;
 
 		> .items {
-			@include vendor('flex-grow', '0');
-			@include vendor('flex-shrink', '0');
 			width: 100%;
 			background-color: #ffffff;
 
@@ -83,8 +81,6 @@
 		}
 
 		> .slider {
-			@include vendor('flex-grow', '0');
-			@include vendor('flex-shrink', '0');
 			@include vendor('transition', 'opacity #{_duration(slider)} ease-in-out');
 			width: 60%;
 			opacity: 1;

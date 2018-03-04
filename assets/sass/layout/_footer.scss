@@ -34,15 +34,10 @@
 		}
 
 		.links {
-			@include vendor('display', 'flex');
-			@include vendor('flex-direction', 'row');
-			@include vendor('flex-wrap', 'wrap');
 			margin: 0 0 4rem;
 
 			> div {
 				@include padding(2rem, 0);
-				@include vendor('flex-grow', '0');
-				@include vendor('flex-shrink', '0');
 				border-left: solid 1px _palette(accent1, border);
 				border-top: solid 1px _palette(accent1, border);
 				width: 25%;
