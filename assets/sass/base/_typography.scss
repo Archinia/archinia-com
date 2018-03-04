@@ -189,7 +189,7 @@
 		border-bottom: solid 1px;
 		margin: _size(element-margin) 0;
 
-		&.major {
+		.major {
 			margin: (_size(element-margin) * 1) 0;
 		}
 	}

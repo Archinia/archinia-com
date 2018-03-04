@@ -1417,7 +1417,7 @@ hr {
   border: 0;
   border-bottom: solid 1px;
   margin: 2rem 0; }
-  hr.major {
+  hr .major {
     margin: 2rem 0; }
 
 .align-left {
@@ -3986,7 +3986,7 @@ body {
       #banner > .slider > article.visible {
         opacity: 1;
         visibility: visible; }
-      #banner > .slider > article.top {
+      #banner > .slider > article .top {
         z-index: 1; }
       #banner > .slider > article:before {
         content: '';
