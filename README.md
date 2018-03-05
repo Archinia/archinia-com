@@ -2,6 +2,8 @@
 
 Archinia is a celebrated consulting agency with nearly twenty years of experience in preservation and architecture, as well as public relations, content creation, and community engagement around architecture, design, and historic preservation.
 
+[![CodeFactor](https://www.codefactor.io/repository/github/archinia/archinia-com/badge)](https://www.codefactor.io/repository/github/archinia/archinia-com)
+
 ## Accessible UX
 
 Striving to create a true a11y site that meets WCAG 2.0 AAA Guidelines.
