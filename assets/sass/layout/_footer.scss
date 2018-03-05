@@ -8,8 +8,7 @@
 /* Footer */
 
 	#footer {
-		@include color-typography(accent1);
-		background-color: #000000;
+		background-color: #000;
 		text-align: center;
 		padding: 10px;
 
@@ -22,7 +21,7 @@
 
 		a {
 			border-bottom-color: transparent;
-			color: _palette(accent1, fg);
+			color: #fff;
 
 			&:hover {
 				border-bottom-color: inherit;
