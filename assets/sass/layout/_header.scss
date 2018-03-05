@@ -175,11 +175,14 @@
 		}
 
 		&.alt {
-			@include color-typography(accent1);
 			@include vendor('animation', 'none');
 			box-shadow: none;
-			background-color: #000000;
+			background-color: #000;
 			position: absolute;
+
+			a {
+				color: #fff;
+			}
 		}
 
 		> .navPanelToggle {

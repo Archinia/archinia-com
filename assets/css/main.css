@@ -2912,31 +2912,16 @@ body {
     -o-animation: reveal-header 0.5s ease;
     animation: reveal-header 0.5s ease; }
   #header.alt {
-    background-color: #3f3f3f;
-    color: #ffffff;
     -moz-animation: none;
     -webkit-animation: none;
     -ms-animation: none;
     -o-animation: none;
     animation: none;
     box-shadow: none;
-    background-color: #000000;
+    background-color: #000;
     position: absolute; }
-    #header.alt input, #header.alt select, #header.alt textarea {
-      color: #ffffff; }
     #header.alt a {
-      color: #ffffff; }
-    #header.alt strong, #header.alt b {
-      color: #ffffff; }
-    #header.alt h1, #header.alt h2, #header.alt h3, #header.alt h4, #header.alt h5, #header.alt h6 {
-      color: #ffffff; }
-    #header.alt blockquote {
-      border-left-color: rgba(255, 255, 255, 0.25); }
-    #header.alt code {
-      background: rgba(255, 255, 255, 0.075);
-      border-color: rgba(255, 255, 255, 0.25); }
-    #header.alt hr {
-      border-bottom-color: rgba(255, 255, 255, 0.25); }
+      color: #fff; }
   #header > .navPanelToggle {
     -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, top 0.2s ease-in-out, right 0.2s ease-in-out;
     -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, top 0.2s ease-in-out, right 0.2s ease-in-out;
@@ -3251,32 +3236,15 @@ body {
     margin-top: -5.5rem; } }
 /* Footer */
 #footer {
-  background-color: #3f3f3f;
-  color: #ffffff;
-  background-color: #000000;
+  background-color: #000;
   text-align: center;
   padding: 10px; }
-  #footer input, #footer select, #footer textarea {
-    color: #ffffff; }
-  #footer a {
-    color: #ffffff; }
-  #footer strong, #footer b {
-    color: #ffffff; }
-  #footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
-    color: #ffffff; }
-  #footer blockquote {
-    border-left-color: rgba(255, 255, 255, 0.25); }
-  #footer code {
-    background: rgba(255, 255, 255, 0.075);
-    border-color: rgba(255, 255, 255, 0.25); }
-  #footer hr {
-    border-bottom-color: rgba(255, 255, 255, 0.25); }
   #footer ul.icons {
     margin-bottom: 0.2rem;
     margin-top: 0.2rem; }
   #footer a {
     border-bottom-color: transparent;
-    color: #ffffff; }
+    color: #fff; }
     #footer a:hover {
       border-bottom-color: inherit; }
   #footer > :last-child {
@@ -3428,7 +3396,6 @@ body {
     right: 0;
     text-align: right;
     top: 0;
-    vertical-align: middle;
     width: 7em; }
     #navPanel .close:before {
       -moz-osx-font-smoothing: grayscale;
