@@ -2128,7 +2128,7 @@ table.alt tbody tr td {
       width: 100%; }
     .quotes > article > div {
       padding: 0 2rem;
-      /*z-index: 100;*/ }
+      z-index: 100; }
   @media screen and (max-width: 768px) {
     .quotes > article {
       width: 100%;
