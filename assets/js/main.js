@@ -298,10 +298,10 @@ var settings = {
 				});
 
 			// Tabs.
-				$('.tabs').selectorr({
+			/*	$('.tabs').selectorr({
 					titleSelector: 'h4',
 					delay: 250
-				});
+				});*/
 
 			// Quotes.
 				$('.quotes > article')
