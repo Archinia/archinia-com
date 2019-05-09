@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<!--
+	Relativity by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
+-->
+
+<html lang="en">
+	<head>
+		<title>Alexander Girard in New Mexico</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<meta name="description" content="Explore Alexander Girard's work at Santa Fe's Museum of International Folk Art, The Compound, St Johns College, and First Unitarian Church in Albuquerque." />
+		<meta name="keywords" content="Architecture, Design, Alexander Girard, Girard, Vitra, Compound, Mural, MidCentury, Modern, Folk Art, New Mexico">
+
+		<meta property="og:title" content="Alexander Girard in New Mexico" />
+		<meta property="og:type" content="website" />
+		<meta property="og:description" content="Explore Alexander Girard's work at Santa Fe's Museum of International Folk Art, The Compound, St Johns College, and First Unitarian Church in Albuquerque." />
+		<meta property="og:url" content="https://archinia.com/our-work/alexander-girard-in-new-mexico.html" />
+		<meta property="og:image" content="https://archinia.com/images/girard1.jpg" />
+
+		<link rel="canonical" href="https://archinia.com/our-work/alexander-girard-in-new-mexico">
+
+		<!-- Style -->
+		<link rel="stylesheet" href="../assets/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:800|Source+Sans+Pro:300,300i,600,600i" />
+    <link rel="stylesheet" href="../assets/css/main.min.css" />
+
+		<!-- Favicons -->
+		<link rel="apple-touch-icon" sizes="76x76" href="../assets/favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/favicon-16x16.png">
+		<link rel="manifest" href="../assets/favicon/site.webmanifest">
+		<link rel="mask-icon" href="../assets/favicon/safari-pinned-tab.svg" color="#000000">
+		<link rel="shortcut icon" href="../assets/favicon/favicon.ico">
+		<meta name="msapplication-TileColor" content="#000000">
+		<meta name="msapplication-config" content="../assets/favicon/browserconfig.xml">
+		<meta name="theme-color" content="#ffffff">
+	</head>
+
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+
+						<!-- Logo -->
+							<div class="logo">
+								<a href="../"><img src="../images/archinia-black.png" alt="Archinia"></a>
+							</div>
+
+						<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li class="opener current" style="user-select: none; cursor: pointer; white-space: nowrap; opacity: 1;">
+									<a href="../services" class="icon fa-angle-down">Services</a>
+									<ul class="" style="user-select: none; display: none; position: absolute;">
+										<li style="white-space: nowrap;"><a href="historic-preservation" style="display: block;">Preservation</a></li>
+										<li style="white-space: nowrap;"><a href="community-engagement-content-creation" style="display: block;">Community Engagement + Content Creation</a></li>
+										<li style="white-space: nowrap;"><a href="design-research-development" style="display: block;">Cottage Homes + Labyrinths</a></li>
+										<li style="white-space: nowrap;"><a href="architectural-research" style="display: block;">Sustainability Research</a></li>
+									</ul>
+								</li>
+								<li style="white-space: nowrap;">
+									<a href="https://medium.com/archinia" target="_blank">Blog</a>
+								</li>
+								<li class="opener" style="user-select: none; cursor: pointer; white-space: nowrap; opacity: 1;">
+									<a href="../about/archinia" class="icon fa-angle-down">About</a>
+									<ul class="" style="user-select: none; display: none; position: absolute;">
+										<li style="white-space: nowrap;"><a href="../about/archinia">Archinia</a></li>
+										<li style="white-space: nowrap;"><a href="../about/a4e">Architecture for EveryBody</a></li>
+										<li style="white-space: nowrap;"><a href="../about/rachel-preston-prinz">Founder Rachel Prinz</a></li>
+									</ul>
+								</li>
+								<li style="white-space: nowrap;"><a href="mailto:intentiondesign@gmail.com" rel="nofollow" target="_top">Contact</a></li>
+							</ul>
+						</nav>
+			        <a href="#navPanel" class="navPanelToggle">Menu</a>
+
+					</header>
+
+				<!-- Section -->
+					<section class="main alt" style="padding-bottom: 2rem;">
+						<header>
+							<h1>Alexander Girard in New Mexico</h1>
+						</header>
+						<div><span class="image fit" style="max-height: 400px; height: auto; min-height: 350px; background-size: cover; background-position: center 44%; background-repeat: no-repeat; background-image: url('../images/2ThePhoenix3.jpg');"></span></div>
+						<br>
+						<div class="inner style1">
+							<p>Since our work on the Preservation and Stabilization of the First Unitarian Church in ABQ's Mural, we have had the opportunity to delve into more about GIrard's mork and influence in New Mexico, including all of his extant sites as well as his connections to John Gaw Meem and Georgia O'Keeffe.</p>
+              <hr class="major" />
+              <h2>Unitarian Church of Albuquerque</h2>
+							<ul>
+	              <li>Colores! Episode</li>
+	              <li>Article</li>
+	              <li>Article</li>
+							</ul>
+              <hr class="major" />
+              <h2>Museum of International Folk Art</h2>
+							<ul>
+	              <li><a href="">Facts (List Placeholder)</a></li>
+	              <li><a href="">More Facts</a></li>
+							</ul>
+              <hr class="major" />
+              <h2>The Compound</h2>
+              <p>Here's a bunch of stuff</p>
+              </div>
+              <hr class="major" />
+              <h2>St Johns</h2>
+              <p>Here's a bunch of other stuff</p>
+            </div>
+					</section>
+
+					<footer id="footer"></footer>
+
+		    </div>
+
+				<!-- Scripts -->
+    		<script src="../assets/js/jquery.min.js"></script>
+    		<script src="../assets/js/jquery.dropotron.min.js"></script>
+    		<script src="../assets/js/jquery.scrollex.min.js"></script>
+    		<script src="../assets/js/jquery.scrolly.min.js"></script>
+<script src="../assets/js/jquery.selectorr.min.js"></script>
+    		<script src="../assets/js/skel.min.js"></script>
+    		<script src="../assets/js/util.min.js"></script>
+    		<script src="../assets/js/main.min.js"></script>
+				<!-- Load Footer -->
+				<script>
+					$("footer").load("../assets/footer.html #loadFooter, script");
+				</script>
+		  </body>
+		</html>
