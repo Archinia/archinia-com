@@ -28,7 +28,7 @@
 <body>
 
 	<!-- Wrapper -->
-	<div id="wrapper">
+	<div id="wrapper" style="display: flex; flex-direction: column; align-items: stretch;">
 
 		<!-- Header -->
 		<header id="header" style="display: flex; flex-direction: row; align-items: center; justify-content: space-between;">
@@ -41,44 +41,46 @@
 		</header>
 
 		<!-- Hero Section -->
-		<section class="main alt">
-			<header>
-				{% if rpp_menu %}
-				<h1>Rachel Preston Prinz</h1>
-				{% else %}
-				<h1>{{ title }}</h1>
-				{% endif %}
-				{% if subtitle %}
-					<h2>{{ subtitle }}</h2>
-				{% endif %}
-				{% if rpp_menu %}
-					{% include "navigation-rpp.njk" %}
-				{% endif %}
-				{% if collection === collections.posts %}
-				<p>Published {{ date | readableDate }} <span style="display: inline-block; padding: 0 0.5rem;">•</span> {{ content | readingTime }} read</p>
-				{% endif %}
-			</header>
+		<main style="flex-grow: 1; flex-shrink: 0;">
+			<section class="main alt">
+				<header>
+					{% if rpp_menu %}
+					<h1>Rachel Preston Prinz</h1>
+					{% else %}
+					<h1>{{ title }}</h1>
+					{% endif %}
+					{% if subtitle %}
+						<h2>{{ subtitle }}</h2>
+					{% endif %}
+					{% if rpp_menu %}
+						{% include "navigation-rpp.njk" %}
+					{% endif %}
+					{% if collection === collections.posts %}
+					<p>Published {{ date | readableDate }} <span style="display: inline-block; padding: 0 0.5rem;">•</span> {{ content | readingTime }} read</p>
+					{% endif %}
+				</header>
 
-			{% if featured_image %}
+				{% if featured_image %}
+				<div>
+					<span class="image fit" style="max-height: 500px; height: auto; min-height: 400px; background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url('/images/{{ featured_image }}');"></span>
+				</div>
+				{% endif %}
+			</section>
+
+			<!-- Content Section -->
+			<section class="main">
+				<div class="inner style1">
+					{{ content | safe }}
+				</div>
+			</section>
+
+			{% if footer_image %}
 			<div>
-				<span class="image fit" style="max-height: 500px; height: auto; min-height: 400px; background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url('/images/{{ featured_image }}');"></span>
+				<span class="image fit" style="max-height: 500px; height: auto; min-height: 350px; background-size: cover; background-position: center 30%; background-repeat: no-repeat; background-image: url('/images/{{ footer_image }}');"></span>
 			</div>
 			{% endif %}
 
-		</section>
-
-		<!-- Content Section -->
-		<section class="main">
-			<div class="inner style1">
-				{{ content | safe }}
-			</div>
-		</section>
-
-		{% if footer_image %}
-		<div>
-			<span class="image fit" style="max-height: 500px; height: auto; min-height: 350px; background-size: cover; background-position: center 30%; background-repeat: no-repeat; background-image: url('/images/{{ footer_image }}');"></span>
-		</div>
-		{% endif %}
+		</main>
 
 		{% include "footer.njk" %}
 

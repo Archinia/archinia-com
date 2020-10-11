@@ -3184,10 +3184,12 @@ table.alt tbody tr td {
 }
 
 /* Main */
+#wrapper>main>.main,
 #wrapper>.main {
   padding: 2rem 0;
 }
 
+#wrapper>main>.main>header,
 #wrapper>.main>header {
   width: 100%;
   max-width: 58rem;
@@ -3195,6 +3197,7 @@ table.alt tbody tr td {
   margin: 0 auto 3rem auto;
 }
 
+#wrapper>main>.main>header:before,
 #wrapper>.main>header:before {
   content: '';
   display: inline-block;
@@ -3204,6 +3207,7 @@ table.alt tbody tr td {
   background-color: #3f3f3f;
 }
 
+#wrapper>main>.main>.inner,
 #wrapper>.main>.inner {
   margin-left: auto;
   margin-right: auto;
@@ -3211,15 +3215,18 @@ table.alt tbody tr td {
   max-width: 58rem;
 }
 
+#wrapper>main>.main>.inner.narrow,
 #wrapper>.main>.inner.narrow {
   max-width: 48rem;
 }
 
+#wrapper>main>.main>.inner.style2,
 #wrapper>.main>.inner.style2 {
   padding: 5rem 4rem 3rem 4rem;
   background-color: #ffffff;
 }
 
+#wrapper>main>.main>.inner.style2>.image.main:first-child,
 #wrapper>.main>.inner.style2>.image.main:first-child {
   position: relative;
   top: -5rem;
@@ -3230,460 +3237,465 @@ table.alt tbody tr td {
   border-radius: 0 0;
 }
 
+#wrapper>main>.main>.inner.style2>.image.main:first-child img,
 #wrapper>.main>.inner.style2>.image.main:first-child img {
   border-radius: 0 0;
 }
 
+#wrapper>main>.main>.inner .columns,
 #wrapper>.main>.inner .columns {
   display: flex;
 }
 
+#wrapper>main>.main>.inner .columns .column-wide,
 #wrapper>.main>.inner .columns .column-wide {
   width: 55%;
   margin: 0 5rem 0 0;
 }
 
+#wrapper>main>.main>.inner .columns .column-narrow,
 #wrapper>.main>.inner .columns .column-narrow {
   width: 40%;
 }
 
+#wrapper>main>.main.special,
 #wrapper>.main.special {
   text-align: center;
 }
 
-#wrapper>.main.accent1 {
+#wrapper>main>.main.accent1 {
   background-color: #3f3f3f;
   color: #ffffff;
 }
 
-#wrapper>.main.accent1 input, #wrapper>.main.accent1 select, #wrapper>.main.accent1 textarea {
+#wrapper>main>.main.accent1 input, #wrapper>main>.main.accent1 select, #wrapper>main>.main.accent1 textarea {
   color: #ffffff;
 }
 
-#wrapper>.main.accent1 a {
+#wrapper>main>.main.accent1 a {
   color: #ffffff;
 }
 
-#wrapper>.main.accent1 strong, #wrapper>.main.accent1 b {
+#wrapper>main>.main.accent1 strong, #wrapper>main>.main.accent1 b {
   color: #ffffff;
 }
 
-#wrapper>.main.accent1 h1, #wrapper>.main.accent1 h2, #wrapper>.main.accent1 h3, #wrapper>.main.accent1 h4, #wrapper>.main.accent1 h5, #wrapper>.main.accent1 h6 {
+#wrapper>main>.main.accent1 h1, #wrapper>main>.main.accent1 h2, #wrapper>main>.main.accent1 h3, #wrapper>main>.main.accent1 h4, #wrapper>main>.main.accent1 h5, #wrapper>main>.main.accent1 h6 {
   color: #ffffff;
 }
 
-#wrapper>.main.accent1 blockquote {
+#wrapper>main>.main.accent1 blockquote {
   border-left-color: rgba(255, 255, 255, 0.25);
 }
 
-#wrapper>.main.accent1 code {
+#wrapper>main>.main.accent1 code {
   background: rgba(255, 255, 255, 0.075);
   border-color: rgba(255, 255, 255, 0.25);
 }
 
-#wrapper>.main.accent1 hr {
+#wrapper>main>.main.accent1 hr {
   border-bottom-color: rgba(255, 255, 255, 0.25);
 }
 
-#wrapper>.main.accent1 .box {
+#wrapper>main>.main.accent1 .box {
   border-color: rgba(255, 255, 255, 0.25);
 }
 
-#wrapper>.main.accent1 input[type="submit"],
-#wrapper>.main.accent1 input[type="reset"],
-#wrapper>.main.accent1 input[type="button"],
-#wrapper>.main.accent1 button,
-#wrapper>.main.accent1 .button {
+#wrapper>main>.main.accent1 input[type="submit"],
+#wrapper>main>.main.accent1 input[type="reset"],
+#wrapper>main>.main.accent1 input[type="button"],
+#wrapper>main>.main.accent1 button,
+#wrapper>main>.main.accent1 .button {
   background-color: #25dbdb;
   color: #ffffff;
 }
 
-#wrapper>.main.accent1 input[type="submit"]:hover,
-#wrapper>.main.accent1 input[type="reset"]:hover,
-#wrapper>.main.accent1 input[type="button"]:hover,
-#wrapper>.main.accent1 button:hover,
-#wrapper>.main.accent1 .button:hover {
+#wrapper>main>.main.accent1 input[type="submit"]:hover,
+#wrapper>main>.main.accent1 input[type="reset"]:hover,
+#wrapper>main>.main.accent1 input[type="button"]:hover,
+#wrapper>main>.main.accent1 button:hover,
+#wrapper>main>.main.accent1 .button:hover {
   background-color: #3bdfdf;
   color: #ffffff;
 }
 
-#wrapper>.main.accent1 input[type="submit"]:active,
-#wrapper>.main.accent1 input[type="reset"]:active,
-#wrapper>.main.accent1 input[type="button"]:active,
-#wrapper>.main.accent1 button:active,
-#wrapper>.main.accent1 .button:active {
+#wrapper>main>.main.accent1 input[type="submit"]:active,
+#wrapper>main>.main.accent1 input[type="reset"]:active,
+#wrapper>main>.main.accent1 input[type="button"]:active,
+#wrapper>main>.main.accent1 button:active,
+#wrapper>main>.main.accent1 .button:active {
   background-color: #21c6c6;
 }
 
-#wrapper>.main.accent1 input[type="submit"].alt,
-#wrapper>.main.accent1 input[type="reset"].alt,
-#wrapper>.main.accent1 input[type="button"].alt,
-#wrapper>.main.accent1 button.alt,
-#wrapper>.main.accent1 .button.alt {
+#wrapper>main>.main.accent1 input[type="submit"].alt,
+#wrapper>main>.main.accent1 input[type="reset"].alt,
+#wrapper>main>.main.accent1 input[type="button"].alt,
+#wrapper>main>.main.accent1 button.alt,
+#wrapper>main>.main.accent1 .button.alt {
   background-color: transparent;
   box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
   color: #ffffff;
 }
 
-#wrapper>.main.accent1 input[type="submit"].alt:hover,
-#wrapper>.main.accent1 input[type="reset"].alt:hover,
-#wrapper>.main.accent1 input[type="button"].alt:hover,
-#wrapper>.main.accent1 button.alt:hover,
-#wrapper>.main.accent1 .button.alt:hover {
+#wrapper>main>.main.accent1 input[type="submit"].alt:hover,
+#wrapper>main>.main.accent1 input[type="reset"].alt:hover,
+#wrapper>main>.main.accent1 input[type="button"].alt:hover,
+#wrapper>main>.main.accent1 button.alt:hover,
+#wrapper>main>.main.accent1 .button.alt:hover {
   background-color: rgba(255, 255, 255, 0.075);
 }
 
-#wrapper>.main.accent1 input[type="submit"].alt.icon:before,
-#wrapper>.main.accent1 input[type="reset"].alt.icon:before,
-#wrapper>.main.accent1 input[type="button"].alt.icon:before,
-#wrapper>.main.accent1 button.alt.icon:before,
-#wrapper>.main.accent1 .button.alt.icon:before {
+#wrapper>main>.main.accent1 input[type="submit"].alt.icon:before,
+#wrapper>main>.main.accent1 input[type="reset"].alt.icon:before,
+#wrapper>main>.main.accent1 input[type="button"].alt.icon:before,
+#wrapper>main>.main.accent1 button.alt.icon:before,
+#wrapper>main>.main.accent1 .button.alt.icon:before {
   color: #ffffff;
 }
 
-#wrapper>.main.accent1 label {
+#wrapper>main>.main.accent1 label {
   color: #ffffff;
 }
 
-#wrapper>.main.accent1 input[type="text"],
-#wrapper>.main.accent1 input[type="password"],
-#wrapper>.main.accent1 input[type="email"],
-#wrapper>.main.accent1 select,
-#wrapper>.main.accent1 textarea {
+#wrapper>main>.main.accent1 input[type="text"],
+#wrapper>main>.main.accent1 input[type="password"],
+#wrapper>main>.main.accent1 input[type="email"],
+#wrapper>main>.main.accent1 select,
+#wrapper>main>.main.accent1 textarea {
   border-color: rgba(255, 255, 255, 0.25);
 }
 
-#wrapper>.main.accent1 input[type="text"]:focus,
-#wrapper>.main.accent1 input[type="password"]:focus,
-#wrapper>.main.accent1 input[type="email"]:focus,
-#wrapper>.main.accent1 select:focus,
-#wrapper>.main.accent1 textarea:focus {
+#wrapper>main>.main.accent1 input[type="text"]:focus,
+#wrapper>main>.main.accent1 input[type="password"]:focus,
+#wrapper>main>.main.accent1 input[type="email"]:focus,
+#wrapper>main>.main.accent1 select:focus,
+#wrapper>main>.main.accent1 textarea:focus {
   border-color: #3f3f3f;
   box-shadow: 0 0 0 1px #3f3f3f;
 }
 
-#wrapper>.main.accent1 .select-wrapper:before {
+#wrapper>main>.main.accent1 .select-wrapper:before {
   color: rgba(255, 255, 255, 0.25);
 }
 
-#wrapper>.main.accent1 input[type="checkbox"]+label,
-#wrapper>.main.accent1 input[type="radio"]+label {
+#wrapper>main>.main.accent1 input[type="checkbox"]+label,
+#wrapper>main>.main.accent1 input[type="radio"]+label {
   color: #ffffff;
 }
 
-#wrapper>.main.accent1 input[type="checkbox"]+label:before,
-#wrapper>.main.accent1 input[type="radio"]+label:before {
+#wrapper>main>.main.accent1 input[type="checkbox"]+label:before,
+#wrapper>main>.main.accent1 input[type="radio"]+label:before {
   border-color: rgba(255, 255, 255, 0.25);
 }
 
-#wrapper>.main.accent1 input[type="checkbox"]:checked+label:before,
-#wrapper>.main.accent1 input[type="radio"]:checked+label:before {
+#wrapper>main>.main.accent1 input[type="checkbox"]:checked+label:before,
+#wrapper>main>.main.accent1 input[type="radio"]:checked+label:before {
   background-color: #3f3f3f;
   border-color: #3f3f3f;
   box-shadow: 0 0 0 1px #3f3f3f;
   color: #ffffff;
 }
 
-#wrapper>.main.accent1 input[type="checkbox"]:focus+label:before,
-#wrapper>.main.accent1 input[type="radio"]:focus+label:before {
+#wrapper>main>.main.accent1 input[type="checkbox"]:focus+label:before,
+#wrapper>main>.main.accent1 input[type="radio"]:focus+label:before {
   border-color: #3f3f3f;
   box-shadow: 0 0 0 1px #3f3f3f;
 }
 
-#wrapper>.main.accent1 ::-webkit-input-placeholder {
+#wrapper>main>.main.accent1 ::-webkit-input-placeholder {
   color: #ffffff;
 }
 
-#wrapper>.main.accent1 :-moz-placeholder {
+#wrapper>main>.main.accent1 :-moz-placeholder {
   color: #ffffff;
 }
 
-#wrapper>.main.accent1 ::-moz-placeholder {
+#wrapper>main>.main.accent1 ::-moz-placeholder {
   color: #ffffff;
 }
 
-#wrapper>.main.accent1 :-ms-input-placeholder {
+#wrapper>main>.main.accent1 :-ms-input-placeholder {
   color: #ffffff;
 }
 
-#wrapper>.main.accent1 .formerize-placeholder {
+#wrapper>main>.main.accent1 .formerize-placeholder {
   color: #ffffff;
 }
 
-#wrapper>.main.accent1 ul.alt li {
+#wrapper>main>.main.accent1 ul.alt li {
   border-top-color: rgba(255, 255, 255, 0.25);
 }
 
-#wrapper>.main.accent1 table tbody tr {
+#wrapper>main>.main.accent1 table tbody tr {
   border-color: rgba(255, 255, 255, 0.25);
 }
 
-#wrapper>.main.accent1 table tbody tr:nth-child(2n + 1) {
+#wrapper>main>.main.accent1 table tbody tr:nth-child(2n + 1) {
   background-color: rgba(255, 255, 255, 0.075);
 }
 
-#wrapper>.main.accent1 table th {
+#wrapper>main>.main.accent1 table th {
   color: #ffffff;
 }
 
-#wrapper>.main.accent1 table thead {
+#wrapper>main>.main.accent1 table thead {
   border-bottom-color: rgba(255, 255, 255, 0.25);
 }
 
-#wrapper>.main.accent1 table tfoot {
+#wrapper>main>.main.accent1 table tfoot {
   border-top-color: rgba(255, 255, 255, 0.25);
 }
 
-#wrapper>.main.accent1 table.alt tbody tr td {
+#wrapper>main>.main.accent1 table.alt tbody tr td {
   border-color: rgba(255, 255, 255, 0.25);
 }
 
-#wrapper>.main.accent1 .tabs .titles li {
+#wrapper>main>.main.accent1 .tabs .titles li {
   border-color: rgba(255, 255, 255, 0.25);
   background-color: rgba(255, 255, 255, 0.075);
 }
 
-#wrapper>.main.accent1 .tabs .titles li.active {
+#wrapper>main>.main.accent1 .tabs .titles li.active {
   background-color: #3f3f3f;
   border-bottom-color: #3f3f3f;
   color: #25dbdb;
 }
 
-#wrapper>.main.accent1 .tabs .panels {
+#wrapper>main>.main.accent1 .tabs .panels {
   border-color: rgba(255, 255, 255, 0.25);
 }
 
-#wrapper>.main.accent1 .post>.content header .category {
+#wrapper>main>.main.accent1 .post>.content header .category {
   color: #25dbdb;
 }
 
-#wrapper>.main.accent1 .post.style2 {
+#wrapper>main>.main.accent1 .post.style2 {
   background-color: #3f3f3f;
 }
 
 @media screen and (max-width: 480px) {
-  #wrapper>.main.accent1 .post {
+  #wrapper>main>.main.accent1 .post {
     border-top-color: rgba(255, 255, 255, 0.25);
   }
 }
 
-#wrapper>.main.accent2 {
+#wrapper>main>.main.accent2 {
   background-color: #25dbdb;
   color: #ffffff;
 }
 
-#wrapper>.main.accent2 input, #wrapper>.main.accent2 select, #wrapper>.main.accent2 textarea {
+#wrapper>main>.main.accent2 input, #wrapper>main>.main.accent2 select, #wrapper>main>.main.accent2 textarea {
   color: #ffffff;
 }
 
-#wrapper>.main.accent2 a {
+#wrapper>main>.main.accent2 a {
   color: #ffffff;
 }
 
-#wrapper>.main.accent2 strong, #wrapper>.main.accent2 b {
+#wrapper>main>.main.accent2 strong, #wrapper>main>.main.accent2 b {
   color: #ffffff;
 }
 
-#wrapper>.main.accent2 h1, #wrapper>.main.accent2 h2, #wrapper>.main.accent2 h3, #wrapper>.main.accent2 h4, #wrapper>.main.accent2 h5, #wrapper>.main.accent2 h6 {
+#wrapper>main>.main.accent2 h1, #wrapper>main>.main.accent2 h2, #wrapper>main>.main.accent2 h3, #wrapper>main>.main.accent2 h4, #wrapper>main>.main.accent2 h5, #wrapper>main>.main.accent2 h6 {
   color: #ffffff;
 }
 
-#wrapper>.main.accent2 blockquote {
+#wrapper>main>.main.accent2 blockquote {
   border-left-color: rgba(255, 255, 255, 0.125);
 }
 
-#wrapper>.main.accent2 code {
+#wrapper>main>.main.accent2 code {
   background: rgba(255, 255, 255, 0.075);
   border-color: rgba(255, 255, 255, 0.125);
 }
 
-#wrapper>.main.accent2 hr {
+#wrapper>main>.main.accent2 hr {
   border-bottom-color: rgba(255, 255, 255, 0.125);
 }
 
-#wrapper>.main.accent2 .box {
+#wrapper>main>.main.accent2 .box {
   border-color: rgba(255, 255, 255, 0.125);
 }
 
-#wrapper>.main.accent2 input[type="submit"],
-#wrapper>.main.accent2 input[type="reset"],
-#wrapper>.main.accent2 input[type="button"],
-#wrapper>.main.accent2 button,
-#wrapper>.main.accent2 .button {
+#wrapper>main>.main.accent2 input[type="submit"],
+#wrapper>main>.main.accent2 input[type="reset"],
+#wrapper>main>.main.accent2 input[type="button"],
+#wrapper>main>.main.accent2 button,
+#wrapper>main>.main.accent2 .button {
   background-color: #3f3f3f;
   color: #ffffff;
 }
 
-#wrapper>.main.accent2 input[type="submit"]:hover,
-#wrapper>.main.accent2 input[type="reset"]:hover,
-#wrapper>.main.accent2 input[type="button"]:hover,
-#wrapper>.main.accent2 button:hover,
-#wrapper>.main.accent2 .button:hover {
+#wrapper>main>.main.accent2 input[type="submit"]:hover,
+#wrapper>main>.main.accent2 input[type="reset"]:hover,
+#wrapper>main>.main.accent2 input[type="button"]:hover,
+#wrapper>main>.main.accent2 button:hover,
+#wrapper>main>.main.accent2 .button:hover {
   background-color: #4c4c4c;
   color: #ffffff;
 }
 
-#wrapper>.main.accent2 input[type="submit"]:active,
-#wrapper>.main.accent2 input[type="reset"]:active,
-#wrapper>.main.accent2 input[type="button"]:active,
-#wrapper>.main.accent2 button:active,
-#wrapper>.main.accent2 .button:active {
+#wrapper>main>.main.accent2 input[type="submit"]:active,
+#wrapper>main>.main.accent2 input[type="reset"]:active,
+#wrapper>main>.main.accent2 input[type="button"]:active,
+#wrapper>main>.main.accent2 button:active,
+#wrapper>main>.main.accent2 .button:active {
   background-color: #323232;
 }
 
-#wrapper>.main.accent2 input[type="submit"].alt,
-#wrapper>.main.accent2 input[type="reset"].alt,
-#wrapper>.main.accent2 input[type="button"].alt,
-#wrapper>.main.accent2 button.alt,
-#wrapper>.main.accent2 .button.alt {
+#wrapper>main>.main.accent2 input[type="submit"].alt,
+#wrapper>main>.main.accent2 input[type="reset"].alt,
+#wrapper>main>.main.accent2 input[type="button"].alt,
+#wrapper>main>.main.accent2 button.alt,
+#wrapper>main>.main.accent2 .button.alt {
   background-color: transparent;
   box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.125);
   color: #ffffff;
 }
 
-#wrapper>.main.accent2 input[type="submit"].alt:hover,
-#wrapper>.main.accent2 input[type="reset"].alt:hover,
-#wrapper>.main.accent2 input[type="button"].alt:hover,
-#wrapper>.main.accent2 button.alt:hover,
-#wrapper>.main.accent2 .button.alt:hover {
+#wrapper>main>.main.accent2 input[type="submit"].alt:hover,
+#wrapper>main>.main.accent2 input[type="reset"].alt:hover,
+#wrapper>main>.main.accent2 input[type="button"].alt:hover,
+#wrapper>main>.main.accent2 button.alt:hover,
+#wrapper>main>.main.accent2 .button.alt:hover {
   background-color: rgba(255, 255, 255, 0.075);
 }
 
-#wrapper>.main.accent2 input[type="submit"].alt.icon:before,
-#wrapper>.main.accent2 input[type="reset"].alt.icon:before,
-#wrapper>.main.accent2 input[type="button"].alt.icon:before,
-#wrapper>.main.accent2 button.alt.icon:before,
-#wrapper>.main.accent2 .button.alt.icon:before {
+#wrapper>main>.main.accent2 input[type="submit"].alt.icon:before,
+#wrapper>main>.main.accent2 input[type="reset"].alt.icon:before,
+#wrapper>main>.main.accent2 input[type="button"].alt.icon:before,
+#wrapper>main>.main.accent2 button.alt.icon:before,
+#wrapper>main>.main.accent2 .button.alt.icon:before {
   color: #ffffff;
 }
 
-#wrapper>.main.accent2 label {
+#wrapper>main>.main.accent2 label {
   color: #ffffff;
 }
 
-#wrapper>.main.accent2 input[type="text"],
-#wrapper>.main.accent2 input[type="password"],
-#wrapper>.main.accent2 input[type="email"],
-#wrapper>.main.accent2 select,
-#wrapper>.main.accent2 textarea {
+#wrapper>main>.main.accent2 input[type="text"],
+#wrapper>main>.main.accent2 input[type="password"],
+#wrapper>main>.main.accent2 input[type="email"],
+#wrapper>main>.main.accent2 select,
+#wrapper>main>.main.accent2 textarea {
   border-color: rgba(255, 255, 255, 0.125);
 }
 
-#wrapper>.main.accent2 input[type="text"]:focus,
-#wrapper>.main.accent2 input[type="password"]:focus,
-#wrapper>.main.accent2 input[type="email"]:focus,
-#wrapper>.main.accent2 select:focus,
-#wrapper>.main.accent2 textarea:focus {
+#wrapper>main>.main.accent2 input[type="text"]:focus,
+#wrapper>main>.main.accent2 input[type="password"]:focus,
+#wrapper>main>.main.accent2 input[type="email"]:focus,
+#wrapper>main>.main.accent2 select:focus,
+#wrapper>main>.main.accent2 textarea:focus {
   border-color: #3f3f3f;
   box-shadow: 0 0 0 1px #3f3f3f;
 }
 
-#wrapper>.main.accent2 .select-wrapper:before {
+#wrapper>main>.main.accent2 .select-wrapper:before {
   color: rgba(255, 255, 255, 0.125);
 }
 
-#wrapper>.main.accent2 input[type="checkbox"]+label,
-#wrapper>.main.accent2 input[type="radio"]+label {
+#wrapper>main>.main.accent2 input[type="checkbox"]+label,
+#wrapper>main>.main.accent2 input[type="radio"]+label {
   color: #ffffff;
 }
 
-#wrapper>.main.accent2 input[type="checkbox"]+label:before,
-#wrapper>.main.accent2 input[type="radio"]+label:before {
+#wrapper>main>.main.accent2 input[type="checkbox"]+label:before,
+#wrapper>main>.main.accent2 input[type="radio"]+label:before {
   border-color: rgba(255, 255, 255, 0.125);
 }
 
-#wrapper>.main.accent2 input[type="checkbox"]:checked+label:before,
-#wrapper>.main.accent2 input[type="radio"]:checked+label:before {
+#wrapper>main>.main.accent2 input[type="checkbox"]:checked+label:before,
+#wrapper>main>.main.accent2 input[type="radio"]:checked+label:before {
   background-color: #3f3f3f;
   border-color: #3f3f3f;
   box-shadow: 0 0 0 1px #3f3f3f;
   color: #ffffff;
 }
 
-#wrapper>.main.accent2 input[type="checkbox"]:focus+label:before,
-#wrapper>.main.accent2 input[type="radio"]:focus+label:before {
+#wrapper>main>.main.accent2 input[type="checkbox"]:focus+label:before,
+#wrapper>main>.main.accent2 input[type="radio"]:focus+label:before {
   border-color: #3f3f3f;
   box-shadow: 0 0 0 1px #3f3f3f;
 }
 
-#wrapper>.main.accent2 ::-webkit-input-placeholder {
+#wrapper>main>.main.accent2 ::-webkit-input-placeholder {
   color: #ffffff;
 }
 
-#wrapper>.main.accent2 :-moz-placeholder {
+#wrapper>main>.main.accent2 :-moz-placeholder {
   color: #ffffff;
 }
 
-#wrapper>.main.accent2 ::-moz-placeholder {
+#wrapper>main>.main.accent2 ::-moz-placeholder {
   color: #ffffff;
 }
 
-#wrapper>.main.accent2 :-ms-input-placeholder {
+#wrapper>main>.main.accent2 :-ms-input-placeholder {
   color: #ffffff;
 }
 
-#wrapper>.main.accent2 .formerize-placeholder {
+#wrapper>main>.main.accent2 .formerize-placeholder {
   color: #ffffff;
 }
 
-#wrapper>.main.accent2 ul.alt li {
+#wrapper>main>.main.accent2 ul.alt li {
   border-top-color: rgba(255, 255, 255, 0.125);
 }
 
-#wrapper>.main.accent2 table tbody tr {
+#wrapper>main>.main.accent2 table tbody tr {
   border-color: rgba(255, 255, 255, 0.125);
 }
 
-#wrapper>.main.accent2 table tbody tr:nth-child(2n + 1) {
+#wrapper>main>.main.accent2 table tbody tr:nth-child(2n + 1) {
   background-color: rgba(255, 255, 255, 0.075);
 }
 
-#wrapper>.main.accent2 table th {
+#wrapper>main>.main.accent2 table th {
   color: #ffffff;
 }
 
-#wrapper>.main.accent2 table thead {
+#wrapper>main>.main.accent2 table thead {
   border-bottom-color: rgba(255, 255, 255, 0.125);
 }
 
-#wrapper>.main.accent2 table tfoot {
+#wrapper>main>.main.accent2 table tfoot {
   border-top-color: rgba(255, 255, 255, 0.125);
 }
 
-#wrapper>.main.accent2 table.alt tbody tr td {
+#wrapper>main>.main.accent2 table.alt tbody tr td {
   border-color: rgba(255, 255, 255, 0.125);
 }
 
-#wrapper>.main.accent2 .tabs .titles li {
+#wrapper>main>.main.accent2 .tabs .titles li {
   border-color: rgba(255, 255, 255, 0.125);
   background-color: rgba(255, 255, 255, 0.075);
 }
 
-#wrapper>.main.accent2 .tabs .titles li.active {
+#wrapper>main>.main.accent2 .tabs .titles li.active {
   background-color: #25dbdb;
   border-bottom-color: #25dbdb;
   color: #3f3f3f;
 }
 
-#wrapper>.main.accent2 .tabs .panels {
+#wrapper>main>.main.accent2 .tabs .panels {
   border-color: rgba(255, 255, 255, 0.125);
 }
 
-#wrapper>.main.accent2 .post>.content header .category {
+#wrapper>main>.main.accent2 .post>.content header .category {
   color: #3f3f3f;
 }
 
-#wrapper>.main.accent2 .post.style2 {
+#wrapper>main>.main.accent2 .post.style2 {
   background-color: #25dbdb;
 }
 
 @media screen and (max-width: 480px) {
-  #wrapper>.main.accent2 .post {
+  #wrapper>main>.main.accent2 .post {
     border-top-color: rgba(255, 255, 255, 0.125);
   }
 }
 
-#wrapper>.main.alt {
+#wrapper>main>.main.alt {
   background-image: url("../../images/bg.jpg");
   background-size: cover;
   background-repeat: repeat;
@@ -3692,53 +3704,53 @@ table.alt tbody tr td {
 }
 
 @media screen and (max-width: 1280px) {
-  #wrapper>.main {
+  #wrapper>main>.main {
     padding: 6rem 3rem 4rem 3rem;
   }
 
-  #wrapper>.main>.inner.style2>.image.main:first-child {
+  #wrapper>main>.main>.inner.style2>.image.main:first-child {
     height: 20rem;
   }
 
-  #wrapper>.main.alt {
+  #wrapper>main>.main.alt {
     background-attachment: scroll;
   }
 }
 
 @media screen and (max-width: 980px) {
-  #wrapper>.main>.inner.style2 {
+  #wrapper>main>.main>.inner.style2 {
     padding: 4rem 3rem 2rem 3rem;
   }
 
-  #wrapper>.main>.inner.style2>.image.main:first-child {
+  #wrapper>main>.main>.inner.style2>.image.main:first-child {
     top: -4rem;
     left: -3rem;
     width: calc(100% + 6rem);
     height: 25rem;
   }
 
-  #wrapper>.main>.inner.columns {
+  #wrapper>main>.main>.inner.columns {
     display: flex;
     flex-direction: column;
   }
 
-  #wrapper>.main>.inner.columns>.column-wide,
-  #wrapper>.main>.inner.columns>.column-narrow {
+  #wrapper>main>.main>.inner.columns>.column-wide,
+  #wrapper>main>.main>.inner.columns>.column-narrow {
     width: 100%;
     margin: 0;
   }
 }
 
 @media screen and (max-width: 768px) {
-  #wrapper>.main {
+  #wrapper>main>.main {
     padding: 4rem 2rem 2rem 2rem;
   }
 
-  #wrapper>.main>.inner.style2 {
+  #wrapper>main>.main>.inner.style2 {
     padding: 2.5rem 2rem 0.5rem 2rem;
   }
 
-  #wrapper>.main>.inner.style2>.image.main:first-child {
+  #wrapper>main>.main>.inner.style2>.image.main:first-child {
     top: -2.5rem;
     left: -2rem;
     width: calc(100% + 4rem);
@@ -3747,13 +3759,13 @@ table.alt tbody tr td {
 }
 
 @media screen and (max-width: 480px) {
-  #wrapper>.main>.inner.style2>.image.main:first-child {
+  #wrapper>main>.main>.inner.style2>.image.main:first-child {
     height: 14rem;
   }
 }
 
 @media screen and (max-width: 360px) {
-  #wrapper>.main {
+  #wrapper>main>.main {
     padding: 3rem 1rem 1rem 1rem;
   }
 }
