@@ -1,6 +1,6 @@
 ---
 title: Alexander Girard in New Mexico
-slug: alexander-girard-in-new-mexico
+slug: projects/alexander-girard-in-new-mexico
 description: >-
   Explore Alexander Girard's work at Santa Fe's Museum of International Folk Art, The Compound, St Johns College, and First Unitarian Church in Albuquerque.
 featured_image: mchenryUUmural.jpg

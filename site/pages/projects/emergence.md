@@ -2,7 +2,7 @@
 title: >-
   Emergence: Sky City Cultural Center, documentary
 subtitle: A documentary
-slug: emergence-sky-city-cultural-center
+slug: projects/emergence-sky-city-cultural-center
 description: >-
   Educational, Environmental, Period/Historical, Culture, Art, Spiritual, Personal Narrative, Social Issue, History, Architecture, Native American, Women, Sustainability
 featured_image: emergence/emergence.jpg
@@ -14,13 +14,13 @@ featured_image: emergence/emergence.jpg
   <strong>NICHES:</strong> Native American, Women, Sustainability
 </p>
 
-<p style="display: flex; flex-direction: row; align-items:center; justify-content: center; margin: 2rem auto;">
+<div style="display: flex; flex-direction: row; align-items:center; justify-content: center; margin: 2rem auto;">
   <span class="image fit" style="padding: 0.5rem;"><img src="/images/emergence/nmtrue.jpg" alt="NM True Film"></span>
   <span class="image fit" style="padding: 0.5rem;"><img src="/images/emergence/pueblofilmfest.png" alt="laurel for Pueblo Film Fesitval"></span>
   <span class="image fit" style="padding: 0.5rem;"><img src="/images/emergence/torontofilmfest.png" alt="laurel for Toronto Commffest Film Festival"></span>
   <span class="image fit" style="padding: 0.5rem;"><img src="/images/emergence/ilookupfilmfest.png" alt="laurel for I Look Up Film Festival"></span>
   <span class="image fit" style="padding: 0.5rem;"><img src="/images/emergence/chickasawculturalcenter.png" alt="laurel for Chickasaw Cultural Center"></span>
-</p>
+</div>
 
 <div class="videoWrapper" style="margin-bottom: 2rem;">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/f9gkoxn1Zng" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
