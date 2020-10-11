@@ -11,37 +11,21 @@
 		<title>Archinia</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta name="description" content="Archinia is an architectural research, storytelling, and public relations practice based in Santa Fe, New Mexico." />
-		<meta name="keywords" content="Architecture,Preservation,Sustainability,Public Relations,Content Creation,Influencer,Architect,Design,Earthship,Research,Santa Fe,New Mexico">
-                <meta name="google-site-verification" content="NKFrTpko2W_HvZNSiWasu7l8ybrNE768ldodedDIbVM" />
 
-		<meta property="og:title" content="Archinia" />
-		<meta property="og:type" content="website" />
-		<meta property="og:description" content="Archinia is an architectural research, storytelling, and public relations practice based in Santa Fe, New Mexico." />
-		<meta property="og:url" content="https://archinia.com" />
-		<meta property="og:image" content="https://archinia.com/images/RppMinistryBanner.jpg" />
+		<!-- Generate Metatags from Content -->
+		{% include "meta.njk" %}
 
-		<link rel="canonical" href="https://archinia.com">
-
-		<!-- Style -->
-		<link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+		<!-- Styles -->
+		<link rel="stylesheet" href="/assets/css/font-awesome.min.css" />
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:800|Source+Sans+Pro:300,300i,600,600i" />
-    <link rel="stylesheet" href="assets/css/main.min.css" />
+		<link rel="stylesheet" href="/assets/css/main.css" />
 
 		<!-- Owl -->
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
 		<link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
 
-		<!-- Favicons -->
-		<link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-		<link rel="manifest" href="assets/favicon/site.webmanifest">
-		<link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#000000">
-		<link rel="shortcut icon" href="assets/favicon/favicon.ico">
-		<meta name="msapplication-TileColor" content="#000000">
-		<meta name="msapplication-config" content="assets/favicon/browserconfig.xml">
-		<meta name="theme-color" content="#ffffff">
+		<!-- Insert Favicons -->
+		{% include "favicons.njk" %}
 
 		<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/cac2b58a6aa8f0a66e10baffd/f05ff8e1c519dd483eba905d8.js");</script>
 
@@ -63,54 +47,30 @@
 		<div id="wrapper">
 
       <!-- Relativity Header -->
-      <header id="header" class="reveal alt">
+      <header id="header" class="reveal alt" style="display: flex; flex-direction: row; align-items: center; justify-content: space-between;">
 
       	<!-- Logo -->
-      	<div class="logo">
-      		<a href="/"><img src="images/archinia-white.png" alt="Archinia"></a>
-      	</div>
+      	<a class="logo" href="/"><img src="images/archinia-white.png" alt="Archinia"></a>
 
-      	<!-- Nav -->
-				<nav id="nav">
-				  <ul>
-				    <li class="opener" style="user-select: none; cursor: pointer; white-space: nowrap; opacity: 1;">
-				      <a href="services" class="icon fa-angle-down">Services</a>
-				      <ul class="" style="user-select: none; display: none; position: absolute;">
-				        <li style="white-space: nowrap;"><a href="our-work/historic-preservation" style="display: block;">Preservation</a></li>
-								<li style="white-space: nowrap;"><a href="about/influencer" style="display: block;">Content Creation</a></li>
-								<li style="white-space: nowrap;"><a href="our-work/architectural-research" style="display: block;">Research</a></li>
-				      </ul>
-				    </li>
-				    <li style="white-space: nowrap;">
-				      <a href="https://medium.com/archinia" target="_blank">Blog</a>
-				    </li>
-				    <li class="opener" style="user-select: none; cursor: pointer; white-space: nowrap; opacity: 1;">
-				      <a href="about/archinia" class="icon fa-angle-down">About</a>
-				      <ul class="" style="user-select: none; display: none; position: absolute;">
-				        <li style="white-space: nowrap;"><a href="about/archinia">Archinia</a></li>
-				        <li style="white-space: nowrap;"><a href="http://architectureforeverybody.org/">Architecture for EveryBody</a></li>
-				        <li style="white-space: nowrap;"><a href="about/rachel-preston-prinz">Rachel Preston Prinz</a></li>
-				      </ul>
-				    </li>
-				    <li style="white-space: nowrap;"><a href="mailto:intentiondesign@gmail.com" rel="nofollow" target="_top">Contact</a></li>
-				  </ul>
-				</nav>
+				<!-- Nav -->
+				{% include "navigation.njk" %}
+
       </header>
       <!-- //end Relativity Header -->
 
 			<!-- Telemetry Quote Grid -->
 			<section class="quotes">
-				<article class="evolutionHero" style="background-image: url('images/ministry-banner.jpg'); background-position: center center; width: 100%; height: 60vh;">
+				<article class="evolutionHero" style="background-image: url('images/_branding/ministry-banner.jpg'); background-position: center center; width: 100%; height: 60vh;">
 					<h1 style="display: none;">The Ministry of Architecture</h1>
 				</article>
 			</section>
 			<section class="quotes">
-				<article class="square" style="background-image: url('images/zimmerman.jpg');">
+				<article class="square" style="background-image: url('images/misc/zimmerman.jpg');">
 					<div>
 						<h2>We Celebrate Great Design</h2>
 					</div>
 				</article>
-				<article class="square" style="background-image: url('images/patio.jpg');">
+				<article class="square" style="background-image: url('images/misc/patio.jpg');">
 					<div>
 						<h2>Press</h2>
 						<ul class="actions">
@@ -128,7 +88,7 @@
 						</ul>
 					</div>
 				</article>
-				<article class="square" style="background-image: url('images/design_rd.jpg');">
+				<article class="square" style="background-image: url('images/misc/design_rd.jpg');">
 					<div>
 						<h2>Content Creation</h2>
 						<ul class="actions">
@@ -151,12 +111,11 @@
         <article id="one" class="spotlight even">
         	<div class="inner">
         		<div class="image" data-position="bottom left">
-        			<img src="images/MD.jpg" alt="Rachel speaking">
+        			<img src="images/rpp/MD.jpg" alt="Rachel speaking">
         		</div>
         		<div class="content">
         			<h2>Rachel Preston Prinz</h2>
-        			<p> An architecturally-trained designer in Santa Fe, New Mexico, Rachel is an authority <a href="about/influencer">influencer</a> known for her award-winning storytelling collaborations in architecture, design, placemaking, historic preservation, and sustainability.
-</p>
+        			<p> An architecturally-trained designer in Santa Fe, New Mexico, Rachel is an authority <a href="about/influencer">influencer</a> known for her award-winning storytelling collaborations in architecture, design, placemaking, historic preservation, and sustainability.</p>
         			<ul class="actions">
         				<li><a href="about/rachel-preston-prinz" class="button special accent2">Learn more</a></li>
         			</ul>
@@ -166,7 +125,7 @@
 				<article id="two" class="spotlight odd">
         	<div class="inner">
         		<div class="image" data-position="bottom left">
-        			<img src="images/mchenryUUmural.jpg" alt="Mural">
+        			<img src="images/girard/mchenryUUmural.jpg" alt="Mural">
         		</div>
         		<div class="content">
         			<h2>Alexander Girard in New Mexico</h2>
@@ -273,10 +232,10 @@
 
 		<script src="assets/js/skel.min.js"></script>
 		<script src="assets/js/util.min.js"></script>
-		<script src="assets/js/main.min.js"></script>
+		<script src="assets/js/main.js"></script>
 		<script src="assets/js/owl.carousel.min.js"></script>
 
-		<!-- Load Carousel + Footer -->
+		<!-- Load Carousel -->
 		<script>
 			$(window).on( "load", function() {
     		"use strict";
@@ -300,8 +259,6 @@
             }
         });
     	});
-
-			$("footer").load("assets/footer.html #loadFooter, script");
 		</script>
 
 		<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us3.list-manage.com","uuid":"cac2b58a6aa8f0a66e10baffd","lid":"7c61b2b0b1"}) })</script>
