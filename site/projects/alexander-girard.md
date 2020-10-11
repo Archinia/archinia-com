@@ -12,7 +12,7 @@ Because we are currently getting so many requests for information due to the Vit
 
 <hr class="major" />
 
-<img class="image left" src="../images/Girard_UnitarianMural.jpg" alt="Unitarian Mural" style="max-height: 220px;">
+<img class="image left" src="/images/Girard_UnitarianMural.jpg" alt="Unitarian Mural" style="max-height: 220px;">
 
 ## Unitarian Church of Albuquerque
 
@@ -26,7 +26,7 @@ Because we are currently getting so many requests for information due to the Vit
 
 <hr class="major" />
 
-<img class="image left" src="../images/Girard_Moifa.jpg" alt="MOIFA Mural" style="max-height: 220px;">
+<img class="image left" src="/images/Girard_Moifa.jpg" alt="MOIFA Mural" style="max-height: 220px;">
 
 ## Museum of International Folk Art
 
@@ -36,7 +36,7 @@ Girard’s design for the Multiple Visions: A Common Bond exhibit at the Museum 
 
 <hr class="major" />
 
-<img class="image left" src="../images/Girard_Compound.jpg" alt="Compound Mural" style="max-height: 220px;">
+<img class="image left" src="/images/Girard_Compound.jpg" alt="Compound Mural" style="max-height: 220px;">
 
 ## The Compound
 
@@ -48,7 +48,7 @@ Girard was playful in the way he treated the whitewashed rooms. For decoration, 
 
 <hr class="major" />
 
-<img class="image left" src="../images/Girard_StJohns_Mural.jpg" alt="St Johns Mural" style="max-height: 220px;">
+<img class="image left" src="/images/Girard_StJohns_Mural.jpg" alt="St Johns Mural" style="max-height: 220px;">
 
 ## St Johns
 

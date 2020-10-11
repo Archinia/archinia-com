@@ -16,9 +16,9 @@
 	{% include "meta.njk" %}
 
 	<!-- Styles -->
-	<link rel="stylesheet" href="../assets/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="/assets/css/font-awesome.min.css" />
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:800|Source+Sans+Pro:300,300i,600,600i" />
-	<link rel="stylesheet" href="../assets/css/main.css" />
+	<link rel="stylesheet" href="/assets/css/main.css" />
 
 	<!-- Insert Favicons -->
 	{% include "favicons.njk" %}
@@ -34,7 +34,7 @@
 		<header id="header" style="display: flex; flex-direction: row; align-items: center; justify-content: space-between;">
 
 			<!-- Logo -->
-			<a class="logo" href="../"><img src="../images/archinia-black.png" alt="Archinia"></a>
+			<a class="logo" href="../"><img src="/images/archinia-black.png" alt="Archinia"></a>
 
 			<!-- Nav -->
 			{% include "navigation.njk" %}
@@ -43,13 +43,22 @@
 		<!-- Hero Section -->
 		<section class="main alt">
 			<header>
+				{% if rpp_menu === false %}
 				<h1>{{ title }}</h1>
-				{% if subtitle %}<h2>{{ subtitle }}</h2>{% endif %}
+				{% else %}
+				<h1>Rachel Preston Prinz</h1>
+				{% endif %}
+				{% if subtitle %}
+					<h2>{{ subtitle }}</h2>
+				{% endif %}
+				{% if rpp_menu %}
+					{% include "navigation-rpp.njk" %}
+				{% endif %}
 			</header>
 
 			{% if featured_image %}
 			<div>
-				<span class="image fit" style="max-height: 400px; height: auto; min-height: 350px; background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url('../images/{{ featured_image }}');"></span>
+				<span class="image fit" style="max-height: 400px; height: auto; min-height: 350px; background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url('/images/{{ featured_image }}');"></span>
 			</div>
 			{% endif %}
 
@@ -62,19 +71,25 @@
 			</div>
 		</section>
 
+		{% if footer_image %}
+		<div>
+			<span class="image fit" style="max-height: 500px; height: auto; min-height: 350px; background-size: cover; background-position: center 30%; background-repeat: no-repeat; background-image: url('/images/{{ footer_image }}');"></span>
+		</div>
+		{% endif %}
+
 		{% include "footer.njk" %}
 
 	</div>
 
 	<!-- Scripts -->
-	<script src="../assets/js/jquery.min.js"></script>
-	<script src="../assets/js/jquery.dropotron.min.js"></script>
-	<script src="../assets/js/jquery.scrollex.min.js"></script>
-	<script src="../assets/js/jquery.scrolly.min.js"></script>
-	<script src="../assets/js/jquery.selectorr.min.js"></script>
-	<script src="../assets/js/skel.min.js"></script>
-	<script src="../assets/js/util.min.js"></script>
-	<script src="../assets/js/main.js"></script>
+	<script src="/assets/js/jquery.min.js"></script>
+	<script src="/assets/js/jquery.dropotron.min.js"></script>
+	<script src="/assets/js/jquery.scrollex.min.js"></script>
+	<script src="/assets/js/jquery.scrolly.min.js"></script>
+	<script src="/assets/js/jquery.selectorr.min.js"></script>
+	<script src="/assets/js/skel.min.js"></script>
+	<script src="/assets/js/util.min.js"></script>
+	<script src="/assets/js/main.js"></script>
 
 </body>
 

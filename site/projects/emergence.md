@@ -15,11 +15,11 @@ featured_image: emergence/emergence.jpg
 </p>
 
 <p style="display: flex; flex-direction: row; align-items:center; justify-content: center; margin: 2rem auto;">
-  <span class="image fit" style="padding: 0.5rem;"><img src="../images/emergence/nmtrue.jpg" alt="NM True Film"></span>
-  <span class="image fit" style="padding: 0.5rem;"><img src="../images/emergence/pueblofilmfest.png" alt="laurel for Pueblo Film Fesitval"></span>
-  <span class="image fit" style="padding: 0.5rem;"><img src="../images/emergence/torontofilmfest.png" alt="laurel for Toronto Commffest Film Festival"></span>
-  <span class="image fit" style="padding: 0.5rem;"><img src="../images/emergence/ilookupfilmfest.png" alt="laurel for I Look Up Film Festival"></span>
-  <span class="image fit" style="padding: 0.5rem;"><img src="../images/emergence/chickasawculturalcenter.png" alt="laurel for Chickasaw Cultural Center"></span>
+  <span class="image fit" style="padding: 0.5rem;"><img src="/images/emergence/nmtrue.jpg" alt="NM True Film"></span>
+  <span class="image fit" style="padding: 0.5rem;"><img src="/images/emergence/pueblofilmfest.png" alt="laurel for Pueblo Film Fesitval"></span>
+  <span class="image fit" style="padding: 0.5rem;"><img src="/images/emergence/torontofilmfest.png" alt="laurel for Toronto Commffest Film Festival"></span>
+  <span class="image fit" style="padding: 0.5rem;"><img src="/images/emergence/ilookupfilmfest.png" alt="laurel for I Look Up Film Festival"></span>
+  <span class="image fit" style="padding: 0.5rem;"><img src="/images/emergence/chickasawculturalcenter.png" alt="laurel for Chickasaw Cultural Center"></span>
 </p>
 
 <div class="videoWrapper" style="margin-bottom: 2rem;">
@@ -46,7 +46,7 @@ This film is entirely in the voice of the Acoma people and their project archite
 
 ## Director's Statement
 
-<span class="image left" style="max-width: 28%;"><img src="../images/emergence.jpg" alt="documentary film poster"></span>
+<span class="image left" style="max-width: 28%;"><img src="/images/emergence.jpg" alt="documentary film poster"></span>
 
 We were filming a local public television series celebrating 1000 years of truly sustainable architecture built by the peoples of the American Southwest, filming mostly in New Mexico. Our second filming location was at Acoma Pueblo's Sky City Cultural Center.
 
@@ -63,13 +63,13 @@ We were filming a local public television series celebrating 1000 years of truly
 <div style="display: flex; flex-direction: row; justify-content: space-between;">
   <div style="width: 48%">
     <span class="image fit">
-      <img src="../images/emergence/DSC00466_Large.jpg" alt="people involved with project, group 1">
+      <img src="/images/emergence/DSC00466_Large.jpg" alt="people involved with project, group 1">
     </span>
     <p class="caption">Emerson Vallo (Cultural Center Director), Barbara Felix	(Architect), Brian Vallo (Former Cultural Center Director)</p>
   </div>
   <div style="width: 48%">
     <span class="image fit">
-      <img src="../images/emergence/DSC04740_Large.jpg" alt="people involved with project, group 2">
+      <img src="/images/emergence/DSC04740_Large.jpg" alt="people involved with project, group 2">
     </span>
     <p class="caption">Prudy Correa (Building Committee), Marilyn Ray (Commissioned Potter)</p>
   </div>
@@ -81,7 +81,7 @@ We were filming a local public television series celebrating 1000 years of truly
 
 <section class="crew-block" style="display: flex; flex-direction: column;">
   <div class="crew">
-      <span class="image left"><img src="../images/emergence/acoma.jpg" alt="Rachel at Acoma" style="max-width: 200px;"></span>
+      <span class="image left"><img src="/images/emergence/acoma.jpg" alt="Rachel at Acoma" style="max-width: 200px;"></span>
       <div>
         <h3>Rachel Preston Prinz</h3>
         <p>First time Director/Producer Rachel Preston Prinz heads up an acclaimed architectural design and preservation practice based in New Mexico. Her work investigates traditional and modern approaches to architecture, agriculture, culture, and landscape to address how we might not only survive, but also thrive, and to do so, sustainably.<br><a href="https://www.linkedin.com/in/rachelprestonprinz">LinkedIn</a></p>
