@@ -3935,7 +3935,7 @@ body {
 }
 
 #header>.logo img {
-  width: 200px;
+  width: 300px;
 }
 
 #header>nav {
@@ -4115,7 +4115,7 @@ body {
   }
 
   #header>.logo img {
-    width: 120px;
+    width: 200px;
   }
 
   #header>.logo .extra {
@@ -4142,7 +4142,7 @@ body {
   }
 
   #header.alt>.logo img {
-    width: 120px;
+    width: 160px;
   }
 
   #header.alt>.navPanelToggle {
