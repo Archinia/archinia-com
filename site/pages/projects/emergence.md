@@ -15,7 +15,7 @@ featured_image: emergence/emergence.jpg
 </p>
 
 <div style="display: flex; flex-direction: row; align-items:center; justify-content: center; margin: 2rem auto;">
-  <span class="image fit" style="padding: 0.5rem;"><img src="/images/emergence/nmtrue.jpg" alt="NM True Film"></span>
+  <span class="image fit" style="padding: 0.5rem;"><img src="/images/logos/nmtrue.jpg" alt="NM True Film"></span>
   <span class="image fit" style="padding: 0.5rem;"><img src="/images/emergence/pueblofilmfest.png" alt="laurel for Pueblo Film Fesitval"></span>
   <span class="image fit" style="padding: 0.5rem;"><img src="/images/emergence/torontofilmfest.png" alt="laurel for Toronto Commffest Film Festival"></span>
   <span class="image fit" style="padding: 0.5rem;"><img src="/images/emergence/ilookupfilmfest.png" alt="laurel for I Look Up Film Festival"></span>
