@@ -55,7 +55,7 @@
 					{% if rpp_menu %}
 						{% include "navigation-rpp.njk" %}
 					{% endif %}
-					{% if collection === collections.posts %}
+					{% if collection === collection.posts %}
 					<p>Published {{ date | readableDate }} <span style="display: inline-block; padding: 0 0.5rem;">•</span> {{ content | readingTime }} read</p>
 					{% endif %}
 				</header>
