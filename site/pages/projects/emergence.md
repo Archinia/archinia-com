@@ -46,7 +46,7 @@ This film is entirely in the voice of the Acoma people and their project archite
 
 ## Director's Statement
 
-<span class="image left" style="max-width: 28%;"><img src="/images/emergence.jpg" alt="documentary film poster"></span>
+<span class="image left" style="max-width: 28%;"><img src="/images/emergence/emergence-poster.jpg" alt="documentary film poster"></span>
 
 We were filming a local public television series celebrating 1000 years of truly sustainable architecture built by the peoples of the American Southwest, filming mostly in New Mexico. Our second filming location was at Acoma Pueblo's Sky City Cultural Center.
 
