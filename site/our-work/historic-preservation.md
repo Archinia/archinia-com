@@ -1,0 +1,166 @@
+---
+title: Historic Preservation
+slug: our-work/historic-preservation
+description: >-
+  Documentation and planning for the preservation of historic buildings and landscapes.
+featured_image: preservation.jpg
+---
+
+<div class="inner style1">
+
+<p>We are most known for our documentation and planning for the preservation of historic buildings and landscapes. We have worked with BLM, USFS, and NPS, as well as State and Tribal Historic Preservation Officers in 10 states, completing building documentation inventories on over 700 structures and sites, including National Register and National Landmark properties. Our projects have involved as many as 100 stakeholders and we have integrated the efforts of interns as well as volunteers, which helps us to elevate our projects to community-impacting educational opportunities.</p>
+
+<p>Our inclusive approach has allowed us to develop pioneering interdisciplinary research in: revisiting historic precedents to get past style and into the design's substance, as well as preserving context in historic structures, trails, sites, landscapes, and monuments.</p>
+
+<div class="features partners" style="margin-top: 0 !important; ">
+	<section>
+		<span class="image fit" style="display: flex; flex-direction: column; align-items: center;">
+			<img src="../images/logos/nps.jpg" alt="The National Park Service" style="width: 58%">
+			<img src="../images/logos/NDHS_SmithGroupJJR.jpg"	alt="SmithGroup JJR">
+		</span>
+	</section>
+	<section>
+		<span class="image fit">
+			<img src="../images/logos/blm.png" alt="BLM">
+		</span>
+	</section>
+	<section>
+		<span class="image fit">
+			<img src="../images/logos/forest-service.png" alt="Forest Service">
+		</span>
+	</section>
+	<section>
+		<span class="image fit">
+			<img src="../images/logos/OST.jpg" alt="The Old Spanish Trail Association" style="width: 95.5%; margin: 0 auto;">
+		</span>
+	</section>
+	<section>
+		<span class="image fit">
+			<img src="../images/logos/red-cross.jpg" alt="American Red Cross Cheyenne chapter">
+		</span>
+	</section>
+	<section>
+		<span class="image fit">
+			<img src="../images/logos/cheyenne.jpg" alt="Cheyenne Botanic Gardens">
+		</span>
+	</section>
+	<section>
+		<span class="image fit">
+			<p>and many others</p>
+		</span>
+	</section>
+
+</div>
+
+<hr class="major" />
+
+<h2 style="text-align: center;">Preservation Services</h2>
+<br>
+<div class="inner">
+	<ul class="faces">
+		<li>
+			<h3>PlaceMaking + Community Engagement</h3>
+			<p>Marketing + Collaborations</p>
+		</li>
+		<li>
+			<h3>Documenting Buildings, Districts, Acequias, + Trails</h3>
+			<p>HCPIs, Plaques, State + National Register Nominations</p>
+		</li>
+	</ul>
+</div>
+<hr class="major" />
+<h2>Preservation Fees</h2>
+<ul>
+	<li>Deposit: $500. Non-refundable. Applicable to last invoice. Work can begin once received. Pay via Paypal to initiate agreement more quickly.</li>
+	<li>Hourly Rate: $85</li>
+	<li>Letter of Compliance: $500 if compliant, $750-$2000 if remediation required.</li>
+	<li>HCPI: $750 per building less than 1,500SF with established histories. Oversize structures, never listed buildings, and multiple buildings are adjusted accordingly.</li>
+	<li>National and State Register Nominations: Start at $5000 for buildings of 1,500SF or less with established histories.</li>
+	<li>Rush Fees for HCPIs and Letters: $100 for delivery in 2 weeks, $250 for delivery in 1 week. </li>
+</ul>
+
+</div>
+</section>
+
+<section class="main" style="margin: 0 3rem;">
+<hr class="major" style="margin-top: 0 !important;" />
+<div class="inner style1">
+	<h2 style="text-align: center;">Representative Projects</h2>
+	<div class="features" style="margin-top: 0 !important;">
+		<section>
+			<span class="image fit"><img src="../images/IMG_5150.JPG" alt="SAR"></span>
+			<h3>School for Advanced Research Preservation Masterplan</h3>
+			<p>with Barbara Felix Architecture + Design</p>
+		</section>
+		<section>
+			<span class="image fit"><img src="../images/AcequiaMadreHouse.JPG" alt="Acequia Madre House"></span>
+			<h3>Historic Structures Report + Preservation and Marketing Plan</h3>
+			<p>Acequia Madre House</p>
+		</section>
+		<section>
+			<span class="image fit"><img src="../images/acoma-full.jpg" alt="Acoma Pueblo"></span>
+			<h3>Acoma Pueblo Preservation Plan + Restorations</h3>
+			<p>with Barbara Felix Architecture + Design</p>
+		</section>
+		<section>
+			<span class="image fit"><img src="../images/Girard_StJohns_Mural.jpg" alt="Alexander Girard Mural"></span>
+			<h3>Alexander Girard Mural Research + Restoration Plan</h3>
+			<p>with AOS Architects <br> St Johns College</p>
+		</section>
+		<section>
+			<span class="image fit"><img src="../images/santaana.jpg" alt="Santa Ana"></span>
+			<h3>Pueblo of Santa Ana Day School Preservation Plan + National Register Nomination</h3>
+			<p>with Barbara Felix Architecture + Design</p>
+		</section>
+		<section>
+			<span class="image fit"><img src="../images/alexandergirardmuralrelocation.jpg" alt="Alexander Girard Mural"></span>
+			<h3>Alexander Girard Mural Research + Relocation Plan</h3>
+			<p>First Unitarian Church ABQ</p>
+		</section>
+		<section>
+			<span class="image fit"><img src="../images/taossurvey.jpg" alt="Taos Survey"></span>
+			<h3>Taos Historic District Resurvey</h3>
+			<p>~500 buildings</p>
+		</section>
+		<section>
+			<span class="image fit"><img src="../images/taoscountycourthouse.jpg" alt="Historic Taos County Courthouse"></span>
+			<h3>Taos County Courthouse Preservation Plan</h3>
+			<p>with Henry Architects</p>
+		</section>
+		<section>
+			<span class="image fit"><img src="../images/KCECalt.jpg" alt="KCEC"></span>
+			<h3>Taos County Architectural Survey</h3>
+			<p>~200 buildings</p>
+		</section>
+		<section>
+			<span class="image fit"><img src="../images/gfab.jpg" alt="Broadway Manor"></span>
+			<h3>Broadway Manor Rehabilitation Plan</h3>
+			<p>DaySpa Magazine's Spa of the Year! Featured in Inc., and on HGTV and Bravo!</p>
+		</section>
+		<section>
+			<span class="image fit"><img src="../images/taosacequias.jpg" alt="Taos Acequias"></span>
+			<h3>Taos Acequia Condition Assessment + Restoration Plan</h3>
+			<p>with Chupadero Archaeological Resources</p>
+		</section>
+		<section>
+			<span class="image fit"><img src="../images/oldspanishtrail.jpg" alt="Old Spanish Trail"></span>
+			<h3>Old Spanish Trail National Register Nomination</h3>
+			<p>with Chupadero Archaeological Resources and Colonias Cultural Resources Consulting</p>
+		</section>
+		<section>
+			<span class="image fit"><img src="../images/alpine_tunnel.jpg" alt="Alpine Tunnel"></span>
+			<h3>Team Captain: Alpine Tunnel Natl. Historic District</h3>
+			<p>with the Historic American Building Survey</p>
+		</section>
+		<section>
+			<span class="image fit"><img src="../images/emo.jpg" alt="Villa Emo"></span>
+			<h3>Palladio’s Villa Emo Historic Structures Report </h3>
+			<p>in Fanzolo, Italy</p>
+		</section>
+		<section>
+			<span class="image fit"><img src="../images/narbonne.jpg" alt="Abbey Cathedral"></span>
+			<h3>Abbey Cathedral of Valmagne Digital Documentation</h3>
+			<p>with Prof. Vivienne Paul in Narbonne, France</p>
+		</section>
+	</div>
+</div>
