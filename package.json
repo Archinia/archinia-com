@@ -1,23 +1,38 @@
 {
-  "name": "archinia.com",
-  "description": "website for archinia",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "ministry-of-architecture",
+  "description": "Website for Rachel Preston Prinz (Previously Archinia)",
+  "version": "2.0.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/Archinia/archinia-com.git"
   },
-  "author": "Melanie E Magdalena, @eli_archgirl",
+  "author": {
+    "name": "Melanie E Magdalena",
+    "email": "hello@melaniemagdalena.com",
+    "url": "https://melaniemagdalena.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Archinia/archinia-com/issues"
   },
-  "homepage": "https://archinia.com",
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-cssmin": "^0.2.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "^4.0.1",
-    "gulp-uglify": "^3.0.0"
+  "homepage": "https://ministryofarchitecture.com",
+  "scripts": {
+    "build": "eleventy",
+    "clean": "rm -rf dist",
+    "debug": "DEBUG=Eleventy* npm run build",
+    "start": "eleventy --serve --port=8181"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.0",
+    "@11ty/eleventy-plugin-rss": "^1.0.9",
+    "eleventy-plugin-reading-time": "0.0.1",
+    "html-minifier": "^4.0.0",
+    "markdown-it": "^11.0.1",
+    "markdown-it-anchor": "^6.0.0",
+    "markdown-it-collapsible": "^1.0.0",
+    "markdown-it-footnote": "^3.0.2",
+    "markdown-it-imsize": "^2.0.1",
+    "markdown-it-toc-done-right": "^4.1.0",
+    "markdown-it-video": "^0.6.3"
   }
 }

@@ -1,0 +1,5 @@
+{
+  "layout": "default.njk",
+  "tags": "page",
+  "permalink": "{{ page.filePathStem }}.html"
+}
