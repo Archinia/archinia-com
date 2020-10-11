@@ -145,33 +145,8 @@
 					<h2>Blog</h2>
 				</header>
 				<div class="inner">
-					<div class="posts">
-						<article>
-							<a href="https://medium.com/archinia/better-than-green-design-6e04a30d3ade" class="image filtered"><img src="https://cdn-images-1.medium.com/max/1600/1*bwtwhLHMbel02aRw4UuKaA.jpeg" alt="earthen house"></a>
-							<p><strong>Better than Green Design</strong>
-								<br>Bringing Sustainability Home</p>
-							<ul class="actions">
-								<li><a href="https://medium.com/archinia/better-than-green-design-6e04a30d3ade" class="button small next" alt="link to blog post">Read More</a></li>
-							</ul>
-						</article>
-						<article>
-							<a href="https://medium.com/archinia/naturally-climatizing-your-home-33850d1135b7" class="image filtered"><img src="https://cdn-images-1.medium.com/max/1600/1*W8RlvO4MRPzzuYLL77MqJQ.jpeg" alt="house with snow"></a>
-							<p><strong>Naturally Climatizing Your Home</strong>
-								<br>Harnessing Nature in Heating and Cooling.</p>
-							<ul class="actions">
-								<li><a href="https://medium.com/archinia/naturally-climatizing-your-home-33850d1135b7" class="button small next" alt="link to blog post">Read More</a></li>
-							</ul>
-						</article>
-						<article>
-							<a href="https://medium.com/archinia/living-smart-75804f7931a4" class="image filtered"><img src="https://cdn-images-1.medium.com/max/1600/1*cAZ2IflLGEs3OlFR_S185g.jpeg" alt="yellow building"></a>
-							<p><strong>Living Smart</strong>
-								<br>Affordable Green Home Projects</p>
-							<ul class="actions">
-								<li><a href="https://medium.com/archinia/living-smart-75804f7931a4" class="button small next" alt="link to blog post">Read More</a></li>
-							</ul>
-						</article>
-					</div>
-					<p style="text-align: center;"><a href="https://medium.com/archinia/" target="_blank" class="button large" style="background-color: #000;">New blog coming Summer 2020!</a>
+					{% set postlist = collections.posts | reverse | limit(3) %}
+					{% include "postlist.njk" %}
 				</div>
 			</section>
 			<!-- // end Vortex Blog Grid -->

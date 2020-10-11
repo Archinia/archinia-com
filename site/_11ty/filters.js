@@ -55,16 +55,16 @@ module.exports = {
   readableDate: function(date, format) {
     // default to America/Chicago Timezone
     if (!format) {
-      format = 'dd MMMM yyyy';
+      format = 'MMM dd, yyyy';
     }
-    return DateTime.fromJSDate(date, { zone: 'America/Chicago' }).toFormat(format);
+    return DateTime.fromJSDate(date, { zone: 'America/Denver' }).toFormat(format);
   },
 
   /**
    * Convert Date from ISO
    */
   fromIso: function(timestamp) {
-    return DateTime.fromISO(timestamp, { zone: 'America/Chicago' }).toJSDate();
+    return DateTime.fromISO(timestamp, { zone: 'America/Denver' }).toJSDate();
   },
 
   /**
