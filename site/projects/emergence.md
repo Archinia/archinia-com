@@ -5,8 +5,6 @@ subtitle: A documentary
 slug: emergence-sky-city-cultural-center
 description: >-
   Educational, Environmental, Period/Historical, Culture, Art, Spiritual, Personal Narrative, Social Issue, History, Architecture, Native American, Women, Sustainability
-keywords: >-
-  Non-Profit, Architecture, preservation, culture, history, historic, indigenous, Hispanic, New Mexico, traditional, film, television, education, academic, Acoma
 featured_image: emergence/emergence.jpg
 ---
 
