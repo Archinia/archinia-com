@@ -1813,8 +1813,8 @@ button.alt.icon:before,
 
 /* Form */
 form {
-  width: calc(100% + 4rem);
-  margin: -2rem 0 2rem -2rem;
+  width: 90%;
+  margin: 0 auto;
 }
 
 form>.field {
@@ -1891,7 +1891,6 @@ form.alt>.actions {
 
 label {
   display: block;
-  font-size: 0.9rem;
   font-weight: 600;
   margin: 0 0 1rem 0;
 }
@@ -3254,7 +3253,8 @@ table.alt tbody tr td {
 }
 
 #wrapper>main>.main>.inner .columns .column-narrow,
-#wrapper>.main>.inner .columns .column-narrow {
+#wrapper>.main>.inner .columns .column-narrow,
+.column-narrow {
   width: 40%;
 }
 
@@ -3771,7 +3771,7 @@ table.alt tbody tr td {
 }
 
 /* Consolidate Flex */
-.features, .quotes, form, #banner, ul.faces, ul.faces li, #footer .links {
+.features, .quotes, #banner, ul.faces, ul.faces li, #footer .links {
   display: -moz-flex;
   display: -webkit-flex;
   display: -ms-flex;
@@ -3787,7 +3787,7 @@ table.alt tbody tr td {
   flex-direction: row;
 }
 
-.features, .quotes, form, #footer .links {
+.features, .quotes, #footer .links {
   -moz-flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
@@ -4830,4 +4830,14 @@ body.is-navPanel-visible #navPanel {
   -o-transform: translateX(0);
   transform: translateX(0);
   visibility: visible;
+}
+
+.w-1\/3 {
+  width: 33%;
+}
+.w-2\/3 {
+  width: 66%;
+}
+.w-1\/2 {
+  width: 50%;
 }
