@@ -31,13 +31,13 @@
 	<div id="wrapper" style="display: flex; flex-direction: column; align-items: stretch;">
 
 		<!-- Header -->
-		<header id="header" style="display: flex; flex-direction: row; align-items: center; justify-content: space-between;">
-
-			<!-- Logo -->
-			<a class="logo" href="/"><img src="/images/_branding/moa-logo-black.png" alt="Archinia"></a>
-
-			<!-- Nav -->
-			{% include "navigation.njk" %}
+		<header id="header">
+			<div style="display: flex; flex-direction: row; align-items: center; justify-content: space-between; max-width: 1500px; margin: 0 auto;">
+				<!-- Logo -->
+				<a class="logo" href="/"><img src="/images/_branding/moa-logo-black.png" alt="Archinia"></a>
+				<!-- Nav -->
+				{% include "navigation.njk" %}
+			</div>
 		</header>
 
 		<!-- Hero Section -->
@@ -55,13 +55,13 @@
 					{% if rpp_menu %}
 						{% include "navigation-rpp.njk" %}
 					{% endif %}
-					{% if collection === collection.posts %}
+					{% if date %}
 					<p>Published {{ date | readableDate }} <span style="display: inline-block; padding: 0 0.5rem;">•</span> {{ content | readingTime }} read</p>
 					{% endif %}
 				</header>
 
 				{% if featured_image %}
-				<div>
+				<div style="max-width: 1500px; margin: 0 auto;">
 					<span class="image fit" style="max-height: 500px; height: auto; min-height: 400px; background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url('/images/{{ featured_image }}');"></span>
 				</div>
 				{% endif %}
