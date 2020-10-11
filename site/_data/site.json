@@ -1,14 +1,14 @@
 {
   "name": "The Ministry of Architecture",
   "description": "",
-  "url": "https://theministryofarchitecture.com",
-  "domain": "theministryofarchitecture.com",
+  "url": "https://archinia.com",
+  "domain": "archinia.com",
   "language": "en-US",
   "locale": "en",
   "author_name": "Rachel Preston Prinz",
   "logo": "",
   "favicon": "",
-  "image_card": "RppMinistryBanner.jpg",
+  "image_card": "_branding/RppMinistryBanner.jpg",
   "image_card_alt": "The Ministry of Architecture, Rachel Preston Prinz",
   "google_verification": "NKFrTpko2W_HvZNSiWasu7l8ybrNE768ldodedDIbVM"
 }
