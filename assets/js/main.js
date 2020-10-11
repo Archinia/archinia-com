@@ -167,7 +167,8 @@ var settings = {
 		var	$window = $(window),
 			$body = $('body'),
 			$header = $('#header'),
-			$banner = $('#banner');
+			$banner = $('#banner'),
+			$nav = $('#navBlock');
 
 		// Disable animations/transitions until the page has loaded.
 			$body.addClass('is-loading');
@@ -255,8 +256,8 @@ var settings = {
 			});
 
 		// Menu.
-			$('<a href="#navPanel" class="navPanelToggle">Menu</a>')
-				.appendTo($header);
+			$('<a href="#navPanel" class="navPanelToggle" title="Menu"></a>')
+				.appendTo($nav);
 
 			$(	'<div id="navPanel">' +
 					'<nav>' +

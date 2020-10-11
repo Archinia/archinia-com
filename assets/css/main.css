@@ -3908,6 +3908,7 @@ body {
   box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.125);
   cursor: default;
   z-index: 10000;
+  padding: 0 .875rem;
 }
 
 #header a {
@@ -3918,9 +3919,8 @@ body {
 }
 
 #header>.logo {
-  position: absolute;
-  left: 1rem;
-  top: 0.5rem;
+  display: inline-flex;
+  align-items: center;
 }
 
 #header>.logo strong {
@@ -3960,7 +3960,7 @@ body {
   float: right;
   margin-left: 0.5rem;
   line-height: inherit;
-  color: #bfbfbf;
+  color: #000;
 }
 
 #header>nav>ul>li>a.icon:hover:before {
@@ -4071,10 +4071,10 @@ body {
   -o-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, top 0.2s ease-in-out, right 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, top 0.2s ease-in-out, right 0.2s ease-in-out;
   text-decoration: none;
-  display: none;
+  display: block;
   position: absolute;
   top: 0;
-  right: 0;
+  right: 130px;
   height: inherit;
   line-height: inherit;
   padding: 0 1rem;
@@ -4124,6 +4124,7 @@ body {
 
   #header>.navPanelToggle {
     display: block;
+    right: 105px;
   }
 
   #header.alt>.logo {
@@ -4532,11 +4533,6 @@ body.is-loading #banner>.slider {
   padding: 16px;
 }
 
-#footer ul.icons {
-  margin-bottom: 0.2rem;
-  margin-top: 0.2rem;
-}
-
 #footer a {
   border-bottom-color: transparent;
   color: #fff;
@@ -4604,6 +4600,14 @@ body.is-loading #banner>.slider {
   justify-content: center;
 }
 
+#footer .copyright > .copyright-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
 #footer .copyright p {
   padding: 0 10px;
   margin: 0;
@@ -4651,7 +4655,8 @@ body.is-loading #banner>.slider {
   }
 
   #footer .copyright {
-    flex-direction: column;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
   }
 
   #footer .links {

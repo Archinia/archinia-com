@@ -1,0 +1,15 @@
+{% set title = title or site.name %}
+{% set description = description or site.description %}
+{% set image_card = featured_image or site.image_card %}
+
+<meta name="description" content="{{ description }}" />
+
+<meta name="google-site-verification" content="{{ google_verification }}" />
+
+<meta property="og:title" content="{{ title }}" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="{{ description }}" />
+<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+<meta property="og:image" content="/images/{{ featured_image }}" />
+
+<link rel="canonical" href="{{ site.url }}{{ page.url }}">

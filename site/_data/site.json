@@ -1,5 +1,5 @@
 {
-  "name": "Ministry of Architecture",
+  "name": "The Ministry of Architecture",
   "description": "",
   "url": "https://ministryofarchitecture.com",
   "domain": "ministryofarchitecture.com",
@@ -11,6 +11,7 @@
   "privacy_email": "",
   "logo": "",
   "favicon": "",
-  "image_card": "",
-  "image_card_alt": ""
+  "image_card": "RppMinistryBanner.jpg",
+  "image_card_alt": "The Ministry of Architecture, Rachel Preston Prinz",
+  "google_verification": "NKFrTpko2W_HvZNSiWasu7l8ybrNE768ldodedDIbVM"
 }
