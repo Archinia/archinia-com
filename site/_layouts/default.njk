@@ -43,10 +43,10 @@
 		<!-- Hero Section -->
 		<section class="main alt">
 			<header>
-				{% if rpp_menu === false %}
-				<h1>{{ title }}</h1>
-				{% else %}
+				{% if rpp_menu %}
 				<h1>Rachel Preston Prinz</h1>
+				{% else %}
+				<h1>{{ title }}</h1>
 				{% endif %}
 				{% if subtitle %}
 					<h2>{{ subtitle }}</h2>
