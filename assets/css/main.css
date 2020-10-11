@@ -3234,16 +3234,16 @@ table.alt tbody tr td {
   border-radius: 0 0;
 }
 
-#wrapper>.main>.inner.columns {
+#wrapper>.main>.inner .columns {
   display: flex;
 }
 
-#wrapper>.main>.inner.columns .column-wide {
+#wrapper>.main>.inner .columns .column-wide {
   width: 55%;
   margin: 0 5rem 0 0;
 }
 
-#wrapper>.main>.inner.columns .column-narrow {
+#wrapper>.main>.inner .columns .column-narrow {
   width: 40%;
 }
 
@@ -3828,6 +3828,10 @@ form>.field, #banner>.items, #banner>.slider, #footer .links>div {
 
 #subMenu li>a {
   border-bottom: none;
+}
+
+#subMenu li>a:hover {
+  border-bottom: 2px solid #25dbdb;
 }
 
 #subMenu li.current {

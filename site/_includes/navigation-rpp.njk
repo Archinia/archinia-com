@@ -1,0 +1,23 @@
+<nav id="subMenu">
+  <ul>
+    <li class="{{ 'current' if '/about/rachel-preston-prinz' in page.url }}">
+      <a href="/about/rachel-preston-prinz.html">About</a>
+    </li>
+    <li class="{{ 'current' if '/about/art-photography' in page.url }}">
+      <a href="/about/art-photography.html">Artist</a>
+    </li>
+    <li class="{{ 'current' if '/about/film' in page.url }}">
+      <a href="/about/film.html">Filmmaker</a>
+    </li>
+    <li class="{{ 'current' if '/about/publications' in page.url }}">
+      <a href="/about/publications.html">Writer</a>
+    </li>
+    <li class="{{ 'current' if '/about/talks' in page.url }}">
+      <a href="/about/talks.html">Speaker</a>
+    </li>
+    <li class="{{ 'current' if '/about/influencer' in page.url }}">
+      <a href="/about/influencer.html">Influencer</a>
+    </li>
+    {{ post.url }}
+  </ul>
+</nav>
