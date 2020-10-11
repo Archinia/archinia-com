@@ -86,6 +86,7 @@
 		<section class="main alt">
 			<header>
 				<h1>{{ title }}</h1>
+				{% if subtitle %}<h2>{{ subtitle }}</h2>{% endif %}
 			</header>
 			<div><span class="image fit" style="max-height: 400px; height: auto; min-height: 350px; background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url('../images/{{ featured_image }}');"></span>
 			</div>
