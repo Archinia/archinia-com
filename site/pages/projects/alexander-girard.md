@@ -3,7 +3,7 @@ title: Alexander Girard in New Mexico
 slug: projects/alexander-girard-in-new-mexico
 description: >-
   Explore Alexander Girard's work at Santa Fe's Museum of International Folk Art, The Compound, St Johns College, and First Unitarian Church in Albuquerque.
-featured_image: mchenryUUmural.jpg
+featured_image: girard/mchenryUUmural.jpg
 ---
 
 Since our work on the stabilization of the First Unitarian Church in ABQ's Alexander Girard Mural, and our current work at St Johns College, we have had the opportunity to delve into more about Girard's work and influence in New Mexico, including his extant sites, as well as his connections to John Gaw Meem and Georgia O'Keeffe.
@@ -12,7 +12,7 @@ Because we are currently getting so many requests for information due to the Vit
 
 <hr class="major" />
 
-<img class="image left" src="/images/Girard_UnitarianMural.jpg" alt="Unitarian Mural" style="max-height: 220px;">
+<img class="image left" src="/images/girard/Girard_UnitarianMural.jpg" alt="Unitarian Mural" style="max-height: 220px;">
 
 ## Unitarian Church of Albuquerque
 
@@ -26,7 +26,7 @@ Because we are currently getting so many requests for information due to the Vit
 
 <hr class="major" />
 
-<img class="image left" src="/images/Girard_Moifa.jpg" alt="MOIFA Mural" style="max-height: 220px;">
+<img class="image left" src="/images/girard/Girard_Moifa.jpg" alt="MOIFA Mural" style="max-height: 220px;">
 
 ## Museum of International Folk Art
 
@@ -36,7 +36,7 @@ Girard’s design for the Multiple Visions: A Common Bond exhibit at the Museum 
 
 <hr class="major" />
 
-<img class="image left" src="/images/Girard_Compound.jpg" alt="Compound Mural" style="max-height: 220px;">
+<img class="image left" src="/images/girard/Girard_Compound.jpg" alt="Compound Mural" style="max-height: 220px;">
 
 ## The Compound
 
@@ -48,7 +48,7 @@ Girard was playful in the way he treated the whitewashed rooms. For decoration, 
 
 <hr class="major" />
 
-<img class="image left" src="/images/Girard_StJohns_Mural.jpg" alt="St Johns Mural" style="max-height: 220px;">
+<img class="image left" src="/images/girard/Girard_StJohns_Mural.jpg" alt="St Johns Mural" style="max-height: 220px;">
 
 ## St Johns
 
