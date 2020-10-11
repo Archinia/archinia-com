@@ -1,8 +1,6 @@
 ---
 title: Disclaimer of Endorsement
 slug: disclaimer
-featured_image:
-layout: text-only.njk
 ---
 The documents posted on this Website contain external links to information created and maintained by other organizations. These links are provided for the user’s convenience. Rachel Preston Prinz, Archinia, and Architecture for Everybody do not control or guarantee the accuracy, relevance, timeliness, or completeness of this outside information. The inclusion of links is not intended to reflect their importance, nor is it intended as an endorsement by Rachel Preston Prinz, Archinia, and Architecture for Everybody of any views expressed or products or services offered by the organizations sponsoring the links. Rachel Preston Prinz, Archinia, and Architecture for Everybody does not endorse individual vendors, products, or services. Therefore, any reference herein to any vendor, product, or services by trade name, trademark, manufacturer, or otherwise does not constitute or imply the endorsement, recommendation, or approval by Rachel Preston Prinz, Archinia, and/or Architecture for Everybody.
 
