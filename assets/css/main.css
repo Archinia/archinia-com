@@ -4841,3 +4841,11 @@ body.is-navPanel-visible #navPanel {
 .w-1\/2 {
   width: 50%;
 }
+
+.main h2,
+.main h3,
+.main h4,
+.main h5,
+.main h6 {
+  scroll-margin: 120px;
+}
