@@ -15,9 +15,11 @@ featured_image: bandelier/bandelier-banner.jpg
   <span class="image fit" style="padding: 0.5rem; max-width: 200px;"><img src="/images/logos/nmtrue.jpg" alt="NM True Film"></span>
 </div>
 
+<!-- Placeholder for YouTube Video
 <div class="videoWrapper" style="margin-bottom: 2rem;">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/f9gkoxn1Zng" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
+-->
 
 The Haak'ume people of Acoma Pueblo in New Mexico were faced with a challenge when their visitor center burned down in 2000: How to reconstruct a place that was as welcoming to their people as to visitors, would tell the story of their people, and also be a bridge between cultural and 'green' interpretations of sustainability. What they created was much more than that. This is the story of the Place that the architects and the Haaku'me people created together.
 
