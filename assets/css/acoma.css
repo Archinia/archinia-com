@@ -1,0 +1,134 @@
+:root {
+  /* Fonts */
+  --acoma-headings: "Cinzel", serif;
+  --acoma-body: "Crimson Text", serif;
+  --acoma-nav: "Alegreya", Georgia, serif;
+
+  /* Colors */
+  --white: #ffffff;
+  --old-lace: #fbf5e9;
+  --apricot-white: #f9f1de;
+  --chamois: #e8cc9d;
+  --orange-roughy: #c84f19;
+  --totem-pole: #97250a;
+  --dark-gray: #565656;
+  --bokara: #2c2a29;
+  --diesel: #110000;
+  --kilimanjaro: #210b00; /* footer */
+}
+
+/* Custom Fonts */
+
+@font-face {
+  font-family: "Alegreya";
+  src: url("/assets/fonts/alegreya/Alegreya-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Cinzel";
+  src: url("/assets/fonts/cinzel/Cinzel-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Crimson Text";
+  src: url("/assets/fonts/crimson_text/CrimsonText-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Crimson Text";
+  src: url("/assets/fonts/crimson_text/CrimsonText-Italic.ttf") format("truetype");
+  font-style: italic;
+}
+@font-face {
+  font-family: "Crimson Text";
+  src: url("/assets/fonts/crimson_text/CrimsonText-Bold.ttf") format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Crimson Text";
+  src: url("/assets/fonts/crimson_text/CrimsonText-BoldItalic.ttf") format("truetype");
+  font-style: oblique;
+  font-weight: 600;
+}
+
+/* Content Area */
+
+.main {
+  font-family: var(--acoma-body);
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--diesel);
+  background-color: var(--apricot-white);
+}
+
+#wrapper>main>.main>header {
+  margin-bottom: 0;
+}
+
+/* Headings */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--acoma-headings);
+  font-weight: 600;
+  color: var(--bokara);
+}
+
+.secondary > h1,
+.secondary > h2,
+.secondary > h3,
+.secondary > h4,
+.secondary > h5,
+.secondary > h6 {
+  color: var(--totem-pole);
+}
+
+/* Navigation */
+
+#acoma-nav {
+  padding: 0.5rem 2rem;
+  font-family: var(--acoma-nav);
+  color: var(--old-lace);
+  background-color: var(--bokara);
+}
+#acoma-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+}
+#acoma-nav li {
+  padding: 0.5rem;
+}
+#acoma-nav a {
+  color: var(--old-lace);
+}
+
+/* Pagination */
+
+.pagination {
+  font-family: var(--font-body);
+  margin: 2rem auto;
+}
+.pagination-next {
+  text-align: right;
+}
+.pagination a {
+  text-decoration: none;
+  border-bottom: none;
+  font-weight: 900;
+  padding: 0.5rem 1rem;
+  color: var(--white);
+  background-color: var(--orange-roughy);
+}
+
+/* Sections */
+
+section .secondary {
+  background-color: var(--chamois);
+}
+
+blockquote {
+  margin: 3rem auto;
+  padding: 1rem;
+  font-style: italic;
+  background-color: var(--old-lace);
+  border-left: 4px solid var(--orange-roughy);
+}
