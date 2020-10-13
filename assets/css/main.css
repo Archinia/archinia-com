@@ -3808,39 +3808,6 @@ form>.field, #banner>.items, #banner>.slider, #footer .links>div {
   background-color: #ffffff;
 }
 
-#subMenu ul {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: center;
-  padding-left: 0;
-  /*padding-left: 0 !important;*/
-}
-
-#subMenu li {
-  list-style: none;
-  padding: 0.5rem;
-  font-weight: 900;
-  text-transform: uppercase;
-  font-size: 1rem;
-}
-
-#subMenu li>a {
-  border-bottom: none;
-}
-
-#subMenu li>a:hover {
-  border-bottom: 2px solid #25dbdb;
-}
-
-#subMenu li.current {
-  background-color: #25dbdb;
-}
-
-#subMenu li.current a {
-  color: #ffffff;
-}
-
 /* Header */
 @-moz-keyframes reveal-header {
   0% {
@@ -4129,7 +4096,7 @@ body {
 
 @media screen and (max-width: 480px) {
   #header .logo img {
-    width: 150px;
+    width: 120px;
   }
 
   #header.alt .logo {
@@ -4688,6 +4655,10 @@ body.is-loading #banner>.slider {
   -ms-transition: opacity 0.5s ease;
   -o-transition: opacity 0.5s ease;
   transition: opacity 0.5s ease;
+}
+
+#navBlock {
+  font-size: 1rem;
 }
 
 #navPanel {

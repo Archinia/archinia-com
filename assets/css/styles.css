@@ -27,15 +27,6 @@ h2, .h2 {
 
 /* Utilities */
 @media screen and (min-width: 768px) {
-  .w-1\/3 {
-    width: 33%;
-  }
-  .w-2\/3 {
-    width: 66%;
-  }
-  .w-1\/2 {
-    width: 50%;
-  }
   .w-10 {
     width: 10%;
   }

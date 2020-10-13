@@ -39,6 +39,10 @@
   font-size: 1rem;
 }
 
+* {
+  scrollbar-color: var(--orange-roughy) var(--chamoy);
+}
+
 /* Custom Fonts */
 
 @font-face {
@@ -176,12 +180,12 @@ ul + h3 {
 
 /* Navigation */
 
-#acoma-nav {
+#navAcoma {
   font-family: var(--font-nav-acoma);
   background-color: var(--background-nav);
   padding: 1rem 0 0;
 }
-#acoma-nav ul {
+#navAcoma ul {
   max-width: var(--screen-xl);
   margin: 0 auto;
   padding: 0;
@@ -190,52 +194,48 @@ ul + h3 {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 }
-#acoma-nav ::-webkit-scrollbar {
+#navAcoma ::-webkit-scrollbar {
   height: 0.75rem;
   margin: 0 -1rem;
 }
-#acoma-nav ::-webkit-scrollbar-track {
+#navAcoma ::-webkit-scrollbar-track {
   background-color: var(--chamoy);
 }
-#acoma-nav ::-webkit-scrollbar-thumb {
+#navAcoma ::-webkit-scrollbar-thumb {
   background-color: var(--orange-roughy);
 }
-* {
-  scrollbar-color: var(--orange-roughy) var(--chamoy);
-}
-#acoma-nav li {
+#navAcoma li {
   padding: 0.5rem 1rem;
-  border-top: 2px solid transparent;
   white-space: nowrap;
 }
-#acoma-nav a {
+#navAcoma a {
   font-size: 1rem;
   color: var(--color-hyperlink-nav);
   border-bottom: none;
 }
-#acoma-nav a:hover,
-#acoma-nav a:focus,
-#acoma-nav a:active {
+#navAcoma a:hover,
+#navAcoma a:focus,
+#navAcoma a:active {
   color: var(--color-hyperlink-nav-active);
 }
-#acoma-nav li.current a {
+#navAcoma li.current a {
   color: var(--color-hyperlink-nav-active);
 }
 
 @media screen and (min-width: 768px) {
-  #acoma-nav {
+  #navAcoma {
     padding: 1rem 0;
   }
-  #acoma-nav ul {
+  #navAcoma ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     overflow-x: auto;
   }
-  #acoma-nav li {
+  #navAcoma li {
     padding: 0 1rem 0.5rem;
   }
-  #acoma-nav a {
+  #navAcoma a {
     font-size: 1.2rem;
   }
 }

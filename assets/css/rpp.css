@@ -1,0 +1,32 @@
+:root {
+  --color-hyperlink-nav: var(--white);
+  --background-accent: var(--accent);
+  --border-accent: var(--accent);
+}
+
+#navRPP ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-left: 0;
+}
+#navRPP li {
+  list-style: none;
+  padding: 0.5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+#navRPP li>a {
+  border-bottom: none;
+}
+#navRPP li>a:hover {
+  border-bottom: 2px solid var(--border-accent);
+}
+#navRPP li.current {
+  background-color: var(--background-accent);
+}
+#navRPP li.current a {
+  color: var(--color-hyperlink-nav);
+}
