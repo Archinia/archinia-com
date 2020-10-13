@@ -179,6 +179,7 @@ ul + h3 {
 #acoma-nav {
   font-family: var(--font-nav-acoma);
   background-color: var(--background-nav);
+  padding: 1rem 0 0;
 }
 #acoma-nav ul {
   max-width: var(--screen-xl);
@@ -222,6 +223,9 @@ ul + h3 {
 }
 
 @media screen and (min-width: 768px) {
+  #acoma-nav {
+    padding: 1rem 0;
+  }
   #acoma-nav ul {
     display: flex;
     flex-wrap: wrap;
