@@ -4128,6 +4128,10 @@ body {
 }
 
 @media screen and (max-width: 480px) {
+  #header .logo img {
+    width: 150px;
+  }
+
   #header.alt .logo {
     left: 1rem;
   }

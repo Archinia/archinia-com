@@ -1,14 +1,32 @@
 :root {
   --accent: #25dbdb;
+  --white: #ffffff;
+  --black: #000000;
 
-  --navpanel-text: #ffffff;
-  --navpanel-background: #000000;
+  --navpanel-text: var(--white);
+  --navpanel-background: var(--black);
 
   --font-body: "Source Sans Pro", Helvetica, sans-serif;
+
+  --screen-sm: 300px;
+  --screen-md: 768px;
+  --screen-lg: 1024px;
+  --screen-xl: 1400px;
+}
+
+/* Sizes */
+
+h1 {
+  font-size: 2.75rem;
+}
+
+h2, .h2 {
+    font-size: 1.5rem;
+    line-height: 1.3;
 }
 
 /* Utilities */
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .w-1\/3 {
     width: 33%;
   }
@@ -18,11 +36,61 @@
   .w-1\/2 {
     width: 50%;
   }
+  .w-10 {
+    width: 10%;
+  }
+  .w-15 {
+    width: 10%;
+  }
+  .w-20 {
+    width: 20%;
+  }
+  .w-25 {
+    width: 20%;
+  }
+  .w-30 {
+    width: 30%;
+  }
+  .w-40 {
+    width: 40%;
+  }
+  .w-45 {
+    width: 45%;
+  }
+  .w-50 {
+    width: 50%;
+  }
+  .w-55 {
+    width: 55%;
+  }
+  .w-60 {
+    width: 60%;
+  }
+  .w-70 {
+    width: 70%;
+  }
+  .w-75 {
+    width: 75%;
+  }
+  .w-80 {
+    width: 80%;
+  }
+  .w-85 {
+    width: 80%;
+  }
+  .w-90 {
+    width: 90%;
+  }
 }
 
 .full-bleed {
   width: 100vw;
   margin-left: calc(50% - 50vw);
+}
+
+.full-bleed > .container {
+  max-width: 58rem;
+  margin: 0 auto;
 }
 
 /* Columns */
@@ -33,16 +101,25 @@
     margin: 0 -1.5rem;
   }
   .column {
-    width: 50%;
     margin: 0 1.5rem;
+  }
+  /* TODO: replace on pages with w-# utilities
+  .column-70 {
+    width: 70%;
   }
   .columns > .column-wide {
     width: 55%;
     margin: 0 5rem 0 0;
   }
+  .column-50 {
+    width: 50%;
+  }
   .columns > .column-narrow {
     width: 40%;
   }
+  .column-30 {
+    width: 30%;
+  } */
 }
 
 /* Scroll Handling */

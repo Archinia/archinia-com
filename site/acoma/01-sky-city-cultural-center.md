@@ -15,28 +15,28 @@ Their success speaks for itself. Explore the design of the Cultural Center in th
 
 Architect Barbara Felix and former Center Directors Brian Vallo and Emerson Vallo talk about the aspects of design incorporated. They then share how six essential building elements are used to weave together the old and the new in the modern structure.
 
-<div class="videoWrapper" style="margin-bottom: 2rem;">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/4f3PYnAtvBU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div class="iframe-wrapper videoWrapper" style="margin-bottom: 2rem;">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/4f3PYnAtvBU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen loading="lazy"></iframe>
 </div>
 
 ## Ancient design in a modern Cultural Center
 
-<div class="columns">
-  <div class="column">
+<div class="columns align-top">
+  <div class="column w-50">
     <span class="image fit"><img src="/images/acoma/6e_essential_01a.jpg" alt="" /></span>
     <p>Stone, wood, mica, corn, mud and pottery: they are the six building elements of Acoma Sky City. This website explores how these elements have been layered with architectural forms and details from ancestral homelands at Chaco Canyon, Aztec Ruins, Mesa Verde and the Moss Ruins. We will study the Acoma people’s relationship to earth, wind, water and the stars, and their ties to the landscape and the sacred mountains and sites in the four directions.</p>
     <p>We delve into what happens when a cultural fabric of honoring deep traditions comes up against a need to address contemporary ideas of sustainability.</p>
   </div>
-  <div class="column">
+  <div class="column w-50">
     <span class="image fit"><img src="/images/acoma/landscape-02.jpg" alt="" /></span>
     <p>We learn how modern building needs can be supported by the same methods of passive solar design that have been used in Acoma for more than 600 years and precursor sites for nearly a millennium. Finally, we take a tour of the ancient and modern adaptations of the ideas and systems that make up the extraordinary structure that is the Sky City Cultural Center – recently named the Southwest’s Best Cultural Attraction as well as a Building of the Past 50 Years that has Built a Community.</p>
     <p>This building, like the Acoma people, will leave its mark on us.</p>
   </div>
 </div>
 
-<div class="pagination pagination-next">
+<nav class="pagination pagination-next" aria-label="Lesson navigation">
   <a href="/acoma/acomas-cultural-landscape/"
-     class="pagination-link">
-     NEXT SECTION: ACOMA’S CULTURAL LANDSCAPE <span aria-hidden="true">▶︎</span>
+     class="next">
+     2. ACOMA’S CULTURAL LANDSCAPE
   </a>
-</div>
+</nav>

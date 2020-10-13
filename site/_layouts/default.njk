@@ -38,7 +38,7 @@
 		<header id="header">
 			<div style="display: flex; flex-direction: row; align-items: center; justify-content: space-between; max-width: 1500px; margin: 0 auto;">
 				<!-- Logo -->
-				<a class="logo" href="/"><img src="/images/_branding/moa-logo-black.png" alt="Archinia"></a>
+				<a class="logo" href="/" title="Back to home"><img src="/images/_branding/moa-logo-black.png" alt="The Ministry of Architecture" aria-hidden="true" /></a>
 				<!-- Nav -->
 				{% include "navigation.njk" %}
 			</div>
@@ -47,12 +47,17 @@
 		<!-- Hero Section -->
 		<main style="flex-grow: 1; flex-shrink: 0;">
 			{% if submenu === "acoma" %}
-			<section class="main">
-				{% include "navigation-acoma.njk" %}
 				<header>
-					<h1>{{ title }}</h1>
+					<div class="full-bleed pattern">
+						<span class="acoma-banner"><img src="/images/acoma/acoma-banner.png" alt="Sky City Cultural Center and the Architecture of Acoma Pueblo" /></span>
+						{% include "navigation-acoma.njk" %}
+					</div>
 				</header>
-			</section>
+				{% if page.url === "/acoma/" %}
+				<div class="full-bleed">
+					<span class="image fit"><img src="/images/acoma/home-cover-exterior-wide.jpg" alt="" /></span>
+				</div>
+				{% endif %}
 			{% else %}
 			<section class="main alt">
 				<header>
@@ -86,6 +91,9 @@
 			<!-- Content Section -->
 			<section class="main">
 				<div class="inner style1">
+					{% if submenu === "acoma" %}
+					<h1>{{ title }}</h1>
+					{% endif %}
 					{{ content | safe }}
 				</div>
 			</section>
@@ -94,6 +102,9 @@
 			<div>
 				<span class="image fit" style="max-height: 500px; height: auto; min-height: 350px; background-size: cover; background-position: center 30%; background-repeat: no-repeat; background-image: url('/images/{{ footer_image }}');"></span>
 			</div>
+			{% endif %}
+			{% if submenu === "acoma" %}
+			<div class="full-bleed" style="height: 150px; overflow: hidden; background-image: url('/images/acoma/activity.png'); background-repeat: no-repeat; background-position: center center; background-size: cover; border-top: 8px solid var(--border-footer);"></div>
 			{% endif %}
 
 		</main>
