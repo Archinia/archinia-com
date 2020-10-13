@@ -18,7 +18,8 @@
 	<!-- Styles -->
 	<link rel="stylesheet" href="/assets/css/font-awesome.min.css" />
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:800|Source+Sans+Pro:300,300i,600,600i" />
-	<link rel="stylesheet" href="/assets/css/main.css" />
+	<!-- Old Stylesheet --><link rel="stylesheet" href="/assets/css/main.css" />
+	<!-- New Stylesheet --><link rel="stylesheet" href="/assets/css/styles.css" />
 
 	<!-- Insert Favicons -->
 	{% include "favicons.njk" %}
@@ -45,16 +46,19 @@
 			<section class="main alt">
 				<header>
 					{% if rpp_menu %}
-					<h1>Rachel Preston Prinz</h1>
+						<h1>Rachel Preston Prinz</h1>
 					{% else %}
-					<h1>{{ title }}</h1>
+						<h1>{{ title }}</h1>
 					{% endif %}
+
 					{% if subtitle %}
 						<h2>{{ subtitle }}</h2>
 					{% endif %}
-					{% if rpp_menu %}
+
+					{% if submenu === "rpp" %}
 						{% include "navigation-rpp.njk" %}
 					{% endif %}
+
 					{% if date %}
 					<p>Published {{ date | readableDate }} <span style="display: inline-block; padding: 0 0.5rem;">•</span> {{ content | readingTime }} read</p>
 					{% endif %}
@@ -66,6 +70,7 @@
 				</div>
 				{% endif %}
 			</section>
+			{% endif %}
 
 			<!-- Content Section -->
 			<section class="main">
