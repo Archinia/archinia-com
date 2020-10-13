@@ -6,11 +6,15 @@ submenu: acoma
 order: 8
 ---
 
-<img src="/images/acoma/Chaco-27-Large.jpg" alt="" />
-
-The roots of Acoma Pueblo extend deep and wide across the ancient American Southwest, including the magnificent sites of the Chaco Canyon National Historical Park. Let’s explore the wonders of Chaco, it’s connections to Acoma, and how both sites exemplify the deep roots of sustainablity in New Mexico.
-
-Chaco Canyon is a UNESCO World Heritage Site that preserves the history and culture of the Pueblo people. Chaco Canyon is the ancestral home of Pueblo people and it is where many of the cultural traditions that are practiced to this day at Acoma, Zuni, Tesuque, Zia, Hopi, Taos, and other pueblos emerged. Chaco’s magnificent great houses – Pueblo Bonito, Chetro Ketl, and others – still tower over the canyon floor, while in the surrounding landscape, ancient roads and pathways to outlying villages and shrines offer silent testimony to the wonders of Chacoan society.
+<div class="columns">
+  <div class="column w-50">
+    <span class="image fit"><img src="/images/acoma/Chaco-27-Large.jpg" alt="" /></span>
+  </div>
+  <div class="column w-50">
+    <p>The roots of Acoma Pueblo extend deep and wide across the ancient American Southwest, including the magnificent sites of the Chaco Canyon National Historical Park. Let’s explore the wonders of Chaco, it’s connections to Acoma, and how both sites exemplify the deep roots of sustainability in New Mexico.</p>
+    <p>Chaco Canyon is a UNESCO World Heritage Site that preserves the history and culture of the Pueblo people. Chaco Canyon is the ancestral home of Pueblo people and it is where many of the cultural traditions that are practiced to this day at Acoma, Zuni, Tesuque, Zia, Hopi, Taos, and other pueblos emerged. Chaco’s magnificent great houses – Pueblo Bonito, Chetro Ketl, and others – still tower over the canyon floor, while in the surrounding landscape, ancient roads and pathways to outlying villages and shrines offer silent testimony to the wonders of Chacoan society.</p>
+  </div>
+</div>
 
 Chaco Canyon was chosen as a place to live for a variety of reasons. From the time of the first Basketmaker villages in Chaco, Pueblo people lived there because it offered the abundant resources necessary to live a quality life – plants for food and medicine, arable land for agriculture, clay for pottery, stone for tools and building houses, wood for building, and water. Less tangible but no less important reasons to call it home include Chaco’s landscape and topography and what we believe is the spiritual quality of Chaco Canyon.
 
