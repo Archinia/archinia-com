@@ -7,8 +7,8 @@ featured_image: bandelier/bandelier-banner.jpg
 
 <p style="text-align: center;">
   <strong>RUNTIME:</strong> XX:XX<br>
-  <strong>GENRES:</strong> Genre, Genre, Genre<br>
-  <strong>NICHES:</strong> Niche, Niche, Niche
+  <strong>GENRES:</strong> Educational, Environmental, Period/Historical, Culture, Art, Spiritual, Personal Narrative, Social Issue, History, Architecture<br>
+  <strong>NICHES:</strong> Native American, Women, Sustainability
 </p>
 
 <div style="display: flex; flex-direction: row; align-items:center; justify-content: center; margin: 2rem auto;">
@@ -83,10 +83,9 @@ We were filming a local public television series celebrating 1000 years of truly
     </div>
   </div>
   <div class="crew">
-    <span class="image left"><img src="https://via.placeholder.com/200" alt="Rachel at Acoma" style="max-width: 200px;"></span>
     <div>
-      <h3>Crew Member #2</h3>
-      <p>A short bio for the crew member. The photo should be of the person too.<br><a href="#">Name of Linked Page someone can learn more about the crew member.</a></p>
+      <h3>Suzenne "Zenne" Seradwyn</h3>
+      <p>Suzenne "Zenne" Seradwyn, our assistant Director and Visual Editor, has worked as an actor, producer, videographer and editor on over 40 feature length and short films and numerous globally syndicated television shows.<br><a href="http://www.puremotherlove.com">Pure Mother Love Productions</a></p>
     </div>
   </div>
 </section>
