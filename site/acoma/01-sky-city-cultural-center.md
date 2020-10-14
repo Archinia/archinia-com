@@ -1,8 +1,12 @@
 ---
 title: Sky City Cultural Center
+description: >-
+  Sky City Cultural Center bridges historic and modern ideas about culture and sustainability.
 permalink: acoma/index.html
 submenu: acoma
 order: 1
+seo_title: >-
+  Sky City Cultural Center | Acoma Architecture Education Portal
 ---
 
 ## Where Opportunity Arose from Tragedy

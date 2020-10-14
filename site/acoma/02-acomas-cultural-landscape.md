@@ -1,5 +1,7 @@
 ---
 title: Acoma's Cultural Landscape
+description: >-
+  Section 2 - Acoma Architecture Education Portal. The Pueblo of Acoma, or Haak’u, is a cultural landscape where the buildings and culture are inter-related.
 slug: acoma/acomas-cultural-landscape
 submenu: acoma
 order: 2
