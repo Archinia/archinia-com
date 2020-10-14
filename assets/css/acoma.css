@@ -155,22 +155,7 @@ a:active {
 }
 
 a.bookmark {
-  display: none;
-  margin-right: 0;
-}
-h2 > a.bookmark {
-  margin-left: -21px;
-}
-h3 > a.bookmark {
-  margin-left: -14px;
-}
-h2:hover > a.bookmark,
-h3:hover > a.bookmark,
-h4:hover > a.bookmark,
-h5:hover > a.bookmark,
-h6:hover > a.bookmark {
-  display: inline-block;
-  border-bottom: none;
+  color: var(--color-hyperlink);
 }
 
 ul + h2,
@@ -184,6 +169,7 @@ ul + h3 {
   font-family: var(--font-nav-acoma);
   background-color: var(--background-nav);
   padding: 1rem 0 0;
+  border-bottom: 8px solid var(--border-footer);
 }
 #navAcoma ul {
   max-width: var(--screen-xl);
@@ -238,6 +224,10 @@ ul + h3 {
   #navAcoma a {
     font-size: 1.2rem;
   }
+}
+
+#footer {
+  border-top: 8px solid var(--border-footer);
 }
 
 /* Pagination */
@@ -377,8 +367,4 @@ p + .bg-secondary {
   div.image + p {
     padding-top: 2rem;
   }
-}
-
-#footer {
-  border-top: 8px solid var(--border-footer);
 }

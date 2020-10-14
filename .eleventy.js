@@ -73,7 +73,7 @@ module.exports = function (eleventyConfig) {
         permalink: true,
         permalinkSymbol: '#',
         permalinkClass: 'bookmark',
-        permalinkBefore: true,
+        permalinkBefore: false,
         level: 2
       }).use(markdownItCollapsible
        ).use(markdownItImageSize, {

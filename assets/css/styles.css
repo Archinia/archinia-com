@@ -94,23 +94,6 @@ h2, .h2 {
   .column {
     margin: 0 1.5rem;
   }
-  /* TODO: replace on pages with w-# utilities
-  .column-70 {
-    width: 70%;
-  }
-  .columns > .column-wide {
-    width: 55%;
-    margin: 0 5rem 0 0;
-  }
-  .column-50 {
-    width: 50%;
-  }
-  .columns > .column-narrow {
-    width: 40%;
-  }
-  .column-30 {
-    width: 30%;
-  } */
 }
 
 /* Scroll Handling */
@@ -121,4 +104,18 @@ h2, .h2 {
 .main h5,
 .main h6 {
   scroll-margin: 120px;
+}
+
+/* Bookmark Anchors */
+a.bookmark {
+  display: none;
+  margin-right: 0;
+}
+h2:hover > a.bookmark,
+h3:hover > a.bookmark,
+h4:hover > a.bookmark,
+h5:hover > a.bookmark,
+h6:hover > a.bookmark {
+  display: inline-block;
+  border-bottom: none;
 }
