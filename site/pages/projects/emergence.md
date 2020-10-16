@@ -88,7 +88,7 @@ We were filming a local public television series celebrating 1000 years of truly
       </div>
   </div>
   <div class="crew">
-    <span class="image left"><img src="/images/emergence/zenne-headshot.jpg" alt="Zenne" style="max-width: 200px;"></span>
+    <span class="image left"><img src="/images/misc/zenne-headshot.jpg" alt="Zenne" style="max-width: 200px;"></span>
     <div>
       <h3>Suzenne "Zenne" Seradwyn</h3>
       <p>Suzenne "Zenne" Seradwyn, our assistant Director and Visual Editor, has worked as an actor, producer, videographer and editor on over 40 feature length and short films and numerous globally syndicated television shows.<br><a href="http://www.puremotherlove.com">Pure Mother Love Productions</a></p>
