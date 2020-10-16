@@ -3,7 +3,7 @@ title: Alexander Girard in New Mexico
 slug: projects/alexander-girard-in-new-mexico
 description: >-
   Explore Alexander Girard's work at Santa Fe's Museum of International Folk Art, The Compound, St Johns College, and First Unitarian Church in Albuquerque.
-featured_image: girard/mchenryUUmural.jpg
+featured_image: girard/Girard_banner.png
 ---
 
 Since our work on the stabilization of the First Unitarian Church in ABQ's Alexander Girard Mural, and our current work at St Johns College, we have had the opportunity to delve into more about Girard's work and influence in New Mexico, including his extant sites, as well as his connections to John Gaw Meem and Georgia O'Keeffe.
