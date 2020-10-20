@@ -74,7 +74,7 @@
 					<div>
 						<h2>Press</h2>
 						<ul class="actions">
-							<li><a href="about/press" class="button small next">Learn More</a></li>
+							<li><a href="/about/press" class="button small next">Learn More</a></li>
 						</ul>
 					</div>
 				</article>
@@ -84,7 +84,7 @@
 					<div>
 						<h2>Historic Preservation</h2>
 						<ul class="actions">
-							<li><a href="our-work/historic-preservation" class="button small next">Learn More</a></li>
+							<li><a href="/our-work/historic-preservation" class="button small next">Learn More</a></li>
 						</ul>
 					</div>
 				</article>
@@ -92,7 +92,7 @@
 					<div>
 						<h2>Content Creation</h2>
 						<ul class="actions">
-							<li><a href="about/influencer" class="button small next">Learn More</a></li>
+							<li><a href="/about/influencer" class="button small next">Learn More</a></li>
 						</ul>
 					</div>
 				</article>
@@ -100,7 +100,7 @@
 					<div>
 						<h2>Research</h2>
 						<ul class="actions">
-							<li><a href="our-work/architectural-research" class="button small next">Learn More</a></li>
+							<li><a href="/our-work/architectural-research" class="button small next">Learn More</a></li>
 						</ul>
 					</div>
 				</article>
@@ -115,9 +115,9 @@
         		</div>
         		<div class="content">
         			<h2>Rachel Preston Prinz</h2>
-        			<p> An architecturally-trained designer in Santa Fe, New Mexico, Rachel is an authority <a href="about/influencer">influencer</a> known for her award-winning storytelling collaborations in architecture, design, placemaking, historic preservation, and sustainability.</p>
+        			<p> An architecturally-trained designer in Santa Fe, New Mexico, Rachel is an authority <a href="/about/influencer">influencer</a> known for her award-winning storytelling collaborations in architecture, design, placemaking, historic preservation, and sustainability.</p>
         			<ul class="actions">
-        				<li><a href="about/rachel-preston-prinz" class="button special accent2">Learn more</a></li>
+        				<li><a href="/about/rachel-preston" class="button special accent2">Learn more</a></li>
         			</ul>
         		</div>
         	</div>
@@ -131,7 +131,7 @@
         			<h2>Alexander Girard in New Mexico</h2>
 							<p>Learn about our work documenting Alexander Girard's work here, including preserving the murals at St. Johns College and the Unitarian Church in Albuquerque.</p>
         			<ul class="actions">
-        				<li><a href="projects/alexander-girard-in-new-mexico" class="button special accent2">Learn more</a></li>
+        				<li><a href="/projects/alexander-girard-in-new-mexico" class="button special accent2">Learn more</a></li>
         			</ul>
         		</div>
         	</div>
@@ -139,7 +139,7 @@
       </section>
       <!-- // end Cascade Spotlights -->
 
-			<!-- Vortex Blog Grid -->
+			<!-- Blog Grid -->
 			<section id="blogGrid" class="main style1">
 				<header class="small">
 					<h2>Blog</h2>
@@ -149,15 +149,16 @@
 					{% include "postlist.njk" %}
 				</div>
 			</section>
-			<!-- // end Vortex Blog Grid -->
-			<!-- Kudos -->
+			<!-- // end Blog Grid -->
+
+			<!-- Testimonials -->
 			<section class="testimonials main style1" style="padding-left: 0; padding-right: 0; padding-bottom: 0;">
 				<header class="small">
 					<h2>Testimonials</h2>
 				</header>
 	      {% include "testimonials.njk" %}
 	    </section>
-	    <!-- /end Kudos -->
+	    <!-- /end Testimonials -->
 
       {% include "footer.njk" %}
 
@@ -172,9 +173,9 @@
 		<script src="assets/js/skel.min.js"></script>
 		<script src="assets/js/util.min.js"></script>
 		<script src="assets/js/main.js"></script>
-		<script src="assets/js/owl.carousel.min.js"></script>
 
-		<!-- Load Carousel -->
+		<!-- Testimonial Carousel -->
+		<script src="assets/js/owl.carousel.min.js"></script>
 		<script>
 			$(window).on( "load", function() {
     		"use strict";
@@ -199,8 +200,11 @@
         });
     	});
 		</script>
+		<!-- /end Testimonial Carousel -->
 
+		<!-- Mailchimp -->
 		<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us3.list-manage.com","uuid":"cac2b58a6aa8f0a66e10baffd","lid":"7c61b2b0b1"}) })</script>
+		<!-- /end Mailchimp -->
 
   </body>
 </html>
