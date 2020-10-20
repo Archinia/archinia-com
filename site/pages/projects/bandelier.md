@@ -6,7 +6,7 @@ featured_image: bandelier/bandelier-banner.jpg
 ---
 
 <p style="text-align: center;">
-  <strong>RUNTIME:</strong> XX:XX<br>
+  <strong>RUNTIME:</strong> To be determined<br>
   <strong>GENRES:</strong> Educational, Environmental, Period/Historical, Culture, Art, Spiritual, Personal Narrative, Social Issue, History, Architecture<br>
   <strong>NICHES:</strong> Native American, Women, Sustainability
 </p>
