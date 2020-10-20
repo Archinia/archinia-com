@@ -155,43 +155,7 @@
 				<header class="small">
 					<h2>Testimonials</h2>
 				</header>
-	      <div id="customers-testimonials" class="owl-carousel">
-	        <div class="item">
-	          <div class="shadow-effect">
-							<h4>New Mexico Historic Preservation Division</h4>
-	            <p><em>“The consultant for this project provided the final Report as well as a set of drawings and specs, neatly bound in a second document to accompany the Report.  Both documents are exceptional in depth and quality and fully recorded the work completed as part of this grant… as well as the documentation done… to guide future projects and long term maintenance on all these units.”</em></p>
-	          </div>
-	          <div class="testimonial-name">Pilar Cannizzarro</div>
-	        </div>
-	        <div class="item">
-	          <div class="shadow-effect">
-							<h4>Pueblo of Acoma Tribal Historic Preservation Office</h4>
-	            <p><em>“We have reviewed the report and I’d like to congratulate you and your staff for compiling a very nice and thorough report.  Very well put together! Thank you so much for your help on this project.  I’m very pleased with the report and the end product and community members have not stopped commenting on how nice the houses look so congratulations on a job very well done!!!”</em></p>
-	          </div>
-	          <div class="testimonial-name">Damian Garcia</div>
-	        </div>
-	        <div class="item">
-	          <div class="shadow-effect">
-							<h4>TEDxABQWomen Curator</h4>
-	            <p><em>“When I listen to Rachel speak, the history of our region comes to life in a way I've never experienced. More than once, I've been left with chills at the way she layers big-picture issues with her common-sense approach to design. To know Rachel means you will never see design (or even life, for that matter) the same way again.”</em></p>
-	          </div>
-	          <div class="testimonial-name">Carrie Williar Lin</div>
-	        </div>
-	        <div class="item">
-	          <div class="shadow-effect">
-							<h4>Chupadero Archeological Resources</h4>
-	            <p><em>“Rachel Preston Prinz is a forthright, honest, hardworking and insightful team member. Rachel is miraculously effective in putting together teams as well as project management for her specialty in preservation architecture. Rachel has built ownership in the project goals with all team members, and because of her proficiency in the cyber world is able to keep open lines of communication and sharing results. If you like working with somebody honestly upbeat and forward working you will be lucky to get Rachel to work on your project.”</em></p>
-	          </div>
-	          <div class="testimonial-name">Mark Henderson</div>
-	        </div>
-	        <div class="item">
-	          <div class="shadow-effect">
-							<h4>Former Professor of Architectural History, Texas A&M</h4>
-	            <p><em>“Rachel has… a strong motivation for scholarship and research. (She) has, by all standards, a thorough architectural education, a two semester study in Italy and a summer working as an assistant in France with one of the leading Medievalists in the profession. Her personality reflects… intellectual growth and a synthesis of ideas. She also has an innate ability to understand architecture as design and as theory. I feel strongly about (her) potential as a scholar, designer and as a future university instructor.”</em></p>
-	          </div>
-	          <div class="testimonial-name">Joseph M. Hutchinson</div>
-	        </div>
-	      </div>
+	      {% include "testimonials.njk" %}
 	    </section>
 	    <!-- /end Kudos -->
 
@@ -215,7 +179,7 @@
 			$(window).on( "load", function() {
     		"use strict";
     		//  TESTIMONIALS CAROUSEL HOOK
-        $('#customers-testimonials').owlCarousel({
+        $('#testimonials').owlCarousel({
             loop: true,
             center: true,
             items: 3,

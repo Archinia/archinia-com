@@ -1,0 +1,13 @@
+<div id="testimonials" class="owl-carousel">
+
+  {% for item in testimonials.testimonials %}
+  <div class="item">
+    <div class="shadow-effect">
+      <h4>{{ item.credit_org }}</h4>
+      <p><em>“{{ item.quote }}”</em></p>
+    </div>
+    <div class="testimonial-name">{{ item.credit_person }}</div>
+  </div>
+  {% endfor %}
+
+</div>

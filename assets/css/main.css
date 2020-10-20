@@ -3101,7 +3101,7 @@ table.alt tbody tr td {
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.1), 0 15px 12px rgba(0, 0, 0, 0.02);
 }
 
-#customers-testimonials .shadow-effect p {
+#testimonials .shadow-effect p {
   font-family: inherit;
   font-size: 1rem;
   line-height: 1.5;
@@ -3121,7 +3121,7 @@ table.alt tbody tr td {
   box-shadow: 0 9px 18px rgba(0, 0, 0, 0.12), 0 5px 7px rgba(0, 0, 0, 0.05);
 }
 
-#customers-testimonials .item {
+#testimonials .item {
   text-align: center;
   padding: 50px;
   margin-bottom: 80px;
@@ -3138,7 +3138,7 @@ table.alt tbody tr td {
   transition: all 0.3s ease-in-out;
 }
 
-#customers-testimonials .owl-item.active.center .item {
+#testimonials .owl-item.active.center .item {
   opacity: 1;
   -webkit-transform: scale3d(1, 1, 1);
   -moz-transform: scale3d(1, 1, 1);
@@ -3153,13 +3153,13 @@ table.alt tbody tr td {
   margin: 0 auto 17px;
 }
 
-#customers-testimonials.owl-carousel.owl-theme .owl-dots .owl-dot.active span,
-#customers-testimonials.owl-carousel.owl-theme .owl-dots .owl-dot:hover span {
+#testimonials.owl-carousel.owl-theme .owl-dots .owl-dot.active span,
+#testimonials.owl-carousel.owl-theme .owl-dots .owl-dot:hover span {
   background: #25dbdb;
   transform: translate3d(0, -50%, 0) scale(0.7);
 }
 
-#customers-testimonials.owl-carousel.owl-theme .owl-dots .owl-dot span {
+#testimonials.owl-carousel.owl-theme .owl-dots .owl-dot span {
   background: #C4C4CC;
   display: block;
   height: 20px;
