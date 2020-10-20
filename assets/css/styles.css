@@ -74,6 +74,44 @@ h2, .h2 {
   }
 }
 
+.hidden {
+  display: none;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.container {
+  width: 100%;
+}
+@media screen and (min-width: 500px) {
+  .container {
+    width: 500px;
+  }
+}
+@media screen and (min-width: 640px) {
+  .container {
+    width: 640px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 1024px;
+  }
+}
+
 .full-bleed {
   width: 100vw;
   margin-left: calc(50% - 50vw);
@@ -95,6 +133,245 @@ h2, .h2 {
     margin: 0 1.5rem;
   }
 }
+
+/* Header */
+.header-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 .875rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 44px;
+  background-color: #ffffff;
+  box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.125);
+  cursor: default;
+  z-index: 10000;
+}
+
+.header-main.alt {
+  position: absolute;
+  background-color: #000000;
+  -moz-animation: none;
+  -webkit-animation: none;
+  -ms-animation: none;
+  -o-animation: none;
+  animation: none;
+  box-shadow: none;
+}
+
+.header-main .logo {
+  display: flex;
+  align-items: center;
+  height: 44px;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  height: auto;
+  margin-top: 12px;
+}
+
+.header-main .logo > img {
+  width: 20px;
+}
+
+.logo-square {
+  display: inline-flex;
+}
+.logo-full {
+  display: none;
+}
+
+@media screen and (min-width: 769px) {
+  .header-main {
+    height: 3.25rem;
+    line-height: 3.25rem;
+  }
+  .header-main .logo {
+    margin-top: 0;
+  }
+  .header-main .logo > img {
+    width: 300px;
+  }
+  .logo-square {
+    display: none;
+  }
+  .logo-full {
+    display: inline-flex;
+  }
+}
+
+header.header-main > nav {
+  position: absolute;
+  right: 0;
+}
+
+.nav-main {
+  display: flex;
+  align-items: center;
+}
+
+.nav-main .navPanelToggle {
+  -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, top 0.2s ease-in-out, right 0.2s ease-in-out;
+  -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, top 0.2s ease-in-out, right 0.2s ease-in-out;
+  -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, top 0.2s ease-in-out, right 0.2s ease-in-out;
+  -o-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, top 0.2s ease-in-out, right 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, top 0.2s ease-in-out, right 0.2s ease-in-out;
+  text-decoration: none;
+  display: block;
+  height: inherit;
+  line-height: inherit;
+  padding: 0 0.5rem;
+}
+
+.nav-main .navPanelToggle:before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none;
+}
+
+.nav-main .navPanelToggle:focus {
+  border: 1px solid #333;
+  outline: 0;
+}
+
+.nav-main .navPanelToggle:before {
+  content: '\f0c9';
+  margin: 0 0 0 0.625rem;
+  float: right;
+}
+
+.nav-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 44px;
+}
+
+@media screen and (min-width: 769px) {
+  .nav-group {
+    height: 3.25rem;
+  }
+}
+
+.nav-main a,
+.nav-main button {
+  display: block;
+  padding: 0;
+  line-height: inherit;
+  border: 0;
+  box-shadow: none;
+  white-space: nowrap;
+  letter-spacing: 0.025rem;
+  color: #000;
+  transition: ease-in-out all 300ms;
+}
+
+.nav-main a::before,
+.nav-main button::before {
+  color: #000;
+  margin: 0 0.5rem;
+}
+
+.alt > .nav-main a,
+.alt > .nav-main button,
+.alt > .nav-main a::before,
+.alt > .nav-main button::before {
+  color: #fff;
+}
+
+.nav-main a:focus,
+.nav-main a:hover,
+.nav-main a:active,
+.nav-main button:focus,
+.nav-main button:hover,
+.nav-main button:active {
+  background-color: rgba(143, 143, 143, 0.075);
+  outline: -webkit-focus-ring-color auto 0;
+}
+
+.alt > .nav-main a:focus,
+.alt > .nav-main a:hover,
+.alt > .nav-main a:active,
+.alt > .nav-main button:focus,
+.alt > .nav-main button:hover,
+.alt > .nav-main button:active {
+  background-color: rgba(255, 255, 255, 0.075);
+}
+
+.nav-main a[data-social="pinterest"]:focus::before,
+.nav-main a[data-social="pinterest"]:hover::before,
+.nav-main a[data-social="pinterest"]:active::before {
+  color: #e60023;
+}
+
+.nav-main a[data-social="facebook"]:focus::before,
+.nav-main a[data-social="facebook"]:hover::before,
+.nav-main a[data-social="facebook"]:active::before {
+  color: #4267b2;
+}
+
+.nav-main a[data-social="instagram"]:focus::before,
+.nav-main a[data-social="instagram"]:hover::before,
+.nav-main a[data-social="instagram"]:active::before {
+  color: #e1306c;
+}
+
+.nav-main a[data-social="email"]:focus::before,
+.nav-main a[data-social="email"]:hover::before,
+.nav-main a[data-social="email"]:active::before {
+  color: #25dbdb;
+}
+
+.search-ui {
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+  z-index: 10;
+  background-color: #fff;
+  box-shadow: 0 20px 25px -5px rgba(0,0,0,.1), 0 10px 10px -5px rgba(0,0,0,.04);
+}
+
+[type=search] {
+  width: 100%;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  padding: .5rem;
+  outline-offset: -2px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  border: none;
+}
+
+.search-results {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.search-results > li {
+  border-top-width: 1px;
+  padding: .5rem;
+}
+
+.search-results > li:last-child {
+  padding-bottom: 1rem;
+}
+
+/** TODO: Fix the nav panel **/
+
+ul > li {
+  white-space: nowrap;
+}
+
 
 /* Scroll Handling */
 

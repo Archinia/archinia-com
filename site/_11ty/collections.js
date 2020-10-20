@@ -96,7 +96,15 @@ module.exports = {
 
   // Searchable Posts and Pages
   searchable: collection => {
-    const post = collection.getFilteredByGlob(['**/posts/*.md', '**/pages/*.md']);
+    const post = collection.getFilteredByGlob([
+      '**/acoma/*.md',
+      '**/posts/*.md',
+      '**/pages/about/*',
+      '**/pages/earthships/*',
+      '**/pages/our-work/*',
+      '**/pages/projects/*',
+      '**/pages/talks-curation/*'
+    ]);
 
     return post.sort((a, b) => {
       if (a.data.title > b.data.title) return -1;

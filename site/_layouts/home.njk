@@ -19,6 +19,7 @@
 		<link rel="stylesheet" href="/assets/css/font-awesome.min.css" />
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:800|Source+Sans+Pro:300,300i,600,600i" />
 		<link rel="stylesheet" href="/assets/css/main.css" />
+		<link rel="stylesheet" href="/assets/css/styles.css" />
 
 		<!-- Owl -->
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
@@ -46,17 +47,7 @@
 		<!-- Wrapper -->
 		<div id="wrapper">
 
-      <!-- Relativity Header -->
-      <header id="header" class="reveal alt" style="display: flex; flex-direction: row; align-items: center; justify-content: space-between;">
-
-      	<!-- Logo -->
-      	<a class="logo" href="/"><img src="images/_branding/moa-logo-white.png" alt="Archinia"></a>
-
-				<!-- Nav -->
-				{% include "navigation.njk" %}
-
-      </header>
-      <!-- //end Relativity Header -->
+			{% include "header.njk" %}
 
 			<!-- Telemetry Quote Grid -->
 			<section class="quotes">
@@ -165,17 +156,20 @@
     </div>
 
     <!-- Scripts -->
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/jquery.dropotron.min.js"></script>
-		<script src="assets/js/jquery.scrollex.min.js"></script>
-		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="/assets/js/jquery.min.js"></script>
+		<script src="/assets/js/jquery.dropotron.min.js"></script>
+		<script src="/assets/js/jquery.scrollex.min.js"></script>
+		<script src="/assets/js/jquery.scrolly.min.js"></script>
 
-		<script src="assets/js/skel.min.js"></script>
-		<script src="assets/js/util.min.js"></script>
-		<script src="assets/js/main.js"></script>
+		<script src="/assets/js/skel.min.js"></script>
+		<script src="/assets/js/util.min.js"></script>
+		<script src="/assets/js/main.js"></script>
+
+		<!-- Search -->
+		<script src="/assets/js/search.js"></script>
 
 		<!-- Testimonial Carousel -->
-		<script src="assets/js/owl.carousel.min.js"></script>
+		<script src="/assets/js/owl.carousel.min.js"></script>
 		<script>
 			$(window).on( "load", function() {
     		"use strict";

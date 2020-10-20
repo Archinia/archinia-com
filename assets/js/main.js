@@ -256,7 +256,7 @@ var settings = {
 			});
 
 		// Menu.
-			$('<a href="#navPanel" class="navPanelToggle" title="Menu">Menu</a>')
+			$('<a href="#navPanel" class="navPanelToggle" title="Open Menu">Menu</a>')
 				.prependTo($nav);
 
 			$(	'<div id="navPanel">' +

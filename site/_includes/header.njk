@@ -1,0 +1,26 @@
+<header id="header" class="header-main {% if header === 'dark' -%} alt {%- endif -%}">
+
+  <!-- Logo -->
+  <a class="logo" href="/">
+    <img src="{%- if header === 'dark' %}/images/_branding/moa-logo-white.png{%- else %}/images/_branding/moa-logo-black.png{%- endif %}"
+         class="logo-full"
+         alt="The Ministry of Architecture"
+         title="Back to home page">
+    <img src="{%- if header === 'dark' %}/images/_branding/archinia-logomark.png{%- else %}/images/_branding/archinia-logomark.png{%- endif %}"
+        class="logo-square"
+        alt="The Ministry of Architecture"
+        title="Back to home page">
+  </a>
+
+  {% include "navigation.njk" %}
+
+</header>
+<div id="searchBox" class="search-ui hidden">
+  <div class="container mx-auto py-4">
+    {# Search Input #}
+    <input id="searchString" type="search" placeholder="Search..." autofocus="autofocus" class="search-str">
+  </div>
+  <div class="container mx-auto">
+    <ol class="search-results"></ol>
+  </div>
+</div>
