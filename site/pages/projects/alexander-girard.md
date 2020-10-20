@@ -27,8 +27,10 @@ Because we are currently getting so many requests for information due to the Vit
 
 <p style="text-align: right;"><a href="https://themagsantafe.com/my-love-affair-with-sandros-ghosts-alexander-girards-legacy-in-new-mexico/">read more in our 2019 THE article</a></p>
 
-<div class="videoWrapper" style="max-width: 900px; margin: 2rem auto;">
-  <iframe width="512" height="376" src="https://www.youtube.com/embed/6S8_V-rGV4s" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" seamless allowfullscreen></iframe>
+<div style="max-width: 800px; margin: 2rem auto;">
+  <div class="videoWrapper">
+    <iframe width="512" height="376" src="https://www.youtube.com/embed/6S8_V-rGV4s" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" seamless allowfullscreen></iframe>
+  </div>
 </div>
 
 <hr class="major" />
