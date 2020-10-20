@@ -70,7 +70,7 @@ Coming soon!
     <span class="image left"><img src="/images/emergence/acoma.jpg" alt="Rachel at Acoma" style="max-width: 200px;"></span>
     <div>
       <h3>Rachel Preston Prinz</h3>
-      <p>First time Director/Producer Rachel Preston Prinz heads up an acclaimed architectural design and preservation practice based in New Mexico. Her work investigates traditional and modern approaches to architecture, agriculture, culture, and landscape to address how we might not only survive, but also thrive, and to do so, sustainably.<br><a href="https://www.linkedin.com/in/rachelprestonprinz">LinkedIn</a></p>
+      <p>Producer Rachel Preston Prinz heads up an acclaimed architectural design and preservation practice based in New Mexico. Her work investigates traditional and modern approaches to architecture, agriculture, culture, and landscape to address how we might not only survive, but also thrive, and to do so, sustainably.<br><a href="https://www.linkedin.com/in/rachelprestonprinz">LinkedIn</a></p>
     </div>
   </div>
   <div class="crew">
