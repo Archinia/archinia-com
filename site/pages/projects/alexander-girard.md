@@ -11,10 +11,10 @@ Since our work on the stabilization of the First Unitarian Church in ABQ's Alexa
 Because we are currently getting so many requests for information due to the Vitra exhibit _A Designer’s Universe,_ at the Museum of International Folk Art, here are quotes from some of our writings, tours, and talks to help you find your way!
 
 <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center;">
-<a href="#unitarian-church-of-albuquerque" style="margin: 0 0.5rem; font-weight: 800;">Unitarian Church of Albuquerque</a>
-<a href="#museum-of-international-folk-art" style="margin: 0 0.5rem; font-weight: 800;">Museum of International Folk Art</a>
-<a href="#the-compound" style="margin: 0 0.5rem; font-weight: 800;">The Compound</a>
-<a href="#st-johns" style="margin: 0 0.5rem; font-weight: 800;">St Johns</a>
+<a href="#unitarian-church-of-albuquerque" style="margin: 0 1rem; font-weight: 800;">Unitarian Church of Albuquerque</a>
+<a href="#museum-of-international-folk-art" style="margin: 0 1rem; font-weight: 800;">Museum of International Folk Art</a>
+<a href="#the-compound" style="margin: 0 1rem; font-weight: 800;">The Compound</a>
+<a href="#st-johns" style="margin: 0 1rem; font-weight: 800;">St Johns</a>
 </div>
 
 <hr class="major" />
