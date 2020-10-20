@@ -21,6 +21,15 @@ featured_image: bandelier/bandelier-banner.jpg
 </div>
 -->
 
+<p style="text-align: center; text-transform: uppercase;"><strong>Our Sponsors:</strong></p>
+
+<div style="display: flex; flex-direction: row; align-items:center; justify-content: center; margin: 2rem auto;">
+  <span class="image fit" style="padding: 0.5rem; max-width: 200px;"><img src="/images/logos/NRGNHA.jpg" alt="Northern Rio Grande National Heritage Area"></span>
+  <span class="image fit" style="padding: 0.5rem; max-width: 200px;"><img src="/images/logos/RGCDC.jpg" alt="Rio Grande Community Development Corporation"></span>
+  <span class="image fit" style="padding: 0.5rem; max-width: 200px;"><img src="/images/logos/nmwif.jpg" alt="New Mexico Women in Film"></span>
+  <span class="image fit" style="padding: 0.5rem; max-width: 200px;"><img src="/images/logos/la-montanita-coop.jpg" alt="La Montañita Co-Op"></span>
+</div>
+
 We were filming a local public television series celebrating New Mexico’s thousand year tradition of truly sustainable hand-made architecture. We were lucky to be filming at Bandelier National Monument at the perfect time, when a group of young people attached to the Rocky Mountain Youth Corps was doing restoration work there. I was astounded to realize that these kids, mostly from San Ildefonso and Ohkay Owingeh Pueblos… were working on restoring their ancestral homelands.
 
 The main archaeological sites at Bandelier are precursor sites to what we know as Cochiti Pueblo, literally just over the mountain, but now 78 miles away “as the road goes”. This prevents Cochiti’s kids from being able to join in the work. But Tsankawi, an outlier site of the park near White Rock, is the precursor site to San Ildefonso Pueblo. Ohkay Owingeh is the Puebloan equivalent of something like “cousins” to them. Young people from both of these local pueblos are returning to these sites, learning how to preserve and protect them, and then taking that knowledge back to their communities. They team up with another local pueblo, Santa Clara, whose kids are in a similar program run by the Youth Conservation Corps.
