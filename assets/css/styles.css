@@ -77,15 +77,27 @@ h2, .h2 {
 .hidden {
   display: none;
 }
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
 }
-
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+.p-12 {
+  padding: 3rem;
+}
+.flex-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.items-center {
+  align-items: center;
 }
 
 .container {
@@ -112,6 +124,12 @@ h2, .h2 {
   }
 }
 
+.font-small {
+  font-size: 0.75rem;
+  font-style: italic;
+  line-height: 1;
+}
+
 .full-bleed {
   width: 100vw;
   margin-left: calc(50% - 50vw);
@@ -122,12 +140,23 @@ h2, .h2 {
   margin: 0 auto;
 }
 
-/* Columns */
+.mobile-reverse {
+  display: flex;
+  flex-direction: column-reverse;
+}
 
-@media screen and (min-width: 769px) {
+/* Columns */
+.column {
+  margin-bottom: 1rem;
+}
+@media screen and (min-width: 768px) {
   .columns {
     display: flex;
+    flex-direction: row;
     margin: 0 -1.5rem;
+  }
+  .columns.mx-auto {
+    margin: 0 auto;
   }
   .column {
     margin: 0 1.5rem;
@@ -184,7 +213,7 @@ h2, .h2 {
   display: none;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .header-main {
     height: 3.25rem;
     line-height: 3.25rem;
@@ -253,7 +282,7 @@ header.header-main > nav {
   height: 44px;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .nav-group {
     height: 3.25rem;
   }
@@ -365,12 +394,6 @@ header.header-main > nav {
   padding-bottom: 1rem;
 }
 
-/** TODO: Fix the nav panel **/
-
-ul > li {
-  white-space: nowrap;
-}
-
 /* Post List */
 .posts {
   width: 100%;
@@ -468,4 +491,9 @@ h5:hover > a.bookmark,
 h6:hover > a.bookmark {
   display: inline-block;
   border-bottom: none;
+}
+
+/* CTA Earthship */
+.cta-earthship {
+  background-color: rgba(0, 0, 0, 0.05);
 }

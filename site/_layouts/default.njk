@@ -102,6 +102,9 @@
 			{% if submenu === "acoma" %}
 			<div class="full-bleed" style="height: 150px; overflow: hidden; background-image: url('/images/acoma/activity.png'); background-repeat: no-repeat; background-position: center center; background-size: cover; border-top: 8px solid var(--border-footer);"></div>
 			{% endif %}
+			{% if tag === "earthships" %}
+			{% include "cta-earthship.njk" %}
+			{% endif %}
 
 		</main>
 
