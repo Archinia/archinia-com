@@ -94,6 +94,9 @@ h2, .h2 {
 .mb-4 {
   margin-bottom: 1rem;
 }
+.text-center {
+  text-align: center;
+}
 .flex-center {
   display: flex;
   justify-content: space-between;
@@ -490,4 +493,18 @@ h6:hover > a.bookmark {
 /* CTA Earthship */
 .cta-earthship {
   background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Tag List */
+.tag-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tag-list li {
+  margin: 0 1rem 1rem;
 }

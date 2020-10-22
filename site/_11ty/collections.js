@@ -24,7 +24,6 @@ module.exports = {
             case "all":
             case "category":
             case "catList":
-            case "nav":
             case "page":
             case "post":
             case "tagList":
@@ -81,7 +80,7 @@ module.exports = {
 
   // Posts
   posts: collection => {
-    const post = collection.getFilteredByGlob('**/posts/*.md');
+    const post = collection.getFilteredByGlob(['**/posts/*.md', '**/posts/*.html']);
 
     for (let i = 0; i < post.length; i++) {
       const prevPost = post[i - 1];
@@ -99,11 +98,11 @@ module.exports = {
     const post = collection.getFilteredByGlob([
       '**/acoma/*.md',
       '**/posts/*.md',
+      '**/pages/*',
       '**/pages/about/*',
       '**/pages/earthships/*',
       '**/pages/our-work/*',
-      '**/pages/projects/*',
-      '**/pages/talks-curation/*'
+      '**/pages/projects/*'
     ]);
 
     return post.sort((a, b) => {

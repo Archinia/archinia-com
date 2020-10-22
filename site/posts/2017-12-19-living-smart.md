@@ -5,6 +5,8 @@ featured_image: blog/living-smart.jpeg
 featured_image_alt: yellow building
 date: 2017-12-19
 slug: living-smart
+tags:
+  - sustainability
 ---
 
 Some tips we recommend for getting the most bang for your sustainability buck in retrofitting existing buildings.

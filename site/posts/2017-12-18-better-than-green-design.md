@@ -5,6 +5,8 @@ featured_image: blog/better-than-green-design.jpeg
 featured_image_alt: earthen house
 date: 2017-12-18
 slug: better-than-green-design
+tags:
+  - sustainability
 ---
 
 As a preservationist and sustainability researcher and writer, I am often asked about what types of choices are the “most sustainable”. Years ago, I came to a conclusion about that, and did a TEDx talk about why I think we need to focus on Place as a driver for true sustainability, since LEED, while it is a great tool for the companies that can afford it, only addresses one building at a time… which leaves a gap in helping make more sustainable the millions of existing buildings around the world, and the millions of people that want to be more sustainable and can’t afford a new tech-centric house.

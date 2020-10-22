@@ -5,6 +5,9 @@ featured_image: blog/sustainanble-earth.jpg
 featured_image_alt: Energy efficient Earth
 date: 2019-07-15
 slug: harnessing-amazon-prime-day-sustainable-changes-how-we-live
+tags:
+  - sustainability
+source: https://us3.campaign-archive.com/?e=&u=cac2b58a6aa8f0a66e10baffd&id=af446721a6
 ---
 
 One of the things that makes Amazon a pain is that there is SOOO much waste with all those shipments! So, since today and tomorrow (July 15+16) are Amazon’s annual #PrimeDay and it’s easy to get all your #zerowaste #ecofriendly goodies in one fell swoop, I wanted to make a list of things that I or my friends use to make life less wasteful to share with you, since you might already be bargain shopping!

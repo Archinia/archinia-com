@@ -5,6 +5,8 @@ featured_image: blog/naturally-climatizing-your-home.jpeg
 featured_image_alt: house with snow
 date: 2017-12-20
 slug: naturally-climatizing-your-home
+tags:
+  - sustainability
 ---
 
 You are wearing your clothes, a fuzzy robe, socks, furry slippers, and are tucked into a blanket. The tiny hair follicles on your arms and neck are standing at attention while a chill chases itself through your entire body. You shiver, curl up as tight as possible and start looking around for a blanket. It’s cold. Too cold.

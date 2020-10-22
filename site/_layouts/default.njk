@@ -87,10 +87,23 @@
 			<!-- Content Section -->
 			<section class="main">
 				<div class="inner style1">
+
 					{% if submenu === "acoma" %}
 					<h1>{{ title }}</h1>
 					{% endif %}
+
 					{{ content | safe }}
+
+					{% if related %}
+					{% set postTag = tags[1] %}
+					<hr class="major" />
+					<h2 class="text-center">More in {{ postTag | capitalize }}</h2>
+					<br />
+					{% set postlist = collections[ postTag ] | reverse | limit(3) %}
+					{% include "postlist.njk" %}
+					{% endif %}
+					</div>
+
 				</div>
 			</section>
 
@@ -102,7 +115,7 @@
 			{% if submenu === "acoma" %}
 			{% include "footer-acoma.njk" %}
 			{% endif %}
-			{% if tag === "earthships" %}
+			{% if '/earthships/' in page.url %}
 			{% include "cta-earthship.njk" %}
 			{% endif %}
 
