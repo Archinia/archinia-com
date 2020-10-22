@@ -136,7 +136,7 @@
 					<h2>Blog</h2>
 				</header>
 				<div class="inner">
-					{% set postlist = collections.posts | reverse | limit(3) %}
+					{% set postlist = collections.posts | limit(3) %}
 					{% include "postlist.njk" %}
 				</div>
 			</section>

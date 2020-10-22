@@ -372,6 +372,80 @@ ul > li {
   white-space: nowrap;
 }
 
+/* Post List */
+.posts {
+  width: 100%;
+  margin: 0 0 2rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.posts article {
+  width: 100%;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .posts article {
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+    width: 33.33%;
+  }
+}
+.posts article > a.post-image {
+  display: block;
+  position: relative;
+  margin-bottom: 1em;
+  overflow: hidden;
+  height: 255px;
+  width: 300px;
+  border: none;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.post-image > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  -moz-transition: -moz-transform 0.2s ease;
+  -webkit-transition: -webkit-transform 0.2s ease;
+  -ms-transition: -ms-transform 0.2s ease;
+  -o-transition: -o-transform 0.2s ease;
+  transition: transform 0.2s ease;
+}
+.post-image:hover > img {
+  -moz-transform: scale(1.075);
+  -webkit-transform: scale(1.075);
+  -ms-transform: scale(1.075);
+  -o-transform: scale(1.075);
+  transform: scale(1.075);
+}
+.post-image > .post-text {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  transition: .5s ease;
+}
+.post-text > p {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+  color: white;
+  text-align: center;
+  /* background-color: rgba(0,0,0,0.75); */
+  background-color: var(--accent);
+  margin: 0;
+}
+.post-text > p strong {
+  color: #fff;
+}
 
 /* Scroll Handling */
 

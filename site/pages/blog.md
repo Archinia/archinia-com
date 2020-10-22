@@ -10,5 +10,5 @@ collection: posts
 permalink: "blog/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}index.html"
 ---
 
-{% set postlist = collections.posts | reverse %}
+{% set postlist = collections.posts %}
 {% include "postlist.njk" %}

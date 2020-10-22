@@ -1,6 +1,9 @@
 ---
 title: >-
   Curation: 2020 THE Magazine Architecture and Preservation Issue
+featured_image: blog/rosario-chapel-garden.jpg
+featured_image_alt: Rosario Chapel Garden
+date: 2020-03-26
 slug: curation-2020-the-magazine-architecture-preservation-issue
 ---
 

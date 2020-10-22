@@ -1,11 +1,12 @@
 <div class="posts">
   {% for post in postlist %}
   <article>
-    <a href="{{ post.url }}" class="image filtered"><img src="/images/{{ post.data.featured_image }}" alt="{{ post.data.featured_image_alt }}"></a>
-    <p><strong>{{ post.data.title }}</strong><br />{{ post.data.subtitle }}</p>
-    <ul class="actions">
-      <li><a href="{{ post.url }}" class="button small next" alt="link to blog post">Read More</a></li>
-    </ul>
+    <a href="{{ post.url }}" class="post-image">
+      <img src="/images/{{ post.data.featured_image }}" alt="{{ post.data.featured_image_alt }}">
+      <div class="post-text">
+        <p><strong>{{ post.data.title }}</strong></p>
+      </div>
+    </a>
   </article>
   {% endfor %}
 </div>
