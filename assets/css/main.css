@@ -2676,7 +2676,7 @@ table.alt tbody tr td {
 }
 
 /* Posts */
-.posts {
+/* .posts {
   width: 100%;
   margin: 0 0 2rem 0;
   display: flex;
@@ -2718,7 +2718,7 @@ table.alt tbody tr td {
   .posts article .image {
     max-width: 100%;
   }
-}
+} */
 
 .post>.content header .category {
   color: #25dbdb;

@@ -1,11 +1,11 @@
 <div class="posts">
   {% for post in postlist %}
   <article>
-    <a href="{{ post.url }}" class="post-image">
-      <img src="/images/{{ post.data.featured_image }}" alt="{{ post.data.featured_image_alt }}">
-      <div class="post-text">
-        <p><strong>{{ post.data.title }}</strong></p>
+    <a href="{{ post.url }}" class="post-content">
+      <div class="post-image">
+        <img src="/images/{{ post.data.featured_image }}" alt="{{ post.data.featured_image_alt }}">
       </div>
+      <p class="post-text">{{ post.data.title }}</p>
     </a>
   </article>
   {% endfor %}
