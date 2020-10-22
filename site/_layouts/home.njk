@@ -51,51 +51,78 @@
 
 			<!-- Telemetry Quote Grid -->
 			<section class="quotes">
-				<article class="evolutionHero" style="background-image: url('/images/_branding/ministry-banner-revised.jpg'); background-position: center center; width: 100%; height: 60vh;">
+				<article class="evolutionHero" style="background-image: url('/images/_branding/ministry-banner-revised.jpg'); background-position: center center; width: 100%; min-height: 70vh; max-height: 80vh;">
 					<h1 style="display: none;">The Ministry of Architecture</h1>
 				</article>
 			</section>
 			<section class="quotes">
-				<article class="square" style="background-image: url('/images/misc/zimmerman.jpg');">
-					<div>
-						<h2>We Celebrate Great Design</h2>
-					</div>
-				</article>
-				<article class="square" style="background-image: url('/images/misc/patio.jpg');">
-					<div>
-						<h2>Press</h2>
-						<ul class="actions">
-							<li><a href="/about/press" class="button small next">Learn More</a></li>
-						</ul>
-					</div>
-				</article>
+				<a class="grid-block" href="/our-work/historic-preservation/">
+					<article class="square" style="background-image: url('/images/historic-preservation/preservation.jpg');">
+						<div class="grid-content">
+							<p class="grid-label">Services</p>
+							<h2>Historic Preservation</h2>
+						</div>
+					</article>
+				</a>
+				<a class="grid-block" href="/about/influencer/">
+					<article class="square" style="background-image: url('/images/misc/zimmerman.jpg');">
+						<div>
+							<p class="grid-label">Services</p>
+							<h2>Content Creation</h2>
+						</div>
+					</article>
+				</a>
+				<a class="grid-block" href="/our-work/tours/">
+					<article class="square" style="background-image: url('/images/misc/tours.jpg');">
+						<div class="grid-content">
+							<p class="grid-label">Services</p>
+							<h2>Tours</h2>
+						</div>
+					</article>
+				</a>
+				<a class="grid-block" href="mailto:intentiondesign@gmail.com?subject=Consulting%20Request">
+					<article class="square" style="background-image: url('/images/misc/patio.jpg');">
+						<div>
+							<p class="grid-label">Services</p>
+							<h2>Consulting</h2>
+						</div>
+					</article>
+				</a>
 			</section>
 			<section class="quotes alt">
-				<article class="square" style="background-image: url('/images/historic-preservation/preservation.jpg');">
-					<div>
-						<h2>Historic Preservation</h2>
-						<ul class="actions">
-							<li><a href="/our-work/historic-preservation" class="button small next">Learn More</a></li>
-						</ul>
-					</div>
-				</article>
-				<article class="square" style="background-image: url('/images/misc/design_rd.jpg');">
-					<div>
-						<h2>Content Creation</h2>
-						<ul class="actions">
-							<li><a href="/about/influencer" class="button small next">Learn More</a></li>
-						</ul>
-					</div>
-				</article>
-				<article class="square" style="background-image: url('/images/earthships/earthships-block.jpg');">
-					<div>
-						<h2>Research</h2>
-						<ul class="actions">
-							<li><a href="/our-work/architectural-research" class="button small next">Learn More</a></li>
-						</ul>
-					</div>
-				</article>
+				<a class="grid-block" href="/earthships/">
+					<article class="square" style="background-image: url('/images/earthships/earthships-block.jpg');">
+						<div>
+							<p class="grid-label">Learn</p>
+							<h2>Earthship Research</h2>
+						</div>
+					</article>
+				</a>
+				<a class="grid-block" href="#">
+					<article class="square" style="background-image: url('/images/misc/zigzag-pottery.jpg');">
+						<div>
+							<p class="grid-label">Coming Soon!</p>
+							<h2>Shop</h2>
+						</div>
+					</article>
+				</a>
+				<a class="grid-block" href="/projects/alexander-girard-in-new-mexico/">
+					<article class="square" style="background-image: url('/images/girard/girard-square.jpg');">
+						<div>
+							<p class="grid-label">Learn</p>
+							<h2>Alexander Girard in NM</h2>
+						</div>
+					</article>
+				</a>
 			</section>
+
+			<!-- Blog Grid -->
+			<section id="blogGrid" class="container mx-auto" style="padding-top: 4rem;">
+				<h2 style="text-align: center;">Latest on the Blog</h2>
+				{% set postlist = collections.posts | limit(3) %}
+				{% include "postlist.njk" %}
+			</section>
+			<!-- // end Blog Grid -->
 
       <!-- Cascade Spotlights -->
       <section id="spotlight">
@@ -113,43 +140,8 @@
         		</div>
         	</div>
         </article>
-				<article id="two" class="spotlight odd">
-        	<div class="inner">
-        		<div class="image" data-position="bottom left">
-        			<img src="/images/girard/mchenryUUmural.jpg" alt="Mural">
-        		</div>
-        		<div class="content">
-        			<h2>Alexander Girard in New Mexico</h2>
-							<p>Learn about our work documenting Alexander Girard's work here, including preserving the murals at St. Johns College and the Unitarian Church in Albuquerque.</p>
-        			<ul class="actions">
-        				<li><a href="/projects/alexander-girard-in-new-mexico" class="button special accent2">Learn more</a></li>
-        			</ul>
-        		</div>
-        	</div>
-        </article>
       </section>
       <!-- // end Cascade Spotlights -->
-
-			<!-- Blog Grid -->
-			<section id="blogGrid" class="main style1">
-				<header class="small">
-					<h2>Blog</h2>
-				</header>
-				<div class="inner">
-					{% set postlist = collections.posts | limit(3) %}
-					{% include "postlist.njk" %}
-				</div>
-			</section>
-			<!-- // end Blog Grid -->
-
-			<!-- Testimonials -->
-			<section class="testimonials main style1" style="padding-left: 0; padding-right: 0; padding-bottom: 0;">
-				<header class="small">
-					<h2>Testimonials</h2>
-				</header>
-	      {% include "testimonials.njk" %}
-	    </section>
-	    <!-- /end Testimonials -->
 
       {% include "footer.njk" %}
 

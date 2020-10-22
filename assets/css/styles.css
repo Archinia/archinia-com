@@ -1,4 +1,9 @@
 :root {
+  /* Fonts */
+  --cinzel: "Cinzel", serif;
+  --crimson: "Crimson Text", serif;
+
+  /* Colors */
   --accent: #25dbdb;
   --white: #ffffff;
   --black: #000000;
@@ -12,6 +17,17 @@
   --screen-md: 768px;
   --screen-lg: 1024px;
   --screen-xl: 1400px;
+}
+
+@font-face {
+  font-family: "Cinzel";
+  src: url("/assets/fonts/cinzel/Cinzel-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Crimson Text";
+  src: url("/assets/fonts/crimson_text/CrimsonText-BoldItalic.ttf") format("truetype");
+  font-style: oblique;
+  font-weight: 600;
 }
 
 /* Sizes */
@@ -406,6 +422,31 @@ header.header-main > nav {
   padding-bottom: 1rem;
 }
 
+/* Home Page Grid */
+.grid-block {
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .grid-block {
+    width: 50%;
+  }
+  .quotes.alt > .grid-block {
+    width: 33.33%;
+  }
+}
+.grid-block h2 {
+  font-family: var(--cinzel), Georgia, 'Times New Roman', serif;
+  font-weight: bold;
+}
+.grid-label {
+  font-family: var(--crimson), Georgia, 'Times New Roman', serif;
+  font-style: oblique;
+  letter-spacing: 1px;
+}
+.grid-block[href="#"] {
+  cursor: default;
+}
+
 /* Post List */
 .posts {
   width: 100%;
@@ -430,11 +471,17 @@ header.header-main > nav {
   position: relative;
   overflow: hidden;
   height: 255px;
-  width: 300px;
+  width: 100%;
   border: none;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+@media screen and (min-width: 768px) {
+  .post-image {
+    height: 255px;
+    width: 300px;
+  }
 }
 .post-image > img {
   height: 100%;

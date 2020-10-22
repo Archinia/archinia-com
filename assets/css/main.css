@@ -2964,41 +2964,40 @@ table.alt tbody tr td {
 .quotes hr {
   border-bottom-color: rgba(255, 255, 255, 0.25);
 }
-
-.quotes>article {
+.quotes>a {
+  border: 0;
+}
+.quotes article.square,
+.evolutionHero {
+  width: 100%;
   padding: 8rem 0;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-
-.quotes>article .square {
-  width: 50%;
-  position: relative;
-}
-
-.quotes>article.square {
-  background-position: center center;
+article.square {
   background-blend-mode: multiply;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: all 0.2s ease;
+}
+article.square:hover {
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
-.quotes>article .square:after {
+article.square:after {
   content: "";
   display: block;
-  padding-bottom: 100%;
 }
 
-.quotes>article .author {
+.quotes article .author {
   margin: 0 0 2rem 0;
 }
 
-.quotes>article .author .name {
+.quotes article .author .name {
   color: #3f3f3f;
   display: block;
   font-size: 1.2rem;
@@ -3006,11 +3005,12 @@ table.alt tbody tr td {
   margin: 0 0 0.5rem 0;
 }
 
-.quotes>article .author .title {
+.quotes article .author .title {
   display: block;
 }
 
-.quotes>article:before {
+.quotes article:before,
+.quotes.alt article:before {
   background-color: #3f3f3f;
   border-radius: 100%;
   display: inline-block;
@@ -3024,7 +3024,7 @@ table.alt tbody tr td {
   z-index: 1;
 }
 
-.quotes>article:after {
+.quotes article:after {
   -moz-transition: opacity 1s ease-in-out;
   -webkit-transition: opacity 1s ease-in-out;
   -ms-transition: opacity 1s ease-in-out;
@@ -3046,42 +3046,32 @@ table.alt tbody tr td {
   width: 100%;
 }
 
-.quotes>article>div {
+.quotes article>div {
   padding: 0 2rem;
   z-index: 100;
 }
 
 @media screen and (max-width: 768px) {
-  .quotes>article {
+  .quotes article {
     width: 100%;
     min-height: 400px;
   }
 
-  .quotes>article div {
+  .quotes article div {
     top: 0;
     width: 80%;
     margin: auto;
   }
 }
 
-.quotes.alt>article {
-  width: 33.3%;
-  padding: 4rem 0;
-}
-
-.quotes.alt>article .square {
-  width: 50%;
-  position: relative;
-}
-
-.quotes.alt>article .square:after {
+.quotes.alt article .square:after {
   content: "";
   display: block;
   padding-bottom: 100%;
 }
 
 @media screen and (max-width: 768px) {
-  .quotes.alt>article {
+  .quotes.alt a > article {
     width: 100%;
     min-height: 400px;
   }
