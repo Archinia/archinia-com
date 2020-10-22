@@ -12,7 +12,7 @@ featured_image: bandelier/bandelier-banner.jpg
 </p>
 
 <div style="display: flex; flex-direction: row; align-items:center; justify-content: center; margin: 2rem auto;">
-  <span class="image fit" style="padding: 0.5rem; max-width: 200px;"><img src="/images/logos/nmtrue.jpg" alt="NM True Film"></span>
+  <span class="image fit" style="padding: 0.5rem; max-width: 300px;"><img src="/images/logos/nmtrue.jpg" alt="NM True Film"></span>
 </div>
 
 <!-- Placeholder for YouTube Video
