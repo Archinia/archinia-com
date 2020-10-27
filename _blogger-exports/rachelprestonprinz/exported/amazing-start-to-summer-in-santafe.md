@@ -1,0 +1,10 @@
+---
+title: 'Amazing Start to Summer in #SantaFe @lafondasantafe'
+date: 2015-06-12T14:17:00.000-06:00
+draft: false
+slug: amazing-start-to-summer-in-santafe
+---
+
+So the architecture firm I work at has been doing some awesome work at La Fonda in Santa Fe. Yesterday i got my first tour of the hotel. It's SO beautiful! I love the Mary Colter Rabbits! SO much~
+
+[![IMG_3809 (Medium)](http://lh3.googleusercontent.com/-g1erl3Ei3_g/VXs-sxudo6I/AAAAAAAAKHE/2zqFCNyXRUY/IMG_3809%252520%252528Medium%252529_thumb%25255B1%25255D.jpg?imgmax=800 "IMG_3809 (Medium)")](/images/blog/legacy/IMG_3809%252520%252528Medium%252529%25255B1%25255D.jpg) [![IMG_3807 (Medium)](http://lh3.googleusercontent.com/-Kcqp6ewgRow/VXs-vxXcLnI/AAAAAAAAKHc/YznawktXU8w/IMG_3807%252520%252528Medium%252529_thumb%25255B1%25255D.jpg?imgmax=800 "IMG_3807 (Medium)")](/images/blog/legacy/IMG_3807%252520%252528Medium%252529%25255B1%25255D.jpg) [![IMG_3806 (Medium)](http://lh3.googleusercontent.com/-xTArpVzFsBE/VXs-w703pfI/AAAAAAAAKH0/dBKEZfa7J9s/IMG_3806%252520%252528Medium%252529_thumb%25255B1%25255D.jpg?imgmax=800 "IMG_3806 (Medium)")](/images/blog/legacy/IMG_3806%252520%252528Medium%252529%25255B1%25255D.jpg) [![IMG_3804 (Medium)](http://lh3.googleusercontent.com/-LGq3Uml-9oY/VXs-x_2lrsI/AAAAAAAAKIM/xDDBVgTcqYk/IMG_3804%252520%252528Medium%252529_thumb.jpg?imgmax=800 "IMG_3804 (Medium)")](/images/blog/legacy/IMG_3804%252520%252528Medium%252529.jpg) [![IMG_3803 (Medium)](http://lh3.googleusercontent.com/-mUNsshNSqP0/VXs-zMjIj5I/AAAAAAAAKIk/GFbV93o3PwU/IMG_3803%252520%252528Medium%252529_thumb.jpg?imgmax=800 "IMG_3803 (Medium)")](/images/blog/legacy/IMG_3803%252520%252528Medium%252529.jpg) [![IMG_3800 (Medium)](http://lh3.googleusercontent.com/-rSJsWJUcNYg/VXs-0NHGs8I/AAAAAAAAKI8/kzZqEDjTtHA/IMG_3800%252520%252528Medium%252529_thumb%25255B6%25255D.jpg?imgmax=800 "IMG_3800 (Medium)")](/images/blog/legacy/IMG_3800%252520%252528Medium%252529%25255B6%25255D.jpg)

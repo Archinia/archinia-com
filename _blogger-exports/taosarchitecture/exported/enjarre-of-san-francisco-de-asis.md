@@ -1,0 +1,23 @@
+---
+title: 'The Enjarre of San Francisco de Asis'
+date: 2011-06-27T12:48:00.000-07:00
+draft: false
+slug: enjarre-of-san-francisco-de-asis
+tags: [Taos' Best Architecture]
+---
+
+![](/images/blog/legacy/P1160223+%2528Large%2529.JPG)
+
+  
+  
+I didn’t decide to work the _enjarre_—the remudding of the church of San Francisco de Asis in Ranchos—so I could tell the story. I wanted to be a better historic architect. I wanted to give something back to the community that has done so much for me. I wanted to work side by side of the people of the church and find out why they were there—was it obligation? Devotion? Perhaps a mix of both? This year’s Taos Festival of Art and Architecture invited anyone and everyone to help. I was in!  
+  
+From the first day of the _enjarre_ in early-June, the mud was already being mixed. The cranes were set, their swinging baskets filled with people recoating the high walls from the wheelbarrow full of wet earth. More than 50 people worked to scratch the top layer of decaying stucco from the walls of the _atria_ and remove the gravel road and walkway topping from within three feet of the structures. Years ago, the _enjarre_ was the work of the womenfolk, the _enjarradoras,_ though these days it is the entire community that comes together to do the work of protecting the church from another year’s worth of weather. The work of each day is unique, as one might be tasked to hold the ropes to steady the crane’s basket one day and another day might offer the chance to put a finish coat on the layers of earth that were set in the days prior, by the hands of people who were gone before you ever met them. The process is quiet in some moments and in others, there is a cacophony that swirls around the site like a storm. And so it goes … remove, wet, replace, repeat … for 14 days.  
+  
+Some of the volunteers come as a form of pilgrimage. Some come out of obligation to their home parish. Some come from the other side of the world because they want to belong to this place. Others come as a form of prayer. Some come in honor of their sisters and brothers who cannot be there, either because they are working, are too ill or have passed on. A boy walks by with a memorial shirt honoring his cousin whom has passed away. He’s tired, and yet happy to be doing this for her. Somehow, now, his handprints and her memory are being sown into this place for all time. It becomes a living memorial that way. Those that have done the work come back to check “their” spot—you hear them say things like, “I need to go fix this on … _my_ buttress” or “_my_ wall.”  
+  
+One day, my tool went deep into the old stucco, revealing a portion of the adobe that the severely damaged stucco was causing to soak up water. Under the direction of our very capable mayordomo, Gabe Romero, our crew carefully removed the stucco in this area down to the adobe, so we could let the wall structure dry our for a day or so before rebuilding the five inches of stucco on each side, to make this section match the rest of the courtyard wall. As I stood there looking down at the enormous pile of rubble that remained, I realized that what we had removed represented something like 10 years worth of work, completed by probably 30 people. I wondered if their hands were as tired from their toils when they worked on this wall as mine were that day. In my pondering, I looked up and realized that all the _canales_—the gutters that allow the church roof to drain onto the pavement below—were designed to offer their gift of water into catchments the same shape as the symbols that our indigenous Pueblo people use to designate snowclouds. I realized that the small act of water dropping from the roof into the “clouds” symbolized the cycle of life that the church represents, and that the _enjarre_ represents. In that moment, as my tears dropped into the stucco remnants that we would recycle to coat an entirely different section of the church, I realized that I too had become a part of this place.  
+  
+Each passing year, the enjarre makes the church more sacred and increasingly alive, because its people are participating in its life. The workers may be life-long parishioners with four generations attending the church every Sunday, or they may be entirely unfamiliar. By the end, the two who started as strangers may well be friends. Whoever they are, for whatever reasons they come, they are united in one cause: the protection of this irreplaceable resource that is a part of them, and they are a part of—for now and always.  
+  
+(from an original story in the Taos Horsefly)
