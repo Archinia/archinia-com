@@ -499,7 +499,7 @@ header.header-main > nav {
     object-fit: none;
   }
   .spotlight .inner .content {
-    background-color: var(--black);
+    background-color: #010101;
     color: var(--white);
   }
   .spotlight .inner .content h2,

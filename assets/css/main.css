@@ -2975,7 +2975,7 @@ table.alt tbody tr td {
 }
 .evolutionHero {
   background-size: contain;
-  background-color: var(--black);
+  background-color: #010101;
   width: 100%;
   min-height: 500px;
   max-height: 80vh;
