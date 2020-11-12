@@ -2973,6 +2973,13 @@ table.alt tbody tr td {
   flex-direction: column;
   justify-content: center;
 }
+.evolutionHero {
+  background-size: contain;
+  background-color: var(--black);
+  width: 100%;
+  min-height: 500px;
+  max-height: 80vh;
+}
 article.square {
   background-blend-mode: multiply;
   background-color: rgba(0, 0, 0, 0.4);
