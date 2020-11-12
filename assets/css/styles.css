@@ -6,7 +6,7 @@
   /* Colors */
   --accent: #25dbdb;
   --white: #ffffff;
-  --black: #000000;
+  --black: #010101;
 
   --navpanel-text: var(--white);
   --navpanel-background: var(--black);
@@ -499,7 +499,7 @@ header.header-main > nav {
     object-fit: none;
   }
   .spotlight .inner .content {
-    background-color: #010101;
+    background-color: var(--black);
     color: var(--white);
   }
   .spotlight .inner .content h2,
