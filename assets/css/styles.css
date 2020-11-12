@@ -111,6 +111,9 @@ h2, .h2 {
 .mb-4 {
   margin-bottom: 1rem;
 }
+.mb-12 {
+  margin-bottom: 3rem;
+}
 .text-center {
   text-align: center;
 }
@@ -189,6 +192,9 @@ h2, .h2 {
   }
   .column.mb-4 {
     margin-bottom: 1rem;
+  }
+  .column.mb-12 {
+    margin-bottom: 3rem;
   }
 }
 
