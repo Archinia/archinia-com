@@ -16,4 +16,4 @@ Base design built with Pixelarity: Relativity + Cascade / Telemetry / Vortex
 All content is copyright Rachel Preston Prinz, unless otherwise stated.
 
 We believe sharing is caring, so you're welcome to recycle the creative architecture used to build this site, but don't steal the intellectual property and hard work of Rachel and her team :)
-- Rachel is super awesome and loves sharing, so just ask if there's something that catches your eye. You can contact her via the website: archinia.com.
+- Rachel is super awesome and loves sharing, so just ask if there's something that catches your eye. You can contact her via the website: theministryofarchitecture.com.
