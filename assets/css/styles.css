@@ -558,5 +558,24 @@ h6:hover > a.bookmark {
 }
 
 .tag-list li {
-  margin: 0 1rem 1rem;
+  margin: 0 0.5rem 1rem;
+  padding: 0.25rem 0.5rem;
+  font-weight: 700;
+}
+
+.tag-list li a {
+  transition: none;
+}
+
+.tag-list li:hover,
+.tag-list li:active,
+.tag-list li:focus {
+  background-color: var(--accent);
+}
+
+.tag-list li:hover a,
+.tag-list li:hover a:hover,
+.tag-list li:hover a:active,
+.tag-list li:hover a:focus {
+  color: var(--white);
 }
