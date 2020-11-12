@@ -17,6 +17,7 @@
   --screen-md: 768px;
   --screen-lg: 1024px;
   --screen-xl: 1400px;
+  --screen-max: 2400px;
 }
 
 @font-face {
@@ -234,6 +235,10 @@ h2, .h2 {
   width: 20px;
 }
 
+.header-main.alt .logo img.logo-full {
+  display: none;
+}
+
 .logo-square {
   display: inline-flex;
 }
@@ -423,6 +428,13 @@ header.header-main > nav {
 }
 
 /* Home Page Grid */
+.container-dark {
+  background-color: var(--black);
+}
+.grid-mosaic {
+  max-width: var(--screen-max);
+  margin: 0 auto;
+}
 .grid-block {
   width: 100%;
 }
@@ -437,14 +449,48 @@ header.header-main > nav {
 .grid-block h2 {
   font-family: var(--cinzel), Georgia, 'Times New Roman', serif;
   font-weight: bold;
+  text-transform: none;
 }
 .grid-label {
-  font-family: var(--crimson), Georgia, 'Times New Roman', serif;
-  font-style: oblique;
+  font-family: var(--cinzel), Georgia, 'Times New Roman', serif;
   letter-spacing: 1px;
 }
 .grid-block[href="#"] {
   cursor: default;
+}
+.spotlight {
+  max-width: var(--screen-max);
+  margin: 0 auto;
+}
+.spotlight h2 {
+  margin-bottom: 1rem;
+}
+@media screen and (max-width: 550px) {
+  .spotlight .image.bg-rachel {
+    height: 15rem;
+    min-height: 10rem;
+  }
+}
+@media screen and (min-width: 551px) {
+  .spotlight .image.bg-rachel {
+    height: 20rem;
+    min-height: 20rem;
+  }
+}
+@media screen and (min-width: 980px) {
+  .spotlight .image.bg-rachel {
+    height: 100%;
+    min-height: 20rem;
+  }
+}
+@media screen and (min-width: 981px) {
+  .spotlight .inner .image.bg-rachel img {
+    -moz-object-fit: none;
+    -webkit-object-fit: none;
+    -ms-object-fit: none;
+    -o-object-fit: none;
+    object-fit: none;
+  }
 }
 
 /* Post List */

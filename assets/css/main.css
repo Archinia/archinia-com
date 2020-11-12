@@ -2790,7 +2790,7 @@ table.alt tbody tr td {
 }
 
 .spotlight .content {
-  padding: 5rem 5rem 3rem 5rem;
+  padding: 3rem;
   -moz-transition: opacity 0.5s ease-out, -moz-transform 0.5s ease-out;
   -webkit-transition: opacity 0.5s ease-out, -webkit-transform 0.5s ease-out;
   -ms-transition: opacity 0.5s ease-out, -ms-transform 0.5s ease-out;
@@ -2859,7 +2859,7 @@ table.alt tbody tr td {
   }
 
   .spotlight .content {
-    padding: 4rem 4rem 2rem 4rem;
+    padding: 4rem;
     width: 45%;
   }
 }
@@ -2877,7 +2877,6 @@ table.alt tbody tr td {
   }
 
   .spotlight h2 {
-    padding: 2.5rem;
     width: 100%;
   }
 
@@ -2890,7 +2889,7 @@ table.alt tbody tr td {
   }
 
   .spotlight .content {
-    padding: 3rem 2.5rem 1rem 2.5rem;
+    padding: 3rem;
     border-radius: 0;
     width: 100%;
     margin: 0;
@@ -2919,13 +2918,8 @@ table.alt tbody tr td {
   .spotlight {
     padding: 0 0 1rem;
   }
-
-  .spotlight h2 {
-    padding: 1.5rem;
-  }
-
   .spotlight .content {
-    padding: 2rem 1.5rem 0.1rem 1.5rem;
+    padding: 2rem;
   }
 }
 

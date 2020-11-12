@@ -50,71 +50,77 @@
 			{% include "header.njk" %}
 
 			<!-- Telemetry Quote Grid -->
-			<section class="quotes">
-				<article class="evolutionHero" style="background-image: url('/images/_branding/ministry-banner-revised.jpg'); background-position: center center; width: 100%; min-height: 70vh; max-height: 80vh;">
-					<h1 style="display: none;">The Ministry of Architecture</h1>
-				</article>
-			</section>
-			<section class="quotes">
-				<a class="grid-block" href="/our-work/historic-preservation/">
-					<article class="square" style="background-image: url('/images/historic-preservation/preservation.jpg');">
-						<div class="grid-content">
-							<p class="grid-label">Services</p>
-							<h2>Historic Preservation</h2>
-						</div>
+			<div class="container-dark">
+				<section class="quotes">
+					<article class="evolutionHero" style="background-image: url('/images/_branding/ministry-banner-revised.jpg'); background-position: center center; width: 100%; min-height: 70vh; max-height: 80vh;">
+						<h1 style="display: none;">The Ministry of Architecture</h1>
 					</article>
-				</a>
-				<a class="grid-block" href="/about/influencer/">
-					<article class="square" style="background-image: url('/images/misc/zimmerman.jpg');">
-						<div>
-							<p class="grid-label">Services</p>
-							<h2>Content Creation</h2>
-						</div>
-					</article>
-				</a>
-				<a class="grid-block" href="/our-work/tours/">
-					<article class="square" style="background-image: url('/images/misc/tours.jpg');">
-						<div class="grid-content">
-							<p class="grid-label">Services</p>
-							<h2>Tours</h2>
-						</div>
-					</article>
-				</a>
-				<a class="grid-block" href="mailto:intentiondesign@gmail.com?subject=Consulting%20Request">
-					<article class="square" style="background-image: url('/images/misc/patio.jpg');">
-						<div>
-							<p class="grid-label">Services</p>
-							<h2>Consulting</h2>
-						</div>
-					</article>
-				</a>
-			</section>
-			<section class="quotes alt">
-				<a class="grid-block" href="/earthships/">
-					<article class="square" style="background-image: url('/images/earthships/earthships-block.jpg');">
-						<div>
-							<p class="grid-label">Learn</p>
-							<h2>Earthship Research</h2>
-						</div>
-					</article>
-				</a>
-				<a class="grid-block" href="#">
-					<article class="square" style="background-image: url('/images/misc/zigzag-pottery.jpg');">
-						<div>
-							<p class="grid-label">Coming Soon!</p>
-							<h2>Shop</h2>
-						</div>
-					</article>
-				</a>
-				<a class="grid-block" href="/projects/alexander-girard-in-new-mexico/">
-					<article class="square" style="background-image: url('/images/girard/girard-square.jpg');">
-						<div>
-							<p class="grid-label">Learn</p>
-							<h2>Alexander Girard in NM</h2>
-						</div>
-					</article>
-				</a>
-			</section>
+				</section>
+			</div>
+			<div class="container-dark">
+				<section class="quotes grid-mosaic">
+					<a class="grid-block" href="/our-work/historic-preservation/">
+						<article class="square" style="background-image: url('/images/historic-preservation/preservation.jpg');">
+							<div class="grid-content">
+								<p class="grid-label">Services</p>
+								<h2>Historic Preservation</h2>
+							</div>
+						</article>
+					</a>
+					<a class="grid-block" href="/about/influencer/">
+						<article class="square" style="background-image: url('/images/misc/zimmerman.jpg');">
+							<div>
+								<p class="grid-label">Services</p>
+								<h2>Content Creation</h2>
+							</div>
+						</article>
+					</a>
+					<a class="grid-block" href="/our-work/tours/">
+						<article class="square" style="background-image: url('/images/misc/tours.jpg');">
+							<div class="grid-content">
+								<p class="grid-label">Services</p>
+								<h2>Tours</h2>
+							</div>
+						</article>
+					</a>
+					<a class="grid-block" href="mailto:intentiondesign@gmail.com?subject=Consulting%20Request">
+						<article class="square" style="background-image: url('/images/misc/patio.jpg');">
+							<div>
+								<p class="grid-label">Services</p>
+								<h2>Consulting</h2>
+							</div>
+						</article>
+					</a>
+				</section>
+			</div>
+			<div class="container-dark">
+				<section class="quotes alt grid-mosaic">
+					<a class="grid-block" href="/earthships/">
+						<article class="square" style="background-image: url('/images/earthships/earthships-block.jpg');">
+							<div>
+								<p class="grid-label">Learn</p>
+								<h2>Earthship Research</h2>
+							</div>
+						</article>
+					</a>
+					<a class="grid-block" href="#">
+						<article class="square" style="background-image: url('/images/misc/zigzag-pottery.jpg');">
+							<div>
+								<p class="grid-label">Coming Soon!</p>
+								<h2>Shop</h2>
+							</div>
+						</article>
+					</a>
+					<a class="grid-block" href="/projects/alexander-girard-in-new-mexico/">
+						<article class="square" style="background-image: url('/images/girard/girard-square.jpg');">
+							<div>
+								<p class="grid-label">Learn</p>
+								<h2>Alexander Girard in NM</h2>
+							</div>
+						</article>
+					</a>
+				</section>
+			</div>
 
 			<!-- Blog Grid -->
 			<section id="blogGrid" class="container mx-auto" style="padding-top: 4rem;">
@@ -125,22 +131,24 @@
 			<!-- // end Blog Grid -->
 
       <!-- Cascade Spotlights -->
-      <section id="spotlight">
-        <article id="one" class="spotlight even">
-        	<div class="inner">
-        		<div class="image" data-position="bottom left">
-        			<img src="/images/rachel/MD.jpg" alt="Rachel speaking">
-        		</div>
-        		<div class="content">
-        			<h2>Rachel Preston Prinz</h2>
-        			<p> An architecturally-trained designer in Santa Fe, New Mexico, Rachel is an authority <a href="/about/influencer">influencer</a> known for her award-winning storytelling collaborations in architecture, design, placemaking, historic preservation, and sustainability.</p>
-        			<ul class="actions">
-        				<li><a href="/about/rachel-preston" class="button special accent2">Learn more</a></li>
-        			</ul>
-        		</div>
-        	</div>
-        </article>
-      </section>
+			<div class="container-dark">
+	      <section id="spotlight">
+	        <article id="one" class="spotlight even">
+	        	<div class="inner">
+	        		<div class="image bg-rachel" data-position="bottom left">
+	        			<img src="/images/rachel/MD.jpg" alt="Rachel speaking">
+	        		</div>
+	        		<div class="content">
+	        			<h2>Rachel Preston Prinz</h2>
+	        			<p> An architecturally-trained designer in Santa Fe, New Mexico, Rachel is an authority <a href="/about/influencer">influencer</a> known for her award-winning storytelling collaborations in architecture, design, placemaking, historic preservation, and sustainability.</p>
+	        			<ul class="actions">
+	        				<li><a href="/about/rachel-preston">Learn more</a></li>
+	        			</ul>
+	        		</div>
+	        	</div>
+	        </article>
+	      </section>
+			</div>
       <!-- // end Cascade Spotlights -->
 
       {% include "footer.njk" %}
