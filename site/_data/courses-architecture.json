@@ -1,0 +1,29 @@
+{
+  "title": "More Free Online Architecture Courses",
+  "courses": [
+    {
+      "text": "National Park Service: Teaching with Historic Places: Roadside Attractions",
+      "url": "https://www.nps.gov/nr/twhp/wwwlps/lessons/6roadside/6roadside.htm"
+    },
+    {
+      "text": "National Park Service: Teaching with Historic Places: The Hispano Ranchos of Northern New Mexico: Continuity and Change",
+      "url": "https://www.nps.gov/nr/twhp/wwwlps/lessons/96ranchos/96ranchos.htm"
+    },
+    {
+      "text": "National Park Service: Teaching with Historic Places: The Gran Quivira: A Blending of Cultures in a Pueblo Indian Village",
+      "url": "https://www.nps.gov/nr/twhp/wwwlps/lessons/66gran/66gran.htm"
+    },
+    {
+      "text": "ThoughtCo: Mayan Architecture: Buildings by the Mexican Maya, Past and Present",
+      "url": "https://www.thoughtco.com/mexican-mayan-architecture-178447"
+    },
+    {
+      "text": "Khan Academy: Contemporary Native American Architecture",
+      "url": "https://www.khanacademy.org/humanities/art-americas/native-north-america/native-american-contemporary-art/a/contemporary-native-american-architecture"
+    },
+    {
+      "text": "Khan Academy: How to Become an Architect",
+      "url": "https://www.khanacademy.org/college-careers-more/career-content/career-profiles-build-and-fix-things/career-profile-architectural-designer/a/how-to-become-an-architect"
+    }
+  ]
+}

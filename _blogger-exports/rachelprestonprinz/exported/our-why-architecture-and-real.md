@@ -1,0 +1,11 @@
+---
+title: 'Our Why: Architecture and Real Sustainability'
+date: 2015-12-02T12:49:00.000-07:00
+draft: false
+slug: our-why-architecture-and-real
+tags: [Sustainability]
+---
+
+There is no reason at all why we, the wealthiest people in the world, should use resources as if they are infinitely available and have no cost to the environment from which we remove them. So, at Archinia, when we are working on a design, we go back to the lessons we learn from simple architecture around the world. We try to provide shelter from the heat in the hot season, and bring in the warmth of the sun when it is needed. We study the local architecture built before the industrial revolution to see how the people who had no mechanical systems to control their comfort responded to their environment. In Florida, they raise houses to get access to the fresh air flowing as breezes through the trees, and to protect the house from becoming flooded during the rainy season. This same protection minimizes pests. In Canada, they have big breadths of open windows on the south, to gather as much sun as possible to heat the home during the day. Their huge fireplaces are made with true masonry, so they hold the heat longer and don’t need to be stoked through the night. In our practice, we take those lessons, and apply them to our modern designs. This just makes sense. It is the right thing to do. They put fancy labels on it like “passive solar” and “sustainable” but really… it is just logical…. and it is WHOLE. We use nature where we can because sometimes… the power goes out… and we want our buildings to still work when it does… and we want to minimize the impact we make on the environment.  
+  
+All of this – what we do as individuals, as communities, and as citizens of the world… matters. We have a choice, every day when we wake up, to see injustice and accept it “as things are” or to get back to the place of courage and insight and stand up for our selves and our communities. At Archinia, we have committed to try and make a difference. Today.

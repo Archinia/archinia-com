@@ -1,0 +1,6 @@
+{
+  "layout": "default.njk",
+  "tags": "post",
+  "permalink": "blog/{{ slug }}/index.html",
+  "related": true
+}

@@ -1,0 +1,204 @@
+<!DOCTYPE HTML>
+<!--
+  Crafted by: Melanie E Magdalena | @m2creates
+  Built with Pixelarity: Relativity, Altitude, Vortex & Cascade
+	License: pixelarity.com/license
+  Notes: Stay awesome AJ!
+-->
+<html lang="en">
+
+	<head>
+		<title>{{ title }}</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- Generate Metatags from Content -->
+		{% include "meta.njk" %}
+
+		<!-- Styles -->
+		<link rel="stylesheet" href="/assets/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:800|Source+Sans+Pro:300,300i,600,600i" />
+		<link rel="stylesheet" href="/assets/css/main.css" />
+		<link rel="stylesheet" href="/assets/css/styles.css" />
+
+		<!-- Owl -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+		<link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
+
+		<!-- Insert Favicons -->
+		{% include "favicons.njk" %}
+
+		<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/cac2b58a6aa8f0a66e10baffd/f05ff8e1c519dd483eba905d8.js");</script>
+
+		<!-- Inline Quick Fix Styling -->
+		<style>
+		@media only screen and (max-width: 768px) {
+			#spotlight,
+			#spotlight > #one > div.inner > div.content {
+				background-color: #e3e3e3;
+				padding-bottom: 1rem;
+			}
+		}
+		</style>
+	</head>
+
+	<body>
+
+		<!-- Wrapper -->
+		<div id="wrapper">
+
+			{% include "header.njk" %}
+
+			<!-- Telemetry Quote Grid -->
+			<div class="container-dark">
+				<section class="quotes">
+					<article class="evolutionHero" style="background-image: url('/images/_branding/ministry-banner-revised.jpg');">
+						<h1 style="display: none;">The Ministry of Architecture</h1>
+					</article>
+				</section>
+			</div>
+			<div class="container-dark">
+				<section class="quotes grid-mosaic">
+					<a class="grid-block" href="/our-work/historic-preservation/">
+						<article class="square" style="background-image: url('/images/historic-preservation/preservation.jpg');">
+							<div class="grid-content">
+								<p class="grid-label">Services</p>
+								<h2>Historic Preservation</h2>
+							</div>
+						</article>
+					</a>
+					<a class="grid-block" href="/about/influencer/">
+						<article class="square" style="background-image: url('/images/misc/zimmerman.jpg');">
+							<div>
+								<p class="grid-label">Services</p>
+								<h2>Content Creation</h2>
+							</div>
+						</article>
+					</a>
+					<a class="grid-block" href="/our-work/tours/">
+						<article class="square" style="background-image: url('/images/misc/tours.jpg');">
+							<div class="grid-content">
+								<p class="grid-label">Services</p>
+								<h2>Tours</h2>
+							</div>
+						</article>
+					</a>
+					<a class="grid-block" href="/our-work/consulting/">
+						<article class="square" style="background-image: url('/images/misc/patio.jpg');">
+							<div>
+								<p class="grid-label">Services</p>
+								<h2>Consulting</h2>
+							</div>
+						</article>
+					</a>
+				</section>
+			</div>
+			<div class="container-dark">
+				<section class="quotes alt grid-mosaic">
+					<a class="grid-block" href="/earthships/">
+						<article class="square" style="background-image: url('/images/earthships/earthships-block.jpg');">
+							<div>
+								<p class="grid-label">Learn</p>
+								<h2>Earthship Research</h2>
+							</div>
+						</article>
+					</a>
+					<div class="grid-block">
+						<article class="square" style="background-image: url('/images/misc/zigzag-pottery.jpg');">
+							<div>
+								<p class="grid-label">Coming Soon!</p>
+								<h2>Shop</h2>
+							</div>
+						</article>
+					</div>
+					<a class="grid-block" href="/projects/alexander-girard-in-new-mexico/">
+						<article class="square" style="background-image: url('/images/girard/girard-square.jpg');">
+							<div>
+								<p class="grid-label">Learn</p>
+								<h2>Alexander Girard in NM</h2>
+							</div>
+						</article>
+					</a>
+				</section>
+			</div>
+
+			<!-- Blog Grid -->
+			<section id="blogGrid" class="container mx-auto" style="padding-top: 4rem;">
+				<h2 style="text-align: center;">Latest on the Blog</h2>
+				{% set postlist = collections.posts | limit(3) %}
+				{% include "postlist.njk" %}
+			</section>
+			<!-- // end Blog Grid -->
+
+      <!-- Cascade Spotlights -->
+			<div class="container-dark">
+	      <section id="spotlight">
+	        <article id="one" class="spotlight even">
+	        	<div class="inner">
+	        		<div class="image bg-rachel" data-position="bottom left">
+	        			<img src="/images/rachel/MD.jpg" alt="Rachel speaking">
+	        		</div>
+	        		<div class="content">
+	        			<h2>Rachel Preston Prinz</h2>
+	        			<p> An architecturally-trained designer in Santa Fe, New Mexico, Rachel is an authority <a href="/about/influencer">influencer</a> known for her award-winning storytelling collaborations in architecture, design, placemaking, historic preservation, and sustainability.</p>
+	        			<ul class="actions">
+	        				<li><a href="/about/rachel-preston">Learn more</a></li>
+	        			</ul>
+	        		</div>
+	        	</div>
+	        </article>
+	      </section>
+			</div>
+      <!-- // end Cascade Spotlights -->
+
+      {% include "footer.njk" %}
+
+    </div>
+
+    <!-- Scripts -->
+		<script src="/assets/js/jquery.min.js"></script>
+		<script src="/assets/js/jquery.dropotron.min.js"></script>
+		<script src="/assets/js/jquery.scrollex.min.js"></script>
+		<script src="/assets/js/jquery.scrolly.min.js"></script>
+
+		<script src="/assets/js/skel.min.js"></script>
+		<script src="/assets/js/util.min.js"></script>
+		<script src="/assets/js/main.js"></script>
+
+		<!-- Search -->
+		<script src="/assets/js/search.js"></script>
+
+		<!-- Testimonial Carousel -->
+		<script src="/assets/js/owl.carousel.min.js"></script>
+		<script>
+			$(window).on( "load", function() {
+    		"use strict";
+    		//  TESTIMONIALS CAROUSEL HOOK
+        $('#testimonials').owlCarousel({
+            loop: true,
+            center: true,
+            items: 3,
+            margin: 0,
+            autoplay: true,
+            dots: true,
+            autoplayTimeout: 8500,
+            smartSpeed: 450,
+            responsive: {
+              0: {
+                items: 1
+              },
+              768: {
+                items: 2
+              }
+            }
+        });
+    	});
+		</script>
+		<!-- /end Testimonial Carousel -->
+
+		<!-- Mailchimp -->
+		{# <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us3.list-manage.com","uuid":"cac2b58a6aa8f0a66e10baffd","lid":"7c61b2b0b1"}) })</script> #}
+		<!-- /end Mailchimp -->
+
+  </body>
+</html>

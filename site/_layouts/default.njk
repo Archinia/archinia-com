@@ -1,0 +1,140 @@
+<!DOCTYPE HTML>
+<!--
+	Relativity by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
+-->
+
+<html lang="en">
+
+<head>
+	<title>{{ title }}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<!-- Generate Metatags from Content -->
+	{% include "meta.njk" %}
+
+	<!-- Styles -->
+	<link rel="stylesheet" href="/assets/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:800|Source+Sans+Pro:300,300i,600,600i" />
+	<!-- Old Stylesheet --><link rel="stylesheet" href="/assets/css/main.css" />
+	<!-- New Stylesheet --><link rel="stylesheet" href="/assets/css/styles.css" />
+	{% if submenu === "rachel" %}
+	<link rel="stylesheet" href="/assets/css/rachel.css" />
+	{% endif %}
+	{% if submenu === "acoma" %}
+	<link rel="stylesheet" href="/assets/css/acoma.css" />
+	{% endif %}
+
+	<!-- Insert Favicons -->
+	{% include "favicons.njk" %}
+
+</head>
+
+<body>
+
+	<!-- Wrapper -->
+	<div id="wrapper" style="display: flex; flex-direction: column; align-items: stretch;">
+
+		<!-- Header -->
+		{% include "header.njk" %}
+
+		<!-- Hero Section -->
+		<main style="flex-grow: 1; flex-shrink: 0;">
+			{% if submenu === "acoma" %}
+				<header>
+					<div class="full-bleed pattern">
+						<span class="acoma-banner"><img src="/images/acoma/acoma-banner.png" alt="Sky City Cultural Center and the Architecture of Acoma Pueblo" /></span>
+						{% include "navigation-acoma.njk" %}
+					</div>
+				</header>
+				{% if page.url === "/acoma/" %}
+				<div class="full-bleed">
+					<span class="image fit"><img src="/images/acoma/home-cover-exterior-wide.jpg" alt="" /></span>
+				</div>
+				{% endif %}
+			{% else %}
+			<section class="main alt">
+				<header>
+					{% if rpp_menu %}
+						<h1>Rachel Preston Prinz</h1>
+					{% else %}
+						<h1>{{ title }}</h1>
+					{% endif %}
+
+					{% if subtitle %}
+						<h2>{{ subtitle }}</h2>
+					{% endif %}
+
+					{% if submenu === "rachel" %}
+						{% include "navigation-rachel.njk" %}
+					{% endif %}
+
+					{% if date %}
+					<p>{{ content | readingTime }} read</p>
+					{% endif %}
+				</header>
+
+				{% if featured_image %}
+				<div style="max-width: 1500px; margin: 0 auto;">
+					<span class="image fit" style="max-height: 500px; height: auto; min-height: 400px; background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url('/images/{{ featured_image }}');"></span>
+				</div>
+				{% endif %}
+			</section>
+			{% endif %}
+
+			<!-- Content Section -->
+			<section class="main">
+				<div class="inner style1">
+
+					{% if submenu === "acoma" %}
+					<h1>{{ title }}</h1>
+					{% endif %}
+
+					{{ content | safe }}
+
+					{% if related and tags[1] %}
+					{% set postTag = tags[1] %}
+					<hr class="major" />
+					<h2 class="text-center">More in <a href="/category/{{ postTag | slug }}">{{ postTag | capitalize }}</a></h2>
+					<br />
+					{% set postlist = collections[ postTag ] | reverse | limit(3) %}
+					{% include "postlist.njk" %}
+					{% endif %}
+					</div>
+
+				</div>
+			</section>
+
+			{% if footer_image %}
+			<div>
+				<span class="image fit" style="max-height: 500px; height: auto; min-height: 350px; background-size: cover; background-position: center 30%; background-repeat: no-repeat; background-image: url('/images/{{ footer_image }}');"></span>
+			</div>
+			{% endif %}
+			{% if submenu === "acoma" %}
+			{% include "footer-acoma.njk" %}
+			{% endif %}
+			{% if '/earthships/' in page.url %}
+			{% include "cta-earthship.njk" %}
+			{% endif %}
+
+		</main>
+
+		{% include "footer.njk" %}
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="/assets/js/jquery.min.js"></script>
+	<script src="/assets/js/jquery.dropotron.min.js"></script>
+	<script src="/assets/js/jquery.scrollex.min.js"></script>
+	<script src="/assets/js/jquery.scrolly.min.js"></script>
+	<script src="/assets/js/jquery.selectorr.min.js"></script>
+	<script src="/assets/js/skel.min.js"></script>
+	<script src="/assets/js/util.min.js"></script>
+	<script src="/assets/js/main.js"></script>
+
+</body>
+
+</html>
