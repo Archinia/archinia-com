@@ -498,6 +498,17 @@ header.header-main > nav {
     -o-object-fit: none;
     object-fit: none;
   }
+  .spotlight .inner .content {
+    background-color: var(--black);
+    color: var(--white);
+  }
+  .spotlight .inner .content h2,
+  .spotlight .inner .content a {
+    color: var(--white);
+  }
+  .spotlight .inner .content a:hover {
+    color: var(--accent);
+  }
 }
 
 /* Post List */
