@@ -1,0 +1,28 @@
+---
+layout: blank.njk
+---
+
+<section class="container px-5 py-24 mx-auto items-center">
+  <div class="w-full mx-auto flex flex-wrap">
+
+    <img alt="{{ title }} {{ subtitle }}" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="/images/{{ featured_image }}">
+
+    <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+
+      <div class="flex flex-col-reverse">
+        <h1 class="text-3xl font-medium mb-1">{{ title }}</h1>
+        <h2 class="text-sm tracking-widest">{{ subtitle }}</h2>
+      </div>
+
+      <div>
+        {{ content | safe }}
+      </div>
+
+      <div class="flex items-center">
+        <a href="{{ link_buy }}" target="_blank" class="gumroad-button flex mr-auto border-none">Buy Now</a>
+      </div>
+
+    </div>
+
+  </div>
+</section>

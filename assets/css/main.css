@@ -3795,16 +3795,6 @@ form>.field, #banner>.items, #banner>.slider, #footer .links>div {
   background-color: #ffffff;
 }
 
-body {
-  padding-top: 3.25rem;
-}
-
-@media screen and (max-width: 768px) {
-  body {
-    padding-top: 44px;
-  }
-}
-
 /* Banner */
 #header+#banner {
   margin-top: -4.25rem;

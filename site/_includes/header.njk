@@ -1,4 +1,4 @@
-<header id="header" class="header-main {% if header === 'dark' -%} alt {%- endif -%}">
+<header id="header" class="header-main {% if header === 'dark' -%} alt {%- endif -%}" style="flex-shrink: 0;">
 
   <!-- Logo -->
   <a class="logo" href="/">
@@ -15,7 +15,7 @@
   {% include "navigation.njk" %}
 
 </header>
-<div id="searchBox" class="search-ui hidden">
+<div id="searchBox" class="search-ui hidden" style="flex-shrink: 0;">
   <div class="container mx-auto py-4">
     {# Search Input #}
     <input id="searchString" type="search" placeholder="Search..." autofocus="autofocus" class="search-str">

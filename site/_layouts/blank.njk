@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<!--
+	Relativity by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
+-->
+
+<html lang="en">
+
+<head>
+	<title>{{ title }}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<!-- Generate Metatags from Content -->
+	{% include "meta.njk" %}
+
+	<!-- Styles -->
+	<link rel="stylesheet" href="/assets/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:800|Source+Sans+Pro:300,300i,600,600i" />
+	<!-- Old Stylesheet --><link rel="stylesheet" href="/assets/css/main.css" />
+	<!-- New Stylesheet --><link rel="stylesheet" href="/assets/css/styles.css" />
+	<!-- Tailwind --><link rel="stylesheet" href="/assets/css/tailwind.css" />
+
+	<!-- Insert Favicons -->
+	{% include "favicons.njk" %}
+
+</head>
+
+<body>
+
+	<!-- Wrapper -->
+	<div class="site-container">
+
+		<!-- Header -->
+		{% include "header.njk" %}
+
+    <main class="site-content flex-grow">
+      {{ content | safe }}
+    </main>
+
+    {% include "footer.njk" %}
+
+  </div>
+
+  <!-- Scripts -->
+  <script src="/assets/js/jquery.min.js"></script>
+  <script src="/assets/js/jquery.dropotron.min.js"></script>
+  <script src="/assets/js/jquery.scrollex.min.js"></script>
+  <script src="/assets/js/jquery.scrolly.min.js"></script>
+  <script src="/assets/js/jquery.selectorr.min.js"></script>
+  <script src="/assets/js/skel.min.js"></script>
+  <script src="/assets/js/util.min.js"></script>
+  <script src="/assets/js/main.js"></script>
+
+  <!-- Search -->
+  <script src="/assets/js/search.js"></script>
+
+	<!-- Gumroad -->
+	{% if link_buy %}
+	<script src="https://gumroad.com/js/gumroad.js"></script>
+	{% endif %}
+
+</body>
+
+</html>

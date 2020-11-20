@@ -16,6 +16,8 @@ pagination:
   - page
   - post
   - posts
+  - product
+  - products
   - searchable
   - tagList
   addAllPagesToCollections: true
