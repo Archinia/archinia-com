@@ -26,6 +26,7 @@ module.exports = {
             case "catList":
             case "page":
             case "post":
+            case "product":
             case "tagList":
               return false;
           }
@@ -93,7 +94,22 @@ module.exports = {
     return post.reverse();
   },
 
-  // Searchable Posts and Pages
+  // Shop
+  products: collection => {
+    const post = collection.getFilteredByGlob(['**/shop/*.md', '**/shop/*.html']);
+
+    for (let i = 0; i < post.length; i++) {
+      const prevPost = post[i - 1];
+      const nextPost = post[i + 1];
+
+      post[i].data["prevPost"] = prevPost;
+      post[i].data["nextPost"] = nextPost;
+    }
+
+    return post.reverse();
+  },
+
+  // Searchable Content
   searchable: collection => {
     const post = collection.getFilteredByGlob([
       '**/acoma/*.md',
@@ -102,7 +118,8 @@ module.exports = {
       '**/pages/about/*',
       '**/pages/earthships/*',
       '**/pages/our-work/*',
-      '**/pages/projects/*'
+      '**/pages/projects/*',
+      '**/shop/*'
     ]);
 
     return post.sort((a, b) => {

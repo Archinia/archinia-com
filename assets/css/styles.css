@@ -31,6 +31,26 @@
   font-weight: 600;
 }
 
+html {
+  height: 100%;
+}
+.site-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.site-content {
+  flex: 1;
+}
+body .site-content {
+  padding-top: 3.25rem;
+}
+@media screen and (max-width: 768px) {
+  body .site-content {
+    padding-top: 44px;
+  }
+}
+
 /* Sizes */
 
 h1 {
@@ -93,7 +113,6 @@ h2, .h2 {
     width: 90%;
   }
 }
-
 .hidden {
   display: none;
 }
@@ -442,6 +461,7 @@ header.header-main > nav {
   margin: 0 auto;
 }
 .grid-block {
+  display: flex;
   width: 100%;
   cursor: pointer;
 }
