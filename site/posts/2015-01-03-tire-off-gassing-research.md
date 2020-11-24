@@ -1,19 +1,20 @@
 ---
 title: 'Earthship Tire Off-gassing Research'
 date: 2015-01-03T08:14:00.004-07:00
+featured_image: blog/Pratiks.JPG
+featured_image_alt: Tire wall
 draft: false
-slug: tire-off-gassing-research
+slug: earthship-tire-off-gassing-research
 tags:
-  - Earthship Research
+  - earthship research
 ---
-
-![](/images/blog/legacy/Pratiks%2B%287%29.JPG)
-
-Tire wall photo by Pratik Zaveri
 
 We do not have a vested interest in saying that the off-gassing of the tires is a "non-issue." We do not believe that your health is a non-issue. Neither do the countries that have banned the use of tires in buildings. Because of laws prohibiting the use of tires, groups like Earthship Belgium are using earthbags instead of tires for their Earthships.
 
 Just a few months ago, the tire off-gassing issue was raised again when The Washington Post did a story on a number of soccer goalies who have contracted cancer. Scientists and doctors began studying the unique subgroup, which led them to pose a link between the incidents of cancer and goalies who had played extensively on athletic fields paved with a form of AstroTurf that used crumb rubber from recycled tires in its makeup. While in its early stages now, this may ultimately prove to be fruitful research to the tire off-gassing issue. 
+
+![](/images/blog/Pratiks.JPG)
+Tire wall photo by Pratik Zaveri
 
 Here is what we DO know, from the scientific studies and best practices promoted by experts in the many fields which influence our assertion that the tires are dangerous, so you can decide what works for you!
 

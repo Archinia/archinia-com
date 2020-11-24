@@ -1,0 +1,22 @@
+---
+title: Blog
+pagination:
+  data: collections.posts
+  size: 36
+  alias: posts
+  addAllPagesToCollections: true
+layout: default.njk
+collection: posts
+permalink: "blog/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}index.html"
+---
+
+{% set postlist = posts %}
+{% include "postlist.njk" %}
+
+<nav class="w-full flex flex-row items-center justify-center md:px-24" aria-label="Archive Navigation">
+  {% if pagination.href.previous %}<p class="text-sm mb-0 px-2"><a href="{{ pagination.href.previous }}">Previous</a></p>{% endif %}
+  {%- for pageEntry in pagination.pages %}
+  {%- if not loop.last %}<p class="text-sm mb-0 px-2"><a href="{{ pagination.hrefs[ loop.index0 ] }}"{% if page.url == pagination.hrefs[ loop.index0 ] %} aria-current="page" class=""{% endif %}>{{ loop.index }}</a></p>{% endif %}
+  {%- endfor %}
+  {% if pagination.href.next %}<p class="text-sm mb-0 px-2"><a href="{{ pagination.href.next }}">Next</a></p>{% endif %}
+</nav>

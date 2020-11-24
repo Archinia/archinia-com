@@ -4,7 +4,7 @@ date: 2016-02-18T16:44:00.000-07:00
 draft: false
 slug: where-can-i-go-to-learn-to-build-my-new-home
 tags:
-  - Earthships
+  - earthships
 ---
 
 One of the amazing things about having written the book from the point of view of writing "for my peeps" is that, I somehow actually touch the hearts of some of my peeps with this work! I love getting notes from people after they have finessed their ideas! It's fun for me to take a break from my practice to help someone out or see what shifted for them!  

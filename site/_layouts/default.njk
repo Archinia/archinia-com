@@ -92,12 +92,14 @@
 					<h1>{{ title }}</h1>
 					{% endif %}
 
-					{{ content | safe }}
+					<div class="post-content">
+						{{ content | safe }}
+					</div>
 
 					{% if related and tags[1] %}
 					{% set postTag = tags[1] %}
 					<hr class="major" />
-					<h2 class="text-center">More in <a href="/category/{{ postTag | slug }}">{{ postTag | capitalize }}</a></h2>
+					<h2 class="text-center">More in <a href="/category/{{ postTag | slug }}">{{ postTag | title }}</a></h2>
 					<br />
 					{% set postlist = collections[ postTag ] | reverse | limit(3) %}
 					{% include "postlist.njk" %}

@@ -2,11 +2,10 @@
 title: >-
   Adapting your home to changing circumstances: Universal Design Tips and Tricks for Accessibility
 date: 2015-06-18T11:26:00.001-06:00
-source: https://hackingtheearthship.blogspot.com/2015/06/adapting-your-home-to-changing.html
 slug: adapting-your-home-to-changing-circumstances
 tags:
-  - Earthships
-  - Great Design
+  - earthships
+  - great design
 ---
 
 Most home designers these days fail their clients in regard to the long-term livability of their homes. We build homes that cannot easily be modified when someone becomes disabled or ill, or when our child is born with special needs.  
@@ -39,7 +38,7 @@ Here are the ways we can tweak the home’s design to make it work for everyone:
 - Provide exterior lighting at the front door.
 - Have a wipe off mat on both sides of the door to keep dirt and pollen minimized.
 
-## Kitchen and Bath**
+## Kitchen and Bath
 
 - Use sinks that can be “pulled in to”, without casework below, and install them 34” above the floor.
 - Vary the height of countertops so little ones and big people can use them too. For instance, really tall people might want to use a kitchen cabinet in the bath. Those extra inches of height can keep a back from going out!

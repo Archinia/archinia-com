@@ -17,5 +17,5 @@ featured_image: earthships/2ThePhoenix3.jpg
 
 <h2 style="text-align: center;">Earthship Research</h2>
 <br />
-{% set postlist = collections.earthships %}
+{% set postlist = collections.earthships | reverse %}
 {% include "postlist.njk" %}

@@ -23,16 +23,11 @@ But it does. It depends how much of an earthship you build, how much you build y
 
 A normal Earthship, built in Taos by the powers that be... costs **$225 per square foot.**
 
-A normal house, built nearly anywhere in the US, will cost you probably  
-**$150 per square foot**, if you do the "greener" version.
+A normal house, built nearly anywhere in the US, will cost you probably **$150 per square foot**, if you do the "greener" version.
 
-So you are paying $75 per square foot more... 
+So you are paying $75 per square foot more... plus... in many cases, that doesn't cover the entire cost of the earthship. 
 
-plus... in many cases, that doesn't cover the entire cost of the earthship. 
-
-If you live somewhere like Alaska, where solar energy storage is challenging  
-because of low light levels for part of the year,  
-you can add another $75k to the cost for solar batteries.  
+If you live somewhere like Alaska, where solar energy storage is challenging because of low light levels for part of the year, you can add another $75k to the cost for solar batteries.  
 
 **But here's the kicker!**
 

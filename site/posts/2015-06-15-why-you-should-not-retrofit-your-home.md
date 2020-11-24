@@ -5,9 +5,9 @@ date: 2015-06-15T10:46:00.002-06:00
 draft: false
 slug: why-you-should-not-retrofit-your-home
 tags:
-  - Earthships
-  - Great Design
-  - Sustainability
+  - earthships
+  - great design
+  - sustainability
 ---
 
 Recently, I got an email asking me what could be done to an existing home to make it “earthship-like”. The text of the email I received was this: 

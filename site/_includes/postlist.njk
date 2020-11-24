@@ -3,7 +3,11 @@
   <article>
     <a href="{{ post.url }}" class="post-content">
       <div class="post-image">
+        {% if post.data.featured_image %}
         <img src="/images/{{ post.data.featured_image }}" alt="{{ post.data.featured_image_alt }}">
+        {% else %}
+        <img src="/images/misc/zigzag-pottery.jpg" alt="">
+        {% endif %}
       </div>
       <p class="post-text">{{ post.data.title }}</p>
     </a>
