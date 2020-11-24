@@ -1,8 +1,5 @@
-http://archinia.com/ http://theministryofarchitecture.com/ 301!
 http://archinia.com/* http://theministryofarchitecture.com/:splat 301!
-http://www.archinia.com/ http://www.theministryofarchitecture.com/ 301!
 http://www.archinia.com/* http://www.theministryofarchitecture.com/:splat 301!
-https://archinia.com/ https://theministryofarchitecture.com/ 301!
 https://archinia.com/* https://theministryofarchitecture.com/:splat 301!
 https://www.archinia.com/* https://www.theministryofarchitecture.com/:splat 301!
 http://architectureforeverybody.org/ http://theministryofarchitecture.com/acoma/ 301!
