@@ -97,6 +97,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('assets');
   eleventyConfig.addPassthroughCopy('images');
   eleventyConfig.addPassthroughCopy('files');
+  eleventyConfig.addPassthroughCopy('_redirects');
 
   /**
    * Opts in to a full deep merge when combining the Data Cascade.
