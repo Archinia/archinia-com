@@ -16,7 +16,7 @@ We call some of what happens in the Earthship books, website, and philosophy a �
 
 “Anchoring or focalism is a cognitive bias that describes the common human tendency to rely too heavily on the first piece of information offered (the "anchor") when making decisions. During decision-making, anchoring occurs when individuals use an initial piece of information to make subsequent judgments. Once an anchor is set, other judgments are made by adjusting away from that anchor, and there is a bias toward interpreting other information around the anchor. For example, the initial price offered for a used car sets the standard for the rest of the negotiations, so that prices lower than the initial price seem more reasonable even if they are still higher than what the car is really worth.”
 
-The many issues of not depending on traditional systems that the Earthship literature attempts to address are absolutely valid, as every day we seem to get nearer to an economic and cultural collapse that renders alternates not only ideal but necessary. However, the “better world” the Earthship ideal promises cannot be delivered through ideals and wishful thinking. It has to come from actions… and those actions need to be based on good scienceand good design.
+The many issues of not depending on traditional systems that the Earthship literature attempts to address are absolutely valid, as every day we seem to get nearer to an economic and cultural collapse that renders alternates not only ideal but necessary. However, the “better world” the Earthship ideal promises cannot be delivered through ideals and wishful thinking. It has to come from actions… and those actions need to be based on good science and good design.
 
 ## Issues with the Data
 
@@ -32,7 +32,7 @@ The Earthship website points out that the Earthship’s technology is based on t
 
 The ideal is that the Earthship is financially accessible by the common person, but experience does not bear that out, as we have illustrated previously in The Myth of “The Most Economical Building Design in the World” section.
 
-It is stated in the Earthship literature that the Earthships are specifically designed with the intent of being built by unskilled people.  While the methods of construction may not necessarily require skill, they most definitely require ability. Pounding tires is not for the faint of heart and building angled walls is really only work for a master carpenter. This is one reason why you may really want to consider using Earthship Biotecture’s teams to build your home if you can afford them - they are second to none in these skills.
+It is stated in the Earthship literature that the Earthships are specifically designed with the intent of being built by unskilled people.While the methods of construction may not necessarily require skill, they most definitely require ability. Pounding tires is not for the faint of heart and building angled walls is really only work for a master carpenter. This is one reason why you may really want to consider using Earthship Biotecture’s teams to build your home if you can afford them - they are second to none in these skills.
 
 ### Passive Solar and Wind Orientation
 
@@ -56,7 +56,7 @@ The literature goes on to complain that manufactured materials dictate the way b
 
 What the Earthship literature offers as a means of explaining embodied energy is not a complete picture of what embodied energy is. Embodied energy is the amount of energy it takes to take a raw material, get it to a manufacturing site, manufacture the finished product, and then get it to you. Embodied energy can be high – aluminum, a common component of solar panel installations as well as an Earthship’s can walls, contains an enormous amount of embodied energy – it has to be mined, to the tune of 8 tons of ore per 1 ton of usable material; shipped great distances for manufacturing; designed; then takes a great deal of heat to produce a usable product – which also means a great deal of fuel; then it must be shipped to a warehouse, to the supplier, and then to the build site. Whether that aluminum is in a reused can or a brand new window, it still had to have all of those processes applied to it. There IS embodied energy in an Earthship. Just because we are reusing the embodied energy required does not negate its existence. In fact, the reality here is that reusing cans in walls requires more materials to be mined and manufactured because the first-generation cans are being removed from the recycling stream. 
 
-The literature also states that one of the main goals of the Earthship ideal is to use materials that require little or no manufactured energy.  And yet, the building blocks of Earthships… the tires, cans, bottles, concrete, woodframing and vigas, roofing, cooling tubes, insulation and thermal wrap, cisterns, interior finishes, glazing for two walls of windows, shades, glass doors, appliances, and the mechanical and plumbing systems… have manufactured or embodied energy… and lots of it.
+The literature also states that one of the main goals of the Earthship ideal is to use materials that require little or no manufactured energy.And yet, the building blocks of Earthships… the tires, cans, bottles, concrete, woodframing and vigas, roofing, cooling tubes, insulation and thermal wrap, cisterns, interior finishes, glazing for two walls of windows, shades, glass doors, appliances, and the mechanical and plumbing systems… have manufactured or embodied energy… and lots of it.
 
 The literature makes the case that the Earthship is using such simple materials that it makes sense for large-scale production for low-impact living. Except, large scale production of the currently extremely oversized  Earthships is not sustainable. Earthships have gigantic footprints, in terms of the amount of land required to build on, as well as square footage, as well as embodied energy. They are also too expensive to be viable for large scale development.
 
@@ -86,7 +86,7 @@ So, in principle the Earthships are saving the rainforests, while in practice th
 
 ### Impacts on the Water System
 
-The literature addresses the issues of the global water supply and its impact on the ecosystems that affect fish. This concern is justified, as we continue to poison our oceans with untold numbers of toxins.  Yet, the leeching of the tires and the septic systems in an Earthship build has the potential to affect the health of the aquifers from which we all drink. A common admonishment in the professional and academic tire research is that the places we store tires are supposed to be isolated from any contact with the water supply via sealed EPDM pond liners. 
+The literature addresses the issues of the global water supply and its impact on the ecosystems that affect fish. This concern is justified, as we continue to poison our oceans with untold numbers of toxins.Yet, the leeching of the tires and the septic systems in an Earthship build has the potential to affect the health of the aquifers from which we all drink. A common admonishment in the professional and academic tire research is that the places we store tires are supposed to be isolated from any contact with the water supply via sealed EPDM pond liners. 
 
 ### Thermal Comfort
 
@@ -116,7 +116,7 @@ The Earthship’s interior walls and the buttresses for the back tire wall are c
 
 The Earthship books cover using wood for framing, but offer no clarification on the size or types of wood to use, or when it should be harvested. 
 
-The website suggests that the aluminum can walls are very strong.  However, the strength of the walls is not achieved by the aluminum, but by the cement that holds the cans together. While aluminum itself is strong, in this application, it has a smooth surface. There is no way the bond between cement and metal is stronger than that of, say… porous bricks, to which the cement can bind at the pore level… and hence it is not as easy to build a truly strong wall by this means. Also, the way the walls are built requires you to crush the can a little, decreasing the amount of space that is taken up by the can, and requiring more cement.
+The website suggests that the aluminum can walls are very strong.However, the strength of the walls is not achieved by the aluminum, but by the cement that holds the cans together. While aluminum itself is strong, in this application, it has a smooth surface. There is no way the bond between cement and metal is stronger than that of, say… porous bricks, to which the cement can bind at the pore level… and hence it is not as easy to build a truly strong wall by this means. Also, the way the walls are built requires you to crush the can a little, decreasing the amount of space that is taken up by the can, and requiring more cement.
 
 ### Roof
 

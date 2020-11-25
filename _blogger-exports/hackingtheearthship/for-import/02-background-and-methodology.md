@@ -9,7 +9,7 @@ tags:
 order: 02
 ---
 
-An Earthship is a trademarked building type introduced in the 1970’s and designed by architect Michael “Mike” Reynolds through his firm Earthship Biotecture (previously known as Solar Survival Architecture). Because of the worldwide dissemination of the concept since, the term Earthship… generally accepted as meaning something to the effect of “underground house with a solar wall”… has become part of the common lexicon. It is as synonymous with calling a drink that is sparkly, sweet, and caramel colored a “coke” even if it is not the original Coca Cola product. We are going to use the common parlance in this book, and use the term Earthship to refer to any building built on the methodology, even if it is a modified version of the original trademarked design.  
+An Earthship is a trademarked building type introduced in the 1970’s and designed by architect Michael “Mike” Reynolds through his firm Earthship Biotecture (previously known as Solar Survival Architecture). Because of the worldwide dissemination of the concept since, the term Earthship… generally accepted as meaning something to the effect of “underground house with a solar wall”… has become part of the common lexicon. It is as synonymous with calling a drink that is sparkly, sweet, and caramel colored a “coke” even if it is not the original Coca Cola product. We are going to use the common parlance in this book, and use the term Earthship to refer to any building built on the methodology, even if it is a modified version of the original trademarked design.
 
 In principle, Earthships:
 

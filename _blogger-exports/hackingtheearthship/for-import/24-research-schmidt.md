@@ -8,8 +8,9 @@ tags:
 order: 24
 ---
 
-_Ann Schmidt_  
-Earthship Biotectures: Experimental Subdivision in Taos, New Mexico: The Greater World Earthship Community. Sustainability and the Built Environment Class Report. 2006.  
+_Ann Schmidt_
+
+Earthship Biotectures: Experimental Subdivision in Taos, New Mexico: The Greater World Earthship Community. Sustainability and the Built Environment Class Report. 2006.
 
 Conclusions:  
 

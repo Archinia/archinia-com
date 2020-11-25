@@ -13,7 +13,7 @@ order: 26
 Or: Minimizing Waste and Pollution  
 by Rachel Preston Prinz and Carrie Christopher  
 
-Construction projects produce seven to ten pounds of waste per square foot. This is one of the reasons why construction projects are one of the largest contributors to landfills. To reduce or eliminate construction waste, plan your purchases so that you use all of your materials, then reduce waste, reuse, and recycle what is left.  
+Construction projects produce seven to ten pounds of waste per square foot. This is one of the reasons why construction projects are one of the largest contributors to landfills. To reduce or eliminate construction waste, plan your purchases so that you use all of your materials, then reduce waste, reuse, and recycle what is left.
 
 Materials and products that are benign and can easily be managed through construction either by recycling, reuse, or other means, include:  
 

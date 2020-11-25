@@ -43,7 +43,7 @@ So let’s address some of the cost aspects of the materials typical to Earthshi
 
 ## Land
 
-One of the factors that people often miss when planning a build is the costof the land. The Earthship has a huge footprint of up to 3,500 square feet including the berm(this high density per square foot ratio is part of what makes it non-sustainable) which means you really need an acre to place it on. Land can cost anywhere from $5,000 to $100,000 an acre depending on where you build. To combat this, many have made the mistake of buying cheap land for their building, but cheap land usually is not ideal for settlement. We will cover why this is a bad investment and what makes an ideal build location in Chapter 4.
+One of the factors that people often miss when planning a build is the cost of the land. The Earthship has a huge footprint of up to 3,500 square feet including the berm(this high density per square foot ratio is part of what makes it non-sustainable) which means you really need an acre to place it on. Land can cost anywhere from $5,000 to $100,000 an acre depending on where you build. To combat this, many have made the mistake of buying cheap land for their building, but cheap land usually is not ideal for settlement. We will cover why this is a bad investment and what makes an ideal build location in Chapter 4.
 
 ## Tires
 

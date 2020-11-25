@@ -8,8 +8,9 @@ tags:
 order: 23
 ---
 
-_Aaron Zimmerman, Eric Burger, & Jared Nolan_  
-Testing and Analysis of Modified Rammed Earth Tire Walls. Swarthmore College. Department of Engineering. May 6, 2011. [Link to Complete Report pdf Here](http://www.archinia.com/images/stories/pdfs/earthshipresearch/zimm%20burger%20nolan.pdf)  
+_Aaron Zimmerman, Eric Burger, & Jared Nolan_
+
+Testing and Analysis of Modified Rammed Earth Tire Walls. Swarthmore College. Department of Engineering. May 6, 2011.
 
 Conclusions:  
 
