@@ -5,7 +5,8 @@ draft: false
 slug: stairs-and-furnishings
 tags:
   - Hacking the Earthship
-  - Great Design
+  - great design
+order: 35
 ---
 
 Stairs provide a vertical means of moving through a space and are critically important to circulation for buildings with multiple floors. The design of stairs is so important because you need to get two things up and down them: your self/family/visitors, and… your furniture!

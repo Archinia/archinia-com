@@ -5,8 +5,9 @@ draft: false
 slug: designing-for-thermal-comfort
 tags:
   - Hacking the Earthship
-  - Great Design
-  - Sustainability
+  - great design
+  - sustainability
+order: 30
 ---
 
 by Rachel Preston Prinz, Pratik Zaveri, and Asha Stout  

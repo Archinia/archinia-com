@@ -6,7 +6,8 @@ source: https://hackingtheearthship.blogspot.com/2015/03/astrologically-correct-
 slug: astrologically-correct-timing-timberfelling-building-projects
 tags:
   - Hacking the Earthship
-  - Great Design
+  - great design
+order: 38
 ---
 
 We know how the moon affects tides here on earth… when the moon is full, the tides are highest, and when the moon is new, the tides are lowest. Well, the same gravitational pull between our planet and her orb pulls water up not only into the atmosphere, but into our bodies, the trunks of trees, the leaves of plants, and even into solid rock!

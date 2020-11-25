@@ -6,6 +6,7 @@ source: https://hackingtheearthship.blogspot.com/2016/03/chapter-i-earthship-at-
 slug: chapter-i-earthship-at-end-of-its
 tags:
   - Hacking the Earthship
+order: 14
 ---
 
 What happens to an Earthship when it dies? All buildings do eventually. What will be left is a flagstone floor (in most cases), glass panel windows, some concrete filled with cansand bottles, woodframing and beams, cabinetry, plumbing, cisterns, metal flashing and roof, and the earthen tire berm. 

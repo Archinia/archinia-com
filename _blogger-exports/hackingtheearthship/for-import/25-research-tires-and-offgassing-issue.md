@@ -4,7 +4,8 @@ date: 2015-01-03T08:19:00.000-07:00
 draft: false
 slug: tires-and-offgassing-issue
 tags:
-  - Earthship Research
+  - earthship research
+order: 25
 ---
 
 _[![DSC05906 (Medium)](https://lh6.ggpht.com/---sXmjtl-O4/VKRu_J_l51I/AAAAAAAAJSY/Xassz_FPKSo/DSC05906%252520%252528Medium%252529_thumb%25255B2%25255D.jpg?imgmax=800 "DSC05906 (Medium)")](/images/blog/legacy/DSC05906%252520%252528Medium%252529%25255B4%25255D.jpg) __“__The major structure and performance of the earthship is encompassed in the design element termed with a “U” in the previous chapters. Modules are constructed in the shape for reasons already described…  the primary building block that meets all of the … requirements… is a rubber automobile tire rammed with packed earth. The rubber (sometimes steel belted) automobile tire is indigenous all over the world as a “natural resource”. Every city is a natural supplier of this item. It can be “harvested” with absolutely no technical devices are energy other than to human hands to pick it up and throw it into a pickup truck. It is readily available **without the energy and economic impact of shipping to every potential building site**… The rubber automobile tire can be used as found without any modification. The process of reining them full of densely packed earth is achieved with simple human labor and can be done with whatever type of earth is available on the building site.”_  

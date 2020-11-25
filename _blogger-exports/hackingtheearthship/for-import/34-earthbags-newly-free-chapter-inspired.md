@@ -1,12 +1,14 @@
 ---
-title: 'EARTHBAGS! A newly FREE chapter inspired by Cal-Earth Institutes latest earthbag success! #BuildSimple #GreenerByDesign'
+title: >-
+  EARTHBAGS! A newly FREE chapter inspired by Cal-Earth Institutes latest earthbag success! #BuildSimple #GreenerByDesign
 date: 2015-05-18T14:32:00.001-06:00
 draft: false
 slug: earthbags-newly-free-chapter-inspired
 tags:
   - Hacking the Earthship
-  - Great Design
-  - Sustainability
+  - great design
+  - sustainability
+order: 34
 ---
 
 Sometimes the Universe shows up so clearly there is NO way to ignore her.  
@@ -24,7 +26,7 @@ Tip: USE the details from Build Simply linked at the end of the article to get g
 
 
 
-[Earthbags](https://draft.blogger.com/null)
+## Earthbags
 
 _by Chiara Riccardi and Rachel Preston Prinz_
 

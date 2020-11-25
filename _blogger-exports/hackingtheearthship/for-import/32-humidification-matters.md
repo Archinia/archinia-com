@@ -1,5 +1,5 @@
 ---
-title: 'Humidification Matters'
+title: Humidification Matters
 date: 2015-04-26T11:22:00.000-06:00
 draft: false
 slug: humidification-matters
@@ -7,6 +7,7 @@ tags:
   - Hacking the Earthship
   - Great Design
   - Sustainability
+order: 32
 ---
 
 v\\:\* {behavior:url(#default#VML);} o\\:\* {behavior:url(#default#VML);} w\\:\* {behavior:url(#default#VML);} .shape {behavior:url(#default#VML);}  

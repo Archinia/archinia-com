@@ -4,7 +4,8 @@ date: 2014-12-31T11:09:00.000-07:00
 draft: false
 slug: earthship-europe_31
 tags:
-  - Earthship Research
+  - earthship research
+order: 20
 ---
 
 

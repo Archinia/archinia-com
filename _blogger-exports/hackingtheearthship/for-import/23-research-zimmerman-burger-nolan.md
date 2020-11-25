@@ -4,7 +4,8 @@ date: 2014-12-31T11:08:00.002-07:00
 draft: false
 slug: zimmerman-burger-nolan
 tags:
-  - Earthship Research
+  - earthship research
+order: 23
 ---
 
 _Aaron Zimmerman, Eric Burger, & Jared Nolan_  

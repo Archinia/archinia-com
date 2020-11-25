@@ -5,6 +5,7 @@ draft: false
 slug: chapter-i-myth-of-will-provide-you-with
 tags:
   - Hacking the Earthship
+order: 10
 ---
 
 The Earthship greenhouseis not just designed to provide a space to collect natural heat and light from the sun. It is also intended to be used as a greenhouse for growing your own food. The plantsin the greenhouse are fed by a greywater system that uses reclaimed showerand sink water to water the plants, which then clean the water for use in toilets later. That is a cool idea! In the Earthship literature and books, it is emphasized that that the Earthship greenhouse can grow “all the food you need to survive.”  

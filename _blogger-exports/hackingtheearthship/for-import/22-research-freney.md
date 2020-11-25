@@ -4,7 +4,8 @@ date: 2014-12-31T11:08:00.006-07:00
 draft: false
 slug: freney
 tags:
-  - Earthship Research
+  - earthship research
+order: 22
 ---
 
 _Martin Freney_  

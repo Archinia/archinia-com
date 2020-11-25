@@ -4,7 +4,8 @@ date: 2014-12-31T10:51:00.001-07:00
 draft: false
 slug: freney-soebarto-and-williamson-2012
 tags:
-  - Earthship Research
+  - earthship research
+order: 18
 ---
 
 _Martin Freney, Veronica Soebarto and Terry Williamson_  

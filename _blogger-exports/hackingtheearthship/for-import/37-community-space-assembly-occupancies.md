@@ -5,7 +5,8 @@ draft: false
 slug: community-space-assembly-occupancies
 tags:
   - Hacking the Earthship
-  - Great Design
+  - great design
+order: 37
 ---
 
 It does not matter if you design your space to be a home and then decide later to host tours or building workshops. Once you open it to the public, the space will no longer be considered just a residence and you will need to acquire adequate permissions and permits in order to continue using the space for public use.  

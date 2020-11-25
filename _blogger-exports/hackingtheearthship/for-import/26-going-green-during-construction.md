@@ -5,8 +5,9 @@ draft: false
 slug: going-green-during-construction
 tags:
   - Hacking the Earthship
-  - Great Design
-  - Sustainability
+  - great design
+  - sustainability
+order: 26
 ---
 
 Or: Minimizing Waste and Pollution  

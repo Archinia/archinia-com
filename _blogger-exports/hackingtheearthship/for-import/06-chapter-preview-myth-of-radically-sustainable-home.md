@@ -27,7 +27,7 @@ We point these issues out only because we want to help address the real concerns
 
 
 
-[The Myth of Earthships and Recycling](https://draft.blogger.com/null)
+## The Myth of Earthships and Recycling
 ----------------------------------------------------------------------
 
  _by Rachel Preston Prinz, Pratik Zaveri,  

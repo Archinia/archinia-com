@@ -5,6 +5,7 @@ draft: false
 slug: chapter-i-myth-of-build-out-time-and
 tags:
   - Hacking the Earthship
+order: 09
 ---
 
 While the legend is that an Earthship can be built in a few weeks, that does not seem to be most people’s experience. Most often, builder-led projects take from a few weeks to 2 months. When doing it on your own, an Earthship can easily take 2 years to build. 
@@ -15,7 +16,7 @@ The design and permitting process can also take years - first, learning for your
 
 
 
-[The Myth of “Will Perform as Expected in Any Part of the World, in Any Climate” or, Reality Check: There is no such thing as a Global Model](https://draft.blogger.com/null)
+## The Myth of “Will Perform as Expected in Any Part of the World, in Any Climate” or, Reality Check: There is no such thing as a Global Model
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 We love the idea of a convenient one-size-fits-all approach to design. However, the Global Model promise is one that fails to deliver, in Earthships, and an every other kind of architecture. The reality is: Not every building works in every climate. There is a thousand years of architectural and archaeological evidence in New Mexico that backs up this fact, and tens of thousands of years of evidence from around the world. Cultures migrated and modified their own home designs as they went. They did not do so because they were trying to be stylish or to merge with the new culture. They adapted to the new conditions because they needed to stay warm in winter and cool in summer. The only things they had to work with were natural forces like the sun and physics (gravity, thermal and liquid dynamics, etc.), the materials and tools they had available to them, and history. It was anything but convenient to have to adjust, but they did, because they needed to in order to survive. 

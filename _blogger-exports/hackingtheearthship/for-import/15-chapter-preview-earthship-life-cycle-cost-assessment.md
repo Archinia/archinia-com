@@ -6,6 +6,7 @@ source: https://hackingtheearthship.blogspot.com/2016/03/chapter-i-earthship-at-
 slug: chapter-preview-earthship-life-cycle-cost-assessment
 tags:
   - Hacking the Earthship
+order: 15
 ---
 
 We talk about aspects of the life cycle costof Earthships throughout this book, breaking down embodied energyand cost, including maintenance. We do not provide an accounting for regional differences, as there are too many to calculate. We use the U.S. dollar and local costs in New Mexico as the basis for our calculations. 

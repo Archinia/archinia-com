@@ -5,6 +5,7 @@ draft: false
 slug: kruis-and-heun
 tags:
   - Earthship Research
+order: 16
 ---
 
 _Nathanael J. Kruis and Matthew K. Heun_  

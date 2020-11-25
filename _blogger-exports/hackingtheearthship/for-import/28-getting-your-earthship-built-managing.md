@@ -5,7 +5,8 @@ draft: false
 slug: getting-your-earthship-built-managing
 tags:
   - Hacking the Earthship
-  - Earthships
+  - earthships
+order: 28
 ---
 
 One of the things we were not expecting to come up as part of our research was the issue of working with interns in building an earthship.  

@@ -5,7 +5,8 @@ draft: false
 slug: new-home-design-worksheet
 tags:
   - Hacking the Earthship
-  - Great Design
+  - great design
+order: 39
 ---
 
 This questionnaire will help you to clarify your goals and can be used to provide your designer the information needed to design your home. It’s comprehensive, and not every question will apply to your project.  

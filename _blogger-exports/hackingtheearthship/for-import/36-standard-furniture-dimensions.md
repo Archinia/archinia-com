@@ -5,7 +5,8 @@ draft: false
 slug: standard-furniture-dimensions
 tags:
   - Hacking the Earthship
-  - Great Design
+  - great design
+order: 36
 ---
 
 While we are talking about getting furniture up to a second floor, here are standard dimensions of furniture, so you have have an easy tool to use for designing your home...  

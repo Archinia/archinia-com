@@ -4,7 +4,8 @@ date: 2014-12-31T11:08:00.000-07:00
 draft: false
 slug: schmidt
 tags:
-  - Earthship Research
+  - earthship research
+order: 24
 ---
 
 _Ann Schmidt_  

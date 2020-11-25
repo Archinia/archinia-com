@@ -66,7 +66,7 @@ Please also note that because many of the Earthships are in Taos, we talk about 
 
 
 
-[The Mythos](https://draft.blogger.com/null)
+## The Mythos
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
 _by Rachel Preston Prinz and Pratik Zaveri_

@@ -1,10 +1,11 @@
 ---
-title: 'Earthship Glass Block and Bottle Walls'
+title: Earthship Glass Block and Bottle Walls
 date: 2015-01-01T07:00:00.000-07:00
 draft: false
 slug: glass-block-and-bottle-walls
 tags:
   - Hacking the Earthship
+order: 33
 ---
 
 [![Glass Wall](https://lh3.ggpht.com/-DkxQQQYd9eM/VKRtslQElpI/AAAAAAAAJR4/_zGCFTc_IDs/Earthships54_thumb13.jpg?imgmax=800 "Glass Wall")](/images/blog/legacy/Earthships5415.jpg)  

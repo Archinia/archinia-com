@@ -5,6 +5,7 @@ draft: false
 slug: chapter-i-myth-of-performance-known
 tags:
   - Hacking the Earthship
+order: 12
 ---
 
 It seems that Earthships have been somewhat stymied in their evolution due to the assertion that because they are “experimental”, they do not need to work. We believe you should have a home that does work. We want you to know that “better” is easily achievable if you approach the design armed with good information. 

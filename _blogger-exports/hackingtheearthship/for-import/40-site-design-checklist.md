@@ -5,7 +5,8 @@ draft: false
 slug: site-design-checklist
 tags:
   - Hacking the Earthship
-  - Great Design
+  - great design
+order: 40
 ---
 
 This is a checklist of the factors that may be involved in evaluating a site for construction. Information is usually collected only for those items that are pertinent to the project. We hope this will help you answer questions about what it is you really need and want for your home

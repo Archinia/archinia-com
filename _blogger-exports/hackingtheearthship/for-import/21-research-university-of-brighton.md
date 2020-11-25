@@ -4,7 +4,8 @@ date: 2014-12-31T11:08:00.005-07:00
 draft: false
 slug: university-of-brighton
 tags:
-  - Earthship Research
+  - earthship research
+order: 21
 ---
 
 _University of Brighton_  

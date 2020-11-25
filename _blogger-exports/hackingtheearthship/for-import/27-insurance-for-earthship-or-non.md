@@ -5,7 +5,8 @@ draft: false
 slug: insurance-for-earthship-or-non
 tags:
   - Hacking the Earthship
-  - Great Design
+  - great design
+order: 27
 ---
 
 By Debra Bailey of Brown and Brown Insurance of Taos  

@@ -5,6 +5,7 @@ draft: false
 slug: chapter-i-myth-of-thermal-comfort
 tags:
   - Hacking the Earthship
+order: 11
 ---
 
 

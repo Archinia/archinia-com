@@ -5,6 +5,7 @@ source: https://hackingtheearthship.blogspot.com/2016/03/chapter-i-just-facts-ma
 slug: chapter-i-just-facts-maam
 tags:
   - Hacking the Earthship
+order: 13
 ---
 
 _by Pratik Zaveri and Rachel Preston Prinz_

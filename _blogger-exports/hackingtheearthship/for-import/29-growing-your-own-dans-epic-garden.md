@@ -5,8 +5,9 @@ draft: false
 slug: growing-your-own-dans-epic-garden
 tags:
   - Hacking the Earthship
-  - Great Design
-  - Sustainability
+  - great design
+  - sustainability
+order: 29
 ---
 
 An important part of the original vision for the Earthships is that they be able to grow all the fruits and vegetables needed to support the family that lives in them. That ideal has not proven to work out so well for most people, so we wanted to get to the bottom of what could be done better so readers could be more successful at growing their own food.  
