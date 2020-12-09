@@ -1,7 +1,7 @@
 ---
 title: 'New Home Design Worksheet'
 date: 2015-03-03T15:50:00.001-07:00
-draft: false
+draft: true
 slug: new-home-design-worksheet
 tags:
   - Hacking the Earthship
