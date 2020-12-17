@@ -21,6 +21,8 @@ const pluginRss = require('@11ty/eleventy-plugin-rss');
 
 module.exports = function (eleventyConfig) {
 
+  eleventyConfig.addWatchTarget("./site/_11ty");
+
   /**
    * Add Collections
    * @link https://www.11ty.dev/docs/collections/
