@@ -1,5 +1,6 @@
 ---
-title: 'Earthships: The Phoenix'
+title: >-
+  Earthships: The Phoenix
 date: 2015-01-08T12:11:00.001-07:00
 featured_image: /blog/earthship-tour-the-phoenix/DSC05883.JPG
 featured_image_alt: The Phoenix

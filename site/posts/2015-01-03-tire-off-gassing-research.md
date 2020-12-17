@@ -1,5 +1,6 @@
 ---
-title: 'Earthship Tire Off-gassing Research'
+title: >-
+  Earthship Tire Off-gassing Research
 date: 2015-01-03T08:14:00.004-07:00
 featured_image: blog/Pratiks.JPG
 featured_image_alt: Tire wall

@@ -1,5 +1,5 @@
 ---
-title: 'Windbreaks and Snow Fences'
+title: Windbreaks and Snow Fences
 date: 2015-04-30T11:24:00.000-06:00
 draft: false
 slug: windbreaks-and-snow-fences

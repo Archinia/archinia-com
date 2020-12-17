@@ -1,5 +1,6 @@
 ---
-title: 'What does an Earthship cost to build?'
+title: >-
+  What does an Earthship cost to build?
 date: 2015-08-03T16:45:00.004-06:00
 draft: false
 slug: quick-and-dirty-what-does-earthship-cost-to-build

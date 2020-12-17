@@ -1,5 +1,6 @@
 ---
-title: 'Earthship Biotecture Tour at the UNM-Taos Sustainability Institute @SustainTaos'
+title: >-
+  Earthship Biotecture Tour at the UNM-Taos Sustainability Institute @SustainTaos
 date: 2015-01-08T12:13:00.000-07:00
 featured_image: /blog/earthship-tour-unmtaos-sihds/DSC05812.JPG
 featured_image_alt: Earthship facade

@@ -1,5 +1,6 @@
 ---
-title: '"Where can I go to learn to build my new home? Is Earthship Academy the way?"'
+title: >-
+  Where can I go to learn to build my new home? Is Earthship Academy the way?
 date: 2016-02-18T16:44:00.000-07:00
 draft: false
 slug: where-can-i-go-to-learn-to-build-my-new-home
