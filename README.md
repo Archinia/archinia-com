@@ -1,6 +1,6 @@
 # The Ministry of Architecture
 
-Designer. Dot Connector. Storyteller. An architecturally-trained designer in Santa Fe, New Mexico, Rachel is an authority influencer known for her award-winning storytelling collaborations in architecture, design, placemaking, historic preservation, spirituality, and sustainability.
+Designer. Dot Connector. Storyteller. An architecturally-trained designer in Santa Fe, New Mexico, Rachel Preston Prinz is an authority influencer known for her award-winning storytelling collaborations in architecture, design, placemaking, historic preservation, spirituality, and sustainability.
 
 Previously: Archinia is a celebrated consulting agency with twenty plus years of experience in preservation and architecture, as well as public relations, content creation, and community engagement around architecture, design, and historic preservation.
 
