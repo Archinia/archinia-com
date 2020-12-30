@@ -79,5 +79,13 @@ Coming soon!
       <h3>Suzenne "Zenne" Seradwyn</h3>
       <p>Suzenne "Zenne" Seradwyn, our assistant Director and Visual Editor, has worked as an actor, producer, videographer and editor on over 40 feature length and short films and numerous globally syndicated television shows.<br><a href="http://www.puremotherlove.com">Pure Mother Love Productions</a></p>
     </div>
+        <div>
+      <h3>Volunteers</h3>
+      <p>Susanna McFarland</p>
+      <p>Gabriel "Gabe" Wagoner</p>
+    <h3>Music</h3>
+      <p>G Precious</p>
+      <p>Frederick Aragon</p>
+    </div>
   </div>
 </section>
