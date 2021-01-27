@@ -18,9 +18,11 @@ layout: blank.njk
         {{ content | safe }}
       </div>
 
+      {% if link_buy %}
       <div class="flex items-center">
         <a href="{{ link_buy }}" target="_blank" class="gumroad-button flex mr-auto border-none">Buy Now</a>
       </div>
+      {% endif %}
 
     </div>
 
