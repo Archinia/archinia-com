@@ -3,10 +3,8 @@ title: >-
   2021 Gates of New Mexico
 subtitle: Calendar
 featured_image: shop/2021-calendar-gates-new-mexico-cover.jpg
-link_product: https://gum.co/pwyag/
-link_buy: https://gum.co/pwyag?wanted=true
 price: >-
-  $16.99
+  SOLD OUT
 slug: 2021-calendar-gates-new-mexico
 ---
 
