@@ -1,7 +1,7 @@
 ---
 title: >-
   2021 Gates of New Mexico
-subtitle: Calendar
+subtitle: Calendar - SOLD OUT!
 featured_image: shop/2021-calendar-gates-new-mexico-cover.jpg
 price: >-
   SOLD OUT
