@@ -44,6 +44,10 @@
   flex-grow: 1;
 }
 
+.items-end {
+  align-items: end;
+}
+
 .font-medium {
   font-weight: 500
 }
@@ -87,6 +91,11 @@
 .object-cover {
   -o-object-fit: cover;
   object-fit: cover
+}
+
+.object-contain {
+  -o-object-fit: contain;
+  object-fit: contain;
 }
 
 .object-center {
