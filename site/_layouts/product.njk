@@ -27,8 +27,8 @@ layout: blank.njk
     </div>
     
     <div>
-      {% if product.data.additional_images %}
-        {% for image in product.data.additional_images %}
+      {% if additional_images %}
+        {% for image in additional_images %}
         <img alt="{{ title }} {{ subtitle }}" class="w-full md:w-1/2 h-auto object-cover object-center rounded" src="/images/{{ image }}">
         {% endfor %}
       {% endif %}
