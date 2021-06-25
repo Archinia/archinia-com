@@ -653,8 +653,8 @@ h6:hover > a.bookmark {
   border-bottom: none;
 }
 
-/* CTA Earthship */
-.cta-earthship {
+/* CTAs */
+.cta {
   background-color: rgba(0, 0, 0, 0.05);
 }
 
