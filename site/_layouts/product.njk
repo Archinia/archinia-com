@@ -5,7 +5,7 @@ layout: blank.njk
 <section class="container px-5 py-24 mx-auto items-center">
   <div class="w-full mx-auto flex flex-wrap">
 
-    <img alt="{{ title }} {{ subtitle }}" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="/images/{{ featured_image }}">
+    <img alt="{{ title }} {{ subtitle }}" class="w-full lg:w-1/2 lg:h-auto h-64 object-cover object-center rounded" src="/images/{{ featured_image }}">
 
     <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
 
@@ -24,6 +24,14 @@ layout: blank.njk
       </div>
       {% endif %}
 
+    </div>
+    
+    <div>
+      {% if product.data.additional_images %}
+        {% for image in product.data.additional_images %}
+        <img alt="{{ title }} {{ subtitle }}" class="w-full md:w-1/2 h-auto object-cover object-center rounded" src="/images/{{ image }}">
+        {% endfor %}
+      {% endif %}
     </div>
 
   </div>
