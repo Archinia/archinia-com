@@ -541,19 +541,19 @@ header.header-main > nav {
   border-top: 0;
 }
 
-#navPanel .link.depth-0 {
+#navPanel .list-heading.depth-0 {
   color: var(--navpanel-text);
   font-weight: 600;
+}
+
+#navPanel .link.depth-1 {
+  margin-left: 1.25rem;
 }
 
 #navPanel .link:active,
 #navPanel .link:focus,
 #navPanel .link:hover {
   color: var(--accent);
-}
-
-#navPanel .link.depth-1 {
-  margin-left: 1.25rem;
 }
 
 #navPanel .close {
