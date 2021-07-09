@@ -21,18 +21,14 @@
 		<link rel="stylesheet" href="/assets/css/main.css" />
 		<link rel="stylesheet" href="/assets/css/styles.css" />
 
-		<!-- Owl -->
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
-		<link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
+		{% block head %}
+		{% endblock %}
 
 		<!-- Favicons -->
 		{% include "favicons.njk" %}
 
 		<!-- Analytics -->
 		{% include "analytics.njk" %}
-
-		<!-- Mailchimp -->
-		{# <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/cac2b58a6aa8f0a66e10baffd/f05ff8e1c519dd483eba905d8.js");</script> #}
 
 	</head>
 
@@ -189,8 +185,6 @@
 
     <!-- Scripts -->
 		<script src="/assets/js/jquery.min.js"></script>
-		{# <script src="/assets/js/jquery.scrollex.min.js"></script> #}
-		{# <script src="/assets/js/jquery.scrolly.min.js"></script> #}
 		<script src="/assets/js/skel.min.js"></script>
 		<script src="/assets/js/util.min.js"></script>
 		<script src="/assets/js/main.js"></script>
@@ -198,37 +192,8 @@
 		<!-- Search -->
 		<script src="/assets/js/search.js"></script>
 
-		<!-- Testimonial Carousel -->
-		<script src="/assets/js/owl.carousel.min.js"></script>
-		<script>
-			$(window).on( "load", function() {
-    		"use strict";
-    		//  TESTIMONIALS CAROUSEL HOOK
-        $('#testimonials').owlCarousel({
-            loop: true,
-            center: true,
-            items: 3,
-            margin: 0,
-            autoplay: true,
-            dots: true,
-            autoplayTimeout: 8500,
-            smartSpeed: 450,
-            responsive: {
-              0: {
-                items: 1
-              },
-              768: {
-                items: 2
-              }
-            }
-        });
-    	});
-		</script>
-		<!-- /end Testimonial Carousel -->
-
-		<!-- Mailchimp -->
-		{# <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us3.list-manage.com","uuid":"cac2b58a6aa8f0a66e10baffd","lid":"7c61b2b0b1"}) })</script> #}
-		<!-- /end Mailchimp -->
+		{% block scripts %}
+		{% endblock %}
 
   </body>
 </html>
