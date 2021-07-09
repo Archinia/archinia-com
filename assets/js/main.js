@@ -165,8 +165,6 @@ var settings = {
 	$(function() {
 		var $window = $(window),
 			$body = $('body'),
-			// $header = $('#header'),
-			// $banner = $('#banner'),
 			$nav = $('#navBlock');
 
 		// Disable animations/transitions until the page has loaded.
@@ -207,48 +205,6 @@ var settings = {
 			);
 		});
 
-		// Scrolly.
-		// $('.scrolly').scrolly({
-		// 	offset: function () {
-		// 		return $header.height() - 5;
-		// 	},
-		// });
-
-		// Header.
-		// if ($banner.length > 0 && $header.hasClass('alt')) {
-		// 	$window.on('resize', function () {
-		// 		$window.trigger('scroll');
-		// 	});
-
-		// 	$banner.scrollex({
-		// 		bottom: $header.outerHeight(),
-		// 		terminate: function () {
-		// 			$header.removeClass('alt');
-		// 		},
-		// 		enter: function () {
-		// 			$header.addClass('alt');
-		// 		},
-		// 		leave: function () {
-		// 			$header.removeClass('alt');
-		// 			$header.addClass('reveal');
-		// 		},
-		// 	});
-		// }
-
-		// Banner.
-
-		// Hack: Fix flex min-height on IE.
-		// if (skel.vars.browser == 'ie') {
-		// 	$window
-		// 		.on('resize.ie-banner-fix', function () {
-		// 			var h = $banner.height();
-
-		// 			if (h > $window.height()) $banner.css('height', 'auto');
-		// 			else $banner.css('height', h);
-		// 		})
-		// 		.trigger('resize.ie-banner-fix');
-		// }
-
 		// Menu.
 		// TODO: remove navList() so that its just the NJK list from navigation.njk
 		// Why? Because the empty list heading links are silly AND mobile loses the ul/li semantics
@@ -278,28 +234,6 @@ var settings = {
 
 		if (skel.vars.os == 'wp' && skel.vars.osVersion < 10)
 			$('#navPanel').css('transition', 'none');
-
-		// Spotlights.
-		// $('.spotlight').scrollex({
-		// 	top: '30vh',
-		// 	bottom: '30vh',
-		// 	delay: 25,
-		// 	initialize: function () {
-		// 		$(this).addClass('is-inactive');
-		// 	},
-		// 	terminate: function () {
-		// 		$(this).removeClass('is-inactive');
-		// 	},
-		// 	enter: function () {
-		// 		$(this).removeClass('is-inactive');
-		// 	},
-		// });
-
-		// Tabs.
-		// $('.tabs').selectorr({
-		// 	titleSelector: 'h4',
-		// 	delay: 250,
-		// });
 
 		// Quotes.
 		// TODO: does this need to be JS?
