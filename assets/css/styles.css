@@ -355,10 +355,9 @@ header.header-main > nav {
   outline: 0;
 }
 
-.nav-main .navPanelToggle:before {
+.nav-main .navPanelToggle:after {
   content: '\f0c9';
   margin: 0 0 0 0.625rem;
-  float: right;
 }
 
 .nav-group {
