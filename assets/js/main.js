@@ -165,8 +165,8 @@ var settings = {
 	$(function() {
 		var $window = $(window),
 			$body = $('body'),
-			$header = $('#header'),
-			$banner = $('#banner'),
+			// $header = $('#header'),
+			// $banner = $('#banner'),
 			$nav = $('#navBlock');
 
 		// Disable animations/transitions until the page has loaded.
@@ -280,20 +280,20 @@ var settings = {
 			$('#navPanel').css('transition', 'none');
 
 		// Spotlights.
-		$('.spotlight').scrollex({
-			top: '30vh',
-			bottom: '30vh',
-			delay: 25,
-			initialize: function () {
-				$(this).addClass('is-inactive');
-			},
-			terminate: function () {
-				$(this).removeClass('is-inactive');
-			},
-			enter: function () {
-				$(this).removeClass('is-inactive');
-			},
-		});
+		// $('.spotlight').scrollex({
+		// 	top: '30vh',
+		// 	bottom: '30vh',
+		// 	delay: 25,
+		// 	initialize: function () {
+		// 		$(this).addClass('is-inactive');
+		// 	},
+		// 	terminate: function () {
+		// 		$(this).removeClass('is-inactive');
+		// 	},
+		// 	enter: function () {
+		// 		$(this).removeClass('is-inactive');
+		// 	},
+		// });
 
 		// Tabs.
 		// $('.tabs').selectorr({
