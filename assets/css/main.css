@@ -2994,6 +2994,7 @@ article.square:after {
   max-width: 58rem;
   text-align: center;
   margin: 0 auto 3rem auto;
+  padding: 0 2rem;
 }
 
 #wrapper>main>.main>header:before,
@@ -3270,7 +3271,7 @@ article.square:after {
 
 @media screen and (max-width: 1280px) {
   #wrapper>main>.main {
-    padding: 6rem 3rem 4rem 3rem;
+    padding: 3rem;
   }
 
   #wrapper>main>.main>.inner.style2>.image.main:first-child {
@@ -3308,7 +3309,7 @@ article.square:after {
 
 @media screen and (max-width: 768px) {
   #wrapper>main>.main {
-    padding: 4rem 2rem 2rem 2rem;
+    padding: 2rem;
   }
 
   #wrapper>main>.main>.inner.style2 {
@@ -3326,12 +3327,6 @@ article.square:after {
 @media screen and (max-width: 480px) {
   #wrapper>main>.main>.inner.style2>.image.main:first-child {
     height: 14rem;
-  }
-}
-
-@media screen and (max-width: 360px) {
-  #wrapper>main>.main {
-    padding: 3rem 1rem 1rem 1rem;
   }
 }
 
