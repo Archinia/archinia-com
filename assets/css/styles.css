@@ -541,12 +541,14 @@ header.header-main > nav {
   border-top: 0;
 }
 
-#navPanel .list-heading.depth-0 {
+#navPanel .link.depth-0,
+#navPanel .list-heading {
   color: var(--navpanel-text);
   font-weight: 600;
 }
 
-#navPanel .link.depth-1 {
+#navPanel .link.depth-1,
+#navPanel .list-item {
   margin-left: 1.25rem;
 }
 
