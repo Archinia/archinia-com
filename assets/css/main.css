@@ -3,6 +3,38 @@
 	pixelarity.com | hello@pixelarity.com
 	License: pixelarity.com/license
 */
+
+:root {
+  /* Fonts */
+  --cinzel: "Cinzel", serif;
+  --crimson: "Crimson Text", serif;
+
+  /* Colors */
+  --accent: #25dbdb;
+  --white: #ffffff;
+  --black: #010101;
+  --transparent: rgba(0, 0, 0, 0);
+
+  --navpanel-text: var(--white);
+  --navpanel-background: var(--black);
+
+  --border-color: rgba(143, 143, 143, 0.25);
+
+  --blackish-background: rgba(143, 143, 143, 0.075);
+  --dark-background-opaque: rgba(0, 0, 0, 0.4);
+  --dark-background-opaque-hover: rgba(0, 0, 0, 0.6);
+
+  --font-body: "Source Sans Pro", Helvetica, sans-serif;
+
+  --screen-sm: 300px;
+  --screen-md: 768px;
+  --screen-lg: 1024px;
+  --screen-xl: 1400px;
+  --screen-max: 2400px;
+
+  --img-max-height: 800px;
+}
+
 /* Reset */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
@@ -1134,28 +1166,28 @@ hr .major {
 }
 
 input, select, textarea {
-  color: #3f3f3f;
+  color: var(--black);
 }
 
 a {
-  color: #3f3f3f;
+  color: var(--black);
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #3f3f3f;
+  color: var(--black);
 }
 
 blockquote {
-  border-left-color: rgba(143, 143, 143, 0.25);
+  border-left-color: var(--border-color);
 }
 
 code {
-  background: rgba(143, 143, 143, 0.075);
-  border-color: rgba(143, 143, 143, 0.25);
+  background: var(--blackish-background);
+  border-color: var(--border-color);
 }
 
 hr {
-  border-bottom-color: rgba(143, 143, 143, 0.25);
+  border-bottom-color: var(--border-color);
 }
 
 /* Box */
@@ -1178,7 +1210,7 @@ hr {
 }
 
 .box {
-  border-color: rgba(143, 143, 143, 0.25);
+  border-color: var(--border-color);
 }
 
 /* Button */
@@ -1308,8 +1340,8 @@ input[type="reset"],
 input[type="button"],
 button,
 .button {
-  background-color: #25dbdb;
-  color: #ffffff;
+  background-color: var(--accent);
+  color: var(--white);
 }
 
 input[type="submit"]:hover,
@@ -1318,7 +1350,7 @@ input[type="button"]:hover,
 button:hover,
 .button:hover {
   background-color: #3bdfdf;
-  color: #ffffff;
+  color: var(--white);
 }
 
 input[type="submit"]:active,
@@ -1335,8 +1367,8 @@ input[type="button"].alt,
 button.alt,
 .button.alt {
   background-color: transparent;
-  box-shadow: inset 0 0 0 2px rgba(143, 143, 143, 0.25);
-  color: #3f3f3f;
+  box-shadow: inset 0 0 0 2px var(--border-color);
+  color: var(--black);
 }
 
 input[type="submit"].alt:hover,
@@ -1344,7 +1376,7 @@ input[type="reset"].alt:hover,
 input[type="button"].alt:hover,
 button.alt:hover,
 .button.alt:hover {
-  background-color: rgba(143, 143, 143, 0.075);
+  background-color: var(--blackish-background);
 }
 
 /* input[type="submit"].alt.icon:before,
@@ -1375,7 +1407,7 @@ button.alt.icon:before,
   opacity: 0;
   visibility: hidden;
   margin: 0 auto;
-  background-color: #ffffff;
+  background-color: var(--white);
   box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.1);
   overflow: hidden;
 }
@@ -1416,12 +1448,12 @@ button.alt.icon:before,
 
 .carousel article .content {
   padding: 5rem 5rem 3rem 5rem;
-  color: #3f3f3f;
+  color: var(--black);
   text-align: center;
 }
 
 .carousel article .content h3 {
-  color: #3f3f3f;
+  color: var(--black);
 }
 
 .carousel nav a {
@@ -1436,7 +1468,7 @@ button.alt.icon:before,
   position: absolute;
   top: 0;
   width: 8rem;
-  color: #ffffff;
+  color: var(--white);
 }
 
 .carousel nav a:before {
@@ -1591,8 +1623,8 @@ button.alt.icon:before,
 }
 
 .features>div .cat-label {
-  background-color: #25dbdb;
-  color: #ffffff;
+  background-color: var(--accent);
+  color: var(--white);
   font-weight: 900;
   text-transform: uppercase;
   font-size: 0.8rem;
@@ -1670,7 +1702,7 @@ button.alt.icon:before,
 }
 
 .features>div {
-  border-color: rgba(143, 143, 143, 0.25);
+  border-color: var(--border-color);
 }
 
 /* Tabs */
@@ -1698,8 +1730,8 @@ button.alt.icon:before,
   transition-duration: 0.2s;
   border-style: solid;
   border-width: 1px 1px 0 0;
-  border-color: rgba(144, 144, 144, 0.25);
-  background-color: rgba(144, 144, 144, 0.075);
+  border-color: var(--border-color);
+  background-color: var(--blackish-background);
   display: inline-block;
   font-size: 1rem;
   font-weight: 600;
@@ -1723,7 +1755,7 @@ button.alt.icon:before,
   padding: 2rem;
   border-style: solid;
   border-width: 1px;
-  border-color: rgba(144, 144, 144, 0.25);
+  border-color: var(--border-color);
 }
 
 .tabs .panel {
@@ -1793,18 +1825,18 @@ button.alt.icon:before,
 }
 
 .tabs .titles li {
-  border-color: rgba(143, 143, 143, 0.25);
-  background-color: rgba(143, 143, 143, 0.075);
+  border-color: var(--border-color);
+  background-color: var(--blackish-background);
 }
 
 .tabs .titles li.active {
-  background-color: #ffffff;
-  border-bottom-color: #ffffff;
-  color: #25dbdb;
+  background-color: var(--white);
+  border-bottom-color: var(--white);
+  color: var(--accent);
 }
 
 .tabs .panels {
-  border-color: rgba(143, 143, 143, 0.25);
+  border-color: var(--border-color);
 }
 
 /* Form */
@@ -1892,7 +1924,7 @@ input[type="password"]:focus,
 input[type="email"]:focus,
 select:focus,
 textarea:focus {
-  border: 1px solid #333;
+  border: 1px solid var(--accent);
   outline: 0;
 }
 
@@ -2046,7 +2078,7 @@ input[type="radio"]+label:before {
 }
 
 label {
-  color: #3f3f3f;
+  color: var(--black);
 }
 
 input[type="text"],
@@ -2054,7 +2086,7 @@ input[type="password"],
 input[type="email"],
 select,
 textarea {
-  border-color: rgba(143, 143, 143, 0.25);
+  border-color: var(--border-color);
 }
 
 input[type="text"]:focus,
@@ -2062,36 +2094,34 @@ input[type="password"]:focus,
 input[type="email"]:focus,
 select:focus,
 textarea:focus {
-  border-color: #3f3f3f;
-  box-shadow: 0 0 0 1px #3f3f3f;
+  border-color: var(--accent);
 }
 
 .select-wrapper:before {
-  color: rgba(143, 143, 143, 0.25);
+  color: var(--border-color);
 }
 
 input[type="checkbox"]+label,
 input[type="radio"]+label {
-  color: #3f3f3f;
+  color: var(--black);
 }
 
 input[type="checkbox"]+label:before,
 input[type="radio"]+label:before {
-  border-color: rgba(143, 143, 143, 0.25);
+  border-color: var(--border-color);
 }
 
 input[type="checkbox"]:checked+label:before,
 input[type="radio"]:checked+label:before {
-  background-color: #3f3f3f;
-  border-color: #3f3f3f;
-  box-shadow: 0 0 0 1px #3f3f3f;
-  color: #ffffff;
+  background-color: var(--black);
+  border-color: var(--black);
+  box-shadow: 0 0 0 1px var(--black);
+  color: var(--white);
 }
 
 input[type="checkbox"]:focus+label:before,
 input[type="radio"]:focus+label:before {
-  border-color: #3f3f3f;
-  box-shadow: 0 0 0 1px #3f3f3f;
+  border-color: var(--accent);
 }
 
 ::-webkit-input-placeholder {
@@ -2577,7 +2607,7 @@ dl dd {
 }
 
 ul.alt li {
-  border-top-color: rgba(143, 143, 143, 0.25);
+  border-top-color: var(--border-color);
 }
 
 /* Table */
@@ -2643,27 +2673,27 @@ table.alt tfoot {
 }
 
 table tbody tr {
-  border-color: rgba(143, 143, 143, 0.25);
+  border-color: var(--border-color);
 }
 
 table tbody tr:nth-child(2n + 1) {
-  background-color: rgba(143, 143, 143, 0.075);
+  background-color: var(--blackish-background);
 }
 
 table th {
-  color: #3f3f3f;
+  color: var(--black);
 }
 
 table thead {
-  border-bottom-color: rgba(143, 143, 143, 0.25);
+  border-bottom-color: var(--border-color);
 }
 
 table tfoot {
-  border-top-color: rgba(143, 143, 143, 0.25);
+  border-top-color: var(--border-color);
 }
 
 table.alt tbody tr td {
-  border-color: rgba(143, 143, 143, 0.25);
+  border-color: var(--border-color);
 }
 
 /* Posts */
@@ -2712,53 +2742,53 @@ table.alt tbody tr td {
 } */
 
 .post>.content header .category {
-  color: #25dbdb;
+  color: var(--accent);
 }
 
 .post.style2 {
-  background-color: #ffffff;
+  background-color: var(--white);
 }
 
 @media screen and (max-width: 480px) {
   .post {
-    border-top-color: rgba(143, 143, 143, 0.25);
+    border-top-color: var(--border-color);
   }
 }
 
 /* Quotes */
 .quotes {
-  background-color: #3f3f3f;
-  color: #ffffff;
+  background-color: var(--black);
+  color: var(--white);
   text-align: center;
 }
 
 .quotes input, .quotes select, .quotes textarea {
-  color: #ffffff;
+  color: var(--white);
 }
 
 .quotes a {
-  color: #ffffff;
+  color: var(--white);
 }
 
 .quotes strong, .quotes b {
-  color: #ffffff;
+  color: var(--white);
 }
 
 .quotes h1, .quotes h2, .quotes h3, .quotes h4, .quotes h5, .quotes h6 {
-  color: #ffffff;
+  color: var(--white);
 }
 
 .quotes blockquote {
-  border-left-color: rgba(255, 255, 255, 0.25);
+  border-left-color: var(--border-color);
 }
 
 .quotes code {
-  background: rgba(255, 255, 255, 0.075);
-  border-color: rgba(255, 255, 255, 0.25);
+  background: var(--blackish-background);
+  border-color: var(--border-color);
 }
 
 .quotes hr {
-  border-bottom-color: rgba(255, 255, 255, 0.25);
+  border-bottom-color: var(--border-color);
 }
 .quotes>a {
   border: 0;
@@ -2777,18 +2807,18 @@ table.alt tbody tr td {
 }
 .evolutionHero {
   background-size: contain;
-  background-color: #010101;
+  background-color: var(--black);
   width: 100%;
   min-height: 500px;
   max-height: 80vh;
 }
 article.square {
   background-blend-mode: multiply;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: var(--dark-background-opaque);
   transition: all 0.2s ease;
 }
 article.square:hover {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: var(--dark-background-opaque-hover);
 }
 
 article.square:after {
@@ -2801,7 +2831,7 @@ article.square:after {
 }
 
 .quotes article .author .name {
-  color: #3f3f3f;
+  color: var(--black);
   display: block;
   font-size: 1.2rem;
   font-weight: 600;
@@ -2814,7 +2844,7 @@ article.square:after {
 
 .quotes article:before,
 .quotes.alt article:before {
-  background-color: #3f3f3f;
+  background-color: var(--black);
   border-radius: 100%;
   display: inline-block;
   font-size: 2rem;
@@ -2902,7 +2932,7 @@ article.square:after {
   margin: -17px auto 0;
   display: table;
   width: auto;
-  background: #25dbdb;
+  background: var(--accent);
   padding: 9px 35px;
   text-align: center;
   color: #fff;
@@ -2944,7 +2974,7 @@ article.square:after {
 
 #testimonials.owl-carousel.owl-theme .owl-dots .owl-dot.active span,
 #testimonials.owl-carousel.owl-theme .owl-dots .owl-dot:hover span {
-  background: #25dbdb;
+  background: var(--accent);
   transform: translate3d(0, -50%, 0) scale(0.7);
 }
 
@@ -2996,7 +3026,7 @@ article.square:after {
   width: 6.5rem;
   height: 0.25rem;
   margin: 0 0 1.5rem;
-  background-color: #3f3f3f;
+  background-color: var(--black);
 }
 
 #wrapper>main>.main>.inner,
@@ -3015,7 +3045,7 @@ article.square:after {
 #wrapper>main>.main>.inner.style2,
 #wrapper>.main>.inner.style2 {
   padding: 5rem 4rem 3rem 4rem;
-  background-color: #ffffff;
+  background-color: var(--white);
 }
 
 #wrapper>main>.main>.inner.style2>.image.main:first-child,
@@ -3040,41 +3070,41 @@ article.square:after {
 }
 
 #wrapper>main>.main.accent1 {
-  background-color: #3f3f3f;
-  color: #ffffff;
+  background-color: var(--black);
+  color: var(--white);
 }
 
 #wrapper>main>.main.accent1 input, #wrapper>main>.main.accent1 select, #wrapper>main>.main.accent1 textarea {
-  color: #ffffff;
+  color: var(--white);
 }
 
 #wrapper>main>.main.accent1 a {
-  color: #ffffff;
+  color: var(--white);
 }
 
 #wrapper>main>.main.accent1 strong, #wrapper>main>.main.accent1 b {
-  color: #ffffff;
+  color: var(--white);
 }
 
 #wrapper>main>.main.accent1 h1, #wrapper>main>.main.accent1 h2, #wrapper>main>.main.accent1 h3, #wrapper>main>.main.accent1 h4, #wrapper>main>.main.accent1 h5, #wrapper>main>.main.accent1 h6 {
-  color: #ffffff;
+  color: var(--white);
 }
 
 #wrapper>main>.main.accent1 blockquote {
-  border-left-color: rgba(255, 255, 255, 0.25);
+  border-left-color: var(--border-color);
 }
 
 #wrapper>main>.main.accent1 code {
-  background: rgba(255, 255, 255, 0.075);
-  border-color: rgba(255, 255, 255, 0.25);
+  background: var(--blackish-background);
+  border-color: var(--border-color);
 }
 
 #wrapper>main>.main.accent1 hr {
-  border-bottom-color: rgba(255, 255, 255, 0.25);
+  border-bottom-color: var(--border-color);
 }
 
 #wrapper>main>.main.accent1 .box {
-  border-color: rgba(255, 255, 255, 0.25);
+  border-color: var(--border-color);
 }
 
 #wrapper>main>.main.accent1 input[type="submit"],
@@ -3082,8 +3112,8 @@ article.square:after {
 #wrapper>main>.main.accent1 input[type="button"],
 #wrapper>main>.main.accent1 button,
 #wrapper>main>.main.accent1 .button {
-  background-color: #25dbdb;
-  color: #ffffff;
+  background-color: var(--accent);
+  color: var(--white);
 }
 
 #wrapper>main>.main.accent1 input[type="submit"]:hover,
@@ -3092,7 +3122,7 @@ article.square:after {
 #wrapper>main>.main.accent1 button:hover,
 #wrapper>main>.main.accent1 .button:hover {
   background-color: #3bdfdf;
-  color: #ffffff;
+  color: var(--white);
 }
 
 #wrapper>main>.main.accent1 input[type="submit"]:active,
@@ -3109,8 +3139,8 @@ article.square:after {
 #wrapper>main>.main.accent1 button.alt,
 #wrapper>main>.main.accent1 .button.alt {
   background-color: transparent;
-  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
-  color: #ffffff;
+  box-shadow: inset 0 0 0 2px var(--border-color);
+  color: var(--white);
 }
 
 #wrapper>main>.main.accent1 input[type="submit"].alt:hover,
@@ -3118,7 +3148,7 @@ article.square:after {
 #wrapper>main>.main.accent1 input[type="button"].alt:hover,
 #wrapper>main>.main.accent1 button.alt:hover,
 #wrapper>main>.main.accent1 .button.alt:hover {
-  background-color: rgba(255, 255, 255, 0.075);
+  background-color: var(--blackish-background);
 }
 
 #wrapper>main>.main.accent1 input[type="submit"].alt.icon:before,
@@ -3126,11 +3156,11 @@ article.square:after {
 #wrapper>main>.main.accent1 input[type="button"].alt.icon:before,
 #wrapper>main>.main.accent1 button.alt.icon:before,
 #wrapper>main>.main.accent1 .button.alt.icon:before {
-  color: #ffffff;
+  color: var(--white);
 }
 
 #wrapper>main>.main.accent1 label {
-  color: #ffffff;
+  color: var(--white);
 }
 
 #wrapper>main>.main.accent1 input[type="text"],
@@ -3138,7 +3168,7 @@ article.square:after {
 #wrapper>main>.main.accent1 input[type="email"],
 #wrapper>main>.main.accent1 select,
 #wrapper>main>.main.accent1 textarea {
-  border-color: rgba(255, 255, 255, 0.25);
+  border-color: var(--border-color);
 }
 
 #wrapper>main>.main.accent1 input[type="text"]:focus,
@@ -3146,328 +3176,110 @@ article.square:after {
 #wrapper>main>.main.accent1 input[type="email"]:focus,
 #wrapper>main>.main.accent1 select:focus,
 #wrapper>main>.main.accent1 textarea:focus {
-  border-color: #3f3f3f;
-  box-shadow: 0 0 0 1px #3f3f3f;
+  border-color: #var(--accent);
 }
 
 #wrapper>main>.main.accent1 .select-wrapper:before {
-  color: rgba(255, 255, 255, 0.25);
+  color: var(--border-color);
 }
 
 #wrapper>main>.main.accent1 input[type="checkbox"]+label,
 #wrapper>main>.main.accent1 input[type="radio"]+label {
-  color: #ffffff;
+  color: var(--white);
 }
 
 #wrapper>main>.main.accent1 input[type="checkbox"]+label:before,
 #wrapper>main>.main.accent1 input[type="radio"]+label:before {
-  border-color: rgba(255, 255, 255, 0.25);
+  border-color: var(--border-color);
 }
 
 #wrapper>main>.main.accent1 input[type="checkbox"]:checked+label:before,
 #wrapper>main>.main.accent1 input[type="radio"]:checked+label:before {
-  background-color: #3f3f3f;
-  border-color: #3f3f3f;
-  box-shadow: 0 0 0 1px #3f3f3f;
-  color: #ffffff;
+  background-color: var(--black);
+  border-color: var(--black);
+  box-shadow: 0 0 0 1px var(--black);
+  color: var(--white);
 }
 
 #wrapper>main>.main.accent1 input[type="checkbox"]:focus+label:before,
 #wrapper>main>.main.accent1 input[type="radio"]:focus+label:before {
-  border-color: #3f3f3f;
-  box-shadow: 0 0 0 1px #3f3f3f;
+  border-color: var(--accent);
 }
 
 #wrapper>main>.main.accent1 ::-webkit-input-placeholder {
-  color: #ffffff;
+  color: var(--white);
 }
 
 #wrapper>main>.main.accent1 :-moz-placeholder {
-  color: #ffffff;
+  color: var(--white);
 }
 
 #wrapper>main>.main.accent1 ::-moz-placeholder {
-  color: #ffffff;
+  color: var(--white);
 }
 
 #wrapper>main>.main.accent1 :-ms-input-placeholder {
-  color: #ffffff;
+  color: var(--white);
 }
 
 #wrapper>main>.main.accent1 .formerize-placeholder {
-  color: #ffffff;
+  color: var(--white);
 }
 
 #wrapper>main>.main.accent1 ul.alt li {
-  border-top-color: rgba(255, 255, 255, 0.25);
+  border-top-color: var(--border-color);
 }
 
 #wrapper>main>.main.accent1 table tbody tr {
-  border-color: rgba(255, 255, 255, 0.25);
+  border-color: var(--border-color);
 }
 
 #wrapper>main>.main.accent1 table tbody tr:nth-child(2n + 1) {
-  background-color: rgba(255, 255, 255, 0.075);
+  background-color: var(--blackish-background);
 }
 
 #wrapper>main>.main.accent1 table th {
-  color: #ffffff;
+  color: var(--white);
 }
 
 #wrapper>main>.main.accent1 table thead {
-  border-bottom-color: rgba(255, 255, 255, 0.25);
+  border-bottom-color: var(--border-color);
 }
 
 #wrapper>main>.main.accent1 table tfoot {
-  border-top-color: rgba(255, 255, 255, 0.25);
+  border-top-color: var(--border-color);
 }
 
 #wrapper>main>.main.accent1 table.alt tbody tr td {
-  border-color: rgba(255, 255, 255, 0.25);
+  border-color: var(--border-color);
 }
 
 #wrapper>main>.main.accent1 .tabs .titles li {
-  border-color: rgba(255, 255, 255, 0.25);
-  background-color: rgba(255, 255, 255, 0.075);
+  border-color: var(--border-color);
+  background-color: var(--blackish-background);
 }
 
 #wrapper>main>.main.accent1 .tabs .titles li.active {
-  background-color: #3f3f3f;
-  border-bottom-color: #3f3f3f;
-  color: #25dbdb;
+  background-color: var(--black);
+  border-bottom-color: var(--black);
+  color: var(--accent);
 }
 
 #wrapper>main>.main.accent1 .tabs .panels {
-  border-color: rgba(255, 255, 255, 0.25);
+  border-color: var(--border-color);
 }
 
 #wrapper>main>.main.accent1 .post>.content header .category {
-  color: #25dbdb;
+  color: var(--accent);
 }
 
 #wrapper>main>.main.accent1 .post.style2 {
-  background-color: #3f3f3f;
+  background-color: var(--black);
 }
 
 @media screen and (max-width: 480px) {
   #wrapper>main>.main.accent1 .post {
-    border-top-color: rgba(255, 255, 255, 0.25);
-  }
-}
-
-#wrapper>main>.main.accent2 {
-  background-color: #25dbdb;
-  color: #ffffff;
-}
-
-#wrapper>main>.main.accent2 input, #wrapper>main>.main.accent2 select, #wrapper>main>.main.accent2 textarea {
-  color: #ffffff;
-}
-
-#wrapper>main>.main.accent2 a {
-  color: #ffffff;
-}
-
-#wrapper>main>.main.accent2 strong, #wrapper>main>.main.accent2 b {
-  color: #ffffff;
-}
-
-#wrapper>main>.main.accent2 h1, #wrapper>main>.main.accent2 h2, #wrapper>main>.main.accent2 h3, #wrapper>main>.main.accent2 h4, #wrapper>main>.main.accent2 h5, #wrapper>main>.main.accent2 h6 {
-  color: #ffffff;
-}
-
-#wrapper>main>.main.accent2 blockquote {
-  border-left-color: rgba(255, 255, 255, 0.125);
-}
-
-#wrapper>main>.main.accent2 code {
-  background: rgba(255, 255, 255, 0.075);
-  border-color: rgba(255, 255, 255, 0.125);
-}
-
-#wrapper>main>.main.accent2 hr {
-  border-bottom-color: rgba(255, 255, 255, 0.125);
-}
-
-#wrapper>main>.main.accent2 .box {
-  border-color: rgba(255, 255, 255, 0.125);
-}
-
-#wrapper>main>.main.accent2 input[type="submit"],
-#wrapper>main>.main.accent2 input[type="reset"],
-#wrapper>main>.main.accent2 input[type="button"],
-#wrapper>main>.main.accent2 button,
-#wrapper>main>.main.accent2 .button {
-  background-color: #3f3f3f;
-  color: #ffffff;
-}
-
-#wrapper>main>.main.accent2 input[type="submit"]:hover,
-#wrapper>main>.main.accent2 input[type="reset"]:hover,
-#wrapper>main>.main.accent2 input[type="button"]:hover,
-#wrapper>main>.main.accent2 button:hover,
-#wrapper>main>.main.accent2 .button:hover {
-  background-color: #4c4c4c;
-  color: #ffffff;
-}
-
-#wrapper>main>.main.accent2 input[type="submit"]:active,
-#wrapper>main>.main.accent2 input[type="reset"]:active,
-#wrapper>main>.main.accent2 input[type="button"]:active,
-#wrapper>main>.main.accent2 button:active,
-#wrapper>main>.main.accent2 .button:active {
-  background-color: #323232;
-}
-
-#wrapper>main>.main.accent2 input[type="submit"].alt,
-#wrapper>main>.main.accent2 input[type="reset"].alt,
-#wrapper>main>.main.accent2 input[type="button"].alt,
-#wrapper>main>.main.accent2 button.alt,
-#wrapper>main>.main.accent2 .button.alt {
-  background-color: transparent;
-  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.125);
-  color: #ffffff;
-}
-
-#wrapper>main>.main.accent2 input[type="submit"].alt:hover,
-#wrapper>main>.main.accent2 input[type="reset"].alt:hover,
-#wrapper>main>.main.accent2 input[type="button"].alt:hover,
-#wrapper>main>.main.accent2 button.alt:hover,
-#wrapper>main>.main.accent2 .button.alt:hover {
-  background-color: rgba(255, 255, 255, 0.075);
-}
-
-#wrapper>main>.main.accent2 input[type="submit"].alt.icon:before,
-#wrapper>main>.main.accent2 input[type="reset"].alt.icon:before,
-#wrapper>main>.main.accent2 input[type="button"].alt.icon:before,
-#wrapper>main>.main.accent2 button.alt.icon:before,
-#wrapper>main>.main.accent2 .button.alt.icon:before {
-  color: #ffffff;
-}
-
-#wrapper>main>.main.accent2 label {
-  color: #ffffff;
-}
-
-#wrapper>main>.main.accent2 input[type="text"],
-#wrapper>main>.main.accent2 input[type="password"],
-#wrapper>main>.main.accent2 input[type="email"],
-#wrapper>main>.main.accent2 select,
-#wrapper>main>.main.accent2 textarea {
-  border-color: rgba(255, 255, 255, 0.125);
-}
-
-#wrapper>main>.main.accent2 input[type="text"]:focus,
-#wrapper>main>.main.accent2 input[type="password"]:focus,
-#wrapper>main>.main.accent2 input[type="email"]:focus,
-#wrapper>main>.main.accent2 select:focus,
-#wrapper>main>.main.accent2 textarea:focus {
-  border-color: #3f3f3f;
-  box-shadow: 0 0 0 1px #3f3f3f;
-}
-
-#wrapper>main>.main.accent2 .select-wrapper:before {
-  color: rgba(255, 255, 255, 0.125);
-}
-
-#wrapper>main>.main.accent2 input[type="checkbox"]+label,
-#wrapper>main>.main.accent2 input[type="radio"]+label {
-  color: #ffffff;
-}
-
-#wrapper>main>.main.accent2 input[type="checkbox"]+label:before,
-#wrapper>main>.main.accent2 input[type="radio"]+label:before {
-  border-color: rgba(255, 255, 255, 0.125);
-}
-
-#wrapper>main>.main.accent2 input[type="checkbox"]:checked+label:before,
-#wrapper>main>.main.accent2 input[type="radio"]:checked+label:before {
-  background-color: #3f3f3f;
-  border-color: #3f3f3f;
-  box-shadow: 0 0 0 1px #3f3f3f;
-  color: #ffffff;
-}
-
-#wrapper>main>.main.accent2 input[type="checkbox"]:focus+label:before,
-#wrapper>main>.main.accent2 input[type="radio"]:focus+label:before {
-  border-color: #3f3f3f;
-  box-shadow: 0 0 0 1px #3f3f3f;
-}
-
-#wrapper>main>.main.accent2 ::-webkit-input-placeholder {
-  color: #ffffff;
-}
-
-#wrapper>main>.main.accent2 :-moz-placeholder {
-  color: #ffffff;
-}
-
-#wrapper>main>.main.accent2 ::-moz-placeholder {
-  color: #ffffff;
-}
-
-#wrapper>main>.main.accent2 :-ms-input-placeholder {
-  color: #ffffff;
-}
-
-#wrapper>main>.main.accent2 .formerize-placeholder {
-  color: #ffffff;
-}
-
-#wrapper>main>.main.accent2 ul.alt li {
-  border-top-color: rgba(255, 255, 255, 0.125);
-}
-
-#wrapper>main>.main.accent2 table tbody tr {
-  border-color: rgba(255, 255, 255, 0.125);
-}
-
-#wrapper>main>.main.accent2 table tbody tr:nth-child(2n + 1) {
-  background-color: rgba(255, 255, 255, 0.075);
-}
-
-#wrapper>main>.main.accent2 table th {
-  color: #ffffff;
-}
-
-#wrapper>main>.main.accent2 table thead {
-  border-bottom-color: rgba(255, 255, 255, 0.125);
-}
-
-#wrapper>main>.main.accent2 table tfoot {
-  border-top-color: rgba(255, 255, 255, 0.125);
-}
-
-#wrapper>main>.main.accent2 table.alt tbody tr td {
-  border-color: rgba(255, 255, 255, 0.125);
-}
-
-#wrapper>main>.main.accent2 .tabs .titles li {
-  border-color: rgba(255, 255, 255, 0.125);
-  background-color: rgba(255, 255, 255, 0.075);
-}
-
-#wrapper>main>.main.accent2 .tabs .titles li.active {
-  background-color: #25dbdb;
-  border-bottom-color: #25dbdb;
-  color: #3f3f3f;
-}
-
-#wrapper>main>.main.accent2 .tabs .panels {
-  border-color: rgba(255, 255, 255, 0.125);
-}
-
-#wrapper>main>.main.accent2 .post>.content header .category {
-  color: #3f3f3f;
-}
-
-#wrapper>main>.main.accent2 .post.style2 {
-  background-color: #25dbdb;
-}
-
-@media screen and (max-width: 480px) {
-  #wrapper>main>.main.accent2 .post {
-    border-top-color: rgba(255, 255, 255, 0.125);
+    border-top-color: var(--border-color);
   }
 }
 
@@ -3594,7 +3406,7 @@ form>.field, #banner>.items, #banner>.slider, #footer .links>div {
 
 /* Wrapper */
 #wrapper {
-  background-color: #ffffff;
+  background-color: var(--white);
 }
 
 /* Banner */
@@ -3628,7 +3440,7 @@ form>.field, #banner>.items, #banner>.slider, #footer .links>div {
 
 #banner>.items {
   width: 100%;
-  background-color: #ffffff;
+  background-color: var(--white);
 }
 
 #banner>.items section {
@@ -3651,37 +3463,37 @@ form>.field, #banner>.items, #banner>.slider, #footer .links>div {
 }
 
 #banner>.items section.accent1 {
-  background-color: #3f3f3f;
-  color: #ffffff;
+  background-color: var(--black);
+  color: var(--white);
 }
 
 #banner>.items section.accent1 input, #banner>.items section.accent1 select, #banner>.items section.accent1 textarea {
-  color: #ffffff;
+  color: var(--white);
 }
 
 #banner>.items section.accent1 a {
-  color: #ffffff;
+  color: var(--white);
 }
 
 #banner>.items section.accent1 strong, #banner>.items section.accent1 b {
-  color: #ffffff;
+  color: var(--white);
 }
 
 #banner>.items section.accent1 h1, #banner>.items section.accent1 h2, #banner>.items section.accent1 h3, #banner>.items section.accent1 h4, #banner>.items section.accent1 h5, #banner>.items section.accent1 h6 {
-  color: #ffffff;
+  color: var(--white);
 }
 
 #banner>.items section.accent1 blockquote {
-  border-left-color: rgba(255, 255, 255, 0.25);
+  border-left-color: var(--border-color);
 }
 
 #banner>.items section.accent1 code {
-  background: rgba(255, 255, 255, 0.075);
-  border-color: rgba(255, 255, 255, 0.25);
+  background: var(--blackish-background);
+  border-color: var(--border-color);
 }
 
 #banner>.items section.accent1 hr {
-  border-bottom-color: rgba(255, 255, 255, 0.25);
+  border-bottom-color: var(--border-color);
 }
 
 #banner>.items section.accent1 input[type="submit"],
@@ -3689,8 +3501,8 @@ form>.field, #banner>.items, #banner>.slider, #footer .links>div {
 #banner>.items section.accent1 input[type="button"],
 #banner>.items section.accent1 button,
 #banner>.items section.accent1 .button {
-  background-color: #25dbdb;
-  color: #ffffff;
+  background-color: var(--accent);
+  color: var(--white);
 }
 
 #banner>.items section.accent1 input[type="submit"]:hover,
@@ -3699,7 +3511,7 @@ form>.field, #banner>.items, #banner>.slider, #footer .links>div {
 #banner>.items section.accent1 button:hover,
 #banner>.items section.accent1 .button:hover {
   background-color: #3bdfdf;
-  color: #ffffff;
+  color: var(--white);
 }
 
 #banner>.items section.accent1 input[type="submit"]:active,
@@ -3716,8 +3528,8 @@ form>.field, #banner>.items, #banner>.slider, #footer .links>div {
 #banner>.items section.accent1 button.alt,
 #banner>.items section.accent1 .button.alt {
   background-color: transparent;
-  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
-  color: #ffffff;
+  box-shadow: inset 0 0 0 2px var(--border-color);
+  color: var(--white);
 }
 
 #banner>.items section.accent1 input[type="submit"].alt:hover,
@@ -3725,7 +3537,7 @@ form>.field, #banner>.items, #banner>.slider, #footer .links>div {
 #banner>.items section.accent1 input[type="button"].alt:hover,
 #banner>.items section.accent1 button.alt:hover,
 #banner>.items section.accent1 .button.alt:hover {
-  background-color: rgba(255, 255, 255, 0.075);
+  background-color: var(--blackish-background);
 }
 
 #banner>.items section.accent1 input[type="submit"].alt.icon:before,
@@ -3733,93 +3545,7 @@ form>.field, #banner>.items, #banner>.slider, #footer .links>div {
 #banner>.items section.accent1 input[type="button"].alt.icon:before,
 #banner>.items section.accent1 button.alt.icon:before,
 #banner>.items section.accent1 .button.alt.icon:before {
-  color: #ffffff;
-}
-
-#banner>.items section.accent2 {
-  background-color: #25dbdb;
-  color: #ffffff;
-}
-
-#banner>.items section.accent2 input, #banner>.items section.accent2 select, #banner>.items section.accent2 textarea {
-  color: #ffffff;
-}
-
-#banner>.items section.accent2 a {
-  color: #ffffff;
-}
-
-#banner>.items section.accent2 strong, #banner>.items section.accent2 b {
-  color: #ffffff;
-}
-
-#banner>.items section.accent2 h1, #banner>.items section.accent2 h2, #banner>.items section.accent2 h3, #banner>.items section.accent2 h4, #banner>.items section.accent2 h5, #banner>.items section.accent2 h6 {
-  color: #ffffff;
-}
-
-#banner>.items section.accent2 blockquote {
-  border-left-color: rgba(255, 255, 255, 0.125);
-}
-
-#banner>.items section.accent2 code {
-  background: rgba(255, 255, 255, 0.075);
-  border-color: rgba(255, 255, 255, 0.125);
-}
-
-#banner>.items section.accent2 hr {
-  border-bottom-color: rgba(255, 255, 255, 0.125);
-}
-
-#banner>.items section.accent2 input[type="submit"],
-#banner>.items section.accent2 input[type="reset"],
-#banner>.items section.accent2 input[type="button"],
-#banner>.items section.accent2 button,
-#banner>.items section.accent2 .button {
-  background-color: #3f3f3f;
-  color: #ffffff;
-}
-
-#banner>.items section.accent2 input[type="submit"]:hover,
-#banner>.items section.accent2 input[type="reset"]:hover,
-#banner>.items section.accent2 input[type="button"]:hover,
-#banner>.items section.accent2 button:hover,
-#banner>.items section.accent2 .button:hover {
-  background-color: #4c4c4c;
-  color: #ffffff;
-}
-
-#banner>.items section.accent2 input[type="submit"]:active,
-#banner>.items section.accent2 input[type="reset"]:active,
-#banner>.items section.accent2 input[type="button"]:active,
-#banner>.items section.accent2 button:active,
-#banner>.items section.accent2 .button:active {
-  background-color: #323232;
-}
-
-#banner>.items section.accent2 input[type="submit"].alt,
-#banner>.items section.accent2 input[type="reset"].alt,
-#banner>.items section.accent2 input[type="button"].alt,
-#banner>.items section.accent2 button.alt,
-#banner>.items section.accent2 .button.alt {
-  background-color: transparent;
-  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.125);
-  color: #ffffff;
-}
-
-#banner>.items section.accent2 input[type="submit"].alt:hover,
-#banner>.items section.accent2 input[type="reset"].alt:hover,
-#banner>.items section.accent2 input[type="button"].alt:hover,
-#banner>.items section.accent2 button.alt:hover,
-#banner>.items section.accent2 .button.alt:hover {
-  background-color: rgba(255, 255, 255, 0.075);
-}
-
-#banner>.items section.accent2 input[type="submit"].alt.icon:before,
-#banner>.items section.accent2 input[type="reset"].alt.icon:before,
-#banner>.items section.accent2 input[type="button"].alt.icon:before,
-#banner>.items section.accent2 button.alt.icon:before,
-#banner>.items section.accent2 .button.alt.icon:before {
-  color: #ffffff;
+  color: var(--white);
 }
 
 #banner>.items .grid-flex {
@@ -4002,8 +3728,8 @@ body.is-loading #banner>.slider {
 
 #footer .links>div {
   padding: 2rem 0 0.1rem 0;
-  border-left: solid 1px rgba(255, 255, 255, 0.25);
-  border-top: solid 1px rgba(255, 255, 255, 0.25);
+  border-left: solid 1px var(--border-color);
+  border-top: solid 1px var(--border-color);
   width: 25%;
 }
 
@@ -4036,7 +3762,7 @@ body.is-loading #banner>.slider {
 }
 
 #footer .contact-icons li:before {
-  color: #ffffff;
+  color: var(--white);
 }
 
 #footer .contact-icons li:first-child {
@@ -4044,7 +3770,7 @@ body.is-loading #banner>.slider {
 }
 
 #footer .copyright {
-  color: #ffffff;
+  color: var(--white);
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -4187,7 +3913,7 @@ body.is-loading #banner>.slider {
   -ms-transition: color 0.2s;
   -o-transition: color 0.2s;
   transition: color 0.2s;
-  border-top: solid 1px rgba(255, 255, 255, 0.25);
+  border-top: solid 1px var(--border-color);
   border-bottom: 0;
   color: inherit;
   display: block;
@@ -4206,8 +3932,7 @@ body.is-loading #banner>.slider {
 }
 
 #navPanel .link:active, #navPanel .link:focus, #navPanel .link:hover {
-  /* color: var(--accent); */
-  color: #25dbdb;
+  color: var(--accent);
 }
 
 #navPanel .link.depth-1 {
@@ -4221,7 +3946,7 @@ body.is-loading #banner>.slider {
   -ms-transition: color 0.2s ease-in-out;
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: var(--transparent);
   border: 0;
   color: (--navpanel-text);
   cursor: pointer;
