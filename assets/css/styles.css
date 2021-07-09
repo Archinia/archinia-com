@@ -6,7 +6,6 @@
   /* Colors */
   --accent: #25dbdb;
   --white: #ffffff;
-  --offwhite: #e3e3e3;
   --black: #010101;
 
   --navpanel-text: var(--white);
@@ -693,7 +692,7 @@ header.header-main > nav {
     width: 100%;
     margin: 0;
     color: var(--black);
-    background-color: var(--offwhite);
+    background-color: var(--white);
   }
 }
 
@@ -733,9 +732,7 @@ header.header-main > nav {
   }
 }
 
-
 /* Scroll Handling */
-
 .main h2,
 .main h3,
 .main h4,
