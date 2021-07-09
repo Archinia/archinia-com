@@ -799,11 +799,13 @@ h6:hover > a.bookmark {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  padding: 2rem 0;
 }
 
 .mailchimp-form-content h2 {
   width: 100%;
-  margin-bottom: 0;
+  margin-bottom: 1rem;
+  text-align: center;
 }
 
 .mc-field-wrapper {
@@ -816,17 +818,19 @@ h6:hover > a.bookmark {
   width: 80%;
 }
 
-.mce-responses {
-  width: 0;
+.mc-field-group input[type="email"] {
+  border: 1px solid rgba(143, 143, 143, .25);
 }
 
-.button.submit {
-  width: 20%;
+.mce-responses {
+  width: 0;
 }
 
 @media screen and (min-width: 981px) {
   .mailchimp-form-content h2 {
     max-width: 30%;
+    text-align: left;
+    margin-bottom: 0;
   }
   .mc-field-wrapper {
     width: 70%;
