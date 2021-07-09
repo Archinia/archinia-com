@@ -248,13 +248,6 @@ var settings = {
 					}).trigger('resize.ie-banner-fix');
 				}
 
-		// Dropdowns.
-			$('#nav > ul').dropotron({
-				alignment: 'right',
-				hideDelay: 350,
-				baseZIndex: 100000
-			});
-
 		// Menu.
 			$('<a href="#navPanel" class="navPanelToggle" title="Open Menu">Menu</a>')
 				.prependTo($nav);
