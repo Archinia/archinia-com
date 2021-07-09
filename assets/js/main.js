@@ -163,163 +163,160 @@ var settings = {
 	};
 
 	$(function() {
-
-		var	$window = $(window),
+		var $window = $(window),
 			$body = $('body'),
 			$header = $('#header'),
 			$banner = $('#banner'),
 			$nav = $('#navBlock');
 
 		// Disable animations/transitions until the page has loaded.
-			$body.addClass('is-loading');
+		$body.addClass('is-loading');
 
-			$window.on('load', function() {
-				window.setTimeout(function() {
-					$body.removeClass('is-loading');
-				}, 100);
-			});
+		$window.on('load', function () {
+			window.setTimeout(function () {
+				$body.removeClass('is-loading');
+			}, 100);
+		});
 
 		// Tweaks/fixes.
 
-			// Polyfill: Object fit.
-				if (!skel.canUse('object-fit')) {
+		// Polyfill: Object fit.
+		if (!skel.canUse('object-fit')) {
+			$('.image[data-position]').each(function () {
+				var $this = $(this),
+					$img = $this.children('img');
 
-					$('.image[data-position]').each(function() {
+				// Apply img as background.
+				$this
+					.css('background-image', 'url("' + $img.attr('src') + '")')
+					.css('background-position', $this.data('position'))
+					.css('background-size', 'cover')
+					.css('background-repeat', 'no-repeat');
 
-						var $this = $(this),
-							$img = $this.children('img');
-
-						// Apply img as background.
-							$this
-								.css('background-image', 'url("' + $img.attr('src') + '")')
-								.css('background-position', $this.data('position'))
-								.css('background-size', 'cover')
-								.css('background-repeat', 'no-repeat');
-
-						// Hide img.
-							$img
-								.css('opacity', '0');
-
-					});
-
-				}
+				// Hide img.
+				$img.css('opacity', '0');
+			});
+		}
 
 		// Prioritize "important" elements on medium.
-			skel.on('+medium -medium', function() {
-				$.prioritize(
-					'.important\\28 medium\\29',
-					skel.breakpoint('medium').active
-				);
-			});
+		// TODO: audit if needed/in use; see util.js for prioritize()
+		skel.on('+medium -medium', function () {
+			$.prioritize(
+				'.important\\28 medium\\29',
+				skel.breakpoint('medium').active
+			);
+		});
 
 		// Scrolly.
-			$('.scrolly').scrolly({
-				offset: function() { return $header.height() - 5; }
-			});
+		$('.scrolly').scrolly({
+			offset: function () {
+				return $header.height() - 5;
+			},
+		});
 
 		// Header.
-			if ($banner.length > 0
-			&&	$header.hasClass('alt')) {
+		if ($banner.length > 0 && $header.hasClass('alt')) {
+			$window.on('resize', function () {
+				$window.trigger('scroll');
+			});
 
-				$window.on('resize', function() { $window.trigger('scroll'); });
-
-				$banner.scrollex({
-					bottom:		$header.outerHeight(),
-					terminate:	function() { $header.removeClass('alt'); },
-					enter:		function() { $header.addClass('alt'); },
-					leave:		function() { $header.removeClass('alt'); $header.addClass('reveal'); }
-				});
-
-			}
+			$banner.scrollex({
+				bottom: $header.outerHeight(),
+				terminate: function () {
+					$header.removeClass('alt');
+				},
+				enter: function () {
+					$header.addClass('alt');
+				},
+				leave: function () {
+					$header.removeClass('alt');
+					$header.addClass('reveal');
+				},
+			});
+		}
 
 		// Banner.
 
-			// Hack: Fix flex min-height on IE.
-				if (skel.vars.browser == 'ie') {
-					$window.on('resize.ie-banner-fix', function() {
+		// Hack: Fix flex min-height on IE.
+		if (skel.vars.browser == 'ie') {
+			$window
+				.on('resize.ie-banner-fix', function () {
+					var h = $banner.height();
 
-						var h = $banner.height();
-
-						if (h > $window.height())
-							$banner.css('height', 'auto');
-						else
-							$banner.css('height', h);
-
-					}).trigger('resize.ie-banner-fix');
-				}
+					if (h > $window.height()) $banner.css('height', 'auto');
+					else $banner.css('height', h);
+				})
+				.trigger('resize.ie-banner-fix');
+		}
 
 		// Menu.
 		// TODO: remove navList() so that its just the NJK list from navigation.njk
 		// Why? Because the empty list heading links are silly AND mobile loses the ul/li semantics
-			$('<a href="#navPanel" class="navPanelToggle" title="Open Menu">Menu</a>')
-				.prependTo($nav);
+		$(
+			'<a href="#navPanel" class="navPanelToggle" title="Open Menu">Menu</a>'
+		).prependTo($nav);
 
-			$(	'<div id="navPanel">' +
-					'<nav>' +
-						$('#nav') .navList() +
-					'</nav>' +
-					'<a href="#navPanel" class="close"></a>' +
-					'</div>')
-					.appendTo($body)
-					.panel({
-						delay: 500,
-						hideOnClick: true,
-						hideOnSwipe: true,
-						resetScroll: true,
-						resetForms: true,
-						target: $body,
-						visibleClass: 'is-navPanel-visible',
-						side: 'right'
-					});
+		$(
+			'<div id="navPanel">' +
+				'<nav>' +
+				$('#nav').navList() +
+				'</nav>' +
+				'<a href="#navPanel" class="close"></a>' +
+				'</div>'
+		)
+			.appendTo($body)
+			.panel({
+				delay: 500,
+				hideOnClick: true,
+				hideOnSwipe: true,
+				resetScroll: true,
+				resetForms: true,
+				target: $body,
+				visibleClass: 'is-navPanel-visible',
+				side: 'right',
+			});
 
-			if (skel.vars.os == 'wp'
-			&&	skel.vars.osVersion < 10)
-				$('#navPanel')
-					.css('transition', 'none');
+		if (skel.vars.os == 'wp' && skel.vars.osVersion < 10)
+			$('#navPanel').css('transition', 'none');
 
-			// Spotlights.
-				$('.spotlight').scrollex({
-					top:		'30vh',
-					bottom:		'30vh',
-					delay:		25,
-					initialize:	function() {
-						$(this).addClass('is-inactive');
-					},
-					terminate:	function() {
-						$(this).removeClass('is-inactive');
-					},
-					enter:		function() {
-						$(this).removeClass('is-inactive');
-					}
-				});
+		// Spotlights.
+		$('.spotlight').scrollex({
+			top: '30vh',
+			bottom: '30vh',
+			delay: 25,
+			initialize: function () {
+				$(this).addClass('is-inactive');
+			},
+			terminate: function () {
+				$(this).removeClass('is-inactive');
+			},
+			enter: function () {
+				$(this).removeClass('is-inactive');
+			},
+		});
 
-			// Tabs.
-				$('.tabs').selectorr({
-						titleSelector: 'h4',
-						delay: 250
-					});
+		// Tabs.
+		$('.tabs').selectorr({
+			titleSelector: 'h4',
+			delay: 250,
+		});
 
-			// Quotes.
-				$('.quotes > article')
-					.each(function() {
+		// Quotes.
+		$('.quotes > article').each(function () {
+			var $this = $(this),
+				$image = $this.find('.image'),
+				$img = $image.find('img'),
+				x;
 
-						var	$this = $(this),
-							$image = $this.find('.image'),
-							$img = $image.find('img'),
-							x;
+			// Assign image.
+			$this.css('background-image', 'url(' + $img.attr('src') + ')');
 
-						// Assign image.
-							$this.css('background-image', 'url(' + $img.attr('src') + ')');
+			// Set background position.
+			if ((x = $img.data('position'))) $this.css('background-position', x);
 
-						// Set background position.
-							if (x = $img.data('position'))
-								$this.css('background-position', x);
-
-						// Hide image.
-							$image.hide();
-
-					});
-
+			// Hide image.
+			$image.hide();
+		});
 	});
 
 })(jQuery);
