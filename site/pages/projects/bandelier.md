@@ -24,10 +24,10 @@ featured_image: bandelier/bandelier-banner.jpg
 <p style="text-align: center; text-transform: uppercase;"><strong>Our Sponsors:</strong></p>
 
 <div class="logo-collection">
-  <span class="image fit sponsor-logo"><img src="/images/logos/NRGNHA.jpg" alt="Northern Rio Grande National Heritage Area"></span>
-  <span class="image fit sponsor-logo"><img src="/images/logos/RGCDC.jpg" alt="Rio Grande Community Development Corporation"></span>
-  <span class="image fit sponsor-logo"><img src="/images/logos/nmwif.jpg" alt="New Mexico Women in Film"></span>
-  <span class="image fit sponsor-logo"><img src="/images/logos/la-montanita-coop.jpg" alt="La Montañita Co-Op"></span>
+  <span class="image fit sponsors-logo"><img src="/images/logos/NRGNHA.jpg" alt="Northern Rio Grande National Heritage Area"></span>
+  <span class="image fit sponsors-logo"><img src="/images/logos/RGCDC.jpg" alt="Rio Grande Community Development Corporation"></span>
+  <span class="image fit sponsors-logo"><img src="/images/logos/nmwif.jpg" alt="New Mexico Women in Film"></span>
+  <span class="image fit sponsors-logo"><img src="/images/logos/la-montanita-coop.jpg" alt="La Montañita Co-Op"></span>
 </div>
 
 We were filming a local public television series celebrating New Mexico’s thousand year tradition of truly sustainable hand-made architecture. We were lucky to be filming at Bandelier National Monument at the perfect time, when a group of young people attached to the Rocky Mountain Youth Corps was doing restoration work there. I was astounded to realize that these kids, mostly from San Ildefonso and Ohkay Owingeh Pueblos… were working on restoring their ancestral homelands.
