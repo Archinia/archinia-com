@@ -6,6 +6,7 @@
   /* Colors */
   --accent: #25dbdb;
   --white: #ffffff;
+  --offwhite: #e3e3e3;
   --black: #010101;
 
   --navpanel-text: var(--white);
@@ -512,51 +513,6 @@ header.header-main > nav {
 .grid-block[href="#"] {
   cursor: default;
 }
-.spotlight {
-  max-width: var(--screen-max);
-  margin: 0 auto;
-}
-.spotlight h2 {
-  margin-bottom: 1rem;
-}
-@media screen and (max-width: 550px) {
-  .spotlight .image.bg-rachel {
-    height: 15rem;
-    min-height: 10rem;
-  }
-}
-@media screen and (min-width: 551px) {
-  .spotlight .image.bg-rachel {
-    height: 20rem;
-    min-height: 20rem;
-  }
-}
-@media screen and (min-width: 980px) {
-  .spotlight .image.bg-rachel {
-    height: 100%;
-    min-height: 20rem;
-  }
-}
-@media screen and (min-width: 981px) {
-  .spotlight .inner .image.bg-rachel img {
-    -moz-object-fit: none;
-    -webkit-object-fit: none;
-    -ms-object-fit: none;
-    -o-object-fit: none;
-    object-fit: none;
-  }
-  .spotlight .inner .content {
-    background-color: var(--black);
-    color: var(--white);
-  }
-  .spotlight .inner .content h2,
-  .spotlight .inner .content a {
-    color: var(--white);
-  }
-  .spotlight .inner .content a:hover {
-    color: var(--accent);
-  }
-}
 
 /* Post List */
 .posts {
@@ -566,10 +522,12 @@ header.header-main > nav {
   flex-wrap: wrap;
   flex-direction: row;
 }
+
 .posts article {
   width: 100%;
   text-align: center;
 }
+
 @media screen and (min-width: 768px) {
   .posts article {
     margin-bottom: 1rem;
@@ -577,6 +535,7 @@ header.header-main > nav {
     width: 33.33%;
   }
 }
+
 .post-image {
   display: block;
   position: relative;
@@ -589,17 +548,20 @@ header.header-main > nav {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 @media screen and (min-width: 768px) {
   .posts {
     width: 100%;
     margin: 0 0 2rem 0;
   }
+
   .post-image {
     height: 17rem;
     width: 100%;
   }
 }
-.post-image > img {
+
+.post-image>img {
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -609,13 +571,15 @@ header.header-main > nav {
   -o-transition: -o-transform 0.2s ease;
   transition: transform 0.2s ease;
 }
-.post-content:hover > .post-image > img {
+
+.post-content:hover>.post-image>img {
   -moz-transform: scale(1.075);
   -webkit-transform: scale(1.075);
   -ms-transform: scale(1.075);
   -o-transform: scale(1.075);
   transform: scale(1.075);
 }
+
 .post-text {
   width: 100%;
   padding: 1rem;
@@ -624,10 +588,148 @@ header.header-main > nav {
   font-weight: 800;
   transition: all 0.2s ease;
 }
-.post-content:hover > .post-text {
+
+.post-content:hover>.post-text {
   background-color: var(--accent);
   color: var(--white);
 }
+
+/* Spotlight */
+
+.spotlight {
+  max-width: var(--screen-max);
+  margin: 0 auto;
+  padding: 7rem 0;
+  position: relative;
+}
+
+.spotlight .content {
+  padding: 3rem;
+  position: relative;
+  z-index: 1;
+  width: 50%;
+  margin: 0 10%;
+}
+
+.spotlight h2 {
+  margin-bottom: 1rem;
+}
+
+.spotlight>.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.spotlight .image {
+  border-radius: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.spotlight .image img {
+  object-fit: cover;
+  border-radius: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 550px) {
+  .spotlight .image.bg-rachel {
+    height: 15rem;
+    min-height: 10rem;
+  }
+}
+
+@media screen and (min-width: 551px) {
+  .spotlight .image.bg-rachel {
+    height: 20rem;
+    min-height: 20rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .spotlight {
+    padding: 0 0 1rem;
+  }
+
+  .spotlight .content {
+    padding: 2rem 2rem 1rem 2rem;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .spotlight {
+    padding: 0;
+    text-align: center;
+  }
+  .spotlight>.inner {
+    display: block;
+    max-width: none;
+    width: 100%;
+  }
+  .spotlight h2 {
+    width: 100%;
+  }
+  .spotlight .image {
+    display: block;
+    height: 40vh;
+    min-height: 20rem;
+    width: 100%;
+    position: relative;
+  }
+  .spotlight .content {
+    padding: 3rem;
+    border-radius: 0;
+    width: 100%;
+    margin: 0;
+    color: var(--black);
+    background-color: var(--offwhite);
+  }
+}
+
+@media screen and (min-width: 980px) {
+  .spotlight .image.bg-rachel {
+    height: 100%;
+    min-height: 20rem;
+  }
+}
+
+@media screen and (min-width: 981px) {
+  .spotlight .inner .image.bg-rachel img {
+    object-fit: none;
+  }
+  .spotlight .content {
+    background-color: var(--black);
+    color: var(--white);
+    padding: 4rem;
+    width: 45%;
+  }
+  .spotlight .content h2,
+  .spotlight .content p,
+  .spotlight .content a {
+    color: var(--white);
+  }
+  .spotlight .content a:hover {
+    color: var(--accent);
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .spotlight {
+    padding: 5.5rem 0;
+  }
+  .spotlight>.inner {
+    justify-content: flex-start;
+  }
+}
+
 
 /* Scroll Handling */
 
