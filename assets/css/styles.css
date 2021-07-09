@@ -12,7 +12,7 @@
   --navpanel-text: var(--white);
   --navpanel-background: var(--black);
   --cta-background: var(--gray);
-  
+
   --border-color: rgba(143, 143, 143, 0.25);
 
   --font-body: "Source Sans Pro", Helvetica, sans-serif;
@@ -376,6 +376,8 @@ header.header-main > nav {
 .nav-main button {
   display: block;
   padding: 0;
+  font-size: 1rem;
+  height: inherit;
   line-height: inherit;
   border: 0;
   box-shadow: none;
