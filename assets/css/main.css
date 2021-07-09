@@ -3176,7 +3176,7 @@ article.square:after {
 #wrapper>main>.main.accent1 input[type="email"]:focus,
 #wrapper>main>.main.accent1 select:focus,
 #wrapper>main>.main.accent1 textarea:focus {
-  border-color: #var(--accent);
+  border-color: var(--accent);
 }
 
 #wrapper>main>.main.accent1 .select-wrapper:before {
