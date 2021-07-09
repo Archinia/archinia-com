@@ -6,10 +6,12 @@
   /* Colors */
   --accent: #25dbdb;
   --white: #ffffff;
+  --gray: rgba(0, 0, 0, .05);
   --black: #010101;
 
   --navpanel-text: var(--white);
   --navpanel-background: var(--black);
+  --cta-background: var(--gray);
 
   --font-body: "Source Sans Pro", Helvetica, sans-serif;
 
@@ -757,7 +759,7 @@ h6:hover > a.bookmark {
 
 /* CTAs */
 .cta {
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: var(--cta-background);
 }
 
 /* Tag List */
