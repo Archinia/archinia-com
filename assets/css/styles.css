@@ -984,3 +984,17 @@ h6:hover > a.bookmark {
     width: 70%;
   }
 }
+
+/* Misc */
+.laurel-collection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem auto;
+}
+.laurel {
+  padding: 0.5rem;
+  width: 8rem;
+}
