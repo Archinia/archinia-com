@@ -27,6 +27,9 @@
 	<link rel="stylesheet" href="/assets/css/acoma.css" />
 	{% endif %}
 
+	{% block head %}
+	{% endblock %}
+
 	<!-- Favicons -->
 	{% include "favicons.njk" %}
 
@@ -138,16 +141,15 @@
 
 	<!-- Scripts -->
 	<script src="/assets/js/jquery.min.js"></script>
-	<script src="/assets/js/jquery.dropotron.min.js"></script>
-	<script src="/assets/js/jquery.scrollex.min.js"></script>
-	<script src="/assets/js/jquery.scrolly.min.js"></script>
-	<script src="/assets/js/jquery.selectorr.min.js"></script>
 	<script src="/assets/js/skel.min.js"></script>
 	<script src="/assets/js/util.min.js"></script>
 	<script src="/assets/js/main.js"></script>
 
 	<!-- Search -->
 	<script src="/assets/js/search.js"></script>
+
+	{% block scripts %}
+	{% endblock %}
 
 </body>
 

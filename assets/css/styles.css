@@ -25,6 +25,7 @@
   --screen-max: 2400px;
 
   --img-max-height: 800px;
+  --img-max-height-sm: 220px;
 }
 
 @font-face {
@@ -223,6 +224,10 @@ img {
 
 .post-content img {
   max-height: var(--img-max-height, 800px);
+}
+.post-content img.small {
+  max-height: var(--img-max-height-sm, 220px);
+  width: auto;
 }
 
 /* Columns */
@@ -541,19 +546,21 @@ header.header-main > nav {
   border-top: 0;
 }
 
-#navPanel .link.depth-0 {
+#navPanel .link.depth-0,
+#navPanel .list-heading {
   color: var(--navpanel-text);
   font-weight: 600;
+}
+
+#navPanel .link.depth-1,
+#navPanel .list-item {
+  margin-left: 1.25rem;
 }
 
 #navPanel .link:active,
 #navPanel .link:focus,
 #navPanel .link:hover {
   color: var(--accent);
-}
-
-#navPanel .link.depth-1 {
-  margin-left: 1.25rem;
 }
 
 #navPanel .close {
@@ -629,6 +636,14 @@ body.is-navPanel-visible #navPanel {
 /* Home Page Grid */
 .container-dark {
   background-color: var(--black);
+}
+.hero-image {
+  min-height: 275px;
+  max-height: 80vh;
+  width: 100%;
+  padding: 1rem;
+  background-color: var(--black);
+  position: relative;
 }
 .grid-mosaic {
   max-width: var(--screen-max);
@@ -986,7 +1001,8 @@ h6:hover > a.bookmark {
 }
 
 /* Misc */
-.laurel-collection {
+.laurel-collection,
+.logo-collection {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -998,8 +1014,20 @@ h6:hover > a.bookmark {
   padding: 0.5rem;
   width: 6rem;
 }
+.sponsor-logo {
+  padding: 0.5rem;
+  max-width: 200px;
+}
 @media screen and (min-width: 769px) {
   .laurel {
     width: 8rem;
   }
+}
+
+.crew-block {
+  display: flex;
+  flex-direction: column;
+}
+.crew {
+  max-width: 200px;
 }

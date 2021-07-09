@@ -83,28 +83,28 @@ We were filming a local public television series celebrating 1000 years of truly
 
 ## Crew
 
-<section class="crew-block" style="display: flex; flex-direction: column;">
-  <div class="crew">
-      <span class="image left"><img src="/images/emergence/acoma.jpg" alt="Rachel at Acoma" style="max-width: 200px;"></span>
+<section class="crew-block">
+  <div class="crew-member">
+      <span class="image left crew"><img src="/images/emergence/acoma.jpg" alt="Rachel at Acoma"></span>
       <div>
         <h3>Rachel Preston Prinz</h3>
         <p>First time Director/Producer Rachel Preston Prinz heads up an acclaimed architectural design and preservation practice based in New Mexico. Her work investigates traditional and modern approaches to architecture, agriculture, culture, and landscape to address how we might not only survive, but also thrive, and to do so, sustainably.<br><a href="https://www.linkedin.com/in/rachelprestonprinz">LinkedIn</a></p>
       </div>
   </div>
-  <div class="crew">
-    <span class="image left"><img src="/images/misc/zenne-headshot.jpg" alt="Zenne" style="max-width: 200px;"></span>
+  <div class="crew-member">
+    <span class="image left crew"><img src="/images/misc/zenne-headshot.jpg" alt="Zenne"></span>
     <div>
       <h3>Suzenne "Zenne" Seradwyn</h3>
       <p>Suzenne "Zenne" Seradwyn, our assistant Director and Visual Editor, has worked as an actor, producer, videographer and editor on over 40 feature length and short films and numerous globally syndicated television shows.<br><a href="http://www.puremotherlove.com">Pure Mother Love Productions</a></p>
     </div>
   </div>
-  <div class="crew">
+  <div class="crew-member">
     <div>
       <h3>Arianna Shewfelt</h3>
       <p>Our Assistant Producer is Arianna Shewfelt. Arianna recently moved to Albuquerque from College Station, TX where she studied Psychology and Creative Writing at Texas A&amp;M University. She enjoys the natural beauty of New Mexico and spends as much time as possible in the mountains. She has a passion for great design and is excited for the opportunity to work with such a talented team.</p>
     </div>
   </div>
-  <div class="crew">
+  <div class="crew-member">
     <div>
       <h3>Daniel Sonis</h3>
       <p>Cinematography: Daniel Sonis is a musician, music producer, studio owner, composer, and filmmaker. He has made more than 100 short films to support the missions of numerous nonprofits, including The Kellogg Foundation, The McCune Foundation, and The University of New Mexico.</p>
