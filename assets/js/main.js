@@ -249,6 +249,8 @@ var settings = {
 				}
 
 		// Menu.
+		// TODO: remove navList() so that its just the NJK list from navigation.njk
+		// Why? Because the empty list heading links are silly AND mobile loses the ul/li semantics
 			$('<a href="#navPanel" class="navPanelToggle" title="Open Menu">Menu</a>')
 				.prependTo($nav);
 

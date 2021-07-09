@@ -3,6 +3,7 @@
 	/**
 	 * Generate an indented list of links from a nav. Meant for use with panel().
 	 * @return {jQuery} jQuery object.
+	 * TODO: remove this but keep the indentation via CSS
 	 */
 	$.fn.navList = function() {
 

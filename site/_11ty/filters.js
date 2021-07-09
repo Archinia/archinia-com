@@ -5,8 +5,6 @@ Filters
 11ty Docs: https://www.11ty.dev/docs/filters/
 Nunjucks Built In Filters: https://mozilla.github.io/nunjucks/templating.html#builtin-filters
 
-TODO: Timezones...https://www.npmjs.com/package/countries-and-timezones so users can define where they are without having to look it up
-
 TODO: Create a filter for popular tags, and use `limit` to choose how many; probably sort the collection Large to Small then limit the result to a quantity
 |----------------------------------------------------------------
 */
