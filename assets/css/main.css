@@ -2778,8 +2778,7 @@ table.alt tbody tr td {
 .quotes>a {
   border: 0;
 }
-.quotes article.square,
-.evolutionHero {
+.quotes article.square {
   width: 100%;
   padding: 8rem 0;
   background-position: center center;
@@ -2789,13 +2788,6 @@ table.alt tbody tr td {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-.evolutionHero {
-  background-size: contain;
-  background-color: var(--black);
-  width: 100%;
-  min-height: 500px;
-  max-height: 80vh;
 }
 article.square {
   background-blend-mode: multiply;

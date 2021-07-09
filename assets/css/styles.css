@@ -632,6 +632,24 @@ body.is-navPanel-visible #navPanel {
 .container-dark {
   background-color: var(--black);
 }
+.hero-image {
+  width: 100%;
+  padding: 8rem 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero-image {
+  background-size: contain;
+  background-color: var(--black);
+  width: 100%;
+  min-height: 500px;
+  max-height: 80vh;
+}
 .grid-mosaic {
   max-width: var(--screen-max);
   margin: 0 auto;
