@@ -302,6 +302,7 @@ var settings = {
 		// });
 
 		// Quotes.
+		// TODO: does this need to be JS?
 		$('.quotes > article').each(function () {
 			var $this = $(this),
 				$image = $this.find('.image'),
