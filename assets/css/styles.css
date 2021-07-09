@@ -6,12 +6,12 @@
   /* Colors */
   --accent: #25dbdb;
   --white: #ffffff;
-  --gray: rgba(0, 0, 0, .05);
+  --taupe: #EADFC4;
   --black: #010101;
 
   --navpanel-text: var(--white);
   --navpanel-background: var(--black);
-  --cta-background: var(--gray);
+  --cta-background: var(--taupe);
 
   --border-color: rgba(143, 143, 143, 0.25);
 
