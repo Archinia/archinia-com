@@ -5,10 +5,6 @@
 */
 
 :root {
-  /* Fonts */
-  --cinzel: "Cinzel", serif;
-  --crimson: "Crimson Text", serif;
-
   /* Colors */
   --accent: #25dbdb;
   --white: #ffffff;
@@ -22,16 +18,6 @@
   --blackish-background: rgba(143, 143, 143, 0.075);
   --dark-background-opaque: rgba(0, 0, 0, 0.4);
   --dark-background-opaque-hover: rgba(0, 0, 0, 0.6);
-
-  --font-body: "Source Sans Pro", Helvetica, sans-serif;
-
-  --screen-sm: 300px;
-  --screen-md: 768px;
-  --screen-lg: 1024px;
-  --screen-xl: 1400px;
-  --screen-max: 2400px;
-
-  --img-max-height: 800px;
 }
 
 /* Reset */
