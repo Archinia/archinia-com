@@ -10,8 +10,6 @@ TODO: Create a filter for popular tags, and use `limit` to choose how many; prob
 */
 
 const { DateTime } = require('luxon');
-const siteData = require('../_data/site.json');
-const rootUrl = siteData.url;
 const markdownIt = require('markdown-it');
 const mdRender = new markdownIt({});
 
