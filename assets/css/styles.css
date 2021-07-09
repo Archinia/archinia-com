@@ -614,6 +614,10 @@ header.header-main > nav {
   margin-bottom: 1rem;
 }
 
+.spotlight .content a:hover {
+  color: var(--accent);
+}
+
 .spotlight>.inner {
   display: flex;
   align-items: center;
@@ -665,7 +669,7 @@ header.header-main > nav {
 
 @media screen and (max-width: 980px) {
   .spotlight {
-    padding: 0;
+    padding: 0 !important;
     text-align: center;
   }
   .spotlight>.inner {
@@ -701,6 +705,9 @@ header.header-main > nav {
 }
 
 @media screen and (min-width: 981px) {
+  .spotlight > .inner {
+    flex-direction: row-reverse;
+  }
   .spotlight .inner .image.bg-rachel img {
     object-fit: none;
   }
@@ -708,15 +715,12 @@ header.header-main > nav {
     background-color: var(--black);
     color: var(--white);
     padding: 4rem;
-    width: 45%;
+    width: 50%;
   }
   .spotlight .content h2,
   .spotlight .content p,
   .spotlight .content a {
     color: var(--white);
-  }
-  .spotlight .content a:hover {
-    color: var(--accent);
   }
 }
 
