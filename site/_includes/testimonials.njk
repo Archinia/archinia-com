@@ -11,3 +11,39 @@
   {% endfor %}
 
 </div>
+
+{% block head %}
+<!-- Owl -->
+<link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+<link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
+{% endblock %}
+
+{% block scripts %}
+<!-- Carousel -->
+<script src="/assets/js/owl.carousel.min.js"></script>
+<script>
+  $(window).on( "load", function() {
+    "use strict";
+    //  TESTIMONIALS CAROUSEL HOOK
+    $('#testimonials').owlCarousel({
+        loop: true,
+        center: true,
+        items: 3,
+        margin: 0,
+        autoplay: true,
+        dots: true,
+        autoplayTimeout: 8500,
+        smartSpeed: 450,
+        responsive: {
+          0: {
+            items: 1
+          },
+          768: {
+            items: 2
+          }
+        }
+    });
+  });
+</script>
+<!-- /end Carousel -->
+{% endblock %}
