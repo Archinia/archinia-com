@@ -25,6 +25,7 @@
   --screen-max: 2400px;
 
   --img-max-height: 800px;
+  --img-max-height-sm: 220px;
 }
 
 @font-face {
@@ -223,6 +224,9 @@ img {
 
 .post-content img {
   max-height: var(--img-max-height, 800px);
+}
+.post-content img.small {
+  max-height: var(--img-max-height-sm, 220px);
 }
 
 /* Columns */
@@ -996,7 +1000,8 @@ h6:hover > a.bookmark {
 }
 
 /* Misc */
-.laurel-collection {
+.laurel-collection,
+.logo-collection {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -1008,8 +1013,20 @@ h6:hover > a.bookmark {
   padding: 0.5rem;
   width: 6rem;
 }
+.sponsor-logo {
+  padding: 0.5rem;
+  max-width: 200px;
+}
 @media screen and (min-width: 769px) {
   .laurel {
     width: 8rem;
   }
+}
+
+.crew-block {
+  display: flex;
+  flex-direction: column;
+}
+.crew {
+  max-width: 200px;
 }

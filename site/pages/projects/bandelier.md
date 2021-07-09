@@ -11,7 +11,7 @@ featured_image: bandelier/bandelier-banner.jpg
   <strong>NICHES:</strong> Native American, Women, Sustainability
 </p>
 
-<div style="display: flex; flex-direction: row; align-items:center; justify-content: center; margin: 2rem auto;">
+<div class="laurel-collection">
   <span class="image fit" style="padding: 0.5rem; max-width: 300px;"><img src="/images/logos/nmtrue.jpg" alt="NM True Film"></span>
 </div>
 
@@ -23,11 +23,11 @@ featured_image: bandelier/bandelier-banner.jpg
 
 <p style="text-align: center; text-transform: uppercase;"><strong>Our Sponsors:</strong></p>
 
-<div style="display: flex; flex-direction: row; align-items:center; justify-content: center; margin: 2rem auto;">
-  <span class="image fit" style="padding: 0.5rem; max-width: 200px;"><img src="/images/logos/NRGNHA.jpg" alt="Northern Rio Grande National Heritage Area"></span>
-  <span class="image fit" style="padding: 0.5rem; max-width: 200px;"><img src="/images/logos/RGCDC.jpg" alt="Rio Grande Community Development Corporation"></span>
-  <span class="image fit" style="padding: 0.5rem; max-width: 200px;"><img src="/images/logos/nmwif.jpg" alt="New Mexico Women in Film"></span>
-  <span class="image fit" style="padding: 0.5rem; max-width: 200px;"><img src="/images/logos/la-montanita-coop.jpg" alt="La Montañita Co-Op"></span>
+<div class="logo-collection">
+  <span class="image fit sponsor-logo"><img src="/images/logos/NRGNHA.jpg" alt="Northern Rio Grande National Heritage Area"></span>
+  <span class="image fit sponsor-logo"><img src="/images/logos/RGCDC.jpg" alt="Rio Grande Community Development Corporation"></span>
+  <span class="image fit sponsor-logo"><img src="/images/logos/nmwif.jpg" alt="New Mexico Women in Film"></span>
+  <span class="image fit sponsor-logo"><img src="/images/logos/la-montanita-coop.jpg" alt="La Montañita Co-Op"></span>
 </div>
 
 We were filming a local public television series celebrating New Mexico’s thousand year tradition of truly sustainable hand-made architecture. We were lucky to be filming at Bandelier National Monument at the perfect time, when a group of young people attached to the Rocky Mountain Youth Corps was doing restoration work there. I was astounded to realize that these kids, mostly from San Ildefonso and Ohkay Owingeh Pueblos… were working on restoring their ancestral homelands.
@@ -49,13 +49,13 @@ Coming soon!
 <div style="display: flex; flex-direction: row; justify-content: space-between;">
   <div style="width: 48%">
     <span class="image fit">
-      <img src="/images/bandelier/pueblo-nps_earl-vidal-anthony-myron.jpg" alt="Crew photo">
+      <img src="/images/bandelier/pueblo-nps_earl-vidal-anthony-myron.jpg" alt="Crew photo 1">
     </span>
     <p class="caption">Pueblo members who have joined the National Park Service: Earl Sanchez, Vidal Gonzales, Anthony Montoya, Myron Gonzalez</p>
   </div>
   <div style="width: 48%">
     <span class="image fit">
-      <img src="/images/bandelier/rmyc-youth.jpg" alt="Crew photo">
+      <img src="/images/bandelier/rmyc-youth.jpg" alt="Crew photo 2">
     </span>
     <p class="caption">RMYC Youth: (L-R) Isaiah Maestas, John Moya, Alex Aguino, Jade Pino, Wes Sanchez (below), Michael Aguilar, Jordan Moya, Mike Walker</p>
   </div>
@@ -65,16 +65,16 @@ Coming soon!
 
 ## Crew
 
-<section class="crew-block" style="display: flex; flex-direction: column;">
-  <div class="crew">
-    <span class="image left"><img src="/images/emergence/acoma.jpg" alt="Rachel at Acoma" style="max-width: 200px;"></span>
+<section class="crew-block">
+  <div class="crew-member">
+    <span class="image left crew"><img src="/images/emergence/acoma.jpg" alt="Rachel at Acoma"></span>
     <div>
       <h3>Rachel Preston Prinz</h3>
       <p>Producer Rachel Preston Prinz heads up an acclaimed architectural design and preservation practice based in New Mexico. Her work investigates traditional and modern approaches to architecture, agriculture, culture, and landscape to address how we might not only survive, but also thrive, and to do so, sustainably.<br><a href="https://www.linkedin.com/in/rachelprestonprinz">LinkedIn</a></p>
     </div>
   </div>
-  <div class="crew">
-    <span class="image left"><img src="/images/misc/zenne-headshot.jpg" alt="Zenne" style="max-width: 200px;"></span>
+  <div class="crew-member">
+    <span class="image left crew"><img src="/images/misc/zenne-headshot.jpg" alt="Zenne" style="max-width: 200px;"></span>
     <div>
       <h3>Suzenne "Zenne" Seradwyn</h3>
       <p>Suzenne "Zenne" Seradwyn, our assistant Director and Visual Editor, has worked as an actor, producer, videographer and editor on over 40 feature length and short films and numerous globally syndicated television shows.<br><a href="http://www.puremotherlove.com">Pure Mother Love Productions</a></p>
