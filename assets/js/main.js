@@ -208,46 +208,46 @@ var settings = {
 		});
 
 		// Scrolly.
-		$('.scrolly').scrolly({
-			offset: function () {
-				return $header.height() - 5;
-			},
-		});
+		// $('.scrolly').scrolly({
+		// 	offset: function () {
+		// 		return $header.height() - 5;
+		// 	},
+		// });
 
 		// Header.
-		if ($banner.length > 0 && $header.hasClass('alt')) {
-			$window.on('resize', function () {
-				$window.trigger('scroll');
-			});
+		// if ($banner.length > 0 && $header.hasClass('alt')) {
+		// 	$window.on('resize', function () {
+		// 		$window.trigger('scroll');
+		// 	});
 
-			$banner.scrollex({
-				bottom: $header.outerHeight(),
-				terminate: function () {
-					$header.removeClass('alt');
-				},
-				enter: function () {
-					$header.addClass('alt');
-				},
-				leave: function () {
-					$header.removeClass('alt');
-					$header.addClass('reveal');
-				},
-			});
-		}
+		// 	$banner.scrollex({
+		// 		bottom: $header.outerHeight(),
+		// 		terminate: function () {
+		// 			$header.removeClass('alt');
+		// 		},
+		// 		enter: function () {
+		// 			$header.addClass('alt');
+		// 		},
+		// 		leave: function () {
+		// 			$header.removeClass('alt');
+		// 			$header.addClass('reveal');
+		// 		},
+		// 	});
+		// }
 
 		// Banner.
 
 		// Hack: Fix flex min-height on IE.
-		if (skel.vars.browser == 'ie') {
-			$window
-				.on('resize.ie-banner-fix', function () {
-					var h = $banner.height();
+		// if (skel.vars.browser == 'ie') {
+		// 	$window
+		// 		.on('resize.ie-banner-fix', function () {
+		// 			var h = $banner.height();
 
-					if (h > $window.height()) $banner.css('height', 'auto');
-					else $banner.css('height', h);
-				})
-				.trigger('resize.ie-banner-fix');
-		}
+		// 			if (h > $window.height()) $banner.css('height', 'auto');
+		// 			else $banner.css('height', h);
+		// 		})
+		// 		.trigger('resize.ie-banner-fix');
+		// }
 
 		// Menu.
 		// TODO: remove navList() so that its just the NJK list from navigation.njk
@@ -296,10 +296,10 @@ var settings = {
 		});
 
 		// Tabs.
-		$('.tabs').selectorr({
-			titleSelector: 'h4',
-			delay: 250,
-		});
+		// $('.tabs').selectorr({
+		// 	titleSelector: 'h4',
+		// 	delay: 250,
+		// });
 
 		// Quotes.
 		$('.quotes > article').each(function () {
