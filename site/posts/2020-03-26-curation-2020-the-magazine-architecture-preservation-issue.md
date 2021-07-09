@@ -8,9 +8,10 @@ slug: curation-2020-the-magazine-architecture-preservation-issue
 ---
 
 <p style="text-align: center;">Curated for and Published as the April 2020 Issue of <a href="https://southwestcontemporary.com/letter-april-may-2020/">Southwest Contemporary / The Magazine.</a></p>
+
 <hr class="major" />
 
-<img class="image left" src="/images/the-magazine/love.jpg" alt="Rachel beside a canvas that says Love" style="max-height: 220px;">
+<img class="image left small" src="/images/the-magazine/love.jpg" alt="Rachel beside a canvas that says Love" />
 
 <p><em>The world today is different than I anticipated when I started scheduling projects, talks, and articles for this year. Like you, I am learning how to navigate this new normal. And like you, I hope... I'm thinking long and hard about what makes for a great "home" - whether that be our personal space or our communities.</em></p>
 
