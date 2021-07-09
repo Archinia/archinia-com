@@ -343,23 +343,20 @@ header.header-main > nav {
   padding: 0 0.5rem;
 }
 
-.nav-main .navPanelToggle:before {
+.nav-main .navPanelToggle:after {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+  content: '\f0c9';
   font-family: FontAwesome;
   font-style: normal;
   font-weight: normal;
+  margin: 0 0 0 .625rem;
   text-transform: none;
 }
 
 .nav-main .navPanelToggle:focus {
   border: var(--border-color);
   outline: 0;
-}
-
-.nav-main .navPanelToggle:after {
-  content: '\f0c9';
-  margin: 0 0 0 0.625rem;
 }
 
 .nav-group {
