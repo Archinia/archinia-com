@@ -633,22 +633,12 @@ body.is-navPanel-visible #navPanel {
   background-color: var(--black);
 }
 .hero-image {
-  width: 100%;
-  padding: 8rem 0;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.hero-image {
-  background-size: contain;
-  background-color: var(--black);
-  width: 100%;
-  min-height: 500px;
+  min-height: 275px;
   max-height: 80vh;
+  width: 100%;
+  padding: 1rem;
+  background-color: var(--black);
+  position: relative;
 }
 .grid-mosaic {
   max-width: var(--screen-max);
