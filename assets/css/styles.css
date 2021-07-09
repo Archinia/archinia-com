@@ -996,5 +996,10 @@ h6:hover > a.bookmark {
 }
 .laurel {
   padding: 0.5rem;
-  width: 8rem;
+  width: 6rem;
+}
+@media screen and (min-width: 769px) {
+  .laurel {
+    width: 8rem;
+  }
 }

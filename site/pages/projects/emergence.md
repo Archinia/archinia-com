@@ -15,13 +15,13 @@ featured_image: emergence/emergence.jpg
 </p>
 
 <div class="laurel-collection">
-  <span class="image fit laurel"><img src="/images/logos/nmtrue.jpg" alt="NM True Film"></span>
-  <span class="image fit laurel"><img src="/images/emergence/laurel-2016-toronto-film-fest.png" alt="2016 Official Selection for Pueblo Film Fesitval"></span>
-  <span class="image fit laurel"><img src="/images/emergence/laurel-2016-toronto-film-fest.png" alt="2016 Official Selection for Toronto"></span>
-  <span class="image fit laurel"><img src="/images/emergence/laurel-2017-i-lookup-film-fest.png" alt="2017 Official Selection for I Look Up Film Festival"></span>
-  <span class="image fit laurel"><img src="/images/emergence/laurel-2018-chickasaw-cultural-center.png" alt="2018 Official Selection for Chickasaw Cultural Center"></span>
-  <span class="image fit laurel"><img src="/images/emergence/laurel-2018-santa-fe-network.png" alt="2018 Official Selection for Santa Fe Network"></span>
-  <span class="image fit laurel"><img src="/images/emergence/laurel-2020-SWAIA-santa-fe-winter-indian-market.png" alt="2020 Official Selection for SWAIA Santa Fe Winter Indian Market"></span>
+  <span class="image laurel"><img src="/images/logos/nmtrue.jpg" alt="NM True Film"></span>
+  <span class="image laurel"><img src="/images/emergence/laurel-2016-toronto-film-fest.png" alt="2016 Official Selection for Pueblo Film Fesitval"></span>
+  <span class="image laurel"><img src="/images/emergence/laurel-2016-toronto-film-fest.png" alt="2016 Official Selection for Toronto"></span>
+  <span class="image laurel"><img src="/images/emergence/laurel-2017-i-lookup-film-fest.png" alt="2017 Official Selection for I Look Up Film Festival"></span>
+  <span class="image laurel"><img src="/images/emergence/laurel-2018-chickasaw-cultural-center.png" alt="2018 Official Selection for Chickasaw Cultural Center"></span>
+  <span class="image laurel"><img src="/images/emergence/laurel-2018-santa-fe-network.png" alt="2018 Official Selection for Santa Fe Network"></span>
+  <span class="image laurel"><img src="/images/emergence/laurel-2020-SWAIA-santa-fe-winter-indian-market.png" alt="2020 Official Selection for SWAIA Santa Fe Winter Indian Market"></span>
 </div>
 
 <div class="videoWrapper" style="margin-bottom: 2rem;">
