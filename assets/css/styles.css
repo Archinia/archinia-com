@@ -227,6 +227,7 @@ img {
 }
 .post-content img.small {
   max-height: var(--img-max-height-sm, 220px);
+  width: auto;
 }
 
 /* Columns */
