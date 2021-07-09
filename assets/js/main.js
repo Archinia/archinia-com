@@ -252,23 +252,26 @@ var settings = {
 			$('<a href="#navPanel" class="navPanelToggle" title="Open Menu">Menu</a>')
 				.prependTo($nav);
 
-			$(	'<div id="navPanel">' +
+			$(
+				'<div id="navPanel">' +
 					'<nav>' +
-						$('#nav') .navList() +
+					//$('#nav') .navList() +
+					$('#nav') +
 					'</nav>' +
 					'<a href="#navPanel" class="close"></a>' +
-					'</div>')
-					.appendTo($body)
-					.panel({
-						delay: 500,
-						hideOnClick: true,
-						hideOnSwipe: true,
-						resetScroll: true,
-						resetForms: true,
-						target: $body,
-						visibleClass: 'is-navPanel-visible',
-						side: 'right'
-					});
+				'</div>'
+			)
+				.appendTo($body)
+				.panel({
+					delay: 500,
+					hideOnClick: true,
+					hideOnSwipe: true,
+					resetScroll: true,
+					resetForms: true,
+					target: $body,
+					visibleClass: 'is-navPanel-visible',
+					side: 'right',
+				});
 
 			if (skel.vars.os == 'wp'
 			&&	skel.vars.osVersion < 10)
