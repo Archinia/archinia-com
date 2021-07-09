@@ -3783,6 +3783,12 @@ body.is-loading #banner>.slider {
   justify-content: center;
 }
 
+@media screen and (max-width: 550px) {
+  .copyright-entity {
+    order: 1;
+  }
+}
+
 #footer .copyright p {
   padding: 0 10px;
   margin: 0;
