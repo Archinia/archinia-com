@@ -27,6 +27,9 @@
 	<link rel="stylesheet" href="/assets/css/acoma.css" />
 	{% endif %}
 
+	{% block head %}
+	{% endblock %}
+
 	<!-- Favicons -->
 	{% include "favicons.njk" %}
 
@@ -144,6 +147,9 @@
 
 	<!-- Search -->
 	<script src="/assets/js/search.js"></script>
+
+	{% block scripts %}
+	{% endblock %}
 
 </body>
 
