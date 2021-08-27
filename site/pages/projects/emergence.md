@@ -25,7 +25,7 @@ featured_image: emergence/emergence.jpg
 </div>
 
 <div class="videoWrapper" style="margin-bottom: 2rem;">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/f9gkoxn1Zng" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/4f3PYnAtvBU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 
 <a href="/acoma/" class="button large next">Acoma Architecture Curriculum</a>.
