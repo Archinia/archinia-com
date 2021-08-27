@@ -20,7 +20,7 @@ Their success speaks for itself. Explore the design of the Cultural Center in th
 Architect Barbara Felix and former Center Directors Brian Vallo and Emerson Vallo talk about the aspects of design incorporated. They then share how six essential building elements are used to weave together the old and the new in the modern structure.
 
 <div class="iframe-wrapper videoWrapper" style="margin-bottom: 2rem;">
-  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/4f3PYnAtvBU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen loading="lazy"></iframe>
+  <iframe width="560" height="315" src="https://youtu.be/f9gkoxn1Zng" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen loading="lazy"></iframe>
 </div>
 
 ## Ancient design in a modern Cultural Center
