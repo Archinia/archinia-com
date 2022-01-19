@@ -69,4 +69,4 @@ John Gaw Meem brought Girard into design furnishings and décor for St. John’s
 
 ### References
 
-<a href="https://archinia.com/about/talks">See the list of talks and articles Rachel Prinz has done on Girard.</a>
+<a href="https://archinia.com/about/talks">See the complete list of talks and articles Rachel has done on Girard.</a>
