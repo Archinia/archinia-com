@@ -10,7 +10,7 @@ tags:
   - earthships
 ---
 
-This is the queen of the Earthships. She's called the Phoenix and she's gorgeous. She's also available for sale for $1.5million! We visited her as a part of the UNM-Taos Sustainability Institute's Humanitarian Design Seminar that our founder, Rachel Prinz, hosted in fall 2014.
+This is the queen of the Earthships. She's called the Phoenix and she's gorgeous. She's also available for sale for $1.5million! We visited her as a part of the UNM-Taos Sustainability Institute's Humanitarian Design Seminar that our founder, Rachel Preston, hosted in fall 2014.
 
 ![](/images/blog/earthship-tour-the-phoenix/DSC05878.JPG)
 
