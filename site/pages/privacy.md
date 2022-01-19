@@ -9,7 +9,7 @@ Rachel Preston, Archinia, and the Ministry of Architecture knows that you care h
 
 <hr class="major" />
 
-## What personal information about customers do Rachel Preston Prinz, Archinia, and Architecture for Everybody gather?
+## What personal information about customers do Rachel Preston, Archinia, and the Ministry of Architecture gather?
 
 The information we learn from customers helps us personalize and continually improve your experience. Here are the types of information we gather.
 
@@ -19,12 +19,12 @@ The information we learn from customers helps us personalize and continually imp
 
 <hr class="major" />
 
-## Do Rachel Preston Prinz, Archinia, and Architecture for Everybody share the information we receive?
+## Do Rachel Preston, Archinia, and the Ministry of Architecture share the information we receive?
 
 Information about our customers is an important part of our business, and we are not in the business of selling it to others. We share customer information only as described below and with subsidiaries, partners or agents that Rachel Preston, Archinia, and the Ministry of Architecture controls that either are subject to this Privacy Policy or follow practices at least as protective as those described in this Privacy Policy.
 
 - **Business Transfers:** As we continue to develop our business, we might sell or buy stores, subsidiaries, or business units. In such transactions, customer information generally is one of the transferred business assets but remains subject to the promises made in any pre-existing Privacy Policy (unless, of course, the customer consents otherwise). Also, in the unlikely event that Rachel Preston, Archinia, and the Ministry of Architecture or substantially all of its assets are acquired, customer information will of course be one of the transferred assets.
-- **Protection of Rachel Preston Prinz, Archinia, and Architecture for Everybody and Others:** We release account and other personal information when we believe release is appropriate to comply with the law; enforce or apply our Terms & Conditions and other agreements; or protect the rights, property, or safety of our staff, our users, or others. This includes exchanging information with other companies and organizations for fraud protection and credit risk reduction. However, this does not include selling, renting, sharing, or otherwise disclosing personally identifiable information from customers for commercial purposes in violation of the commitments set forth in this Privacy Policy.
+- **Protection of Rachel Preston, Archinia, and the Ministry of Architecture and Others:** We release account and other personal information when we believe release is appropriate to comply with the law; enforce or apply our Terms & Conditions and other agreements; or protect the rights, property, or safety of our staff, our users, or others. This includes exchanging information with other companies and organizations for fraud protection and credit risk reduction. However, this does not include selling, renting, sharing, or otherwise disclosing personally identifiable information from customers for commercial purposes in violation of the commitments set forth in this Privacy Policy.
 - **With Your Consent:** Other than as set out above, you will receive notice when information about you might go to third parties, and you will have an opportunity to choose not to share the information.
 
 <hr class="major" />
