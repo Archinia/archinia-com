@@ -1,6 +1,7 @@
 ---
 title: >-
-  The Spirit Seekers Guide to New Mexico Architecture
+  Coming in 2023!<br>
+The Spirit Seekers Guide to New Mexico Architecture
 slug: projects/spirit-seekers-guide-new-mexico-architecture
 featured_image: /misc/IMG_E1053.jpg
 ---
