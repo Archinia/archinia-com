@@ -6,7 +6,7 @@ featured_image: bandelier/bandelier-banner.jpg
 ---
 
 <p style="text-align: center;">
-  <strong>RUNTIME:</strong> Approx 15 minutes<br>
+  <strong>RUNTIME:</strong> 15 minutes<br>
   <strong>GENRES:</strong> Educational, Environmental, Period/Historical, Culture, Art, Spiritual, Personal Narrative, Social Issue, History, Architecture<br>
   <strong>NICHES:</strong> Native American, Women, Sustainability
 </p>
@@ -15,11 +15,9 @@ featured_image: bandelier/bandelier-banner.jpg
   <span class="image fit" style="padding: 0.5rem; max-width: 300px;"><img src="/images/logos/nmtrue.jpg" alt="NM True Film"></span>
 </div>
 
-<!-- Placeholder for YouTube Video
 <div class="videoWrapper" style="margin-bottom: 2rem;">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/f9gkoxn1Zng" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/watch?v=O1nM-dp7QtA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
--->
 
 <p style="text-align: center; text-transform: uppercase;"><strong>Our Sponsors:</strong></p>
 
@@ -30,17 +28,15 @@ featured_image: bandelier/bandelier-banner.jpg
   <span class="image fit sponsors-logo"><img src="/images/logos/la-montanita-coop.jpg" alt="La Montañita Co-Op"></span>
 </div>
 
+<hr class="major" />
+
+## Synopsis
+
 We were filming a local public television series celebrating New Mexico’s thousand year tradition of truly sustainable hand-made architecture. We were lucky to be filming at Bandelier National Monument at the perfect time, when a group of young people attached to the Rocky Mountain Youth Corps was doing restoration work there. I was astounded to realize that these kids, mostly from San Ildefonso and Ohkay Owingeh Pueblos… were working on restoring their ancestral homelands.
 
 The main archaeological sites at Bandelier are precursor sites to what we know as Cochiti Pueblo, literally just over the mountain, but now 78 miles away “as the road goes”. This prevents Cochiti’s kids from being able to join in the work. But Tsankawi, an outlier site of the park near White Rock, is the precursor site to San Ildefonso Pueblo. Ohkay Owingeh is the Puebloan equivalent of something like “cousins” to them. Young people from both of these local pueblos are returning to these sites, learning how to preserve and protect them, and then taking that knowledge back to their communities. They team up with another local pueblo, Santa Clara, whose kids are in a similar program run by the Youth Conservation Corps.
 
 This isn’t really a story about architecture. It’s about the impact that working in architecture... preserving a site where their ancestors are *still living* (in another dimension)...  is having on these extraordinary young people. They are building bridges, between their ancestors and themselves, themselves and their communities, and between their tribes.
-
-<hr class="major" />
-
-## Synopsis
-
-Coming soon!
 
 <hr class="major" />
 
