@@ -6,9 +6,9 @@ description: >-
 featured_image: girard/Girard_banner.png
 ---
 
-Since our work on the stabilization of the First Unitarian Church in ABQ's Alexander Girard Mural, and our current work at St Johns College, we have had the opportunity to delve into more about Girard's work and influence in New Mexico, including his extant sites, as well as his connections to John Gaw Meem and Georgia O'Keeffe.
+Since working on the stabilization of the First Unitarian Church in ABQ's Alexander Girard Mural, and work documenting his incomplete mural at St Johns College, Rachel has had the opportunity to delve into more about Girard's work and influence in New Mexico, including his extant sites, as well as his connections to John Gaw Meem and Georgia O'Keeffe.
 
-Because we are currently getting so many requests for information due to the Vitra exhibit _A Designer’s Universe,_ which showed at the Museum of International Folk Art, here are quotes from some of our writings, tours, and talks to help you find your way!
+Because I get so many requests for information due to the Vitra exhibit _A Designer’s Universe_ at the Museum of International Folk Art, here are quotes from some of our writings, tours, and talks to help you find your way!
 
 <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center;">
 <a href="#unitarian-church-of-albuquerque" style="margin: 0 1rem; font-weight: 800;">Unitarian Church of Albuquerque</a>
